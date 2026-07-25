@@ -47,7 +47,8 @@ def services_for(lang):
     for s in C.SERVICES:
         d = s[lang]
         url = f"/hizmetler/{s['slug']}/" if lang == "tr" else f"/en/services/{s['slug_en']}/"
-        out.append({**d, "slug": s["slug"], "slug_en": s["slug_en"], "image": s["image"], "url": url})
+        out.append({**d, "slug": s["slug"], "slug_en": s["slug_en"], "image": s["image"], "url": url,
+                    "deep": s.get("deep", {}).get(lang, "")})
     return out
 
 def regions_for(lang):
@@ -176,7 +177,8 @@ def build():
             d = s[lang]
             url_tr, url_en = f"/hizmetler/{s['slug']}/", f"/en/services/{s['slug_en']}/"
             svc = {**d, "slug": s["slug"], "slug_en": s["slug_en"], "image": s["image"],
-                   "url": url_tr if lang == "tr" else url_en}
+                   "url": url_tr if lang == "tr" else url_en,
+                   "deep": s.get("deep", {}).get(lang, "")}
             crumb = [(C.I18N[lang]["nav"]["home"], "/" if lang == "tr" else "/en/"),
                      (C.I18N[lang]["nav"]["services"], ("/#hizmetler" if lang == "tr" else "/en/#hizmetler")),
                      (d["name"], svc["url"])]

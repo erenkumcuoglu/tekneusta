@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% block body %}
+<header class="sub-hero" style="--sub-bg:url('/assets/images/parallax-3.jpg')">
+  <div class="crumb"><a href="{{ page.home }}">{{ t.nav.home }}</a> <span>/</span> <span>{{ tool.h1 }}</span></div>
+  <div class="sub-hero-inner"><h1>{{ tool.h1 }}</h1><p>{{ tool.sub }}</p></div>
+</header>
+
+<section class="detail-section">
+  <div class="s-inner">
+    <div class="calc-wrap reveal">
+      <div class="calc-card">
+        <div class="calc-row">
+          <label for="calc-len">{{ tool.len_label }}: <b id="calc-len-val">10</b> m</label>
+          <input type="range" id="calc-len" min="4" max="30" step="1" value="10" />
+        </div>
+        <div class="calc-row">
+          <label for="calc-svc">{{ tool.svc_label }}</label>
+          <select id="calc-svc">
+            {% for s in pricing.services %}<option value="{{ s.key }}">{{ s[page.lang] }}</option>{% endfor %}
+          </select>
+        </div>
+        <div class="calc-row">
+          <label for="calc-cond">{{ tool.cond_label }}</label>
+          <select id="calc-cond">
+            {% for c in pricing.condition %}<option value="{{ c.key }}"{% if c.key=='orta' %} selected{% endif %}>{{ c[page.lang] }}</option>{% endfor %}
+          </select>
+        </div>
+      </div>
+      <div class="calc-result">
+        <div class="calc-result-label">{{ tool.result_label }}</div>
+        <div class="calc-amount" id="calc-amount">—</div>
+        <div class="calc-note" id="calc-note"></div>
+        <a href="#" id="calc-wa" class="btn-primary" target="_blank" rel="noopener" style="margin-top:1.2rem">{{ tool.cta }}</a>
+        <p class="calc-disclaimer">{{ tool.disclaimer }}</p>
+      </div>
+    </div>
+    <p style="margin-top:2rem;color:var(--slate);font-size:1rem">
+      {% if page.lang == 'tr' %}Fiyatı neyin belirlediğini merak ediyorsanız:
+        <a href="/blog/tekne-boyama-maliyeti/">boyama maliyeti</a>,
+        <a href="/blog/osmoz-tedavisi-fiyatlari/">osmoz tedavisi fiyatları</a>,
+        <a href="/blog/teak-guverte-fiyatlari/">teak güverte fiyatları</a>.
+      {% else %}Curious what determines the price:
+        <a href="/en/blog/boat-painting-cost/">painting cost</a>,
+        <a href="/en/blog/osmosis-treatment-cost/">osmosis treatment cost</a>,
+        <a href="/en/blog/teak-deck-cost/">teak deck cost</a>.
+      {% endif %}
+    </p>
+  </div>
+</section>
+
+<script id="pricing-data" type="application/json">{{ pricing_json|safe }}</script>
+<script>
+(function(){
+  var P = JSON.parse(document.getElementById('pricing-data').textContent);
+  var WA = "{{ site.wa }}", LEAD = "{{ tool.wa_lead }}", FROM = "{{ tool.from }}", CUR = P.currency, LANG="{{ page.lang }}";
+  var lenEl=document.getElementById('calc-len'), lenVal=document.getElementById('calc-len-val'),
+      svcEl=document.getElementById('calc-svc'), condEl=document.getElementById('calc-cond'),
+      amtEl=document.getElementById('calc-amount'), noteEl=document.getElementById('calc-note'), waEl=document.getElementById('calc-wa');
+  function svcObj(k){ return P.services.filter(function(s){return s.key===k;})[0]; }
+  function condFactor(k){ var c=P.condition.filter(function(x){return x.key===k;})[0]; return c?c.factor:1; }
+  function roundTo(n){ var r=P.round_to; return Math.round(n/r)*r; }
+  function fmt(n){ return CUR + n.toLocaleString(LANG==='tr'?'tr-TR':'en-US'); }
+  function calc(){
+    var L=parseInt(lenEl.value,10), s=svcObj(svcEl.value), f=condFactor(condEl.value);
+    lenVal.textContent=L;
+    var mn=roundTo(Math.max(s.min, s.per_m_min*L*f)), mx=roundTo(s.per_m_max*L*f);
+    amtEl.textContent = fmt(mn) + " – " + fmt(mx);
+    noteEl.textContent = (LANG==='tr'? s.note_tr : s.note_en);
+    var label = LANG==='tr'? s.tr : s.en;
+    var txt = LEAD + "%0A%0A" +
+      (LANG==='tr'?"Hizmet: ":"Service: ") + encodeURIComponent(label) + "%0A" +
+      (LANG==='tr'?"Tekne boyu: ":"Boat length: ") + L + " m%0A" +
+      (LANG==='tr'?"Durum: ":"Condition: ") + encodeURIComponent(condEl.options[condEl.selectedIndex].text) + "%0A" +
+      (LANG==='tr'?"Tahmini aralık: ":"Estimated range: ") + encodeURIComponent(fmt(mn)+" - "+fmt(mx));
+    waEl.href = "https://wa.me/"+WA+"?text="+txt;
+  }
+  [lenEl,svcEl,condEl].forEach(function(el){ el.addEventListener('input',calc); el.addEventListener('change',calc); });
+  calc();
+})();
+</script>
+
+{% include 'partials/quote_form.html' %}
+{% endblock %}

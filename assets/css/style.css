@@ -215,6 +215,11 @@ h1 em { font-style: italic; color: var(--gold-lt); }
 .detail-body ul li { position: relative; padding-left: 1.6rem; color: var(--slate); font-size: 1.05rem; line-height: 1.7; }
 .detail-body ul li::before { content: ''; position: absolute; left: 0; top: 0.6em; width: 7px; height: 7px; border-radius: 50%; background: var(--gold); }
 .detail-body strong { color: var(--ocean-deep); font-weight: 700; }
+.detail-body table { width: 100%; border-collapse: collapse; margin: 1.2rem 0 1.8rem; font-size: 0.98rem; }
+.detail-body th, .detail-body td { border: 1px solid rgba(10,61,92,0.12); padding: 0.7rem 0.9rem; text-align: left; vertical-align: top; }
+.detail-body th { background: var(--foam); color: var(--ocean-deep); font-weight: 700; font-size: 0.82rem; letter-spacing: 0.02em; }
+.detail-body td { color: var(--slate); }
+.detail-body tbody tr:nth-child(even) td { background: #fafcfe; }
 .detail-body a { color: var(--ocean-mid); text-decoration: underline; text-underline-offset: 3px; }
 /* Sidebar */
 .detail-aside { position: sticky; top: 100px; display: flex; flex-direction: column; gap: 1.5rem; }
