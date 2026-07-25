@@ -136,6 +136,7 @@ def base_ctx(lang, path_tr, path_en, meta_title, meta_desc, schemas, nav_solid=T
             "home": "/" if lang == "tr" else "/en/",
             "blog_url": "/blog/" if lang == "tr" else "/en/blog/",
             "tool_url": "/arac/maliyet-tahmini/" if lang == "tr" else "/en/tools/cost-estimate/",
+            "privacy_url": "/gizlilik/" if lang == "tr" else "/en/privacy/",
             "nav_solid": nav_solid, "og_image": og_image, "og_type": og_type,
             "schemas": [j(s) for s in schemas],
         },
@@ -234,6 +235,15 @@ def build():
         render("tool.html", ctx,
                ("arac/maliyet-tahmini/index.html" if lang == "tr" else "en/tools/cost-estimate/index.html"),
                priority="0.8")
+
+        # ---- LEGAL PAGES
+        for lg in C.LEGAL:
+            d = lg[lang]
+            ctx = base_ctx(lang, f"/{lg['slug']}/", f"/en/{lg['slug_en']}/", d["meta_title"], d["meta_desc"], [])
+            ctx.update({"ptitle": d["title"], "psub": d["sub"], "pbody": d["body"]})
+            render("plain.html", ctx,
+                   (f"{lg['slug']}/index.html" if lang == "tr" else f"en/{lg['slug_en']}/index.html"),
+                   priority="0.3")
 
     # ---- 404 (Turkish default)
     ctx = base_ctx("tr", "/404.html", "/404.html", "Sayfa Bulunamadı | Tekne Usta",

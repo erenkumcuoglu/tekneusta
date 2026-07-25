@@ -22,7 +22,7 @@ I18N = {
                 "about": "Hakkımızda", "blog": "Blog", "tool": "Maliyet Aracı", "cta": "Teklif Al"},
         "footer": {
             "tag": "Tekne tamiri, renovasyon ve bakımında güvenilir usta eli. Her tekneye, her hasara özel çözüm.",
-            "contact": "İletişim", "wa": "WhatsApp'tan Yaz", "rights": "Tüm hakları saklıdır.",
+            "contact": "İletişim", "wa": "WhatsApp'tan Yaz", "rights": "Tüm hakları saklıdır.", "privacy": "Gizlilik & KVKK",
         },
         "aside": {
             "title": "Ücretsiz keşif alın",
@@ -64,7 +64,7 @@ I18N = {
                 "about": "About", "blog": "Blog", "tool": "Cost Tool", "cta": "Get a Quote"},
         "footer": {
             "tag": "The trusted craftsman for boat repair, refit and maintenance. A tailored solution for every boat and every job.",
-            "contact": "Contact", "wa": "Message on WhatsApp", "rights": "All rights reserved.",
+            "contact": "Contact", "wa": "Message on WhatsApp", "rights": "All rights reserved.", "privacy": "Privacy",
         },
         "aside": {
             "title": "Get a free survey",
@@ -832,6 +832,104 @@ SERVICES = [
      {"q": "When should I winterise?", "a": "Usually in autumn, as the season closes. Early booking is an advantage because hardstanding fills up."},
      {"q": "Do you winterise engines?", "a": "Engine and mechanical winterising is outside our scope. We provide full service for haul-out, hull, covering and storage, and can refer you to trusted engine services."},
      {"q": "Is my boat checked over winter?", "a": "Yes, we keep your boat under supervision during storage and inform you if anything needs attention."},
+   ],
+ },
+},
+{
+ "slug": "tekne-detailing", "slug_en": "boat-detailing",
+ "image": "/assets/images/parallax-2.jpg",
+ "deep": {
+   "tr": """
+<h2>Detailing paketleri</h2>
+<p>İhtiyacınıza göre tek seferlik bir tazeleme mi, yoksa sezonluk bir bakım mı? Aşağıdaki tablo tipik paketleri özetliyor.</p>
+<table>
+<thead><tr><th>Paket</th><th>Kapsam</th><th>Ne zaman</th></tr></thead>
+<tbody>
+<tr><td>Sezon öncesi</td><td>Yıkama, pasta-polisaj, wax, iç temizlik</td><td>İlkbahar, suya inmeden</td></tr>
+<tr><td>Sezon içi</td><td>Dış yıkama, hızlı iç temizlik</td><td>Periyodik</td></tr>
+<tr><td>Sezon sonu</td><td>Derin temizlik, koruma, <a href="/blog/teknede-kuf-nem-onleme/">nem/küf</a> önlemi</td><td>Kışlatma ile</td></tr>
+</tbody>
+</table>
+<h2>Neden düzenli detailing?</h2>
+<p>Tuz ve UV, ihmal edildiğinde jelkotu ve döşemeyi kalıcı olarak yıpratır. Düzenli detailing, <a href="/blog/gelcoat-yenileme/">komple gelcoat yenilemeyi</a> veya döşeme değişimini yıllarca erteler — yani en ucuz koruma yöntemidir. Detaylar için <a href="/blog/tekne-temizligi-detailing/">detailing yazımıza</a> bakın.</p>
+""",
+   "en": """
+<h2>Detailing packages</h2>
+<p>A one-off refresh, or seasonal care? The table below sums up typical packages.</p>
+<table>
+<thead><tr><th>Package</th><th>Scope</th><th>When</th></tr></thead>
+<tbody>
+<tr><td>Pre-season</td><td>Wash, compound-polish, wax, interior clean</td><td>Spring, before launch</td></tr>
+<tr><td>In-season</td><td>Exterior wash, quick interior clean</td><td>Periodic</td></tr>
+<tr><td>End-of-season</td><td>Deep clean, protection, <a href="/en/blog/preventing-mould-damp/">damp/mould</a> measures</td><td>With winterising</td></tr>
+</tbody>
+</table>
+<h2>Why regular detailing?</h2>
+<p>Salt and UV, if neglected, permanently wear the gelcoat and upholstery. Regular detailing postpones a full <a href="/en/blog/gelcoat-renewal/">gelcoat renewal</a> or re-upholstery for years — the cheapest form of protection. For detail, see our <a href="/en/blog/boat-cleaning-detailing/">detailing article</a>.</p>
+""",
+ },
+ "tr": {
+   "name": "Temizlik & Detailing",
+   "short": "İç-dış temizlik, pasta-polisaj ve jelkot koruma ile teknenizi ilk günkü hâline yaklaştırın.",
+   "bullets": ["Dış yüzey yıkama & pasta-polisaj", "Jelkot koruma / wax", "İç mekan & döşeme temizliği", "Paslanmaz, cam ve detay bakımı"],
+   "hero_title": "Tekne Temizliği ve Detailing",
+   "hero_sub": "Tuz ve UV yıpratmadan önce; profesyonel iç-dış temizlik, pasta-polisaj ve koruyucu bakımla teknenizin görünümünü ve değerini koruyoruz.",
+   "meta_title": "Tekne Temizliği ve Detailing Hizmeti | Tekne Usta",
+   "meta_desc": "Tekne temizliği ve detailing: dış yüzey yıkama, pasta polisaj, jelkot koruma, iç mekan ve döşeme temizliği. İstanbul ve Ege'de sezon öncesi/sonrası detailing paketleri.",
+   "body": """
+<h2>Temizlik, korumanın ilk adımıdır</h2>
+<p>Detailing yalnızca estetik değildir; teknenin yüzeyini, değerini ve ömrünü koruyan en ucuz bakımdır. <strong>Tekne Usta</strong> olarak temizliği bütünsel bakım anlayışının bir parçası olarak ele alıyoruz — yüzeyi sadece parlatmıyor, koruyoruz.</p>
+<h2>Neler yapıyoruz?</h2>
+<ul>
+<li><strong>Dış yüzey:</strong> Tuz, kir ve leke temizliği; <a href="/blog/gelcoat-cizik-sararma-giderme/">pasta-polisaj</a> ile parlaklığın geri kazanılması.</li>
+<li><strong>Jelkot koruma:</strong> Temizlik sonrası koruyucu wax/cila ile UV ve oksidasyona karşı kalkan.</li>
+<li><strong>İç mekan:</strong> Kabin, döşeme ve yüzey temizliği; <a href="/blog/teknede-kuf-nem-onleme/">küf ve nem</a> önlemi.</li>
+<li><strong>Detay:</strong> Paslanmaz, cam ve fikstür bakımı.</li>
+</ul>
+<h2>Yüzey işini bilen ellerde</h2>
+<p>Pasta-polisaj ve koruma, jelkotu koruyacak doğru teknik ve ürünle yapılmalıdır; agresif bir polisaj jelkotu inceltir. Biz yüzeyi <a href="/hizmetler/fiberglas-onarim/">fiberglas onarım</a> deneyimimizle, zarar vermeden ele alırız.</p>
+""",
+   "tiles": [
+     {"h": "Koruma odaklı", "p": "Sadece parlatmıyor; wax ile UV'ye karşı koruyoruz."},
+     {"h": "Doğru teknik", "p": "Pasta-polisajı jelkotu inceltmeden yaparız."},
+     {"h": "Paket esnekliği", "p": "Sezon öncesi, içi ve sonrası için farklı paketler."},
+   ],
+   "faqs": [
+     {"q": "Pasta-polisaj jelkota zarar verir mi?", "a": "Yanlış yapılırsa evet — agresif polisaj jelkotu inceltir. Biz uygun aşındırıcı ve teknikle, yüzeyi koruyarak yapıyoruz."},
+     {"q": "Detailing ne sıklıkla yapılmalı?", "a": "Çoğu tekede sezon öncesi ve sonrası birer detailing idealdir; yoğun kullanımda sezon içi ara temizlikler eklenir."},
+     {"q": "İç mekan temizliği de dahil mi?", "a": "Evet. Kabin, döşeme ve yüzey temizliğinin yanı sıra küf/nem önlemlerini de kapsayan paketlerimiz var."},
+   ],
+ },
+ "en": {
+   "name": "Cleaning & Detailing",
+   "short": "Bring your boat close to day-one with interior-exterior cleaning, compound-polish and gelcoat protection.",
+   "bullets": ["Exterior wash & compound-polish", "Gelcoat protection / wax", "Interior & upholstery cleaning", "Stainless, glass & detail care"],
+   "hero_title": "Boat Cleaning and Detailing",
+   "hero_sub": "Before salt and UV take their toll — professional interior-exterior cleaning, compound-polish and protective care keep your boat's look and value.",
+   "meta_title": "Boat Cleaning and Detailing Service | Tekne Usta",
+   "meta_desc": "Boat cleaning and detailing: exterior wash, compound-polish, gelcoat protection, interior and upholstery cleaning. Pre/post-season detailing packages in Istanbul and the Aegean.",
+   "body": """
+<h2>Cleaning is the first step in protection</h2>
+<p>Detailing isn't just cosmetic; it's the cheapest care that protects a boat's surface, value and life. At <strong>Tekne Usta</strong> we treat cleaning as part of holistic care — we don't just polish the surface, we protect it.</p>
+<h2>What we do</h2>
+<ul>
+<li><strong>Exterior:</strong> removing salt, dirt and stains; restoring gloss with <a href="/en/blog/gelcoat-scratch-yellowing/">compound-polish</a>.</li>
+<li><strong>Gelcoat protection:</strong> a protective wax after cleaning shields against UV and oxidation.</li>
+<li><strong>Interior:</strong> cleaning the cabin, upholstery and surfaces; <a href="/en/blog/preventing-mould-damp/">mould and damp</a> measures.</li>
+<li><strong>Detail:</strong> stainless, glass and fixture care.</li>
+</ul>
+<h2>In hands that know surfaces</h2>
+<p>Compound-polish and protection must be done with the right technique and products to protect the gelcoat; an aggressive polish thins it. We handle the surface with our <a href="/en/services/fibreglass-repair/">fibreglass repair</a> experience, without harm.</p>
+""",
+   "tiles": [
+     {"h": "Protection-focused", "p": "Not just polishing; we protect against UV with wax."},
+     {"h": "The right technique", "p": "We compound-polish without thinning the gelcoat."},
+     {"h": "Flexible packages", "p": "Different packages for pre-, in- and post-season."},
+   ],
+   "faqs": [
+     {"q": "Does compound-polish harm the gelcoat?", "a": "Done wrong, yes — an aggressive polish thins the gelcoat. We use the right abrasive and technique, protecting the surface."},
+     {"q": "How often should detailing be done?", "a": "For most boats one detailing before and after the season is ideal; heavy use adds mid-season cleans."},
+     {"q": "Is interior cleaning included?", "a": "Yes. We have packages covering cabin, upholstery and surface cleaning as well as mould/damp measures."},
    ],
  },
 },
@@ -4440,6 +4538,552 @@ POSTS = [
 """,
  },
 },
+{
+ "slug": "tekne-folyo-kaplama", "slug_en": "boat-vinyl-wrap",
+ "image": "/assets/images/services/boya.jpg", "date": "2028-07-05",
+ "tr": {
+   "category": "Boya",
+   "title": "Tekne Folyo Kaplama: Boyaya Alternatif mi, Tamamlayıcı mı?",
+   "excerpt": "Tekne folyo (vinil wrap) kaplama nedir, boyaya göre avantaj ve dezavantajları neler? Renk değişimi için doğru seçim.",
+   "meta_title": "Tekne Folyo Kaplama: Boya ile Karşılaştırma | Tekne Usta",
+   "meta_desc": "Tekne folyo (vinil) kaplama nedir, boyaya göre avantajları ve sınırları? Renk değişimi, maliyet, dayanıklılık ve hangi durumda folyo, hangisinde boya?",
+   "body": """
+<p>Folyo (vinil) kaplama, son yıllarda otomotivden denizciliğe geçen, teknenin dış yüzeyini boyamadan renklendirme yöntemidir. Boyaya gerçek bir alternatif olabilir — ama her durumda değil.</p>
+<h2>Folyo kaplama nedir?</h2>
+<p>Deniz sınıfı döküm vinil bir film, teknenin yüzeyine profesyonelce uygulanır. Renk, desen ve mat/parlak seçenekleri geniştir; teknenin hattına ısıyla şekil verilerek oturtulur.</p>
+<h2>Folyonun avantajları</h2>
+<ul>
+<li><strong>Geri dönülebilir:</strong> Sökülünce altındaki orijinal yüzey korunur — kiralık/satılık teknelerde avantaj.</li>
+<li><strong>Hızlı renk değişimi:</strong> Boyamaya göre daha kısa sürede yeni bir görünüm.</li>
+<li><strong>Tasarım esnekliği:</strong> Grafik ve özel desenler kolay.</li>
+</ul>
+<h2>Sınırları</h2>
+<ul>
+<li>Kalıcılık ve UV dayanımı iyi bir <a href="/blog/2k-poliuretan-boya/">2K boyaya</a> göre daha kısadır.</li>
+<li>Yüzey hazırlığı yine kritiktir; kötü zeminde folyo kenarlardan kalkar.</li>
+<li>Su altı (karina) için uygun değildir — orada <a href="/hizmetler/tekne-boyama-antifouling/">antifouling</a> gerekir.</li>
+</ul>
+<h2>Folyo mu, boya mı?</h2>
+<p>Geçici/geri dönülebilir bir görünüm veya hızlı renk değişimi istiyorsanız folyo; kalıcı, en yüksek parlaklık ve uzun ömür istiyorsanız <a href="/blog/tekne-renk-degisimi/">boya</a> mantıklıdır. İkisini de teknenizin kullanımına göre değerlendiririz.</p>
+<p>Renk değişimi ve dış cephe uygulamalarını <a href="/hizmetler/tekne-boyama-antifouling/">tekne boyama</a> hizmetimiz kapsamında planlıyoruz; folyo mu boya mı, birlikte karar veririz.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "Boat Vinyl Wrap: Alternative to Paint, or Complement?",
+   "excerpt": "What is boat vinyl wrap, and what are its pros and cons versus paint? The right choice for a colour change.",
+   "meta_title": "Boat Vinyl Wrap: Compared with Paint | Tekne Usta",
+   "meta_desc": "What is boat vinyl wrap, and its advantages and limits versus paint? Colour change, cost, durability and when to choose wrap over paint.",
+   "body": """
+<p>Vinyl wrap, which has moved from automotive to boating in recent years, is a way to recolour a boat's exterior without painting. It can be a real alternative to paint — but not in every case.</p>
+<h2>What is a vinyl wrap?</h2>
+<p>A marine-grade cast vinyl film is professionally applied to the boat's surface. Colour, pattern and matte/gloss options are wide; it's heat-formed to the boat's lines.</p>
+<h2>Advantages of wrap</h2>
+<ul>
+<li><strong>Reversible:</strong> removed, the original surface underneath is preserved — an advantage for charter/resale boats.</li>
+<li><strong>Fast colour change:</strong> a new look in less time than painting.</li>
+<li><strong>Design flexibility:</strong> graphics and custom patterns are easy.</li>
+</ul>
+<h2>Limits</h2>
+<ul>
+<li>Durability and UV resistance are shorter than a good <a href="/en/blog/2k-polyurethane-paint/">2K paint</a>.</li>
+<li>Surface prep is still critical; on a poor base the wrap lifts at the edges.</li>
+<li>Not suitable below the waterline — that needs <a href="/en/services/boat-painting-antifouling/">antifouling</a>.</li>
+</ul>
+<h2>Wrap or paint?</h2>
+<p>For a temporary/reversible look or a fast colour change, wrap; for permanence, the highest gloss and long life, <a href="/en/blog/boat-colour-change/">paint</a> makes sense. We weigh both against your boat's use.</p>
+<p>We plan colour change and topside work under our <a href="/en/services/boat-painting-antifouling/">boat painting</a> service; wrap or paint, we decide together.</p>
+""",
+ },
+},
+{
+ "slug": "robotik-karina-temizligi", "slug_en": "robotic-hull-cleaning",
+ "image": "/assets/images/services/bakim.jpg", "date": "2028-07-19",
+ "tr": {
+   "category": "Bakım",
+   "title": "Robotik Karina Temizliği: Yeni Teknoloji Neyi Değiştiriyor?",
+   "excerpt": "Su altı robotik karina temizliği nedir, geleneksel yönteme göre avantajları ve sınırları neler?",
+   "meta_title": "Robotik Karina Temizliği Nedir? | Tekne Usta",
+   "meta_desc": "Robotik karina temizliği: su altı robotlarla tekne karinasının temizlenmesi, geleneksel çekme yöntemine göre avantajları, sınırları ve antifouling ile ilişkisi.",
+   "body": """
+<p>Son yıllarda gündeme gelen robotik (su altı) karina temizliği, tekneyi karaya çekmeden karinadaki yosun ve kabuğu temizleyen robot sistemlerini ifade eder. Peki bu teknoloji neyi değiştiriyor, neyi değiştirmiyor?</p>
+<h2>Nasıl çalışır?</h2>
+<p>Su altında hareket eden robot, karinaya tutunarak fırça/temizleme üniteleriyle yüzeydeki biyolojik birikimi (yosun, kekamoz başlangıcı) temizler — tekne suda kalırken.</p>
+<h2>Avantajları</h2>
+<ul>
+<li><strong>Çekme gerektirmez:</strong> Sezon içinde, tekne suda kalırken sık temizlik mümkün.</li>
+<li><strong>Sürekli performans:</strong> Karina temiz kalınca sürtünme ve yakıt tüketimi düşer.</li>
+</ul>
+<h2>Sınırları</h2>
+<ul>
+<li><strong>Antifouling'in yerini tutmaz:</strong> Robot temizlik, yüzeye yapışmayı önleyen <a href="/hizmetler/tekne-boyama-antifouling/">antifouling</a> katmanının yerine geçmez; agresif temizlik antifoulingi aşındırabilir.</li>
+<li><strong>Yapısal işleri kapsamaz:</strong> Osmoz, boya, gelcoat ve <a href="/blog/su-alti-yapisal-onarim/">yapısal onarım</a> için tekne yine karaya çekilmelidir.</li>
+<li><strong>Yaygınlık:</strong> Her bölgede/her tekede uygulanamayabilir.</li>
+</ul>
+<h2>Bizim yaklaşımımız</h2>
+<p>Robotik temizlik, sezon içi bir <em>tamamlayıcıdır</em>; kapsamlı karina bakımı, antifouling yenileme ve onarım için <a href="/blog/tekne-cekek-karaya-cekme/">karaya çekme</a> temelli, detaylı bir hizmet sunuyoruz. Karinanızın kekamoz ve birikim durumu için <a href="/blog/kekamoz-temizligi/">bu yazıya</a> da bakın.</p>
+<p>Kapsamlı karina temizliği ve bakımını <a href="/hizmetler/tekne-kislatma/">bakım</a> hizmetimiz kapsamında yapıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Robotic Hull Cleaning: What Does the New Technology Change?",
+   "excerpt": "What is underwater robotic hull cleaning, and what are its advantages and limits versus the traditional method?",
+   "meta_title": "What Is Robotic Hull Cleaning? | Tekne Usta",
+   "meta_desc": "Robotic hull cleaning: cleaning a boat's hull with underwater robots, its advantages over hauling out, its limits and its relationship with antifouling.",
+   "body": """
+<p>Robotic (underwater) hull cleaning, much discussed lately, refers to robot systems that clean weed and growth off the hull without hauling the boat out. So what does this technology change, and what doesn't it?</p>
+<h2>How does it work?</h2>
+<p>A robot moving underwater attaches to the hull and cleans biological build-up (weed, early scale) with brush/cleaning units — while the boat stays afloat.</p>
+<h2>Advantages</h2>
+<ul>
+<li><strong>No haul-out:</strong> frequent in-season cleaning is possible while the boat stays in the water.</li>
+<li><strong>Sustained performance:</strong> a clean hull lowers drag and fuel use.</li>
+</ul>
+<h2>Limits</h2>
+<ul>
+<li><strong>No substitute for antifouling:</strong> robot cleaning doesn't replace the <a href="/en/services/boat-painting-antifouling/">antifouling</a> layer that prevents adhesion; aggressive cleaning can erode the antifouling.</li>
+<li><strong>Doesn't cover structural work:</strong> for osmosis, paint, gelcoat and <a href="/en/blog/underwater-structural-repair/">structural repair</a>, the boat must still be hauled out.</li>
+<li><strong>Availability:</strong> may not be applicable in every region/for every boat.</li>
+</ul>
+<h2>Our approach</h2>
+<p>Robotic cleaning is an in-season <em>complement</em>; for thorough hull maintenance, antifouling renewal and repair we offer a detailed <a href="/en/blog/boat-haul-out-guide/">haul-out</a>-based service. For your hull's scale and build-up, see also <a href="/en/blog/hull-limescale-cleaning/">this article</a>.</p>
+<p>We do thorough hull cleaning and maintenance under our <a href="/en/services/winterising-storage/">maintenance</a> service.</p>
+""",
+ },
+},
+{
+ "slug": "tekne-temizligi-detailing", "slug_en": "boat-cleaning-detailing",
+ "image": "/assets/images/services/bakim.jpg", "date": "2028-08-02",
+ "tr": {
+   "category": "Bakım",
+   "title": "Tekne Temizliği ve Detailing: Yüzeyi Korumanın İlk Adımı",
+   "excerpt": "Düzenli tekne temizliği ve detailing neden önemli? İç-dış temizlik, pasta-polisaj ve koruyucu bakımın faydaları.",
+   "meta_title": "Tekne Temizliği ve Detailing Rehberi | Tekne Usta",
+   "meta_desc": "Tekne temizliği ve detailing: iç-dış temizlik, pasta polisaj, jelkot koruma ve düzenli bakımın faydaları. Yüzeyi ve değeri korumanın ilk adımı.",
+   "body": """
+<p>Temizlik ve detailing yalnızca estetik değildir; teknenin yüzeyini, değerini ve ömrünü koruyan ilk adımdır. Düzenli bakım, büyük ve pahalı onarımları geciktiren en ucuz sigortadır.</p>
+<h2>Detailing neleri kapsar?</h2>
+<ul>
+<li><strong>Dış yüzey:</strong> Tuz, kir ve leke temizliği; <a href="/blog/gelcoat-cizik-sararma-giderme/">pasta-polisaj</a> ile parlaklığın geri kazanılması.</li>
+<li><strong>Jelkot koruma:</strong> Temizlik sonrası koruyucu cila/wax ile UV ve oksidasyona karşı kalkan.</li>
+<li><strong>İç mekan:</strong> Kabin, döşeme ve yüzeylerin temizliği; <a href="/blog/teknede-kuf-nem-onleme/">küf ve nem</a> kontrolü.</li>
+<li><strong>Detay:</strong> Paslanmaz, cam ve fikstürlerin bakımı.</li>
+</ul>
+<h2>Neden düzenli olmalı?</h2>
+<p>Tuz ve UV, ihmal edildiğinde jelkotu ve döşemeyi kalıcı olarak yıpratır. Düzenli detailing, <a href="/blog/gelcoat-yenileme/">komple gelcoat yenilemeyi</a> veya döşeme değişimini yıllarca erteler. Sezon başı ve sonu detailing, teknenin hem görünümünü hem değerini korur.</p>
+<h2>Bakımın bir parçası</h2>
+<p>Detailing'i tek başına değil, teknenin bütünsel bakım planının bir parçası olarak ele alıyoruz: yüzey koruma + <a href="/blog/yillik-tekne-bakim-takvimi/">yıllık bakım</a> + gerektiğinde onarım. Böylece tekneniz her sezon en iyi halinde olur.</p>
+<p>Detailing, pasta-polisaj ve yüzey korumayı <a href="/hizmetler/fiberglas-onarim/">fiberglas</a> ve <a href="/hizmetler/ic-mekan-yenileme/">iç mekan</a> hizmetlerimizle birlikte planlıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Boat Cleaning and Detailing: The First Step to Protecting the Surface",
+   "excerpt": "Why do regular boat cleaning and detailing matter? The benefits of interior-exterior cleaning, compound-polish and protective care.",
+   "meta_title": "Boat Cleaning and Detailing Guide | Tekne Usta",
+   "meta_desc": "Boat cleaning and detailing: interior-exterior cleaning, compound-polish, gelcoat protection and the benefits of regular care. The first step to protecting the surface and value.",
+   "body": """
+<p>Cleaning and detailing aren't just cosmetic; they're the first step in protecting a boat's surface, value and life. Regular care is the cheapest insurance for delaying big, expensive repairs.</p>
+<h2>What does detailing cover?</h2>
+<ul>
+<li><strong>Exterior:</strong> removing salt, dirt and stains; restoring gloss with <a href="/en/blog/gelcoat-scratch-yellowing/">compound-polish</a>.</li>
+<li><strong>Gelcoat protection:</strong> a protective wax after cleaning shields against UV and oxidation.</li>
+<li><strong>Interior:</strong> cleaning the cabin, upholstery and surfaces; <a href="/en/blog/preventing-mould-damp/">mould and damp</a> control.</li>
+<li><strong>Detail:</strong> care of stainless, glass and fixtures.</li>
+</ul>
+<h2>Why should it be regular?</h2>
+<p>Salt and UV, if neglected, permanently wear the gelcoat and upholstery. Regular detailing postpones a full <a href="/en/blog/gelcoat-renewal/">gelcoat renewal</a> or re-upholstery for years. Start- and end-of-season detailing protects both the look and the value of the boat.</p>
+<h2>Part of maintenance</h2>
+<p>We treat detailing not on its own but as part of the boat's holistic care plan: surface protection + <a href="/en/blog/annual-boat-maintenance-calendar/">annual maintenance</a> + repair when needed. So your boat is at its best every season.</p>
+<p>We plan detailing, compound-polish and surface protection alongside our <a href="/en/services/fibreglass-repair/">fibreglass</a> and <a href="/en/services/interior-refit/">interior</a> services.</p>
+""",
+ },
+},
+{
+ "slug": "refit-proje-yonetimi", "slug_en": "refit-project-management",
+ "image": "/assets/images/hakkimizda.jpg", "date": "2028-08-16",
+ "tr": {
+   "category": "Rehber",
+   "title": "Refit Proje Yönetimi: Kapsamlı Yenilemeyi Tek Elden Yürütmek",
+   "excerpt": "Çok kalemli bir refit (kapsamlı yenileme) neden proje yönetimi ister? Bütçe, takvim ve koordinasyonu tek elden yönetmenin faydası.",
+   "meta_title": "Refit Proje Yönetimi: Kapsamlı Tekne Yenileme | Tekne Usta",
+   "meta_desc": "Refit proje yönetimi: fiberglas, boya, ahşap, teak ve iç mekanı kapsayan çok kalemli yenilemenin bütçe, takvim ve koordinasyonunu tek elden yürütmek.",
+   "body": """
+<p>Bir teknenin kapsamlı yenilemesi (refit) çoğu zaman tek bir iş değildir: fiberglas onarımı, boya, ahşap, teak, iç mekan ve detay işleri iç içe geçer. Bu kalemleri ayrı ayrı takip etmek hem zaman hem para kaybettirir. İşte burada <strong>proje yönetimi</strong> devreye girer.</p>
+<h2>Neden tek elden yönetim?</h2>
+<ul>
+<li><strong>Tek muhatap:</strong> Her kalem için ayrı kişiyle uğraşmazsınız; süreci sizin adınıza biz koordine ederiz.</li>
+<li><strong>Doğru sıralama:</strong> İşler yanlış sırada yapılırsa biri diğerini bozar (ör. boyadan sonra güverte işi). Doğru sıra, yeniden yapımı önler.</li>
+<li><strong>Bütçe kontrolü:</strong> Kalem kalem, şeffaf bir plan; sürpriz maliyet yok.</li>
+<li><strong>Takvim:</strong> Sezon planınıza uygun, gerçekçi bir teslim.</li>
+</ul>
+<h2>Süreç</h2>
+<p>Önce kapsamlı bir <a href="/blog/satin-alma-oncesi-tekne-ekspertizi/">durum değerlendirmesi</a> yapılır ve işler önceliklendirilir. Ardından aşamalı bir plan ve kalem kalem teklif sunulur. Uygulama sırasında sizi adım adım bilgilendiririz — proje boyunca ne olduğunu her zaman bilirsiniz.</p>
+<h2>Kime uygun?</h2>
+<p>Birden fazla işi (ör. <a href="/hizmetler/fiberglas-onarim/">fiberglas</a> + <a href="/hizmetler/tekne-boyama-antifouling/">boya</a> + <a href="/hizmetler/teak-guverte-doseme/">teak</a>) aynı dönemde yaptıracaksanız, ya da klasik bir tekneyi baştan yeniliyorsanız, tek elden proje yönetimi zaman, para ve stres kazandırır.</p>
+<p>Kapsamlı refit'inizi tek elden planlamak için <a href="/hizmetler/ahsap-tekne-renovasyonu/">renovasyon</a> ve <a href="/hizmetler/fiberglas-onarim/">onarım</a> ekibimizle ücretsiz keşifte başlayalım.</p>
+""",
+ },
+ "en": {
+   "category": "Guide",
+   "title": "Refit Project Management: Running a Full Refit from One Hand",
+   "excerpt": "Why does a multi-item refit need project management? The benefit of managing budget, schedule and coordination from a single point.",
+   "meta_title": "Refit Project Management: Full Boat Refit | Tekne Usta",
+   "meta_desc": "Refit project management: running the budget, schedule and coordination of a multi-item refit covering fibreglass, paint, wood, teak and interior from one hand.",
+   "body": """
+<p>A full boat refit is often not a single job: fibreglass repair, paint, wood, teak, interior and detail work interweave. Tracking these separately costs both time and money. This is where <strong>project management</strong> comes in.</p>
+<h2>Why manage from one hand?</h2>
+<ul>
+<li><strong>One point of contact:</strong> you don't deal with a separate person for each item; we coordinate the process for you.</li>
+<li><strong>The right order:</strong> done in the wrong order, one job spoils another (e.g. deck work after paint). The right sequence prevents rework.</li>
+<li><strong>Budget control:</strong> an itemised, transparent plan; no surprise costs.</li>
+<li><strong>Schedule:</strong> a realistic delivery that fits your season plan.</li>
+</ul>
+<h2>The process</h2>
+<p>First a thorough <a href="/en/blog/pre-purchase-boat-survey/">condition assessment</a> is made and the work prioritised. Then a staged plan and an itemised quote are presented. During the work we keep you informed step by step — you always know what's happening.</p>
+<h2>Who is it for?</h2>
+<p>If you're having several jobs done in the same period (e.g. <a href="/en/services/fibreglass-repair/">fibreglass</a> + <a href="/en/services/boat-painting-antifouling/">paint</a> + <a href="/en/services/teak-deck/">teak</a>), or renewing a classic boat from the ground up, single-hand project management saves time, money and stress.</p>
+<p>To plan your full refit from one hand, let's start with a free survey with our <a href="/en/services/wooden-boat-refit/">refit</a> and <a href="/en/services/fibreglass-repair/">repair</a> team.</p>
+""",
+ },
+},
+{
+ "slug": "yillik-bakim-anlasmasi", "slug_en": "annual-maintenance-agreement",
+ "image": "/assets/images/services/bakim.jpg", "date": "2028-08-30",
+ "tr": {
+   "category": "Bakım",
+   "title": "Yıllık Tekne Bakım Anlaşması: Düzenli Bakımın Avantajı",
+   "excerpt": "Yıllık bakım anlaşması nedir, neden mantıklı? Öngörülebilir bütçe, öncelikli randevu ve teknenin her zaman hazır olması.",
+   "meta_title": "Yıllık Tekne Bakım Anlaşması / Paketi | Tekne Usta",
+   "meta_desc": "Yıllık tekne bakım anlaşması: düzenli bakım paketiyle öngörülebilir bütçe, öncelikli randevu, sezon öncesi/sonrası bakım ve teknenin her zaman hazır olması.",
+   "body": """
+<p>Çoğu tekne sahibi bakımı ihtiyaç doğduğunda, dağınık biçimde yaptırır. Oysa <strong>yıllık bir bakım anlaşması</strong>, hem tekneyi hem bütçeyi çok daha iyi yönetmenizi sağlar.</p>
+<h2>Neden mantıklı?</h2>
+<ul>
+<li><strong>Öngörülebilir bütçe:</strong> Yıllık bakım kalemleri baştan planlanır; sürpriz büyük masraflar azalır.</li>
+<li><strong>Öncelikli randevu:</strong> Sezon yoğunluğunda (çekek alanları dolarken) önce sizin işiniz planlanır.</li>
+<li><strong>Düzenlilik = daha az onarım:</strong> Küçük sorunlar büyümeden çözülür; <a href="/blog/tekne-sahipligi-maliyeti/">toplam sahiplik maliyeti</a> düşer.</li>
+<li><strong>Tekne her zaman hazır:</strong> Suya inişte sürprizle uğraşmazsınız.</li>
+</ul>
+<h2>Neleri kapsayabilir?</h2>
+<p>Sezon öncesi ve sonrası <a href="/blog/bahar-tekne-bakimi/">bakım</a>, <a href="/hizmetler/tekne-kislatma/">kışlatma</a>, <a href="/hizmetler/tekne-detailing/">detailing</a>, karina/antifouling kontrolü ve düzenli yüzey bakımı bir pakette birleştirilebilir. Kapsam teknenize ve kullanımınıza göre belirlenir.</p>
+<h2>Kime uygun?</h2>
+<p>Teknesini düzenli kullanan ve bakım derdiyle uğraşmak istemeyen sahipler için idealdir. Bir kez planlarsınız, gerisini biz takip ederiz.</p>
+<p>Size uygun bir yıllık bakım planı için <a href="/hizmetler/tekne-kislatma/">bakım</a> hizmetimiz kapsamında ücretsiz görüşelim.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Annual Boat Maintenance Agreement: The Advantage of Regular Care",
+   "excerpt": "What is an annual maintenance agreement and why does it make sense? Predictable budget, priority booking and a boat that's always ready.",
+   "meta_title": "Annual Boat Maintenance Agreement / Plan | Tekne Usta",
+   "meta_desc": "Annual boat maintenance agreement: a regular care plan for a predictable budget, priority booking, pre/post-season care and a boat that's always ready.",
+   "body": """
+<p>Most boat owners have maintenance done reactively, in a scattered way. Yet an <strong>annual maintenance agreement</strong> lets you manage both the boat and the budget far better.</p>
+<h2>Why does it make sense?</h2>
+<ul>
+<li><strong>Predictable budget:</strong> annual items are planned in advance; surprise big costs drop.</li>
+<li><strong>Priority booking:</strong> in peak season (as hardstanding fills), your work is scheduled first.</li>
+<li><strong>Regularity = less repair:</strong> small problems are solved before they grow; <a href="/en/blog/cost-of-boat-ownership/">total cost of ownership</a> falls.</li>
+<li><strong>Always ready:</strong> no surprises at launch.</li>
+</ul>
+<h2>What can it cover?</h2>
+<p>Pre- and post-season <a href="/en/blog/spring-boat-maintenance/">care</a>, <a href="/en/services/winterising-storage/">winterising</a>, <a href="/en/services/boat-detailing/">detailing</a>, hull/antifouling checks and regular surface care can be combined in one plan. Scope is set to your boat and use.</p>
+<h2>Who is it for?</h2>
+<p>Ideal for owners who use their boat regularly and don't want to deal with maintenance. You plan once, we track the rest.</p>
+<p>For a yearly plan that suits you, let's talk at no cost under our <a href="/en/services/winterising-storage/">maintenance</a> service.</p>
+""",
+ },
+},
+{
+ "slug": "epoksi-macun-nedir", "slug_en": "epoxy-filler-putty",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2028-09-13",
+ "tr": {
+   "category": "Fiberglas",
+   "title": "Epoksi Macun Nedir ve Nasıl Uygulanır?",
+   "excerpt": "Epoksi macun ne işe yarar, hangi hasarlarda kullanılır ve doğru uygulama nasıl olur? Çatlak ve boşluk onarımının temeli.",
+   "meta_title": "Epoksi Macun Nedir ve Nasıl Uygulanır? | Tekne Usta",
+   "meta_desc": "Epoksi macun nedir, nasıl uygulanır? İki bileşenli epoksi macunun çatlak, boşluk ve yüzey onarımında kullanımı; ahşap, fiberglas ve metalde uygulama ipuçları.",
+   "body": """
+<p>Epoksi macun (dolgu), tekne onarımının en çok kullanılan malzemelerinden biridir. İki bileşenli (reçine + sertleştirici) bu sistem, karıştırıldığında sertleşerek çatlak, boşluk ve düzensizlikleri yapısal olarak doldurur.</p>
+<h2>Ne işe yarar?</h2>
+<ul>
+<li><strong>Çatlak ve boşluk doldurma:</strong> Fiberglas, ahşap ve metalde hasarlı bölgeleri kapatır.</li>
+<li><strong>Yüzey düzeltme (fairing):</strong> Boya öncesi pürüzsüz zemin oluşturur (bkz. <a href="/blog/boya-oncesi-yuzey-hazirligi/">yüzey hazırlığı</a>).</li>
+<li><strong>Su geçirmezlik:</strong> Kürlendiğinde suya dayanıklı, sağlam bir dolgu sağlar.</li>
+</ul>
+<h2>Doğru uygulama</h2>
+<p>Yüzey temiz, kuru ve yağdan arınmış olmalı. Reçine ve sertleştirici <strong>doğru oranda</strong> karıştırılır; yanlış oran kürlenmeyi bozar. Kürlenme sonrası zımparalanır. İnce katlar, kalın tek kata göre daha az kabarcık ve daha iyi sonuç verir.</p>
+<h2>Polyester macun mu, epoksi macun mu?</h2>
+<p>Epoksi macun, polyestere göre daha güçlü yapışır ve su geçirmezliği yüksektir; su altı ve yapısal işlerde tercih edilir. Farklar için <a href="/blog/polyester-vs-epoksi-recine/">polyester vs epoksi</a> yazımıza bakın.</p>
+<p>Yapısal onarım ve fairing işlerini <a href="/hizmetler/fiberglas-onarim/">fiberglas onarım</a> hizmetimiz kapsamında, doğru malzeme ve teknikle yapıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Fibreglass",
+   "title": "What Is Epoxy Filler and How Is It Applied?",
+   "excerpt": "What is epoxy filler used for, on which damage, and how is it applied correctly? The basis of crack and void repair.",
+   "meta_title": "What Is Epoxy Filler and How to Apply It? | Tekne Usta",
+   "meta_desc": "What is epoxy filler and how is it applied? Using two-part epoxy filler for cracks, voids and surface repair on wood, fibreglass and metal, with application tips.",
+   "body": """
+<p>Epoxy filler is one of the most used materials in boat repair. This two-part system (resin + hardener) cures when mixed, structurally filling cracks, voids and unevenness.</p>
+<h2>What is it for?</h2>
+<ul>
+<li><strong>Filling cracks and voids:</strong> closes damaged areas in fibreglass, wood and metal.</li>
+<li><strong>Fairing:</strong> creates a smooth base before painting (see <a href="/en/blog/surface-prep-before-painting/">surface prep</a>).</li>
+<li><strong>Waterproofing:</strong> once cured, gives a durable, water-resistant fill.</li>
+</ul>
+<h2>Correct application</h2>
+<p>The surface must be clean, dry and grease-free. Resin and hardener are mixed in the <strong>right ratio</strong>; a wrong ratio ruins the cure. After curing it's sanded. Thin layers give fewer bubbles and better results than one thick layer.</p>
+<h2>Polyester filler or epoxy filler?</h2>
+<p>Epoxy filler bonds more strongly than polyester and is more waterproof; it's preferred for underwater and structural work. For the differences, see our <a href="/en/blog/polyester-vs-epoxy-resin/">polyester vs epoxy</a> article.</p>
+<p>We do structural repair and fairing under our <a href="/en/services/fibreglass-repair/">fibreglass repair</a> service with the right material and technique.</p>
+""",
+ },
+},
+{
+ "slug": "epoksi-uygulama-hatalari", "slug_en": "epoxy-application-mistakes",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2028-09-27",
+ "tr": {
+   "category": "Fiberglas",
+   "title": "Epoksi Uygulamasında En Sık Yapılan 6 Hata",
+   "excerpt": "Yanlış karışım oranından sıcaklığa; epokside yapışma, kabarcık ve kürlenme sorunlarına yol açan önlenebilir hatalar.",
+   "meta_title": "Epoksi Uygulama Hataları: Kaçınılması Gerekenler | Tekne Usta",
+   "meta_desc": "Epoksi uygulamasında sık yapılan hatalar: yanlış karışım oranı, kötü yüzey hazırlığı, sıcaklık/nem, kalın kat ve amine blush. Sağlam bir epoksi uygulaması için ipuçları.",
+   "body": """
+<p>Epoksi güçlü bir malzemedir ama küçük uygulama hataları bile yapışma sorunu, kabarcık, matlaşma veya eksik kürlenmeye yol açar. İşte en sık ve tamamen önlenebilir hatalar.</p>
+<h2>1. Yanlış karışım oranı</h2>
+<p>Reçine/sertleştirici oranı yanlışsa epoksi doğru kürlenmez — yapışkan kalır veya kırılgan olur. Üreticinin oranına harfiyen uyulmalı.</p>
+<h2>2. Kötü yüzey hazırlığı</h2>
+<p>Kirli, yağlı veya parlak yüzeye epoksi tutmaz. Zımpara ve temizlik şarttır.</p>
+<h2>3. Yanlış sıcaklık/nem</h2>
+<p>Çok soğukta kürlenme durur, çok sıcakta hızlanıp sorun çıkar. Nemli havada yüzeyde "amine blush" (yağlı film) oluşabilir.</p>
+<h2>4. Kalın tek kat</h2>
+<p>Kalın uygulama ısı üretir, kabarcık ve çatlak yapar. İnce katlar daha güvenlidir.</p>
+<h2>5. Amine blush'ı yıkamamak</h2>
+<p>Katlar arası oluşan yağlı filmi yıkamadan üzerine uygulama yapmak yapışmayı bozar.</p>
+<h2>6. Yetersiz kürlenme süresi</h2>
+<p>Tam kürlenmeden zımpara veya boya, sonucu bozar. Sabır gerekir.</p>
+<p>Epoksi işlerini doğru koşul ve teknikle <a href="/hizmetler/fiberglas-onarim/">fiberglas onarım</a> hizmetimiz kapsamında yapıyoruz. Malzeme için <a href="/blog/epoksi-macun-nedir/">epoksi macun</a> yazımıza bakın.</p>
+""",
+ },
+ "en": {
+   "category": "Fibreglass",
+   "title": "The 6 Most Common Epoxy Application Mistakes",
+   "excerpt": "From wrong mix ratio to temperature; the preventable mistakes that cause adhesion, bubble and curing problems with epoxy.",
+   "meta_title": "Epoxy Application Mistakes to Avoid | Tekne Usta",
+   "meta_desc": "Common epoxy application mistakes: wrong mix ratio, poor surface prep, temperature/humidity, thick coats and amine blush. Tips for a sound epoxy application.",
+   "body": """
+<p>Epoxy is a strong material, but even small application mistakes cause adhesion problems, bubbles, dullness or incomplete curing. Here are the most common — and entirely preventable — mistakes.</p>
+<h2>1. Wrong mix ratio</h2>
+<p>If the resin/hardener ratio is off, epoxy won't cure right — it stays tacky or turns brittle. Follow the maker's ratio exactly.</p>
+<h2>2. Poor surface prep</h2>
+<p>Epoxy won't hold on a dirty, greasy or glossy surface. Sanding and cleaning are essential.</p>
+<h2>3. Wrong temperature/humidity</h2>
+<p>Curing stalls when too cold and speeds up problematically when too hot. In damp air an "amine blush" (greasy film) can form.</p>
+<h2>4. One thick coat</h2>
+<p>A thick application generates heat, causing bubbles and cracks. Thin coats are safer.</p>
+<h2>5. Not washing off amine blush</h2>
+<p>Applying over the greasy film between coats without washing ruins adhesion.</p>
+<h2>6. Insufficient cure time</h2>
+<p>Sanding or painting before full cure spoils the result. Patience is needed.</p>
+<p>We do epoxy work under the right conditions and technique in our <a href="/en/services/fibreglass-repair/">fibreglass repair</a> service. For materials, see our <a href="/en/blog/epoxy-filler-putty/">epoxy filler</a> article.</p>
+""",
+ },
+},
+{
+ "slug": "uv-koruma-kaplama", "slug_en": "uv-protection-coating",
+ "image": "/assets/images/services/boya.jpg", "date": "2028-10-11",
+ "tr": {
+   "category": "Boya",
+   "title": "UV Işınları ve Tekne Yüzeyi Koruması",
+   "excerpt": "Güneşin UV ışınları tekneyi nasıl yıpratır ve UV koruma kaplamaları neyi değiştirir? Rengi ve parlaklığı korumanın yolu.",
+   "meta_title": "UV Koruma: Tekne Yüzeyini Güneşten Korumak | Tekne Usta",
+   "meta_desc": "UV ışınları ve tekne yüzeyi koruması: güneşin jelkot, boya ve ahşaba etkisi, UV koruyucu kaplama ve wax ile rengin solmasını, çatlamayı önleme.",
+   "body": """
+<p>Deniz ortamında teknenin en büyük düşmanlarından biri güneştir. UV ışınları zamanla jelkotu soldurur, boyayı matlaştırır, ahşabı grileştirir ve yüzeyde çatlaklara yol açar. UV koruma, bu süreci ciddi biçimde yavaşlatır.</p>
+<h2>UV teknede neyi yıpratır?</h2>
+<ul>
+<li><strong>Jelkot/boya:</strong> Renk solar, parlaklık gider, mikro çatlaklar oluşur.</li>
+<li><strong>Ahşap/vernik:</strong> Vernik çatlar, ahşap grileşir (bkz. <a href="/blog/ahsap-tekne-vernik-bakimi/">vernik bakımı</a>).</li>
+<li><strong>Döşeme:</strong> Kumaşlar solar; deniz sınıfı UV dirençli kumaş önemlidir.</li>
+</ul>
+<h2>Koruma yolları</h2>
+<ul>
+<li><strong>Koruyucu wax/cila:</strong> Jelkot üzerine düzenli uygulanan koruma UV'yi yansıtır ve oksidasyonu geciktirir.</li>
+<li><strong>UV dayanımlı boya sistemleri:</strong> Kaliteli <a href="/blog/2k-poliuretan-boya/">2K boyalar</a> UV emici katkılar içerir.</li>
+<li><strong>Örtü:</strong> Kullanılmadığında iyi bir <a href="/blog/tekne-ortusu-secimi/">örtü</a> en basit korumadır.</li>
+</ul>
+<h2>Düzenlilik esas</h2>
+<p>UV koruma tek seferlik değil, düzenli bir bakım işidir. <a href="/hizmetler/tekne-detailing/">Detailing</a> paketlerimizde temizlik sonrası koruyucu uygulamayı da yapıyoruz — böylece rengi ve parlaklığı yıllarca korursunuz.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "UV Rays and Protecting Your Boat's Surface",
+   "excerpt": "How do the sun's UV rays wear a boat, and what do UV protection coatings change? The way to keep colour and gloss.",
+   "meta_title": "UV Protection: Shielding a Boat Surface from the Sun | Tekne Usta",
+   "meta_desc": "UV rays and boat surface protection: the sun's effect on gelcoat, paint and wood, and preventing fading and cracking with UV protective coatings and wax.",
+   "body": """
+<p>In the marine environment, one of a boat's biggest enemies is the sun. UV rays fade the gelcoat, dull the paint, grey the wood and cause surface cracks over time. UV protection significantly slows this process.</p>
+<h2>What does UV wear on a boat?</h2>
+<ul>
+<li><strong>Gelcoat/paint:</strong> colour fades, gloss goes, micro-cracks form.</li>
+<li><strong>Wood/varnish:</strong> varnish cracks, wood greys (see <a href="/en/blog/wooden-boat-varnish-care/">varnish care</a>).</li>
+<li><strong>Upholstery:</strong> fabrics fade; UV-resistant marine fabric matters.</li>
+</ul>
+<h2>Ways to protect</h2>
+<ul>
+<li><strong>Protective wax:</strong> a protection regularly applied over the gelcoat reflects UV and delays oxidation.</li>
+<li><strong>UV-resistant paint systems:</strong> quality <a href="/en/blog/2k-polyurethane-paint/">2K paints</a> contain UV absorbers.</li>
+<li><strong>Cover:</strong> when not in use, a good <a href="/en/blog/boat-cover-selection/">cover</a> is the simplest protection.</li>
+</ul>
+<h2>Regularity is key</h2>
+<p>UV protection isn't a one-off but regular care. Our <a href="/en/services/boat-detailing/">detailing</a> packages include protective application after cleaning — so you keep colour and gloss for years.</p>
+""",
+ },
+},
+{
+ "slug": "astar-primer-nedir", "slug_en": "primer-importance",
+ "image": "/assets/images/services/boya.jpg", "date": "2028-10-25",
+ "tr": {
+   "category": "Boya",
+   "title": "Astar (Primer) Nedir ve Neden Önemli?",
+   "excerpt": "Astar boyanın altında görünmez ama sonucu belirler. Astar ne işe yarar, hangi tür ne zaman kullanılır?",
+   "meta_title": "Astar (Primer) Nedir, Neden Önemli? | Tekne Usta",
+   "meta_desc": "Astar (primer) nedir, neden önemli? Boya öncesi astarın yapışma, örtücülük ve korozyon koruması sağlaması; antifouling ve dış cephe için doğru astar seçimi.",
+   "body": """
+<p>Astar (primer), boyanın altına uygulanan ve gözle görünmeyen ama sonucu belirleyen kattır. İyi bir boya işinin sırrı çoğu zaman doğru astardadır.</p>
+<h2>Astar ne işe yarar?</h2>
+<ul>
+<li><strong>Yapışma:</strong> Boyanın yüzeye sağlam tutunmasını sağlar.</li>
+<li><strong>Örtücülük:</strong> Alttaki rengi ve düzensizlikleri kapatır — özellikle <a href="/blog/tekne-renk-degisimi/">renk değişiminde</a> kritik.</li>
+<li><strong>Korozyon koruması:</strong> Metal yüzeylerde (özellikle <a href="/blog/aluminyum-tekne-boyama/">alüminyum</a>) metali korur.</li>
+<li><strong>Bariyer:</strong> Osmoz sonrası epoksi bariyer, suyu içeri almaz.</li>
+</ul>
+<h2>Doğru astar seçimi</h2>
+<p>Astar; yüzeye (fiberglas, ahşap, metal), boya tipine ve amaca göre seçilir. Antifouling öncesi astar ile dış cephe astarı farklıdır. Yanlış astar, boyanın kısa sürede kalkmasına yol açar.</p>
+<h2>Astar atlanırsa ne olur?</h2>
+<p>Astarsız veya yanlış astarla yapılan boya; kabarır, dökülür ve baştan yapılması gerekir. Bu yüzden astar, <a href="/blog/boya-oncesi-yuzey-hazirligi/">yüzey hazırlığının</a> ayrılmaz bir parçasıdır.</p>
+<p>Doğru astar ve boya sistemini <a href="/hizmetler/tekne-boyama-antifouling/">tekne boyama</a> hizmetimiz kapsamında belirliyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "What Is Primer and Why Does It Matter?",
+   "excerpt": "Primer is invisible under the paint but decides the result. What does primer do, and which type when?",
+   "meta_title": "What Is Primer and Why Does It Matter? | Tekne Usta",
+   "meta_desc": "What is primer and why does it matter? How primer provides adhesion, coverage and corrosion protection before paint; choosing the right primer for antifouling and topside.",
+   "body": """
+<p>Primer is the coat applied under the paint — invisible, but it decides the result. The secret to a good paint job is often the right primer.</p>
+<h2>What does primer do?</h2>
+<ul>
+<li><strong>Adhesion:</strong> makes the paint grip the surface firmly.</li>
+<li><strong>Coverage:</strong> hides the underlying colour and unevenness — critical especially in a <a href="/en/blog/boat-colour-change/">colour change</a>.</li>
+<li><strong>Corrosion protection:</strong> protects the metal on metal surfaces (especially <a href="/en/blog/aluminium-boat-painting/">aluminium</a>).</li>
+<li><strong>Barrier:</strong> after osmosis, the epoxy barrier keeps water out.</li>
+</ul>
+<h2>Choosing the right primer</h2>
+<p>Primer is chosen by surface (fibreglass, wood, metal), paint type and purpose. A primer before antifouling differs from a topside primer. The wrong primer makes the paint lift quickly.</p>
+<h2>What if primer is skipped?</h2>
+<p>Paint done without primer or with the wrong one blisters, flakes and must be redone. So primer is an inseparable part of <a href="/en/blog/surface-prep-before-painting/">surface prep</a>.</p>
+<p>We determine the right primer and paint system in our <a href="/en/services/boat-painting-antifouling/">boat painting</a> service.</p>
+""",
+ },
+},
+{
+ "slug": "tente-branda-bimini", "slug_en": "marine-canvas-covers",
+ "image": "/assets/images/services/bakim.jpg", "date": "2028-11-08",
+ "tr": {
+   "category": "İç Mekan",
+   "title": "Tekne Tente, Branda ve Bimini: Güneş, Yağmur ve Konfor",
+   "excerpt": "Bimini, tente ve branda seçimi: güneş-yağmur koruması, malzeme, dikiş kalitesi ve teknenize özel ölçü.",
+   "meta_title": "Tekne Tente, Branda ve Bimini Rehberi | Tekne Usta",
+   "meta_desc": "Tekne tente, branda ve bimini: güneş ve yağmur koruması, deniz sınıfı kumaş, UV dayanımlı dikiş, kaplama brandası ve teknenize özel ölçü. Marine tekstil rehberi.",
+   "body": """
+<p>Tente, branda ve bimini; teknede hem konforu hem korumayı belirleyen dış mekan tekstilleridir. İyi seçilmiş bir sistem güneşi, yağmuru ve UV'yi keser; teknenizi ve sizi korur.</p>
+<h2>Başlıca tipler</h2>
+<ul>
+<li><strong>Bimini:</strong> Kokpit üzerinde güneşlik; seyir konforunun temeli.</li>
+<li><strong>Sprayhood / kaplama tentesi:</strong> Yağmur ve serpintiye karşı koruma.</li>
+<li><strong>Kışlama/koruma brandası:</strong> Tekne beklerken UV ve nemden koruma (bkz. <a href="/blog/tekne-ortusu-secimi/">örtü seçimi</a>).</li>
+</ul>
+<h2>Malzeme ve dikiş</h2>
+<p>Deniz koşullarına uygun, UV'ye dayanıklı ve su itici kumaş; UV dayanımlı iplik ve paslanmaz fikstürler şarttır. En iyi kumaş bile zayıf dikişle kısa ömürlü olur — dikiş kalitesi belirleyicidir.</p>
+<h2>Ölçüye özel</h2>
+<p>Tente ve brandalar teknenin hattına özel ölçülmeli; hazır ölçü nadiren tam oturur. Doğru gerginlik hem görünümü hem su akışını (birikme yapmaması) belirler.</p>
+<p>Marine tekstil ve döşeme işlerini <a href="/hizmetler/ic-mekan-yenileme/">iç mekan yenileme</a> hizmetimiz kapsamında, döşeme yenileme ile birlikte planlıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Interior",
+   "title": "Boat Biminis, Covers and Canvas: Sun, Rain and Comfort",
+   "excerpt": "Choosing biminis, sprayhoods and covers: sun-rain protection, material, stitch quality and a made-to-measure fit.",
+   "meta_title": "Boat Bimini, Cover and Canvas Guide | Tekne Usta",
+   "meta_desc": "Boat biminis, covers and canvas: sun and rain protection, marine-grade fabric, UV-resistant stitching, storage covers and a made-to-measure fit. Marine canvas guide.",
+   "body": """
+<p>Biminis, sprayhoods and covers are the exterior textiles that shape both comfort and protection aboard. A well-chosen system blocks sun, rain and UV; it protects your boat and you.</p>
+<h2>Main types</h2>
+<ul>
+<li><strong>Bimini:</strong> a sunshade over the cockpit; the basis of cruising comfort.</li>
+<li><strong>Sprayhood:</strong> protection against rain and spray.</li>
+<li><strong>Storage cover:</strong> protection from UV and damp while the boat waits (see <a href="/en/blog/boat-cover-selection/">cover selection</a>).</li>
+</ul>
+<h2>Material and stitching</h2>
+<p>Fabric suited to marine conditions — UV-resistant and water-repellent — plus UV-resistant thread and stainless fixtures are essential. Even the best fabric is short-lived with weak stitching — stitch quality is decisive.</p>
+<h2>Made to measure</h2>
+<p>Biminis and covers should be measured to the boat's lines; off-the-shelf sizes rarely fit exactly. Correct tension determines both the look and water run-off (no pooling).</p>
+<p>We plan marine canvas and upholstery work under our <a href="/en/services/interior-refit/">interior refit</a> service, alongside upholstery renewal.</p>
+""",
+ },
+},
+{
+ "slug": "kaydirmaz-guverte-kaplama", "slug_en": "non-slip-deck-coating",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2028-11-22",
+ "tr": {
+   "category": "Teak",
+   "title": "Kaydırmaz Güverte Kaplaması: Güvenlik ve Konfor",
+   "excerpt": "Fiberglas güvertede kaymayı önleyen kaplama seçenekleri nelerdir? Islakken güvenli bir yürüyüş yüzeyi için çözümler.",
+   "meta_title": "Kaydırmaz Güverte Kaplaması Rehberi | Tekne Usta",
+   "meta_desc": "Kaydırmaz güverte kaplaması: fiberglas güvertede kaymayı önleyen katkılı boya, doku desenleri ve EVA/sentetik seçenekler. Islakken güvenli güverte için çözümler.",
+   "body": """
+<p>Güverte, teknenin en çok yürünen ve ıslanan yüzeyidir. Zamanla kaydırmaz dokusu aşınan bir güverte güvenlik riski oluşturur. Kaydırmaz kaplama, hem güvenliği hem konforu geri kazandırır.</p>
+<h2>Seçenekler</h2>
+<ul>
+<li><strong>Katkılı kaydırmaz boya:</strong> Boyaya eklenen özel katkılarla dokulu, tutuşlu bir yüzey; ekonomik ve yenilenebilir.</li>
+<li><strong>Kalıp/desen dokusu:</strong> Uygulama sırasında oluşturulan kaydırmaz desen.</li>
+<li><strong>EVA / sentetik kaplama:</strong> Yapıştırılan yumuşak, kaymaz paneller (bkz. <a href="/blog/sentetik-teak-alternatifleri/">sentetik teak alternatifleri</a>).</li>
+</ul>
+<h2>Hangi durumda ne?</h2>
+<p>Mevcut kaydırmaz dokusu aşınmış fiberglas güvertede katkılı boya pratik ve ekonomiktir. Daha konforlu ve sıcak bir his isteyen, özellikle çocuklu tekneler için EVA panel mantıklıdır. Doğal görünüm önceliğinizse <a href="/hizmetler/teak-guverte-doseme/">teak</a> alternatiftir.</p>
+<h2>Hazırlık önemli</h2>
+<p>Kaplamanın tutması için yüzey doğru hazırlanmalı (bkz. <a href="/blog/boya-oncesi-yuzey-hazirligi/">yüzey hazırlığı</a>); aksi halde kaplama kenarlardan kalkar.</p>
+<p>Kaydırmaz güverte çözümlerini <a href="/hizmetler/teak-guverte-doseme/">güverte</a> ve <a href="/hizmetler/tekne-boyama-antifouling/">boya</a> hizmetlerimiz kapsamında uyguluyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Teak",
+   "title": "Non-Slip Deck Coating: Safety and Comfort",
+   "excerpt": "What are the coating options that prevent slipping on a fibreglass deck? Solutions for a safe walking surface when wet.",
+   "meta_title": "Non-Slip Deck Coating Guide | Tekne Usta",
+   "meta_desc": "Non-slip deck coating: additive non-slip paint, textured patterns and EVA/synthetic options that prevent slipping on a fibreglass deck. Solutions for a safe deck when wet.",
+   "body": """
+<p>The deck is a boat's most walked-on and wettest surface. A deck whose non-slip texture has worn creates a safety risk. Non-slip coating restores both safety and comfort.</p>
+<h2>Options</h2>
+<ul>
+<li><strong>Additive non-slip paint:</strong> special additives in the paint give a textured, grippy surface; economical and renewable.</li>
+<li><strong>Moulded/pattern texture:</strong> a non-slip pattern formed during application.</li>
+<li><strong>EVA / synthetic coating:</strong> bonded soft, non-slip panels (see <a href="/en/blog/synthetic-teak-alternatives/">synthetic teak alternatives</a>).</li>
+</ul>
+<h2>Which when?</h2>
+<p>On a fibreglass deck with worn non-slip texture, additive paint is practical and economical. For a more comfortable, warmer feel, especially on boats with children, EVA panels make sense. If a natural look is your priority, <a href="/en/services/teak-deck/">teak</a> is the alternative.</p>
+<h2>Prep matters</h2>
+<p>The surface must be prepped correctly for the coating to hold (see <a href="/en/blog/surface-prep-before-painting/">surface prep</a>); otherwise the coating lifts at the edges.</p>
+<p>We apply non-slip deck solutions under our <a href="/en/services/teak-deck/">deck</a> and <a href="/en/services/boat-painting-antifouling/">painting</a> services.</p>
+""",
+ },
+},
 ]
 
 # ==================================================================== COST ESTIMATOR
@@ -4496,3 +5140,54 @@ TOOL_I18N = {
         "from": "from",
     },
 }
+
+# ==================================================================== LEGAL PAGES
+# NOT: Bu bir şablon KVKK/Gizlilik metnidir. Yayın öncesi şirketin resmi unvanı,
+# adresi ve varsa VERBIS bilgileriyle güncellenmeli; hukuki inceleme önerilir.
+LEGAL = [
+    {
+        "slug": "gizlilik", "slug_en": "privacy",
+        "tr": {
+            "title": "Gizlilik ve KVKK Aydınlatma Metni",
+            "sub": "Kişisel verilerinizin işlenmesine ilişkin bilgilendirme.",
+            "meta_title": "Gizlilik ve KVKK Aydınlatma Metni | Tekne Usta",
+            "meta_desc": "Tekne Usta gizlilik politikası ve KVKK aydınlatma metni: iletişim formu ve WhatsApp üzerinden paylaşılan kişisel verilerin işlenme amacı, hukuki sebebi ve haklarınız.",
+            "body": """
+<p><em>Son güncelleme: 2026. Bu metin bir şablondur; yayına almadan önce şirketin resmi unvanı ve iletişim bilgileriyle güncellenmesi ve hukuki inceleme önerilir.</em></p>
+<h2>Veri Sorumlusu</h2>
+<p>Tekne Usta ("biz"), bu web sitesi (tekneusta.com) üzerinden paylaştığınız kişisel verilerin veri sorumlusudur. İletişim: <a href="tel:+905321738978">+90 532 173 89 78</a>.</p>
+<h2>Hangi Verileri Topluyoruz?</h2>
+<p>Teklif formu ve WhatsApp üzerinden bize ilettiğiniz <strong>ad, telefon numarası, tekne bilgisi ve mesaj içeriği</strong> gibi verileri topluyoruz. Sitemizde reklam amaçlı takip çerezi kullanmıyoruz.</p>
+<h2>Verilerinizi Neden İşliyoruz?</h2>
+<p>Verileriniz yalnızca <strong>talebinize dönüş yapmak, keşif ve teklif sürecini yürütmek ve hizmeti sağlamak</strong> amacıyla işlenir. Bu, KVKK m.5 kapsamında "bir sözleşmenin kurulması/ifası" ve "meşru menfaat" hukuki sebeplerine dayanır.</p>
+<h2>Verileriniz Paylaşılır mı?</h2>
+<p>Verilerinizi pazarlama amacıyla üçüncü taraflara satmayız veya kiralamayız. İletişim yalnızca sizinle iletişim amacıyla kullanılır.</p>
+<h2>Saklama Süresi</h2>
+<p>Verileriniz, talebinizin gerektirdiği süre boyunca ve ilgili yasal yükümlülükler çerçevesinde saklanır; amaç ortadan kalktığında silinir veya anonim hale getirilir.</p>
+<h2>KVKK Kapsamındaki Haklarınız</h2>
+<p>KVKK m.11 uyarınca; verilerinizin işlenip işlenmediğini öğrenme, düzeltilmesini veya silinmesini isteme, işlemeye itiraz etme ve diğer haklarınıza sahipsiniz. Talepleriniz için yukarıdaki iletişim kanallarından bize ulaşabilirsiniz.</p>
+""",
+        },
+        "en": {
+            "title": "Privacy Policy",
+            "sub": "Information about how we handle your personal data.",
+            "meta_title": "Privacy Policy | Tekne Usta",
+            "meta_desc": "Tekne Usta privacy policy: the purpose, legal basis and your rights regarding personal data shared via the contact form and WhatsApp.",
+            "body": """
+<p><em>Last updated: 2026. This is a template; before going live it should be updated with the company's legal details and reviewed legally.</em></p>
+<h2>Data Controller</h2>
+<p>Tekne Usta ("we") is the controller of the personal data you share via this website (tekneusta.com). Contact: <a href="tel:+905321738978">+90 532 173 89 78</a>.</p>
+<h2>What Data We Collect</h2>
+<p>Via the quote form and WhatsApp we collect data you provide such as your <strong>name, phone number, boat details and message</strong>. We do not use advertising tracking cookies on our site.</p>
+<h2>Why We Process Your Data</h2>
+<p>Your data is processed only to <strong>respond to your request, run the survey and quote process, and provide the service</strong>. This is based on the performance of a contract and our legitimate interest.</p>
+<h2>Do We Share Your Data?</h2>
+<p>We do not sell or rent your data to third parties for marketing. Your details are used only to contact you.</p>
+<h2>Retention</h2>
+<p>Your data is kept for as long as your request requires and under applicable legal obligations; once the purpose ends it is deleted or anonymised.</p>
+<h2>Your Rights</h2>
+<p>You have the right to know whether your data is processed, to request its correction or deletion, to object to processing and other rights. Contact us through the channels above for any request.</p>
+""",
+        },
+    },
+]
