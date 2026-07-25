@@ -19,7 +19,7 @@ SITE = {
 I18N = {
     "tr": {
         "nav": {"home": "Ana Sayfa", "services": "Hizmetler", "regions": "Bölgeler",
-                "about": "Hakkımızda", "blog": "Blog", "cta": "Teklif Al"},
+                "about": "Hakkımızda", "blog": "Blog", "tool": "Maliyet Aracı", "cta": "Teklif Al"},
         "footer": {
             "tag": "Tekne tamiri, renovasyon ve bakımında güvenilir usta eli. Her tekneye, her hasara özel çözüm.",
             "contact": "İletişim", "wa": "WhatsApp'tan Yaz", "rights": "Tüm hakları saklıdır.",
@@ -61,7 +61,7 @@ I18N = {
     },
     "en": {
         "nav": {"home": "Home", "services": "Services", "regions": "Regions",
-                "about": "About", "blog": "Blog", "cta": "Get a Quote"},
+                "about": "About", "blog": "Blog", "tool": "Cost Tool", "cta": "Get a Quote"},
         "footer": {
             "tag": "The trusted craftsman for boat repair, refit and maintenance. A tailored solution for every boat and every job.",
             "contact": "Contact", "wa": "Message on WhatsApp", "rights": "All rights reserved.",
@@ -4067,6 +4067,376 @@ POSTS = [
 <h2>10. The real cost</h2>
 <p>Add berthing, maintenance and possible repair to the purchase price (see <a href="/en/blog/cost-of-boat-ownership/">cost of ownership</a>).</p>
 <p>We can assess the boat you're considering together on the <a href="/en/services/fibreglass-repair/">fibreglass</a> and <a href="/en/services/wooden-boat-refit/">wood</a> side — message us.</p>
+""",
+ },
+},
+{
+ "slug": "raspa-kumlama", "slug_en": "blasting-soda-blasting",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2028-03-15",
+ "tr": {
+   "category": "Boya",
+   "title": "Raspa ve Kumlama: Eski Boyayı Doğru Sökmek",
+   "excerpt": "Kat kat birikmiş eski antifouling ve boya nasıl sökülür? Raspa, kumlama ve soda blasting yöntemleri, avantaj ve riskleri.",
+   "meta_title": "Raspa ve Kumlama (Soda Blasting) Rehberi | Tekne Usta",
+   "meta_desc": "Tekne raspa ve kumlama: kat kat birikmiş eski boya ve antifouling nasıl sökülür? Mekanik raspa, kumlama ve soda blasting yöntemlerinin farkı ve jelkot güvenliği.",
+   "body": """
+<p>Yıllar içinde antifouling ve boya katları birikir; yeni boya artık düzgün tutunmaz ve yüzey pürüzlenir. Bu noktada eski katmanların sökülmesi gerekir. En doğru yöntem, teknenin yüzeyine ve duruma bağlıdır.</p>
+<h2>Yöntemler</h2>
+<ul>
+<li><strong>Mekanik raspa / zımpara:</strong> Kontrollü ama yavaş; küçük alanlar için uygun.</li>
+<li><strong>Kumlama (grit blasting):</strong> Hızlı ve etkili ama agresiftir; jelkotu inceltme riski yüksek, deneyim ister.</li>
+<li><strong>Soda blasting:</strong> Karbonat bazlı, daha yumuşak; jelkota daha az zarar verir, fiberglas için sık tercih edilir.</li>
+<li><strong>Kimyasal sökücü:</strong> Belirli boyalarda etkili; çevre ve güvenlik önlemi gerektirir.</li>
+</ul>
+<h2>Jelkot güvenliği</h2>
+<p>Fiber teknede en büyük risk, sökme sırasında jelkotu inceltmek veya delmektir. Bu yüzden yöntem ve basınç, yüzeyi koruyacak şekilde ayarlanmalı. Amaç boyayı almak; jelkotu değil.</p>
+<h2>Sonrası</h2>
+<p>Temiz yüzeye uygun <a href="/blog/boya-oncesi-yuzey-hazirligi/">yüzey hazırlığı</a> ve astar uygulanır; ardından <a href="/hizmetler/tekne-boyama-antifouling/">boya/antifouling</a> yenilenir. Osmoz şüphesi varsa bu aşama, <a href="/blog/osmoz-belirtileri/">nem kontrolü</a> için de fırsattır.</p>
+<p>Eski boyayı jelkota zarar vermeden sökme işini <a href="/hizmetler/tekne-boyama-antifouling/">boya</a> hizmetimiz kapsamında yapıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "Blasting and Sanding: Removing Old Paint Correctly",
+   "excerpt": "How is built-up old antifouling and paint removed? Sanding, grit blasting and soda blasting methods, their advantages and risks.",
+   "meta_title": "Blasting and Soda Blasting Guide | Tekne Usta",
+   "meta_desc": "Boat blasting and sanding: how to remove built-up old paint and antifouling. The difference between mechanical sanding, grit and soda blasting, and gelcoat safety.",
+   "body": """
+<p>Over the years antifouling and paint layers build up; new paint no longer bonds well and the surface roughens. At this point old layers must be removed. The right method depends on the boat's surface and condition.</p>
+<h2>Methods</h2>
+<ul>
+<li><strong>Mechanical sanding:</strong> controlled but slow; suited to small areas.</li>
+<li><strong>Grit blasting:</strong> fast and effective but aggressive; high risk of thinning the gelcoat, needs experience.</li>
+<li><strong>Soda blasting:</strong> bicarbonate-based, gentler; harms the gelcoat less, often preferred for fibreglass.</li>
+<li><strong>Chemical stripper:</strong> effective on certain paints; needs environmental and safety precautions.</li>
+</ul>
+<h2>Gelcoat safety</h2>
+<p>On a fibreglass boat, the biggest risk is thinning or breaching the gelcoat during removal. So method and pressure must be set to protect the surface. The aim is to remove the paint, not the gelcoat.</p>
+<h2>Afterwards</h2>
+<p>The clean surface gets proper <a href="/en/blog/surface-prep-before-painting/">surface prep</a> and primer; then <a href="/en/services/boat-painting-antifouling/">paint/antifouling</a> is renewed. If osmosis is suspected, this stage is also a chance for a <a href="/en/blog/osmosis-symptoms/">moisture check</a>.</p>
+<p>We remove old paint without harming the gelcoat under our <a href="/en/services/boat-painting-antifouling/">painting</a> service.</p>
+""",
+ },
+},
+{
+ "slug": "gelcoat-cizik-sararma-giderme", "slug_en": "gelcoat-scratch-yellowing",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2028-03-29",
+ "tr": {
+   "category": "Fiberglas",
+   "title": "Gelcoat Çizik ve Sararma Giderme: Parlaklığı Geri Kazanmak",
+   "excerpt": "Jelkottaki çizik, sararma ve su hattı lekesi nasıl giderilir? Parlatmadan bölgesel onarıma pratik çözümler.",
+   "meta_title": "Gelcoat Çizik ve Sararma Giderme Rehberi | Tekne Usta",
+   "meta_desc": "Gelcoat çizik ve sararma giderme: jelkottaki çizik, sararma, su hattı lekesi ve oksidasyon nasıl giderilir? Parlatma ve bölgesel onarım çözümleri.",
+   "body": """
+<p>Jelkot zamanla çizilir, sararır ve su hattında lekelenir. Çoğu durumda tekneyi boyamaya gerek kalmadan, doğru işlemle parlaklık büyük ölçüde geri kazanılır.</p>
+<h2>Hangi sorun, hangi çözüm?</h2>
+<ul>
+<li><strong>Yüzeysel çizik / mat oksidasyon:</strong> Aşındırıcı pasta ve makineyle <a href="/blog/gelcoat-yenileme/">parlatma (cut &amp; polish)</a>; altındaki sağlam parlak yüzey açığa çıkar.</li>
+<li><strong>Sararma:</strong> Yaşlanan beyaz jelkot krem tonuna kayar; parlatma çoğunlukla toparlar, ileri durumda bölgesel yenileme gerekir.</li>
+<li><strong>Su hattı lekesi:</strong> Uygun temizleyici ve parlatma ile giderilir; inatçıysa yüzey işlemi gerekir.</li>
+<li><strong>Derin çizik:</strong> Jelkota inen çizikler dolgu + parlatma ile onarılır.</li>
+</ul>
+<h2>Koruma</h2>
+<p>Parlatma sonrası uygulanan koruyucu cila/wax, parlaklığın ömrünü uzatır ve yeni oksidasyonu geciktirir. Düzenli bakım, komple yenilemeyi yıllarca erteler (bkz. <a href="/blog/fiberglas-tekne-bakimi/">fiberglas bakımı</a>).</p>
+<h2>Ne zaman yetmez?</h2>
+<p>Jelkot fazla incelmiş veya geniş alanda dökülmüşse parlatma yetmez; <a href="/blog/jelkot-vs-boya/">gelcoat yenileme veya boya</a> gündeme gelir.</p>
+<p>Teknenizin jelkotunu <a href="/hizmetler/fiberglas-onarim/">fiberglas onarım</a> hizmetimiz kapsamında değerlendirip en ekonomik çözümü öneriyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Fibreglass",
+   "title": "Removing Gelcoat Scratches and Yellowing: Restoring Gloss",
+   "excerpt": "How to remove scratches, yellowing and waterline stains from gelcoat? Practical solutions from polishing to spot repair.",
+   "meta_title": "Removing Gelcoat Scratches and Yellowing | Tekne Usta",
+   "meta_desc": "Removing gelcoat scratches and yellowing: how to fix scratches, yellowing, waterline stains and oxidation on gelcoat. Polishing and spot-repair solutions.",
+   "body": """
+<p>Gelcoat scratches, yellows and stains at the waterline over time. In most cases the gloss can be largely restored with the right process, without repainting the boat.</p>
+<h2>Which problem, which solution?</h2>
+<ul>
+<li><strong>Surface scratch / dull oxidation:</strong> <a href="/en/blog/gelcoat-renewal/">cut &amp; polish</a> with compound and machine exposes the sound gloss beneath.</li>
+<li><strong>Yellowing:</strong> ageing white gelcoat drifts to cream; polishing usually recovers it, advanced cases need a spot renewal.</li>
+<li><strong>Waterline stains:</strong> removed with a suitable cleaner and polish; stubborn ones need surface work.</li>
+<li><strong>Deep scratches:</strong> scratches into the gelcoat are repaired with fill + polish.</li>
+</ul>
+<h2>Protection</h2>
+<p>A protective wax after polishing extends the gloss and delays new oxidation. Regular care postpones a full renewal for years (see <a href="/en/blog/fibreglass-boat-care/">fibreglass care</a>).</p>
+<h2>When isn't it enough?</h2>
+<p>If the gelcoat has thinned too far or is flaking over a wide area, polishing won't do; <a href="/en/blog/gelcoat-vs-paint/">gelcoat renewal or paint</a> comes into play.</p>
+<p>We assess your gelcoat under our <a href="/en/services/fibreglass-repair/">fibreglass repair</a> service and recommend the most economical solution.</p>
+""",
+ },
+},
+{
+ "slug": "sintine-boyasi", "slug_en": "bilge-paint",
+ "image": "/assets/images/services/boya.jpg", "date": "2028-04-12",
+ "tr": {
+   "category": "Boya",
+   "title": "Sintine Boyası: Teknenin Görünmeyen Ama Önemli Yüzeyi",
+   "excerpt": "Sintine neden boyanır, hangi boya kullanılır ve doğru uygulama nasıl olur? Nem, yağ ve kokuya karşı koruma.",
+   "meta_title": "Sintine Boyası Nedir, Nasıl Uygulanır? | Tekne Usta",
+   "meta_desc": "Sintine boyası: teknenin sintine bölgesi neden boyanır, hangi boya kullanılır ve nasıl uygulanır? Neme, yağa ve kokuya dayanıklı sintine koruması.",
+   "body": """
+<p>Sintine (bilge), teknenin en dibindeki, suyun ve sızıntıların toplandığı bölgedir. Göz önünde olmasa da doğru boyanması hem hijyen hem koruma açısından önemlidir.</p>
+<h2>Sintine neden boyanır?</h2>
+<p>Sürekli nem, yağ ve tuz sintineyi yıpratır; boyasız yüzey lekelenir, kokar ve zamanla zarar görür. İyi bir sintine boyası; nemi iter, temizliği kolaylaştırır ve yüzeyi korur.</p>
+<h2>Hangi boya?</h2>
+<p>Sintinede neme ve yağa dayanıklı, kolay temizlenen özel boyalar kullanılır. Açık renkler tercih edilir — çünkü sintinedeki bir sızıntıyı (yağ, su) erken fark etmeyi sağlar; bu bir güvenlik avantajıdır.</p>
+<h2>Doğru uygulama</h2>
+<p>Sintine önce iyice temizlenip yağdan arındırılır ve kurutulur; nemli yüzeye atılan boya tutmaz. Ardından uygun astar ve boya uygulanır. Ulaşılması zor bir alan olduğu için işçilik ve erişim önemlidir.</p>
+<p>Sintine boyası ve iç yüzey korumasını <a href="/hizmetler/tekne-boyama-antifouling/">boya</a> hizmetimiz kapsamında yapıyoruz; iç mekan yenilemeyle birlikte planlanabilir.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "Bilge Paint: The Boat's Unseen but Important Surface",
+   "excerpt": "Why is the bilge painted, which paint is used and how is it applied correctly? Protection against damp, oil and odour.",
+   "meta_title": "What Is Bilge Paint and How to Apply It | Tekne Usta",
+   "meta_desc": "Bilge paint: why the bilge is painted, which paint is used and how it's applied. Bilge protection resistant to damp, oil and odour.",
+   "body": """
+<p>The bilge is the lowest part of the boat, where water and leaks collect. Out of sight though it is, painting it correctly matters for both hygiene and protection.</p>
+<h2>Why paint the bilge?</h2>
+<p>Constant damp, oil and salt wear the bilge; an unpainted surface stains, smells and eventually suffers. A good bilge paint repels moisture, makes cleaning easier and protects the surface.</p>
+<h2>Which paint?</h2>
+<p>The bilge uses special paints resistant to damp and oil and easy to clean. Light colours are preferred — they help spot a leak (oil, water) early, a safety advantage.</p>
+<h2>Correct application</h2>
+<p>The bilge is first thoroughly cleaned, degreased and dried; paint over a damp surface won't hold. Then the right primer and paint are applied. As a hard-to-reach area, workmanship and access matter.</p>
+<p>We do bilge paint and interior-surface protection under our <a href="/en/services/boat-painting-antifouling/">painting</a> service; it can be planned alongside an interior refit.</p>
+""",
+ },
+},
+{
+ "slug": "boya-oncesi-yuzey-hazirligi", "slug_en": "surface-prep-before-painting",
+ "image": "/assets/images/services/boya.jpg", "date": "2028-04-26",
+ "tr": {
+   "category": "Boya",
+   "title": "Boya Öncesi Yüzey Hazırlığı: Kalıcı Bitişin Görünmeyen Sırrı",
+   "excerpt": "İyi bir boya işinin %80'i hazırlıktır. Temizlik, zımpara, dolgu ve astar adımları neden bu kadar önemli?",
+   "meta_title": "Boya Öncesi Yüzey Hazırlığı Adım Adım | Tekne Usta",
+   "meta_desc": "Tekne boyama öncesi yüzey hazırlığı: temizlik, yağ alma, zımpara, dolgu (fairing) ve astar. Kalıcı, kabarmayan bir boya bitişi için adım adım rehber.",
+   "body": """
+<p>Tekne sahiplerinin en sık yaptığı hata, boyanın markasına bakıp hazırlığı küçümsemektir. Oysa kalıcı bir bitişin çoğu, boyadan önceki görünmeyen adımlarda belirlenir.</p>
+<h2>Adım adım hazırlık</h2>
+<ul>
+<li><strong>Temizlik ve yağ alma:</strong> Yüzeydeki kir, tuz ve silikon/yağ kalıntısı temizlenir. Yağlı yüzeye boya tutmaz.</li>
+<li><strong>Zımpara:</strong> Yeni katın tutunması için yüzey "diş" verecek şekilde matlaştırılır.</li>
+<li><strong>Dolgu (fairing):</strong> Çukur, çizik ve düzensizlikler doldurulup düzeltilir — pürüzsüz bir zemin, pürüzsüz bir bitiş demektir.</li>
+<li><strong>Astar (primer):</strong> Boyanın tutunmasını ve örtücülüğünü sağlayan kritik kat. Renk değişiminde özellikle önemlidir.</li>
+</ul>
+<h2>Neden bu kadar önemli?</h2>
+<p>Hazırlıktan kısan bir iş kısa sürede kabarır, dökülür ve baştan yapılması gerekir — yani ucuz görünen iş pahalıya patlar. Doğru hazırlık, en dayanıklı boyanın bile ön koşuludur.</p>
+<h2>Şeffaf teklifte hazırlık görünür</h2>
+<p>İyi bir teklif; hazırlık, astar, kat sayısı ve işçiliği ayrı gösterir (bkz. <a href="/blog/tekne-boyama-maliyeti/">boyama maliyeti</a>). Biz bu formatta çalışır, hangi adıma ne kadar emek gittiğini net belirtiriz.</p>
+<p>Yüzey hazırlığı dahil komple boya işini <a href="/hizmetler/tekne-boyama-antifouling/">tekne boyama</a> hizmetimiz kapsamında yapıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "Surface Prep Before Painting: The Invisible Secret to a Lasting Finish",
+   "excerpt": "80% of a good paint job is prep. Why are cleaning, sanding, fairing and priming so important?",
+   "meta_title": "Surface Prep Before Painting, Step by Step | Tekne Usta",
+   "meta_desc": "Surface prep before boat painting: cleaning, degreasing, sanding, fairing and priming. A step-by-step guide to a lasting, non-blistering paint finish.",
+   "body": """
+<p>The most common mistake boat owners make is judging by the paint brand while underrating the prep. Yet most of a lasting finish is decided in the invisible steps before the paint.</p>
+<h2>Prep, step by step</h2>
+<ul>
+<li><strong>Cleaning and degreasing:</strong> dirt, salt and silicone/oil residue are removed. Paint won't hold on a greasy surface.</li>
+<li><strong>Sanding:</strong> the surface is keyed so the new coat grips.</li>
+<li><strong>Fairing:</strong> dents, scratches and unevenness are filled and smoothed — a smooth base means a smooth finish.</li>
+<li><strong>Primer:</strong> the critical coat that provides adhesion and coverage. Especially important in a colour change.</li>
+</ul>
+<h2>Why does it matter so much?</h2>
+<p>A job that skimps on prep soon blisters, flakes and must be redone — so the cheap-looking job costs more. Correct prep is the precondition for even the most durable paint.</p>
+<h2>Prep shows in a transparent quote</h2>
+<p>A good quote shows prep, primer, coat count and labour separately (see <a href="/en/blog/boat-painting-cost/">painting cost</a>). We work in this format and state clearly how much effort each step takes.</p>
+<p>We do complete painting including surface prep under our <a href="/en/services/boat-painting-antifouling/">boat painting</a> service.</p>
+""",
+ },
+},
+{
+ "slug": "aluminyum-tekne-boyama", "slug_en": "aluminium-boat-painting",
+ "image": "/assets/images/services/boya.jpg", "date": "2028-05-10",
+ "tr": {
+   "category": "Boya",
+   "title": "Alüminyum Tekne Boyama: Neden Farklı, Neye Dikkat?",
+   "excerpt": "Alüminyum teknelerde boya ve antifouling neden özel dikkat ister? Korozyon, bakırsız boya ve doğru astar sistemi.",
+   "meta_title": "Alüminyum Tekne Boyama ve Antifouling | Tekne Usta",
+   "meta_desc": "Alüminyum tekne boyama: galvanik korozyon riski, bakırsız antifouling, doğru astar sistemi ve yüzey hazırlığı. Alüminyum gövdelerde boya için bilinmesi gerekenler.",
+   "body": """
+<p>Alüminyum tekneler hafif ve dayanıklıdır ama boya konusunda fiberglas ve ahşaptan farklı kurallara tabidir. Yanlış boya sistemi, korozyona ve ciddi hasara yol açabilir.</p>
+<h2>En kritik konu: bakırsız antifouling</h2>
+<p>Standart antifouling boyaların çoğu bakır içerir. Bakır, alüminyumla temas ettiğinde <a href="/blog/anot-zinc-bakimi/">galvanik korozyonu</a> tetikler. Bu yüzden alüminyum teknelerde mutlaka <strong>bakırsız</strong> antifouling kullanılmalıdır.</p>
+<h2>Doğru astar sistemi</h2>
+<p>Alüminyumda boyanın tutunması ve metalin korunması için özel astar (genelde epoksi bazlı) sistemleri gerekir. Yüzey hazırlığı ve astar, alüminyumda fiberglastan daha da belirleyicidir.</p>
+<h2>Yüzey hazırlığı</h2>
+<p>Alüminyum yüzeyin doğru temizlenmesi ve aktive edilmesi, boyanın uzun ömürlü olması için şarttır. <a href="/blog/boya-oncesi-yuzey-hazirligi/">Yüzey hazırlığı</a> ihmal edilirse boya kısa sürede kalkar.</p>
+<h2>Uzmanlık ister</h2>
+<p>Alüminyum boyama, malzeme bilgisi gerektiren bir iştir; doğru ürün ve sistem seçimi kritiktir. Antifouling türleri için <a href="/blog/antifouling-secimi/">seçim rehberimize</a> bakın.</p>
+<p>Alüminyum teknenizin boya ve antifouling'ini doğru sistemle <a href="/hizmetler/tekne-boyama-antifouling/">boya</a> hizmetimiz kapsamında yapıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "Aluminium Boat Painting: Why Different, What to Watch",
+   "excerpt": "Why do paint and antifouling need special care on aluminium boats? Corrosion, copper-free paint and the right primer system.",
+   "meta_title": "Aluminium Boat Painting and Antifouling | Tekne Usta",
+   "meta_desc": "Aluminium boat painting: galvanic corrosion risk, copper-free antifouling, the right primer system and surface prep. What to know for painting aluminium hulls.",
+   "body": """
+<p>Aluminium boats are light and durable but follow different paint rules than fibreglass and wood. The wrong paint system can cause corrosion and serious damage.</p>
+<h2>The critical issue: copper-free antifouling</h2>
+<p>Most standard antifouling paints contain copper. In contact with aluminium, copper triggers <a href="/en/blog/anode-zinc-care/">galvanic corrosion</a>. So aluminium boats must use <strong>copper-free</strong> antifouling.</p>
+<h2>The right primer system</h2>
+<p>Aluminium needs special primer systems (usually epoxy-based) for adhesion and metal protection. Surface prep and primer are even more decisive on aluminium than on fibreglass.</p>
+<h2>Surface prep</h2>
+<p>Correctly cleaning and activating the aluminium surface is essential for durable paint. Neglect <a href="/en/blog/surface-prep-before-painting/">surface prep</a> and the paint soon lifts.</p>
+<h2>It takes expertise</h2>
+<p>Aluminium painting requires material knowledge; choosing the right product and system is critical. For antifouling types, see our <a href="/en/blog/choosing-antifouling/">selection guide</a>.</p>
+<p>We paint and antifoul your aluminium boat with the right system under our <a href="/en/services/boat-painting-antifouling/">painting</a> service.</p>
+""",
+ },
+},
+{
+ "slug": "birmanya-teak-nedir", "slug_en": "burmese-teak",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2028-05-24",
+ "tr": {
+   "category": "Teak",
+   "title": "Birmanya Teak Nedir? Neden Denizciliğin Altın Standardı",
+   "excerpt": "Birmanya tik neden en kaliteli teak sayılır? Doğal yağ içeriği, dayanıklılık ve alternatiflerinden farkı.",
+   "meta_title": "Birmanya Teak (Tik) Nedir? Rehber | Tekne Usta",
+   "meta_desc": "Birmanya teak nedir, neden en kaliteli tik sayılır? Doğal yağ içeriği, su ve çürüğe dayanıklılık, alternatiflerinden farkı ve güvertede kullanımı.",
+   "body": """
+<p>Teak (tik), denizcilikte güvertenin altın standardıdır; bunların arasında da <strong>Birmanya teak</strong> uzun yıllardır en kaliteli kabul edilir. Peki farkı nedir?</p>
+<h2>Neden bu kadar değerli?</h2>
+<p>Birmanya teakının en büyük özelliği, ağacın kendi bünyesindeki <strong>doğal yağ ve silika oranıdır</strong>. Bu doğal yağ, ahşabı su, çürük ve haşereye karşı içeriden korur — bu yüzden teak, tuzlu deniz ortamında bile on yıllarca dayanır.</p>
+<h2>Güvertede neden tercih edilir?</h2>
+<ul>
+<li>Islakken bile <strong>kaymaz</strong> bir yüzey verir — güvenlik.</li>
+<li>Zamanla incelse de yapısını korur; boyutsal olarak kararlıdır.</li>
+<li>Doğal dokusu ve sıcak tonu, klasik prestijin simgesidir.</li>
+</ul>
+<h2>Alternatifler</h2>
+<p>Kaynak kısıtları ve maliyet nedeniyle bugün farklı menşeli teak ve <a href="/blog/sentetik-teak-alternatifleri/">sentetik alternatifler</a> de yaygın. Doğal ile sentetik karşılaştırması için <a href="/blog/teak-vs-sentetik-teak/">bu yazıya</a> bakın.</p>
+<h2>Bakım</h2>
+<p>Doğal teak, kalitesi ne olursa olsun düzenli <a href="/blog/teak-guverte-bakimi/">bakım</a> ister — griye dönmeyi önlemek ve derzleri korumak için. Teak güverte döşeme ve yenilemeyi <a href="/hizmetler/teak-guverte-doseme/">bu hizmetimiz</a> kapsamında yapıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Teak",
+   "title": "What Is Burmese Teak? Why the Gold Standard of Boating",
+   "excerpt": "Why is Burmese teak considered the finest? Its natural oil content, durability and how it differs from alternatives.",
+   "meta_title": "What Is Burmese Teak? A Guide | Tekne Usta",
+   "meta_desc": "What is Burmese teak and why is it considered the finest? Its natural oil content, resistance to water and rot, difference from alternatives and use on deck.",
+   "body": """
+<p>Teak is the gold standard of decking in boating; and among teaks, <strong>Burmese teak</strong> has long been considered the finest. So what sets it apart?</p>
+<h2>Why so prized?</h2>
+<p>Burmese teak's greatest quality is the <strong>natural oil and silica content</strong> within the wood. This natural oil protects the timber from water, rot and pests from within — which is why teak lasts decades even in a salty marine environment.</p>
+<h2>Why preferred on deck?</h2>
+<ul>
+<li>Gives a <strong>non-slip</strong> surface even when wet — safety.</li>
+<li>Keeps its structure even as it thins over time; dimensionally stable.</li>
+<li>Its natural grain and warm tone are a symbol of classic prestige.</li>
+</ul>
+<h2>Alternatives</h2>
+<p>Due to supply limits and cost, teak of other origins and <a href="/en/blog/synthetic-teak-alternatives/">synthetic alternatives</a> are now common. For a natural-vs-synthetic comparison, see <a href="/en/blog/teak-vs-synthetic-teak/">this article</a>.</p>
+<h2>Care</h2>
+<p>Natural teak, whatever its quality, needs regular <a href="/en/blog/teak-deck-maintenance/">care</a> — to prevent greying and protect the seams. We lay and renew teak decks under <a href="/en/services/teak-deck/">this service</a>.</p>
+""",
+ },
+},
+{
+ "slug": "teak-yagi-surulmeli-mi", "slug_en": "should-you-oil-teak",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2028-06-07",
+ "tr": {
+   "category": "Teak",
+   "title": "Teak Yağı Sürülmeli mi? Tartışmalı Konuya Net Bakış",
+   "excerpt": "Teak yağı teakı korur mu yoksa zarar mı verir? Yağlama ile yağsız bakımın avantajları ve dezavantajları.",
+   "meta_title": "Teak Yağı Sürülmeli mi? Uzman Görüşü | Tekne Usta",
+   "meta_desc": "Teak yağı sürülmeli mi? Teak yağının avantajları, dezavantajları ve yağsız bakım alternatifi. Denizde teak güvertesi için doğru bakım kararı.",
+   "body": """
+<p>Teak sahiplerinin en çok tartıştığı sorulardan biri: "Teak yağı sürmeli miyim?" Cevap sandığınızdan daha nüanslı; kullanımınıza göre değişir.</p>
+<h2>Teak yağının cazibesi</h2>
+<p>Yağ, teaka anında sıcak ve zengin bir ton kazandırır; yeni yağlanmış bir güverte gerçekten güzel görünür. Bu kısa vadeli estetik, yağın en büyük çekiciliğidir.</p>
+<h2>Ama dikkat: dezavantajları</h2>
+<ul>
+<li>Yağ sıcakta <strong>yapışkanlaşır</strong> ve toz/kir tutar.</li>
+<li>Nemli ortamda <strong>küf ve siyah leke</strong> için zemin hazırlayabilir.</li>
+<li>Düzenli yenileme ister; aksi halde eşit olmayan, lekeli bir görünüm oluşur.</li>
+</ul>
+<h2>Yağsız bakım alternatifi</h2>
+<p>Birçok profesyonel, denizde <strong>yağsız bakımı</strong> tercih eder: düzenli nazik temizlik (damar yönünde yumuşak fırça) teakın doğal grileşmesine izin verir — ki bu grilik zarar değildir, sadece estetik bir tercihtir. Teak sağlamsa gri, sıcak tona geri getirilebilir.</p>
+<h2>Karar</h2>
+<p>Sıklıkla bakım yapabiliyor ve o sıcak tonu istiyorsanız yağ; düşük bakımla sağlıklı teak istiyorsanız yağsız yol mantıklı. Detay için <a href="/blog/teak-guverte-bakimi/">teak bakımı</a> yazımıza bakın.</p>
+<p>Teakınızın durumuna göre doğru bakım yaklaşımını <a href="/hizmetler/teak-guverte-doseme/">teak güverte döşeme</a> hizmetimiz kapsamında birlikte belirliyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Teak",
+   "title": "Should You Oil Teak? A Clear Look at a Debated Topic",
+   "excerpt": "Does teak oil protect teak or harm it? The pros and cons of oiling versus oil-free care.",
+   "meta_title": "Should You Oil Teak? Expert View | Tekne Usta",
+   "meta_desc": "Should you oil teak? The pros and cons of teak oil and the oil-free care alternative. The right maintenance decision for a teak deck at sea.",
+   "body": """
+<p>One of the most debated questions among teak owners: "Should I oil my teak?" The answer is more nuanced than you'd think; it depends on your use.</p>
+<h2>The appeal of teak oil</h2>
+<p>Oil instantly gives teak a warm, rich tone; a freshly oiled deck really does look beautiful. This short-term aesthetic is oil's biggest draw.</p>
+<h2>But beware: the downsides</h2>
+<ul>
+<li>Oil goes <strong>tacky</strong> in heat and holds dust/dirt.</li>
+<li>In damp conditions it can set the stage for <strong>mould and black stains</strong>.</li>
+<li>It needs regular renewal; otherwise you get an uneven, blotchy look.</li>
+</ul>
+<h2>The oil-free alternative</h2>
+<p>Many professionals prefer <strong>oil-free care</strong> at sea: regular gentle cleaning (a soft brush along the grain) lets teak grey naturally — and that grey isn't damage, just an aesthetic choice. If the teak is sound, grey can be brought back to a warm tone.</p>
+<h2>The decision</h2>
+<p>If you can maintain it often and want that warm tone, oil; if you want healthy teak with low upkeep, the oil-free route makes sense. For detail, see our <a href="/en/blog/teak-deck-maintenance/">teak care</a> article.</p>
+<p>We decide the right care approach for your teak's condition together under our <a href="/en/services/teak-deck/">teak decking</a> service.</p>
+""",
+ },
+},
+{
+ "slug": "ustupu-kalafat-teknikleri", "slug_en": "oakum-caulking-techniques",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2028-06-21",
+ "tr": {
+   "category": "Ahşap",
+   "title": "Üstüpü ve Geleneksel Kalafat Teknikleri",
+   "excerpt": "Geleneksel kalafatta üstüpü nasıl kullanılır? Yüzyıllık bu zanaatın adımları ve modern yöntemlerle ilişkisi.",
+   "meta_title": "Üstüpü ve Geleneksel Kalafat Teknikleri | Tekne Usta",
+   "meta_desc": "Üstüpü ve geleneksel kalafat teknikleri: pamuk/keten üstüpünün derze çakılması, macunlama ve su sızdırmazlık. Ahşap teknede yüzyıllık kalafat zanaatı.",
+   "body": """
+<p><a href="/blog/kalafat-nedir/">Kalafat</a>, ahşap teknenin su üstünde kalmasını sağlayan yüzyıllık zanaattır. Geleneksel yöntemin merkezinde ise "üstüpü" vardır.</p>
+<h2>Üstüpü nedir?</h2>
+<p>Üstüpü, pamuk veya keten liflerinden oluşan, derzlere çakılan bir dolgu malzemesidir. Ahşap kaplamalar arasındaki derze özel keskilerle sıkıştırılarak yerleştirilir ve su geçirmez bir tıkaç oluşturur.</p>
+<h2>Geleneksel adımlar</h2>
+<ul>
+<li><strong>Derz hazırlığı:</strong> Eski dolgu temizlenir, derz açılır.</li>
+<li><strong>Üstüpü çakma:</strong> Lif, derze uygun sıkılıkta ve katmanda yerleştirilir — az olursa sızdırır, çok olursa ahşabı zorlar.</li>
+<li><strong>Macunlama:</strong> Üzeri geleneksel macun veya modern esnek dolguyla kapatılır.</li>
+</ul>
+<h2>Ahşabın hareketiyle uyum</h2>
+<p>İyi bir kalafatın sırrı, ahşabın nemle şişip kururken yaptığı harekete uyum sağlamasıdır. Fazla sert veya yanlış yerleştirilmiş üstüpü, derzin açılmasına ya da tahtayı zorlamasına yol açar. Bu yüzden kalafat, deneyim ve el hassasiyeti isteyen bir iştir.</p>
+<h2>Gelenek + modern</h2>
+<p>Bugün geleneksel üstüpü ile modern esnek dolguları teknenin yapısına göre birlikte kullanıyoruz. Kalafat ve ahşap işlerini <a href="/hizmetler/ahsap-tekne-renovasyonu/">ahşap tekne renovasyonu</a> hizmetimiz kapsamında yapıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Wood",
+   "title": "Oakum and Traditional Caulking Techniques",
+   "excerpt": "How is oakum used in traditional caulking? The steps of this centuries-old craft and its relation to modern methods.",
+   "meta_title": "Oakum and Traditional Caulking Techniques | Tekne Usta",
+   "meta_desc": "Oakum and traditional caulking techniques: driving cotton/flax oakum into seams, paying and watertightness. The centuries-old caulking craft on wooden boats.",
+   "body": """
+<p><a href="/en/blog/caulking-explained/">Caulking</a> is the centuries-old craft that keeps a wooden boat afloat. At the heart of the traditional method is "oakum".</p>
+<h2>What is oakum?</h2>
+<p>Oakum is a filling material of cotton or flax fibres driven into the seams. It's set into the seam between planks with special irons, compressed to form a watertight plug.</p>
+<h2>Traditional steps</h2>
+<ul>
+<li><strong>Seam preparation:</strong> old filling is cleaned out and the seam opened.</li>
+<li><strong>Driving the oakum:</strong> the fibre is set into the seam at the right tightness and in the right layers — too little leaks, too much strains the wood.</li>
+<li><strong>Paying:</strong> the top is sealed with traditional stopping or a modern flexible compound.</li>
+</ul>
+<h2>Working with the wood's movement</h2>
+<p>The secret to good caulking is accommodating the movement the wood makes as it swells and dries with moisture. Oakum that is too hard or wrongly set causes the seam to open or strains the plank. So caulking is work that takes experience and a delicate hand.</p>
+<h2>Tradition + modern</h2>
+<p>Today we combine traditional oakum with modern flexible sealants according to the boat's construction. We do caulking and woodwork under our <a href="/en/services/wooden-boat-refit/">wooden boat refit</a> service.</p>
 """,
  },
 },

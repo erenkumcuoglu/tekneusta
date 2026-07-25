@@ -135,6 +135,7 @@ def base_ctx(lang, path_tr, path_en, meta_title, meta_desc, schemas, nav_solid=T
             "canonical": abs_url(path), "href_tr": abs_url(path_tr), "href_en": abs_url(path_en),
             "home": "/" if lang == "tr" else "/en/",
             "blog_url": "/blog/" if lang == "tr" else "/en/blog/",
+            "tool_url": "/arac/maliyet-tahmini/" if lang == "tr" else "/en/tools/cost-estimate/",
             "nav_solid": nav_solid, "og_image": og_image, "og_type": og_type,
             "schemas": [j(s) for s in schemas],
         },
@@ -224,6 +225,15 @@ def build():
                            og_image=p["image"], og_type="article", extra={"post": post})
             out = (f"blog/{p['slug']}/index.html" if lang == "tr" else f"en/blog/{p['slug_en']}/index.html")
             render("article.html", ctx, out, priority="0.6")
+
+        # ---- COST ESTIMATOR TOOL
+        ti = C.TOOL_I18N[lang]
+        ctx = base_ctx(lang, "/arac/maliyet-tahmini/", "/en/tools/cost-estimate/",
+                       ti["meta_title"], ti["meta_desc"], [website_schema(lang)],
+                       extra={"tool": ti, "pricing": C.PRICING, "pricing_json": j(C.PRICING)})
+        render("tool.html", ctx,
+               ("arac/maliyet-tahmini/index.html" if lang == "tr" else "en/tools/cost-estimate/index.html"),
+               priority="0.8")
 
     # ---- 404 (Turkish default)
     ctx = base_ctx("tr", "/404.html", "/404.html", "Sayfa Bulunamadı | Tekne Usta",
