@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block body %}
+<header class="sub-hero" style="--sub-bg:url('{{ post.image }}')">
+  <div class="crumb"><a href="{{ page.home }}">{{ t.nav.home }}</a> <span>/</span> <a href="{{ page.blog_url }}">{{ t.nav.blog }}</a> <span>/</span> <span>{{ post.category }}</span></div>
+  <div class="sub-hero-inner" style="max-width:760px">
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.excerpt }}</p>
+  </div>
+</header>
+<section class="detail-section">
+  <div class="s-inner">
+    <article class="article detail-body reveal">
+      {{ post.body|safe }}
+      <div class="aside-card" style="margin-top:3rem">
+        <h3>{{ t.aside.title }}</h3>
+        <p>{{ t.aside.text }}</p>
+        <a href="#teklif-al" class="btn-primary">{{ t.aside.cta }}</a>
+      </div>
+    </article>
+  </div>
+</section>
+{% include 'partials/quote_form.html' %}
+{% endblock %}

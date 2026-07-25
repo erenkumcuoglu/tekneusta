@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% block body %}
+<section id="hero">
+  <div class="hero-video-wrap">
+    <video autoplay muted loop playsinline poster="/assets/images/parallax-1.jpg">
+      <source src="/assets/video/hero.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="hero-content">
+    <div class="hero-rule"><span>{{ t.home.badge }}</span></div>
+    <h1>{{ t.home.h1|safe }}</h1>
+    <p class="hero-sub">{{ t.home.sub }}</p>
+    <div class="hero-btns">
+      <a href="#teklif-al" class="btn-primary">{{ t.home.cta1 }}</a>
+      <a href="#hizmetler" class="btn-outline">{{ t.home.cta2 }}</a>
+    </div>
+  </div>
+  <div class="hero-scroll"><span class="scroll-label">{{ t.home.scroll }}</span><span class="scroll-line"></span></div>
+</section>
+
+<section id="stats">
+  <div class="stats-inner">
+    {% for s in t.home.stats %}
+    <div class="stat-item"><div class="stat-num">{{ s.num }}</div><div class="stat-lbl">{{ s.label }}</div></div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="hizmetler">
+  <div class="s-inner">
+    <div class="svc-header">
+      <div class="reveal"><div class="s-label">{{ t.home.svc_label }}</div><h2 class="s-title">{{ t.home.svc_title|safe }}</h2></div>
+      <p class="s-sub reveal reveal-d1">{{ t.home.svc_sub }}</p>
+    </div>
+    <div class="svc-grid">
+      {% for s in services %}
+      <a class="svc-card reveal reveal-d{{ (loop.index0 % 3) + 1 }}" href="{{ s.url }}" style="--card-bg:url('{{ s.image }}')">
+        <span class="svc-more">{{ t.home.detail }}</span>
+        <div class="svc-inner">
+          <h3 class="svc-title">{{ s.name }}</h3>
+          <p class="svc-desc">{{ s.short }}</p>
+          <ul class="svc-list">{% for b in s.bullets %}<li class="svc-li">{{ b }}</li>{% endfor %}</ul>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<div class="parallax-band" id="par-1"><div class="parallax-bg" id="pb1"></div>
+  <div class="parallax-quote reveal"><p>{{ t.home.quotes[0] }}</p></div>
+</div>
+
+<section id="hakkimizda">
+  <div class="s-inner">
+    <div class="about-grid">
+      <div class="about-img reveal"><img src="/assets/images/hakkimizda.jpg" alt="{{ t.home.about_img_alt }}" loading="lazy" /></div>
+      <div class="about-copy reveal reveal-d1">
+        <div class="s-label">{{ t.home.about_label }}</div>
+        <h2 class="s-title">{{ t.home.about_title|safe }}</h2>
+        {% for p in t.home.about_paras %}<p>{{ p }}</p>{% endfor %}
+        <div class="about-values">
+          {% for v in t.home['vals'] %}<div class="val-item"><div class="val-label">{{ v.label }}</div><div class="val-text">{{ v.text }}</div></div>{% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="bolgeler" class="svc-section">
+  <div class="s-inner">
+    <div class="svc-header">
+      <div class="reveal"><div class="s-label">{{ t.home.reg_label }}</div><h2 class="s-title">{{ t.home.reg_title|safe }}</h2></div>
+      <p class="s-sub reveal reveal-d1">{{ t.home.reg_sub }}</p>
+    </div>
+    <div class="region-grid">
+      {% for r in regions %}
+      <a class="region-card reveal reveal-d{{ (loop.index0 % 3) + 1 }}" href="{{ r.url }}"><h3>{{ r.name }}</h3><p>{{ r.short }}</p></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include 'partials/process.html' %}
+
+<section id="referanslar">
+  <div class="s-inner">
+    <div class="reveal"><div class="s-label">{{ t.home.test_label }}</div><h2 class="s-title">{{ t.home.test_title|safe }}</h2></div>
+    <div class="test-grid">
+      {% for tst in testimonials %}
+      <div class="test-card reveal reveal-d{{ loop.index }}">
+        <span class="test-mark">"</span>
+        <div class="test-stars">★★★★★</div>
+        <p class="test-body">{{ tst.body }}</p>
+        <div class="test-author"><div class="test-av">{{ tst.initials }}</div><div><div class="test-name">{{ tst.name }}</div><div class="test-boat">{{ tst.boat }}</div></div></div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include 'partials/faq.html' %}
+{% include 'partials/quote_form.html' %}
+{% endblock %}

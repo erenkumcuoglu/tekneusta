@@ -1,0 +1,17 @@
+<section id="surec" class="process-section">
+  <div class="s-inner">
+    <div class="process-header">
+      <div class="reveal"><div class="s-label">{{ t.process.label }}</div><h2 class="s-title">{{ t.process.title }}</h2></div>
+      <p class="s-sub reveal reveal-d1">{{ t.process.sub }}</p>
+    </div>
+    <div class="process-steps">
+      {% for st in t.process.steps %}
+      <div class="proc-step reveal reveal-d{{ loop.index }}">
+        <div class="proc-num">0{{ loop.index }}</div>
+        <h3 class="proc-title">{{ st.title }}</h3>
+        <p class="proc-desc">{{ st.desc }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

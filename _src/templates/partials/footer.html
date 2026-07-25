@@ -1,0 +1,33 @@
+<footer>
+  <div class="footer-top">
+    <div class="footer-col">
+      <div class="footer-brand">⚓ {{ site.brand }}</div>
+      <p class="footer-tag">{{ t.footer.tag }}</p>
+    </div>
+    <div class="footer-col">
+      <h4>{{ t.nav.services }}</h4>
+      <ul>
+        {% for s in services[:5] %}<li><a href="{{ s.url }}">{{ s.name }}</a></li>{% endfor %}
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>{{ t.nav.regions }}</h4>
+      <ul>
+        {% for r in regions[:5] %}<li><a href="{{ r.url }}">{{ r.name }}</a></li>{% endfor %}
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>{{ t.footer.contact }}</h4>
+      <ul>
+        <li><a href="tel:{{ site.phone_e164 }}">{{ site.phone_display }}</a></li>
+        <li><a href="https://wa.me/{{ site.wa }}" target="_blank" rel="noopener">{{ t.footer.wa }}</a></li>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li><a href="{{ page.blog_url }}">{{ t.nav.blog }}</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© {{ year }} {{ site.brand }}. {{ t.footer.rights }}</span>
+    <a href="https://wa.me/{{ site.wa }}" class="footer-contact" target="_blank" rel="noopener">WhatsApp: {{ site.phone_display }}</a>
+  </div>
+</footer>

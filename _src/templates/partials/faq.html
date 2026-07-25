@@ -1,0 +1,20 @@
+<section id="sss" class="faq-section">
+  <div class="s-inner">
+    <div class="reveal" style="margin-bottom:3rem"><div class="s-label">{{ t.faq.label }}</div><h2 class="s-title">{{ faq_title|default(t.faq.title) }}</h2></div>
+    <div class="faq-wrap">
+      <div class="reveal">
+        {% for f in faqs %}
+        <div class="faq-item{{ ' open' if loop.first else '' }}">
+          <button class="faq-q" aria-expanded="{{ 'true' if loop.first else 'false' }}">{{ f.q }}<span class="faq-plus">+</span></button>
+          <div class="faq-a">{{ f.a }}</div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="faq-aside reveal reveal-d1">
+        <h3>{{ t.faq.aside_title }}</h3>
+        <p>{{ t.faq.aside_text }}</p>
+        <a href="#teklif-al" class="btn-primary">{{ t.faq.aside_cta }}</a>
+      </div>
+    </div>
+  </div>
+</section>

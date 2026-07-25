@@ -1,0 +1,41 @@
+# Tekne Usta — Netlify config
+# NOTE: The old single-page catch-all redirect ("/* -> /index.html 200") has been
+# removed. The site now serves real multi-page HTML (folder/index.html), which is
+# what Google needs to index each service, region and article separately.
+
+[build]
+  publish = "."
+
+# Pretty URLs: /hizmetler/fiberglas-onarim/ serves that folder's index.html automatically.
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/assets/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/assets/video/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

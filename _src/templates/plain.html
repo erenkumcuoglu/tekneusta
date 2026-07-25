@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block body %}
+<header class="sub-hero" style="--sub-bg:url('{{ pagebg|default('/assets/images/parallax-2.jpg') }}')">
+  <div class="crumb"><a href="{{ page.home }}">{{ t.nav.home }}</a> <span>/</span> <span>{{ ptitle }}</span></div>
+  <div class="sub-hero-inner" style="max-width:760px"><h1>{{ ptitle }}</h1>{% if psub %}<p>{{ psub }}</p>{% endif %}</div>
+</header>
+<section class="detail-section">
+  <div class="s-inner">
+    <div class="article detail-body reveal">{{ pbody|safe }}</div>
+  </div>
+</section>
+{% include 'partials/quote_form.html' %}
+{% endblock %}
