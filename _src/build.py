@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Static site generator for Tekne Usta. Run:  python3 _src/build.py"""
 import os, json, datetime, shutil
+import xml.sax.saxutils as SU
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 import content as C
 
@@ -40,6 +41,48 @@ def write(rel_path, html):
 
 def abs_url(path):
     return DOMAIN.rstrip("/") + path
+
+# ---- generated blog cover thumbnails (branded SVG; swap for real photos later) --
+def _wrap_title(title, maxc=24, maxlines=4):
+    words, lines, cur = title.split(), [], ""
+    for w in words:
+        if len(cur) + len(w) + 1 <= maxc:
+            cur = (cur + " " + w).strip()
+        else:
+            if cur:
+                lines.append(cur)
+            cur = w
+        if len(lines) >= maxlines:
+            break
+    if cur and len(lines) < maxlines:
+        lines.append(cur)
+    if len(lines) == maxlines:
+        lines[-1] = (lines[-1][:maxc - 1] + "…") if len(lines[-1]) > maxc else lines[-1]
+    return lines[:maxlines]
+
+def gen_thumb(title, category):
+    lines = _wrap_title(title)
+    start_y = 232 - (len(lines) - 1) * 22
+    tspans = "".join(
+        '<tspan x="46" dy="{}">{}</tspan>'.format("0" if i == 0 else "1.18em", SU.escape(l))
+        for i, l in enumerate(lines))
+    return (
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img">'
+        '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">'
+        '<stop offset="0" stop-color="#0A3D5C"/><stop offset="1" stop-color="#062A42"/></linearGradient></defs>'
+        '<rect width="640" height="400" fill="url(#g)"/>'
+        '<g fill="none" stroke="#DEB86B" stroke-width="2" opacity="0.13">'
+        '<circle cx="540" cy="150" r="120"/><path d="M540 20v260M410 150h260"/>'
+        '<path d="M500 300a40 40 0 0 0 80 0" /></g>'
+        '<text x="46" y="66" fill="#DEB86B" font-family="Arial, sans-serif" font-size="17" '
+        'letter-spacing="3">{cat}</text>'
+        '<rect x="46" y="82" width="52" height="3" fill="#C4933A"/>'
+        '<text x="46" y="{y}" fill="#FFFFFF" font-family="Georgia, \'Times New Roman\', serif" '
+        'font-size="33" font-weight="500">{ts}</text>'
+        '<text x="46" y="366" fill="#8AAFC8" font-family="Arial, sans-serif" font-size="13" '
+        'letter-spacing="4">TEKNE USTA</text>'
+        '</svg>'
+    ).format(cat=SU.escape(category.upper()), y=start_y, ts=tspans)
 
 # ---- localized list builders -------------------------------------------------
 def services_for(lang):
@@ -207,6 +250,11 @@ def build():
 
         # ---- BLOG INDEX
         posts = posts_for(lang)
+        for post in posts:
+            tslug = post["slug"] if lang == "tr" else post["slug_en"]
+            thumb_rel = f"assets/images/blog/{'en-' if lang == 'en' else ''}{tslug}.svg"
+            write(thumb_rel, gen_thumb(post["title"], post["category"]))
+            post["thumb"] = "/" + thumb_rel
         bmt = ("Tekne Bakım Rehberi & Blog | Tekne Usta" if lang == "tr" else "Boat Care Guide & Blog | Tekne Usta")
         bmd = ("Osmoz, antifouling, teak bakımı ve tekne kışlatma üzerine tekne sahipleri için pratik, uzman rehberler." if lang == "tr"
                else "Practical, expert guides for boat owners on osmosis, antifouling, teak care and winterising.")

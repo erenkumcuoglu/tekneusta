@@ -9,7 +9,7 @@
     <div class="blog-grid">
       {% for post in posts %}
       <a class="blog-card reveal reveal-d{{ (loop.index0 % 3) + 1 }}" href="{{ post.url }}">
-        <div class="thumb" style="--thumb:url('{{ post.image }}')"></div>
+        <div class="thumb" style="--thumb:url('{{ post.thumb }}')"></div>
         <div class="bc-body">
           <span class="bc-cat">{{ post.category }}</span>
           <h3>{{ post.title }}</h3>
