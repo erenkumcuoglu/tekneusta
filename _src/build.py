@@ -25,10 +25,13 @@ def relativize(html, rel_path):
     https:// URLs (canonical, og, schema, sitemap) are untouched."""
     depth = rel_path.count("/")
     prefix = "../" * depth  # "" for root-level pages
+    # Relativise href/src attributes (work locally + deployed).
     html = html.replace('="/', '="' + prefix)
-    html = html.replace("url('/", "url('" + prefix)
-    html = html.replace('url("/', 'url("' + prefix)
-    html = html.replace("url(/", "url(" + prefix)
+    # NOTE: CSS url() background images (in inline custom properties consumed by the
+    # external stylesheet) are intentionally left ABSOLUTE ("/assets/..."). Relative
+    # url() inside a custom property is resolved by browsers against the stylesheet's
+    # location (/assets/css/), which breaks the path. Absolute paths always resolve
+    # correctly on the deployed site regardless of where they're used.
     return html
 
 def write(rel_path, html):
