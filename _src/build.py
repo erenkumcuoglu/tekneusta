@@ -116,6 +116,15 @@ def posts_for(lang):
 def testimonials_for(lang):
     return [{"initials": t["initials"], "name": t["name"], "boat": t["boat"], "body": t[lang]} for t in C.TESTIMONIALS]
 
+def glossary_for(lang):
+    return [{"t": g[lang]["t"], "d": g[lang]["d"], "u": g[lang]["u"]} for g in C.GLOSSARY]
+
+def glossary_schema(lang, gl):
+    return {"@context": "https://schema.org", "@type": "DefinedTermSet",
+            "name": "Tekne Bakım Sözlüğü" if lang == "tr" else "Boat Care Glossary",
+            "inLanguage": lang,
+            "hasDefinedTerm": [{"@type": "DefinedTerm", "name": t["t"], "description": t["d"], "url": abs_url(t["u"])} for t in gl]}
+
 # ---- schema builders ---------------------------------------------------------
 def local_business_schema():
     return {
@@ -183,6 +192,7 @@ def base_ctx(lang, path_tr, path_en, meta_title, meta_desc, schemas, nav_solid=T
             "blog_url": "/blog/" if lang == "tr" else "/en/blog/",
             "tool_url": "/arac/maliyet-tahmini/" if lang == "tr" else "/en/tools/cost-estimate/",
             "privacy_url": "/gizlilik/" if lang == "tr" else "/en/privacy/",
+            "glossary_url": "/sozluk/" if lang == "tr" else "/en/glossary/",
             "nav_solid": nav_solid, "og_image": og_image, "og_type": og_type,
             "schemas": [j(s) for s in schemas],
         },
@@ -295,6 +305,21 @@ def build():
             render("plain.html", ctx,
                    (f"{lg['slug']}/index.html" if lang == "tr" else f"en/{lg['slug_en']}/index.html"),
                    priority="0.3")
+
+        # ---- GLOSSARY (Sözlük Hub)
+        gl = glossary_for(lang)
+        gtitle = "Tekne Bakım Sözlüğü" if lang == "tr" else "Boat Care Glossary"
+        gintro = ("Tekne tamiri, bakımı ve renovasyonunda sık geçen terimlerin sade açıklamaları; her terim ilgili rehber veya hizmete bağlanır."
+                  if lang == "tr" else
+                  "Plain explanations of common boat repair, maintenance and refit terms; each links to the relevant guide or service.")
+        gmt = gtitle + " | " + SITE["brand"]
+        gmd = ("Osmoz, gelcoat, antifouling, kalafat, teak, kekamoz, anot ve daha fazlası — tekne bakım terimleri sözlüğü."
+               if lang == "tr" else
+               "Osmosis, gelcoat, antifouling, caulking, teak, anode and more — a boat care terms glossary.")
+        ctx = base_ctx(lang, "/sozluk/", "/en/glossary/", gmt, gmd, [glossary_schema(lang, gl)],
+                       extra={"glossary": gl, "gtitle": gtitle, "gintro": gintro})
+        render("glossary.html", ctx,
+               ("sozluk/index.html" if lang == "tr" else "en/glossary/index.html"), priority="0.6")
 
     # ---- 404 (Turkish default)
     ctx = base_ctx("tr", "/404.html", "/404.html", "Sayfa Bulunamadı | Tekne Usta",

@@ -93,4 +93,16 @@
       setTimeout(function () { window.open('https://wa.me/' + WA + '?text=' + msg, '_blank'); }, 400);
     });
   }
+  // Cookie notice
+  var cn = document.getElementById('cookie-note');
+  if (cn) {
+    var seen = false;
+    try { seen = localStorage.getItem('cookieok') === '1'; } catch (e) {}
+    if (!seen) cn.hidden = false;
+    var ok = document.getElementById('cookie-ok');
+    if (ok) ok.addEventListener('click', function () {
+      cn.hidden = true;
+      try { localStorage.setItem('cookieok', '1'); } catch (e) {}
+    });
+  }
 })();

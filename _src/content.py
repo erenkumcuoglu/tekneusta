@@ -13,6 +13,7 @@ SITE = {
     "rating": "4.9",
     "review_count": "87",
     "founded": "2009",
+    "ga4_id": "G-EXT5LH2ZHR",  # GA4 Measurement ID — analytics aktif
 }
 
 # ------------------------------------------------------------------ UI strings
@@ -5088,6 +5089,556 @@ POSTS = [
 """,
  },
 },
+{
+ "slug": "marina-secimi-rehberi", "slug_en": "choosing-a-marina",
+ "image": "/assets/images/hakkimizda.jpg", "date": "2028-12-07",
+ "tr": {
+   "category": "Rehber",
+   "title": "Marina Seçimi Rehberi: Tekneniz İçin Doğru Liman",
+   "excerpt": "Marina seçerken konum, korunaklılık, hizmetler, çekek imkânı ve maliyet. Doğru limanı seçmenin kriterleri.",
+   "meta_title": "Marina Seçimi Rehberi | Tekne Usta",
+   "meta_desc": "Marina seçimi rehberi: konum, korunaklılık, çekek/servis imkânları, güvenlik ve maliyet. Tekneniz için doğru limanı seçerken dikkat edilecekler.",
+   "body": """
+<p>Teknenizin bağlanacağı marina, hem keyfinizi hem bütçenizi hem de bakım kolaylığınızı doğrudan etkiler. Doğru seçim için şu kriterlere bakın.</p>
+<h2>Konum ve erişim</h2>
+<p>Evinize/işinize yakınlık, tekneyi ne sıklıkla kullanacağınızı belirler. Uzak bir marina, güzel de olsa zamanla "gitmeye üşendiğiniz" bir yer olabilir.</p>
+<h2>Korunaklılık</h2>
+<p>Marinanın rüzgâr ve dalgaya karşı korunaklı olması, hem güvenlik hem teknenin yıpranması açısından kritik. Açık, dalga alan bir liman tekneyi daha çok yorar.</p>
+<h2>Servis ve çekek imkânı</h2>
+<p>Marinanın veya yakınının <a href="/blog/tekne-cekek-karaya-cekme/">çekek/karaya çekme</a> imkânı, bakım ve onarımı çok kolaylaştırır. Servis sağlayıcılara (bizim gibi) erişim de önemli.</p>
+<h2>Maliyet</h2>
+<p>Bağlama ücreti tekne boyuna ve bölgeye göre büyük değişir. Yıllık <a href="/blog/tekne-sahipligi-maliyeti/">sahiplik maliyetinin</a> en büyük kalemlerinden biridir; peşinen hesaplayın.</p>
+<h2>Güvenlik ve topluluk</h2>
+<p>Kamera/güvenlik, ponton kalitesi ve marina topluluğu deneyimi belirler. Karar öncesi marinayı ziyaret edip mevcut tekne sahipleriyle konuşun.</p>
+<p>Hangi marinada olursanız olun, İstanbul ve Ege'deki birçok limanda <a href="/#bolgeler">yerinde servis</a> veriyoruz — bakım için marinaya bağlı kalmazsınız.</p>
+""",
+ },
+ "en": {
+   "category": "Guide",
+   "title": "Choosing a Marina: The Right Berth for Your Boat",
+   "excerpt": "Location, shelter, services, haul-out and cost when choosing a marina. The criteria for picking the right berth.",
+   "meta_title": "Choosing a Marina Guide | Tekne Usta",
+   "meta_desc": "Choosing a marina guide: location, shelter, haul-out/service options, security and cost. What to consider when picking the right berth for your boat.",
+   "body": """
+<p>The marina where you berth directly affects your enjoyment, budget and ease of maintenance. Look at these criteria to choose well.</p>
+<h2>Location and access</h2>
+<p>Proximity to home/work determines how often you'll use the boat. A distant marina, however lovely, can become somewhere you "can't be bothered" to go.</p>
+<h2>Shelter</h2>
+<p>Shelter from wind and waves is critical for both safety and wear. An open, wave-exposed harbour tires the boat more.</p>
+<h2>Service and haul-out</h2>
+<p>A <a href="/en/blog/boat-haul-out-guide/">haul-out</a> option at or near the marina makes maintenance far easier. Access to service providers (like us) matters too.</p>
+<h2>Cost</h2>
+<p>Berthing fees vary greatly by boat length and region. It's one of the biggest items in annual <a href="/en/blog/cost-of-boat-ownership/">cost of ownership</a>; calculate it upfront.</p>
+<h2>Security and community</h2>
+<p>Cameras/security, pontoon quality and the marina community shape the experience. Visit before deciding and talk to current owners.</p>
+<p>Whatever marina you're in, we offer <a href="/en/#bolgeler">on-site service</a> at many harbours across Istanbul and the Aegean — you're not tied to the marina for maintenance.</p>
+""",
+ },
+},
+{
+ "slug": "yeni-tekne-sahibi-rehberi", "slug_en": "new-boat-owner-guide",
+ "image": "/assets/images/parallax-2.jpg", "date": "2028-12-21",
+ "tr": {
+   "category": "Rehber",
+   "title": "Yeni Tekne Sahibi Rehberi: İlk Sezonda Bilmeniz Gerekenler",
+   "excerpt": "Teknenizi yeni aldınız — peki şimdi ne yapmalı? Bakım, belgeler, güvenlik ve ilk sezon kontrol listesi.",
+   "meta_title": "Yeni Tekne Sahibi Rehberi | Tekne Usta",
+   "meta_desc": "Yeni tekne sahibi rehberi: ilk sezonda bakım, belgeler, güvenlik ekipmanı, karina/antifouling ve düzenli bakım alışkanlıkları. Yeni başlayanlar için yol haritası.",
+   "body": """
+<p>Tebrikler, artık bir tekneniz var! İlk sezon hem heyecanlı hem de öğrenme dolu geçer. İşte başlangıçta yolunuzu kolaylaştıracak temel rehber.</p>
+<h2>Teknenizi tanıyın</h2>
+<p>Motor, elektrik, sintine pompası, seyir donanımı ve güvenlik ekipmanının yerini ve çalışmasını öğrenin. Bir "tekne el kitabı/dosyası" oluşturun.</p>
+<h2>İlk bakım değerlendirmesi</h2>
+<p>Özellikle ikinci else, sezona başlamadan bir <a href="/blog/satin-alma-oncesi-tekne-ekspertizi/">durum değerlendirmesi</a> yaptırın: karina, <a href="/blog/osmoz-belirtileri/">osmoz</a>, gelcoat/boya ve güverte kontrolü. Sorunları büyümeden yakalarsınız.</p>
+<h2>Düzenli bakım alışkanlığı</h2>
+<p>Bakımı "arıza çıkınca" değil, <a href="/blog/yillik-tekne-bakim-takvimi/">takvimli</a> yapın. Sezon öncesi ve sonrası bakım, teknenin ömrünü ve değerini korur; toplam maliyeti düşürür.</p>
+<h2>Belgeler ve güvenlik</h2>
+<p>Ruhsat, sigorta ve gerekli güvenlik ekipmanlarını (can yeleği, yangın söndürücü vb.) eksiksiz tutun. Detaylar için tekne sigortası ve mevzuatı ayrıca araştırın.</p>
+<h2>Doğru ekiple çalışın</h2>
+<p>Güvendiğiniz, şeffaf fiyatlı bir servisle çalışmak yeni sahiplik deneyimini çok rahatlatır. İlk değerlendirme için <a href="/#teklif-al">ücretsiz keşif</a> alabilirsiniz.</p>
+""",
+ },
+ "en": {
+   "category": "Guide",
+   "title": "New Boat Owner Guide: What to Know in Your First Season",
+   "excerpt": "You've just bought a boat — now what? Maintenance, documents, safety and a first-season checklist.",
+   "meta_title": "New Boat Owner Guide | Tekne Usta",
+   "meta_desc": "New boat owner guide: first-season maintenance, documents, safety gear, hull/antifouling and regular care habits. A roadmap for beginners.",
+   "body": """
+<p>Congratulations, you now own a boat! The first season is full of excitement and learning. Here's a basic guide to ease your way at the start.</p>
+<h2>Get to know your boat</h2>
+<p>Learn the location and operation of the engine, electrics, bilge pump, navigation and safety gear. Build a "boat manual/file".</p>
+<h2>A first condition assessment</h2>
+<p>Especially if used, have a <a href="/en/blog/pre-purchase-boat-survey/">condition assessment</a> before the season: hull, <a href="/en/blog/osmosis-symptoms/">osmosis</a>, gelcoat/paint and deck. You catch problems before they grow.</p>
+<h2>A regular maintenance habit</h2>
+<p>Maintain on a <a href="/en/blog/annual-boat-maintenance-calendar/">schedule</a>, not "when something breaks". Pre- and post-season care protects the boat's life and value and lowers total cost.</p>
+<h2>Documents and safety</h2>
+<p>Keep registration, insurance and required safety gear (life jackets, extinguisher, etc.) complete. Research boat insurance and regulations separately for detail.</p>
+<h2>Work with the right team</h2>
+<p>Working with a trusted, transparently priced service makes new ownership much easier. Get a <a href="/en/#teklif-al">free survey</a> for a first assessment.</p>
+""",
+ },
+},
+{
+ "slug": "tekne-sigortasi-rehberi", "slug_en": "boat-insurance-guide",
+ "image": "/assets/images/hakkimizda.jpg", "date": "2029-01-04",
+ "tr": {
+   "category": "Rehber",
+   "title": "Tekne Sigortası ve Bakımın Rolü: Bilmeniz Gerekenler",
+   "excerpt": "Tekne sigortası türleri, kapsam ve bakımın sigortayla ilişkisi. Genel bilgilendirme rehberi.",
+   "meta_title": "Tekne Sigortası Rehberi: Bakımla İlişkisi | Tekne Usta",
+   "meta_desc": "Tekne sigortası rehberi: kasko ve sorumluluk sigortası, kapsam, ekspertiz ve düzenli bakımın sigortayla ilişkisi. Genel bilgilendirme.",
+   "body": """
+<p>Tekne sigortası, beklenmedik hasar ve sorumluluklara karşı önemli bir koruma. Bu yazı genel bir bilgilendirmedir; kesin kapsam için sigortacınıza danışın.</p>
+<h2>Başlıca türler</h2>
+<ul>
+<li><strong>Tekne kasko:</strong> Teknenin kendisine gelen hasarları (çarpma, fırtına, yangın vb.) kapsar.</li>
+<li><strong>Sorumluluk (3. şahıs):</strong> Başka tekne/kişilere verilebilecek zararları kapsar; bazı marinalar zorunlu tutar.</li>
+</ul>
+<h2>Bakımın sigortayla ilişkisi</h2>
+<p>Çoğu poliçe, teknenin "denize elverişli" ve bakımlı tutulmasını bekler. İhmalden kaynaklı hasarlar (ör. bakımsızlıktan su alma) kapsam dışı kalabilir. Düzenli <a href="/blog/yillik-tekne-bakim-takvimi/">bakım</a> ve kayıt tutmak, olası bir hasar talebinde işinizi kolaylaştırır.</p>
+<h2>Ekspertiz</h2>
+<p>Özellikle yaşlı teknelerde sigortacı bir <a href="/blog/satin-alma-oncesi-tekne-ekspertizi/">tekne ekspertizi</a> isteyebilir. Karina, gövde ve donanımın durumu hem primi hem kapsamı etkiler.</p>
+<h2>Pratik öneri</h2>
+<p>Poliçe alırken kapsamı, muafiyetleri ve "denize elverişlilik" şartlarını net okuyun. Teknenizin bakım kayıtlarını düzenli tutun — bunlar hem sigorta hem satış değeri için değerlidir.</p>
+<p>Sigorta öncesi/sonrası durum değerlendirmesi için <a href="/hizmetler/fiberglas-onarim/">gövde/karina kontrolü</a> tarafında yardımcı olabiliriz.</p>
+""",
+ },
+ "en": {
+   "category": "Guide",
+   "title": "Boat Insurance and the Role of Maintenance: What to Know",
+   "excerpt": "Types of boat insurance, cover and how maintenance relates to it. A general information guide.",
+   "meta_title": "Boat Insurance Guide: The Role of Maintenance | Tekne Usta",
+   "meta_desc": "Boat insurance guide: hull and liability cover, survey and how regular maintenance relates to insurance. General information.",
+   "body": """
+<p>Boat insurance is important protection against unexpected damage and liability. This article is general information; consult your insurer for exact cover.</p>
+<h2>Main types</h2>
+<ul>
+<li><strong>Hull insurance:</strong> covers damage to the boat itself (impact, storm, fire, etc.).</li>
+<li><strong>Third-party liability:</strong> covers damage to other boats/people; some marinas require it.</li>
+</ul>
+<h2>How maintenance relates to insurance</h2>
+<p>Most policies expect the boat to be kept "seaworthy" and maintained. Damage from neglect (e.g. leaks from poor maintenance) may fall outside cover. Regular <a href="/en/blog/annual-boat-maintenance-calendar/">maintenance</a> and keeping records make a possible claim easier.</p>
+<h2>Survey</h2>
+<p>Especially on older boats, an insurer may require a <a href="/en/blog/pre-purchase-boat-survey/">boat survey</a>. Hull and gear condition affect both premium and cover.</p>
+<h2>Practical tip</h2>
+<p>Read cover, deductibles and "seaworthiness" conditions carefully. Keep your maintenance records tidy — valuable for both insurance and resale.</p>
+<p>For a pre/post-insurance condition assessment, we can help on the <a href="/en/services/fibreglass-repair/">hull/underbody</a> side.</p>
+""",
+ },
+},
+{
+ "slug": "tekne-zemini-vinil", "slug_en": "boat-flooring-vinyl",
+ "image": "/assets/images/services/bakim.jpg", "date": "2029-01-18",
+ "tr": {
+   "category": "İç Mekan",
+   "title": "Tekne Zemini: Vinil, Halı ve Kaymaz Seçenekler",
+   "excerpt": "Tekne iç ve kokpit zemininde vinil, deniz halısı ve kaymaz kaplama seçenekleri. Konfor, dayanıklılık ve bakım.",
+   "meta_title": "Tekne Zemini: Vinil ve Halı Seçenekleri | Tekne Usta",
+   "meta_desc": "Tekne zemini seçenekleri: deniz vinili, marin halı ve kaymaz kaplamalar. İç mekan ve kokpit için konfor, dayanıklılık ve temizlik açısından karşılaştırma.",
+   "body": """
+<p>Zemin, teknenin hem görünümünü hem konforunu hem güvenliğini etkiler. Doğru malzeme, ıslak ve tuzlu ortamda uzun ömür sağlar.</p>
+<h2>Deniz vinili</h2>
+<p>Su geçirmez, kolay temizlenen ve dayanıklı; ahşap/teak görünümlü desenleri de var. Kokpit ve ıslak alanlar için popüler. Bakımı kolaydır.</p>
+<h2>Marin halı</h2>
+<p>Sıcak, konforlu bir his verir; iç mekân/kabin için tercih edilir. Deniz sınıfı, çabuk kuruyan ve küfe dayanıklı olması şart — normal halı teknede küflenir.</p>
+<h2>Kaymaz kaplamalar</h2>
+<p>Islakken güvenlik için kokpit ve güvertede kaymaz zemin önemli. <a href="/blog/kaydirmaz-guverte-kaplama/">Kaydırmaz kaplama</a> veya EVA panel çözümleri kullanılabilir.</p>
+<h2>Hangisi nerede?</h2>
+<p>Islak/dış alanlarda vinil veya EVA; kuru iç kabinlerde marin halı mantıklı. Karışık kullanım da mümkün. Seçim, kullanımınıza ve estetiğe göre yapılır.</p>
+<p>Zemin yenilemesini <a href="/hizmetler/ic-mekan-yenileme/">iç mekan yenileme</a> hizmetimiz kapsamında, döşemeyle birlikte planlıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Interior",
+   "title": "Boat Flooring: Vinyl, Carpet and Non-Slip Options",
+   "excerpt": "Vinyl, marine carpet and non-slip options for boat interior and cockpit floors. Comfort, durability and care.",
+   "meta_title": "Boat Flooring: Vinyl and Carpet Options | Tekne Usta",
+   "meta_desc": "Boat flooring options: marine vinyl, marine carpet and non-slip coverings. A comparison for interior and cockpit in comfort, durability and cleaning.",
+   "body": """
+<p>Flooring affects a boat's look, comfort and safety. The right material lasts in a wet, salty environment.</p>
+<h2>Marine vinyl</h2>
+<p>Waterproof, easy to clean and durable; comes in wood/teak-look patterns too. Popular for cockpits and wet areas. Low maintenance.</p>
+<h2>Marine carpet</h2>
+<p>Gives a warm, comfortable feel; preferred for interiors/cabins. It must be marine-grade, quick-drying and mould-resistant — ordinary carpet grows mould aboard.</p>
+<h2>Non-slip coverings</h2>
+<p>Non-slip flooring matters for safety when wet in the cockpit and on deck. <a href="/en/blog/non-slip-deck-coating/">Non-slip coating</a> or EVA panels can be used.</p>
+<h2>Which where?</h2>
+<p>Vinyl or EVA in wet/exterior areas; marine carpet in dry cabins. Mixed use is fine too. Choose by your use and aesthetics.</p>
+<p>We plan flooring renewal under our <a href="/en/services/interior-refit/">interior refit</a> service, alongside upholstery.</p>
+""",
+ },
+},
+{
+ "slug": "minder-sunger-degisimi", "slug_en": "cushion-foam-replacement",
+ "image": "/assets/images/services/bakim.jpg", "date": "2029-02-01",
+ "tr": {
+   "category": "İç Mekan",
+   "title": "Tekne Minder ve Sünger Değişimi: Konforun Yenilenmesi",
+   "excerpt": "Çökmüş minderler ve nem tutan süngerler teknede konforu bitirir. Doğru sünger ve kumaşla yenileme.",
+   "meta_title": "Tekne Minder ve Sünger Değişimi | Tekne Usta",
+   "meta_desc": "Tekne minder ve sünger değişimi: çökmüş sünger, hızlı kuruyan drenajlı sünger, deniz sınıfı kumaş ve ölçüye özel dikim. Kabin ve kokpit konforunu yenileme.",
+   "body": """
+<p>Minderler teknede en çok yıpranan parçalardandır: sünger çöker, kumaş solar, nem tutar. İyi haber — komple iç mekan yenilemeye gerek kalmadan sadece minder/sünger değişimi büyük fark yaratır.</p>
+<h2>Doğru sünger</h2>
+<p>Teknede standart sünger su tutar ve küflenir. Özellikle dış mekân (kokpit) minderlerinde <strong>hızlı kuruyan, drenajlı sünger</strong> nemi geçirir. İç mekânda konfor için doğru yoğunluk seçilir.</p>
+<h2>Doğru kumaş</h2>
+<p><a href="/blog/tekne-doseme-kumas-secimi/">Deniz sınıfı kumaş</a> — UV, tuz ve küfe dayanıklı, solmayan. En iyi sünger bile yanlış kumaşla kısa ömürlü olur.</p>
+<h2>Ölçüye özel dikim</h2>
+<p>Minderler teknenin oturma/yatak alanına özel ölçülüp dikilir. Doğru kalıp ve UV dayanımlı iplik; hem görünümü hem ömrü belirler.</p>
+<h2>Sadece minder mi, komple mi?</h2>
+<p>İstediğiniz kadarını yapabiliriz — sadece kokpit minderleri, sadece kabin, ya da hepsi. Perde/stor ile birlikte de planlanabilir (bkz. <a href="/blog/tekne-perde-stor/">perde ve stor</a>).</p>
+<p>Minder ve sünger yenilemeyi <a href="/hizmetler/ic-mekan-yenileme/">iç mekan yenileme</a> hizmetimiz kapsamında yapıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Interior",
+   "title": "Boat Cushion and Foam Replacement: Renewing Comfort",
+   "excerpt": "Collapsed cushions and damp-holding foam end comfort aboard. Renewal with the right foam and fabric.",
+   "meta_title": "Boat Cushion and Foam Replacement | Tekne Usta",
+   "meta_desc": "Boat cushion and foam replacement: collapsed foam, quick-dry draining foam, marine-grade fabric and made-to-measure sewing. Renewing cabin and cockpit comfort.",
+   "body": """
+<p>Cushions are among the most worn parts aboard: foam collapses, fabric fades, damp lingers. The good news — just cushion/foam replacement makes a big difference without a full interior refit.</p>
+<h2>The right foam</h2>
+<p>Standard foam holds water and grows mould aboard. Especially for exterior (cockpit) cushions, <strong>quick-dry draining foam</strong> lets moisture through. Indoors, the right density is chosen for comfort.</p>
+<h2>The right fabric</h2>
+<p><a href="/en/blog/marine-upholstery-fabric/">Marine-grade fabric</a> — UV-, salt- and mould-resistant, non-fading. Even the best foam is short-lived with the wrong fabric.</p>
+<h2>Made-to-measure sewing</h2>
+<p>Cushions are measured and sewn specifically for the boat's seating/berths. The right pattern and UV-resistant thread determine both look and life.</p>
+<h2>Cushions only, or full?</h2>
+<p>We do as much as you want — just cockpit cushions, just the cabin, or all. It can be planned with curtains/blinds too (see <a href="/en/blog/boat-curtains-blinds/">curtains and blinds</a>).</p>
+<p>We do cushion and foam renewal under our <a href="/en/services/interior-refit/">interior refit</a> service.</p>
+""",
+ },
+},
+{
+ "slug": "kokpit-eva-doseme", "slug_en": "cockpit-eva-decking",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2029-02-15",
+ "tr": {
+   "category": "Teak",
+   "title": "Kokpit EVA Döşeme: Yumuşak, Kaymaz ve Bakımsız",
+   "excerpt": "EVA köpük döşeme kokpit ve güvertede konfor + güvenlik sunar. Teak ve vinile göre avantajları.",
+   "meta_title": "Kokpit EVA Köpük Döşeme Rehberi | Tekne Usta",
+   "meta_desc": "Kokpit EVA köpük döşeme: yumuşak, kaymaz, bakımsız güverte kaplaması. Teak ve vinile göre avantajları, kullanım alanları ve uygulama.",
+   "body": """
+<p>EVA köpük döşeme, son yıllarda kokpit ve güvertede popülerleşen; yumuşak, kaymaz ve bakım gerektirmeyen bir kaplama. Özellikle konfor ve güvenlik önceliğindeyse iyi bir seçenek.</p>
+<h2>Avantajları</h2>
+<ul>
+<li><strong>Yumuşak ve konforlu:</strong> Uzun süre ayakta durmak veya çocuklu kullanım için ideal.</li>
+<li><strong>Kaymaz:</strong> Islakken bile güvenli tutuş.</li>
+<li><strong>Bakımsız:</strong> Doğal <a href="/blog/teak-guverte-bakimi/">teakın</a> aksine yağ/vernik istemez; suyla temizlenir.</li>
+<li><strong>Isı:</strong> Güneşte doğal teak kadar ısınmaz (renge bağlı).</li>
+</ul>
+<h2>Teak ve vinile göre</h2>
+<p>Klasik teak görünümü ve prestiji istiyorsanız <a href="/blog/teak-vs-sentetik-teak/">doğal/sentetik teak</a>; ıslak alanda su geçirmezlik istiyorsanız <a href="/blog/tekne-zemini-vinil/">vinil</a>; konfor + kaymazlık önceliğinizse EVA mantıklı.</p>
+<h2>Uygulama</h2>
+<p>EVA paneller teknenin kalıbına göre kesilip yapıştırılır. Doğru yüzey hazırlığı, kenar/köşe kesimi ve yapıştırma; sonucun görünümünü ve ömrünü belirler.</p>
+<p>Kokpit EVA döşemeyi <a href="/hizmetler/teak-guverte-doseme/">güverte döşeme</a> hizmetimiz kapsamında uyguluyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Teak",
+   "title": "Cockpit EVA Decking: Soft, Non-Slip and Maintenance-Free",
+   "excerpt": "EVA foam decking offers comfort + safety in the cockpit and on deck. Its advantages over teak and vinyl.",
+   "meta_title": "Cockpit EVA Foam Decking Guide | Tekne Usta",
+   "meta_desc": "Cockpit EVA foam decking: soft, non-slip, maintenance-free deck covering. Its advantages over teak and vinyl, uses and application.",
+   "body": """
+<p>EVA foam decking has grown popular for cockpits and decks in recent years; a soft, non-slip covering that needs no maintenance. A good option especially when comfort and safety are the priority.</p>
+<h2>Advantages</h2>
+<ul>
+<li><strong>Soft and comfortable:</strong> ideal for long standing or use with children.</li>
+<li><strong>Non-slip:</strong> safe grip even when wet.</li>
+<li><strong>Maintenance-free:</strong> unlike natural <a href="/en/blog/teak-deck-maintenance/">teak</a> it needs no oil/varnish; cleans with water.</li>
+<li><strong>Heat:</strong> doesn't get as hot as natural teak in the sun (colour-dependent).</li>
+</ul>
+<h2>Versus teak and vinyl</h2>
+<p>If you want the classic teak look and prestige, <a href="/en/blog/teak-vs-synthetic-teak/">natural/synthetic teak</a>; for waterproofing in wet areas, <a href="/en/blog/boat-flooring-vinyl/">vinyl</a>; if comfort + non-slip is your priority, EVA makes sense.</p>
+<h2>Application</h2>
+<p>EVA panels are cut to the boat's template and bonded. Correct surface prep, edge/corner cutting and bonding determine the look and life.</p>
+<p>We apply cockpit EVA decking under our <a href="/en/services/teak-deck/">decking</a> service.</p>
+""",
+ },
+},
+{
+ "slug": "teak-temizligi-diy", "slug_en": "teak-cleaning-diy",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2029-03-01",
+ "tr": {
+   "category": "Teak",
+   "title": "Teak Güverte Temizliği: Kendin Yap Rehberi (Doğru Yöntem)",
+   "excerpt": "Teakı zarar vermeden nasıl temizlersiniz? Doğru fırça, yön ve kimyasal; yaygın hatalar ve ne zaman profesyonel gerekir.",
+   "meta_title": "Teak Güverte Temizliği DIY Rehberi | Tekne Usta",
+   "meta_desc": "Teak güverte temizliği DIY: doğru fırça ve yön, yumuşak deterjan, sert kimyasaldan kaçınma ve teakı inceltmeden temizleme. Yaygın hatalar ve profesyonel sınırı.",
+   "body": """
+<p>Teak temizliği doğru yapıldığında basit; yanlış yapıldığında teakı yıllar boyu inceltir. İşte teakı zarar vermeden temizlemenin pratik yolu.</p>
+<h2>Doğru yöntem</h2>
+<ul>
+<li><strong>Yumuşak fırça, damar yönünde:</strong> Sert fırça veya damara dik fırçalama, yumuşak yaz damarını aşındırır ve teakı "olur olmaz" hale getirir.</li>
+<li><strong>Yumuşak deterjan + bol su:</strong> Nazik bir deniz sabunu çoğu zaman yeterli. Derzlerde kir biriktirmeyin.</li>
+<li><strong>Enine değil, hafif basınç:</strong> Amaç yüzeydeki kiri almak, teak aşındırmak değil.</li>
+</ul>
+<h2>Kaçınılması gerekenler</h2>
+<ul>
+<li>Sert, asitli "teak temizleyiciler"i sık kullanmak — hızlı sonuç verir ama teakı erozyona uğratır.</li>
+<li>Yüksek basınçlı yıkama — yumuşak damarı söker, derzleri kaldırır.</li>
+</ul>
+<h2>Grileşme normaldir</h2>
+<p>Gri renk zarar değil, doğal oksidasyondur. Teak sağlamsa gri, nazik temizlikle sıcak tona döner. Yağ tartışması için <a href="/blog/teak-yagi-surulmeli-mi/">bu yazıya</a> bakın.</p>
+<h2>Ne zaman profesyonel?</h2>
+<p>Derzler açılmış, teak incelmiş veya lekeler çıkmıyorsa DIY sınırı gelmiştir; <a href="/blog/teak-derz-yenileme/">derz yenileme</a> ya da restorasyon gerekebilir. <a href="/hizmetler/teak-guverte-doseme/">Teak bakım/yenileme</a> tarafında yardımcı oluyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Teak",
+   "title": "Teak Deck Cleaning: A DIY Guide (The Right Way)",
+   "excerpt": "How to clean teak without harming it? The right brush, direction and chemical; common mistakes and when a pro is needed.",
+   "meta_title": "Teak Deck Cleaning DIY Guide | Tekne Usta",
+   "meta_desc": "Teak deck cleaning DIY: the right brush and direction, mild detergent, avoiding harsh chemicals and cleaning without thinning the teak. Common mistakes and the pro threshold.",
+   "body": """
+<p>Teak cleaning is simple done right; done wrong it thins the teak over the years. Here's the practical way to clean teak without harm.</p>
+<h2>The right method</h2>
+<ul>
+<li><strong>Soft brush, along the grain:</strong> a stiff brush or brushing across the grain erodes the soft summer grain and makes teak uneven.</li>
+<li><strong>Mild detergent + plenty of water:</strong> a gentle boat soap is usually enough. Don't let dirt build up in the seams.</li>
+<li><strong>Light pressure:</strong> the aim is to lift surface dirt, not to sand the teak.</li>
+</ul>
+<h2>What to avoid</h2>
+<ul>
+<li>Frequent use of harsh, acidic "teak cleaners" — fast results but they erode teak.</li>
+<li>High-pressure washing — it tears the soft grain and lifts seams.</li>
+</ul>
+<h2>Greying is normal</h2>
+<p>Grey isn't damage but natural oxidation. If the teak is sound, grey returns to a warm tone with gentle cleaning. For the oiling debate, see <a href="/en/blog/should-you-oil-teak/">this article</a>.</p>
+<h2>When a pro?</h2>
+<p>If seams have opened, the teak has thinned or stains won't lift, you've hit the DIY limit; <a href="/en/blog/teak-seam-renewal/">seam renewal</a> or restoration may be needed. We help on the <a href="/en/services/teak-deck/">teak care/renewal</a> side.</p>
+""",
+ },
+},
+{
+ "slug": "ahsap-epoksi-cold-molding", "slug_en": "cold-molding-epoxy",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2029-03-15",
+ "tr": {
+   "category": "Ahşap",
+   "title": "Cold-Molding: Epoksi ile Modern Ahşap Tekne Yapımı",
+   "excerpt": "Cold-molding (soğuk kalıplama) nedir? İnce ahşap katmanların epoksiyle laminasyonu; dayanıklılık ve onarımdaki yeri.",
+   "meta_title": "Cold-Molding: Epoksi ile Ahşap Laminasyon | Tekne Usta",
+   "meta_desc": "Cold-molding (soğuk kalıplama) nedir? İnce ahşap kaplama katmanlarının epoksiyle çapraz laminasyonu, avantajları ve klasik ahşap tekne onarımındaki kullanımı.",
+   "body": """
+<p>Cold-molding (soğuk kalıplama), ince ahşap kaplama katmanlarının çapraz yönlerde epoksiyle laminasyonuyla güçlü, hafif ve su geçirmez bir gövde oluşturma tekniğidir. Geleneksel ahşap ile modern kompozitin en iyi yönlerini birleştirir.</p>
+<h2>Nasıl çalışır?</h2>
+<p>Birkaç kat ince ahşap, birbirine çapraz açıyla ve aralarına epoksi konarak yapıştırılır. Sonuç: tek parça ahşaptan çok daha rijit, çatlamaya ve neme dirençli bir yapı.</p>
+<h2>Avantajları</h2>
+<ul>
+<li>Yüksek mukavemet/ağırlık oranı.</li>
+<li>Epoksi sayesinde su geçirmezlik → <a href="/blog/ahsap-curuk-onarimi/">çürük</a> ve şişme riski düşer.</li>
+<li>Geleneksel kalafat ihtiyacını azaltır.</li>
+</ul>
+<h2>Onarımdaki yeri</h2>
+<p>Klasik ahşap teknelerin yapısal onarımında ve güçlendirmesinde cold-molding teknikleri kullanılabilir. Ancak her tekneye uygun değildir; özgün yapıya ve teknenin karakterine göre <a href="/blog/epoksi-ile-ahsap-guclendirme/">epoksi güçlendirme</a> ile birlikte değerlendirilir.</p>
+<h2>Doğru karar</h2>
+<p>Cold-molding uzmanlık ister; yanlış uygulanırsa katmanlar ayrılabilir. Teknenizin durumuna en uygun yöntemi <a href="/hizmetler/ahsap-tekne-renovasyonu/">ahşap tekne renovasyonu</a> hizmetimiz kapsamında değerlendiriyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Wood",
+   "title": "Cold-Molding: Modern Wooden Boat Building with Epoxy",
+   "excerpt": "What is cold-molding? Laminating thin wood veneers with epoxy; durability and its place in repair.",
+   "meta_title": "Cold-Molding: Wood Lamination with Epoxy | Tekne Usta",
+   "meta_desc": "What is cold-molding? Cross-laminating thin wood veneers with epoxy, its advantages and use in classic wooden boat repair.",
+   "body": """
+<p>Cold-molding is a technique of forming a strong, light, waterproof hull by laminating thin wood veneers in cross directions with epoxy. It combines the best of traditional wood and modern composite.</p>
+<h2>How does it work?</h2>
+<p>Several layers of thin wood are bonded at crossing angles with epoxy between them. The result: a structure far stiffer than solid wood, resistant to cracking and moisture.</p>
+<h2>Advantages</h2>
+<ul>
+<li>High strength-to-weight ratio.</li>
+<li>Waterproofing from the epoxy → lower <a href="/en/blog/wood-rot-repair/">rot</a> and swelling risk.</li>
+<li>Reduces the need for traditional caulking.</li>
+</ul>
+<h2>Its place in repair</h2>
+<p>Cold-molding techniques can be used in the structural repair and reinforcement of classic wooden boats. But it isn't right for every boat; it's weighed together with <a href="/en/blog/epoxy-wood-reinforcement/">epoxy reinforcement</a> according to the original structure and the boat's character.</p>
+<h2>The right decision</h2>
+<p>Cold-molding takes expertise; applied wrong, the layers can delaminate. We assess the method best suited to your boat under our <a href="/en/services/wooden-boat-refit/">wooden boat refit</a> service.</p>
+""",
+ },
+},
+{
+ "slug": "ahsap-tekne-kislatma", "slug_en": "wooden-boat-winterising",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2029-03-29",
+ "tr": {
+   "category": "Ahşap",
+   "title": "Ahşap Tekne Kışlatma: Nem ve Kuruma Dengesinin İnceliği",
+   "excerpt": "Ahşap tekneyi kışlatmak fiberglastan farklıdır: aşırı kuruma da su almak kadar zararlıdır. Doğru yaklaşım.",
+   "meta_title": "Ahşap Tekne Kışlatma Rehberi | Tekne Usta",
+   "meta_desc": "Ahşap tekne kışlatma: nem-kuruma dengesi, havalandırma, derz koruması ve karada saklama. Ahşap teknenin kışı hasarsız geçirmesi için özel öneriler.",
+   "body": """
+<p>Ahşap tekneyi kışlatmak, fiberglastan farklı bir hassasiyet ister. Ahşap "yaşayan" bir malzemedir; nemle şişer, kuruyunca büzülür. Kışlatmanın sırrı bu dengeyi korumaktır — aşırı kuruma, su almak kadar zararlı olabilir.</p>
+<h2>Aşırı kuruma tehlikesi</h2>
+<p>Karada, güneşli ve rüzgârlı bir ortamda hızla kuruyan ahşap, derzlerin açılmasına ve <a href="/blog/kalafat-nedir/">kalafatın</a> gevşemesine yol açar. Bahar suya inişte tekne bir süre su alabilir (tahtalar tekrar şişene kadar). Bu yüzden ahşap teknede gölge, havalandırma ve nem dengesi önemlidir.</p>
+<h2>Doğru kışlatma</h2>
+<ul>
+<li><strong>Havalandırma + gölge:</strong> Doğrudan güneşte pişirmeyen, hava alan bir örtü/konum.</li>
+<li><strong>Derz ve vernik kontrolü:</strong> Kış öncesi <a href="/blog/ahsap-tekne-vernik-bakimi/">vernik</a> ve derz durumunu gözden geçir.</li>
+<li><strong>Çürük taraması:</strong> Nemin sıkıştığı köşelerde <a href="/blog/ahsap-curuk-onarimi/">çürük</a> başlangıcı ara.</li>
+</ul>
+<h2>Bahar dönüşü</h2>
+<p>Suya inişte tekneyi ilk günler takip et; hafif su alma normal olabilir ama sürerse derz/kalafat gerekebilir. Ahşap tekne kışlatma ve bahar bakımını <a href="/hizmetler/tekne-kislatma/">kışlatma</a> ve <a href="/hizmetler/ahsap-tekne-renovasyonu/">ahşap renovasyon</a> hizmetlerimizle birlikte planlıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Wood",
+   "title": "Wooden Boat Winterising: The Fine Balance of Damp and Drying",
+   "excerpt": "Winterising a wooden boat differs from fibreglass: over-drying is as harmful as taking on water. The right approach.",
+   "meta_title": "Wooden Boat Winterising Guide | Tekne Usta",
+   "meta_desc": "Wooden boat winterising: the damp-drying balance, ventilation, seam protection and storing ashore. Special tips for a wooden boat to come through winter unharmed.",
+   "body": """
+<p>Winterising a wooden boat needs a different care than fibreglass. Wood is a "living" material; it swells with moisture and shrinks as it dries. The secret to winterising is keeping this balance — over-drying can be as harmful as taking on water.</p>
+<h2>The danger of over-drying</h2>
+<p>Ashore, in a sunny, windy spot, rapidly drying wood opens the seams and loosens the <a href="/en/blog/caulking-explained/">caulking</a>. At spring launch the boat may leak for a while (until the planks swell again). So shade, ventilation and moisture balance matter for a wooden boat.</p>
+<h2>Correct winterising</h2>
+<ul>
+<li><strong>Ventilation + shade:</strong> a cover/position that airs out without baking in direct sun.</li>
+<li><strong>Seam and varnish check:</strong> review <a href="/en/blog/wooden-boat-varnish-care/">varnish</a> and seam condition before winter.</li>
+<li><strong>Rot scan:</strong> look for early <a href="/en/blog/wood-rot-repair/">rot</a> in corners where damp is trapped.</li>
+</ul>
+<h2>Spring return</h2>
+<p>Watch the boat the first days after launch; slight leaking can be normal but if it persists, seams/caulking may be needed. We plan wooden boat winterising and spring care with our <a href="/en/services/winterising-storage/">winterising</a> and <a href="/en/services/wooden-boat-refit/">wooden refit</a> services.</p>
+""",
+ },
+},
+{
+ "slug": "klasik-tekne-degeri", "slug_en": "classic-boat-value",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2029-04-12",
+ "tr": {
+   "category": "Rehber",
+   "title": "Klasik Ahşap Teknenin Değeri: Restorasyon Yatırım mı?",
+   "excerpt": "Klasik bir ahşap tekneyi restore etmek mantıklı bir yatırım mı? Değeri belirleyen faktörler ve karar.",
+   "meta_title": "Klasik Tekne Değeri: Restorasyon Yatırım mı? | Tekne Usta",
+   "meta_desc": "Klasik ahşap tekne değeri ve restorasyon: özgünlük, işçilik kalitesi, tarihçe ve duygusal değer. Restorasyonun maddi ve manevi getirisi.",
+   "body": """
+<p>Klasik bir ahşap tekneyi restore etmek çoğu zaman salt bir maliyet-getiri hesabı değildir; ama değeri belirleyen somut faktörler de vardır. İşte karar verirken dikkate alınacaklar.</p>
+<h2>Değeri belirleyen faktörler</h2>
+<ul>
+<li><strong>Özgünlük:</strong> Orijinal ahşap, donanım ve hatların korunması değeri artırır.</li>
+<li><strong>İşçilik kalitesi:</strong> İyi bir <a href="/blog/ahsap-tekne-restorasyon-vaka/">restorasyon</a>, teknenin hem ömrünü hem piyasa değerini yükseltir.</li>
+<li><strong>Tarihçe ve nadirlik:</strong> Bilinen bir yapımcı/model, belgeli geçmiş değer katar.</li>
+</ul>
+<h2>Maddi vs manevi getiri</h2>
+<p>Klasik tekneler her zaman "kâr" için restore edilmez; çoğu sahip için asıl getiri, eşsiz bir tekneyi yaşatmanın verdiği tatmindir. Yine de doğru yapılmış bir restorasyon, ihmal edilmiş bir tekneye göre çok daha kolay alıcı bulur.</p>
+<h2>Akıllı restorasyon</h2>
+<p>Aşamalı plan, özgün dokuya saygı ve gereksiz "aşırı yenileme"den kaçınmak; hem bütçeyi hem değeri korur. <a href="/blog/kalafat-nedir/">Kalafat</a>, <a href="/blog/ahsap-curuk-onarimi/">çürük onarımı</a> ve <a href="/blog/ahsap-tekne-vernik-bakimi/">vernik</a> gibi temel işler önceliklidir.</p>
+<p>Klasik teknenizin durumunu ve restorasyon planını <a href="/hizmetler/ahsap-tekne-renovasyonu/">ahşap tekne renovasyonu</a> hizmetimiz kapsamında ücretsiz değerlendiriyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Guide",
+   "title": "The Value of a Classic Wooden Boat: Is Restoration an Investment?",
+   "excerpt": "Is restoring a classic wooden boat a sensible investment? The factors that set its value and how to decide.",
+   "meta_title": "Classic Boat Value: Is Restoration an Investment? | Tekne Usta",
+   "meta_desc": "Classic wooden boat value and restoration: originality, workmanship quality, history and emotional value. The material and personal return of restoration.",
+   "body": """
+<p>Restoring a classic wooden boat is often not a pure cost-return calculation; but there are concrete factors that set its value. Here's what to weigh when deciding.</p>
+<h2>Factors that set value</h2>
+<ul>
+<li><strong>Originality:</strong> preserving original wood, hardware and lines raises value.</li>
+<li><strong>Workmanship quality:</strong> a good <a href="/en/blog/wooden-restoration-case-study/">restoration</a> lifts both the boat's life and market value.</li>
+<li><strong>History and rarity:</strong> a known builder/model and documented past add value.</li>
+</ul>
+<h2>Material vs emotional return</h2>
+<p>Classic boats aren't always restored for "profit"; for most owners the real return is the satisfaction of keeping a unique boat alive. Still, a properly done restoration finds a buyer far more easily than a neglected boat.</p>
+<h2>Smart restoration</h2>
+<p>A staged plan, respect for the original character and avoiding needless "over-restoration" protect both budget and value. Core work like <a href="/en/blog/caulking-explained/">caulking</a>, <a href="/en/blog/wood-rot-repair/">rot repair</a> and <a href="/en/blog/wooden-boat-varnish-care/">varnish</a> comes first.</p>
+<p>We assess your classic boat's condition and restoration plan for free under our <a href="/en/services/wooden-boat-refit/">wooden boat refit</a> service.</p>
+""",
+ },
+},
+{
+ "slug": "teak-kalinligi-olcumu", "slug_en": "teak-thickness-check",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2029-04-26",
+ "tr": {
+   "category": "Teak",
+   "title": "Teak Kalınlığı: Ne Zaman Yenileme, Ne Zaman Bakım Yeter?",
+   "excerpt": "Teak güverte ne kadar inceldi? Kalınlığın önemi, ölçüm ve derz yenileme mi komple döşeme mi kararı.",
+   "meta_title": "Teak Kalınlığı ve Yenileme Kararı | Tekne Usta",
+   "meta_desc": "Teak güverte kalınlığı: neden önemli, nasıl anlaşılır ve ne zaman derz yenileme yeter, ne zaman komple döşeme gerekir? Doğru karar için rehber.",
+   "body": """
+<p>Teak güvertede en kritik soru çoğu zaman şudur: teak hâlâ yeterince kalın mı? Kalınlık, sadece derzleri yenilemenin mi yoksa komple döşemenin mi gerektiğini belirler.</p>
+<h2>Kalınlık neden önemli?</h2>
+<p>Teak zamanla temizlik, zımpara ve doğal aşınmayla incelir. Vida başları yüzeye yaklaştıysa veya derz kanalları sığlaştıysa, teak ömrünün sonuna yaklaşmış demektir. Fazla ince teak, derz tutmaz ve altına su sızdırır.</p>
+<h2>Nasıl anlaşılır?</h2>
+<ul>
+<li>Derz derinliğinin belirgin azalması.</li>
+<li>Vida tapalarının (bung) görünmeye başlaması.</li>
+<li>Yer yer teakın altındaki yapıştırıcının/alt yüzeyin görünmesi.</li>
+</ul>
+<h2>Karar</h2>
+<p>Teak yeterince kalınsa <a href="/blog/teak-derz-yenileme/">derz yenileme</a> ekonomik ve yeterlidir. İnceldiyse komple döşeme gerekir; bu noktada doğal ile <a href="/blog/sentetik-teak-alternatifleri/">sentetik teak</a> alternatiflerini de değerlendirmek mantıklı. Fiyatı belirleyen faktörler için <a href="/blog/teak-guverte-fiyatlari/">teak fiyatları</a> yazımıza bakın.</p>
+<p>Keşifte teak kalınlığını yerinde ölçüp sizi doğru yönlendiriyoruz — gereksiz komple döşeme önermeyiz. <a href="/hizmetler/teak-guverte-doseme/">Teak güverte döşeme</a> hizmetimizle yanınızdayız.</p>
+""",
+ },
+ "en": {
+   "category": "Teak",
+   "title": "Teak Thickness: When to Renew and When Care Is Enough?",
+   "excerpt": "How thin has your teak deck worn? Why thickness matters, how to check it, and the seam-renewal vs full-deck decision.",
+   "meta_title": "Teak Thickness and the Renewal Decision | Tekne Usta",
+   "meta_desc": "Teak deck thickness: why it matters, how to tell and when seam renewal is enough versus a full deck. A guide to the right decision.",
+   "body": """
+<p>On a teak deck the most critical question is often: is the teak still thick enough? Thickness determines whether just renewing the seams will do, or a full deck is needed.</p>
+<h2>Why does thickness matter?</h2>
+<p>Teak thins over time with cleaning, sanding and natural wear. If screw heads are nearing the surface or seam grooves have shallowed, the teak is near the end of its life. Too-thin teak won't hold seams and lets water seep beneath.</p>
+<h2>How to tell?</h2>
+<ul>
+<li>Noticeably reduced seam depth.</li>
+<li>Screw bungs starting to show.</li>
+<li>The adhesive/sub-surface showing through in places.</li>
+</ul>
+<h2>The decision</h2>
+<p>If the teak is thick enough, <a href="/en/blog/teak-seam-renewal/">seam renewal</a> is economical and enough. If thinned, a full deck is needed; at that point it's sensible to weigh natural vs <a href="/en/blog/synthetic-teak-alternatives/">synthetic teak</a>. For price factors, see our <a href="/en/blog/teak-deck-cost/">teak cost</a> article.</p>
+<p>We measure teak thickness on site at the survey and advise you correctly — we don't recommend a needless full deck. We're with you through our <a href="/en/services/teak-deck/">teak decking</a> service.</p>
+""",
+ },
+},
+{
+ "slug": "osmozdan-korunma", "slug_en": "osmosis-prevention",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2029-05-10",
+ "tr": {
+   "category": "Fiberglas",
+   "title": "Osmozdan Korunma: Önleyici Bakımla Sorunu Baştan Engellemek",
+   "excerpt": "Osmoz tedavi edilmeden önce önlenebilir mi? Bariyer kat, karina bakımı ve nem kontrolüyle koruyucu yaklaşım.",
+   "meta_title": "Osmozdan Korunma: Önleyici Bakım | Tekne Usta",
+   "meta_desc": "Osmozdan korunma: epoksi bariyer kat, düzenli karina bakımı, nem kontrolü ve kışlatmada kurutma. Fiber teknede osmozu baştan engellemenin yolları.",
+   "body": """
+<p>Osmozu <a href="/blog/osmoz-nedir-tedavisi/">tedavi etmek</a> maliyetli ve uzun bir iştir. İyi haber: doğru önleyici bakımla riski ciddi biçimde azaltmak mümkün. En iyi osmoz tedavisi, hiç başlamamasıdır.</p>
+<h2>Koruyucu bariyer kat</h2>
+<p>Yeni veya sağlam teknelerde su altına uygulanan <strong>epoksi bariyer kat</strong>, suyun laminata sızmasını zorlaştırır. Uzun vadede en etkili korumadır; yeni tekne alırken düşünülebilecek bir yatırımdır.</p>
+<h2>Karinayı kuru tutmak</h2>
+<p>Teknenin uzun süre sürekli suda kalması riski artırır. Sezon sonu <a href="/hizmetler/tekne-kislatma/">karaya çekip</a> karinanın kurumasına izin vermek, nemi düşürür. <a href="/blog/kisin-tekne-nerede-saklanir/">Karada kışlatma</a> bu açıdan avantajlıdır.</p>
+<h2>Düzenli kontrol</h2>
+<p>Her sezon karada <a href="/blog/osmoz-belirtileri/">osmoz belirtisi</a> ve nem taraması yapmak, sorunu erken yakalar. Erken müdahale, komple tedaviden çok daha ucuzdur.</p>
+<h2>Antifouling ve yüzey bütünlüğü</h2>
+<p>Sağlam bir <a href="/blog/antifouling-secimi/">antifouling</a> ve çiziksiz jelkot, suyun giriş yollarını kapatır. Yüzeydeki hasarları büyümeden onarmak korumanın parçasıdır.</p>
+<p>Teknenize koruyucu bariyer kat veya karina değerlendirmesi için <a href="/hizmetler/fiberglas-onarim/">fiberglas onarım</a> hizmetimiz kapsamında ücretsiz keşif yapıyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Fibreglass",
+   "title": "Osmosis Prevention: Stopping the Problem Before It Starts",
+   "excerpt": "Can osmosis be prevented before treatment? A protective approach with barrier coat, hull care and moisture control.",
+   "meta_title": "Osmosis Prevention: Preventive Care | Tekne Usta",
+   "meta_desc": "Osmosis prevention: epoxy barrier coat, regular hull care, moisture control and drying at winterising. Ways to stop osmosis before it starts on a fibreglass boat.",
+   "body": """
+<p><a href="/en/blog/what-is-osmosis-treatment/">Treating</a> osmosis is a costly, lengthy job. The good news: with the right preventive care the risk can be greatly reduced. The best osmosis treatment is never starting at all.</p>
+<h2>Protective barrier coat</h2>
+<p>On new or sound boats, an <strong>epoxy barrier coat</strong> applied below the waterline makes it harder for water to seep into the laminate. It's the most effective long-term protection and worth considering when buying a new boat.</p>
+<h2>Keeping the hull dry</h2>
+<p>A boat kept constantly afloat for long periods is at higher risk. Hauling out at season's end and letting the hull dry lowers moisture. <a href="/en/blog/winter-boat-storage/">Storing ashore</a> is an advantage here.</p>
+<h2>Regular checks</h2>
+<p>Scanning for <a href="/en/blog/osmosis-symptoms/">osmosis signs</a> and moisture ashore each season catches the problem early. Early action is far cheaper than a full treatment.</p>
+<h2>Antifouling and surface integrity</h2>
+<p>Sound <a href="/en/blog/choosing-antifouling/">antifouling</a> and a scratch-free gelcoat close water's entry paths. Repairing surface damage before it grows is part of prevention.</p>
+<p>For a protective barrier coat or hull assessment, we do a free survey under our <a href="/en/services/fibreglass-repair/">fibreglass repair</a> service.</p>
+""",
+ },
+},
 ]
 
 # ==================================================================== COST ESTIMATOR
@@ -5194,4 +5745,56 @@ LEGAL = [
 """,
         },
     },
+]
+
+# ==================================================================== GLOSSARY (Sözlük Hub)
+GLOSSARY = [
+ {"tr": {"t": "Osmoz", "d": "Fiberglas teknede jelkot altına sızan suyun laminatla tepkimeye girip kabarcık oluşturması.", "u": "/blog/osmoz-nedir-tedavisi/"},
+  "en": {"t": "Osmosis", "d": "Water seeping under the gelcoat and reacting with the laminate to form blisters on a fibreglass boat.", "u": "/en/blog/what-is-osmosis-treatment/"}},
+ {"tr": {"t": "Blister", "d": "Su altı yüzeyde jelkot altında oluşan içi sıvı dolu kabarcık; her blister osmoz değildir.", "u": "/blog/blister-vs-osmoz-farki/"},
+  "en": {"t": "Blister", "d": "A fluid-filled bubble under the gelcoat on the underwater surface; not every blister is osmosis.", "u": "/en/blog/blister-vs-osmosis/"}},
+ {"tr": {"t": "Gelcoat (Jelkot)", "d": "Fiberglas teknenin dış yüzeyindeki renkli, parlak koruyucu katman.", "u": "/blog/gelcoat-yenileme/"},
+  "en": {"t": "Gelcoat", "d": "The coloured, glossy protective outer layer of a fibreglass boat.", "u": "/en/blog/gelcoat-renewal/"}},
+ {"tr": {"t": "Antifouling (Zehirli boya)", "d": "Karinayı yosun, midye gibi deniz canlılarının yapışmasından koruyan su altı boyası.", "u": "/blog/antifouling-secimi/"},
+  "en": {"t": "Antifouling", "d": "Underwater paint that protects the hull from marine growth like weed and mussels.", "u": "/en/blog/choosing-antifouling/"}},
+ {"tr": {"t": "Fiberglas (GRP)", "d": "Cam elyafı ve reçineden üretilen, teknelerde en yaygın gövde malzemesi.", "u": "/hizmetler/fiberglas-onarim/"},
+  "en": {"t": "Fibreglass (GRP)", "d": "Glass fibre and resin composite, the most common boat hull material.", "u": "/en/services/fibreglass-repair/"}},
+ {"tr": {"t": "Epoksi", "d": "Yüksek yapışma ve su geçirmezlik sağlayan reçine; yapısal onarım ve bariyer katında tercih edilir.", "u": "/blog/polyester-vs-epoksi-recine/"},
+  "en": {"t": "Epoxy", "d": "A resin with high adhesion and waterproofing; preferred for structural repair and barrier coats.", "u": "/en/blog/polyester-vs-epoxy-resin/"}},
+ {"tr": {"t": "Polyester reçine", "d": "Teknelerin çoğunun üretildiği, ekonomik ve orijinal laminatla uyumlu reçine.", "u": "/blog/polyester-vs-epoksi-recine/"},
+  "en": {"t": "Polyester resin", "d": "The economical resin most boats are built with, compatible with the original laminate.", "u": "/en/blog/polyester-vs-epoxy-resin/"}},
+ {"tr": {"t": "Epoksi macun (Dolgu / Fairing)", "d": "Çatlak, boşluk ve düzensizlikleri doldurup pürüzsüz yüzey oluşturan iki bileşenli dolgu.", "u": "/blog/epoksi-macun-nedir/"},
+  "en": {"t": "Epoxy filler (Fairing)", "d": "A two-part filler that fills cracks and unevenness to create a smooth surface.", "u": "/en/blog/epoxy-filler-putty/"}},
+ {"tr": {"t": "Kalafat", "d": "Ahşap teknede kaplama tahtaları arasındaki derzlerin su geçirmez hale getirilmesi.", "u": "/blog/kalafat-nedir/"},
+  "en": {"t": "Caulking", "d": "Making the seams between planks watertight on a wooden boat.", "u": "/en/blog/caulking-explained/"}},
+ {"tr": {"t": "Üstüpü", "d": "Geleneksel kalafatta derzlere çakılan pamuk/keten lifi dolgu malzemesi.", "u": "/blog/ustupu-kalafat-teknikleri/"},
+  "en": {"t": "Oakum", "d": "The cotton/flax fibre driven into seams in traditional caulking.", "u": "/en/blog/oakum-caulking-techniques/"}},
+ {"tr": {"t": "Teak (Tik)", "d": "Doğal yağı sayesinde suya dayanıklı, güvertede kullanılan değerli ahşap.", "u": "/hizmetler/teak-guverte-doseme/"},
+  "en": {"t": "Teak", "d": "A prized, water-resistant wood used for decks thanks to its natural oils.", "u": "/en/services/teak-deck/"}},
+ {"tr": {"t": "Sentetik teak", "d": "Bakım gerektirmeyen PVC/EVA bazlı, teak görünümlü güverte kaplaması.", "u": "/blog/sentetik-teak-alternatifleri/"},
+  "en": {"t": "Synthetic teak", "d": "Maintenance-free PVC/EVA-based deck covering that looks like teak.", "u": "/en/blog/synthetic-teak-alternatives/"}},
+ {"tr": {"t": "Kekamoz", "d": "Karinada biriken sert kireç/kabuk tabakası; sürtünmeyi artırır, temizlenmesi gerekir.", "u": "/blog/kekamoz-temizligi/"},
+  "en": {"t": "Hull scale", "d": "The hard lime/crust layer that builds up on the hull, increasing drag and needing removal.", "u": "/en/blog/hull-limescale-cleaning/"}},
+ {"tr": {"t": "Raspa / Kumlama", "d": "Kat kat birikmiş eski boya/antifouling'in mekanik veya soda blasting ile sökülmesi.", "u": "/blog/raspa-kumlama/"},
+  "en": {"t": "Blasting", "d": "Removing built-up old paint/antifouling by sanding or soda blasting.", "u": "/en/blog/blasting-soda-blasting/"}},
+ {"tr": {"t": "Kışlatma", "d": "Sezon sonu tekneyi karaya çekme, yıkama, örtme ve güvenli depolama işlemleri.", "u": "/hizmetler/tekne-kislatma/"},
+  "en": {"t": "Winterising", "d": "End-of-season haul-out, wash-down, covering and safe storage of the boat.", "u": "/en/services/winterising-storage/"}},
+ {"tr": {"t": "Çekek", "d": "Teknenin karaya çekildiği alan; su altı işleri burada yapılır.", "u": "/blog/tekne-cekek-karaya-cekme/"},
+  "en": {"t": "Hardstand / Haul-out", "d": "The area where a boat is hauled ashore; underwater work is done here.", "u": "/en/blog/boat-haul-out-guide/"}},
+ {"tr": {"t": "Anot (Zinc)", "d": "Su altı metalleri galvanik korozyondan koruyan, kendini feda eden kurban parça.", "u": "/blog/anot-zinc-bakimi/"},
+  "en": {"t": "Anode (Zinc)", "d": "A sacrificial part that protects underwater metals from galvanic corrosion.", "u": "/en/blog/anode-zinc-care/"}},
+ {"tr": {"t": "2K poliüretan", "d": "İki bileşenli, çok dayanıklı ve yüksek parlaklıklı süperyat kalitesinde boya.", "u": "/blog/2k-poliuretan-boya/"},
+  "en": {"t": "2K polyurethane", "d": "A two-part, highly durable, high-gloss superyacht-grade paint.", "u": "/en/blog/2k-polyurethane-paint/"}},
+ {"tr": {"t": "Astar (Primer)", "d": "Boyanın altına uygulanan; yapışma, örtücülük ve korozyon koruması sağlayan kat.", "u": "/blog/astar-primer-nedir/"},
+  "en": {"t": "Primer", "d": "The coat applied under paint for adhesion, coverage and corrosion protection.", "u": "/en/blog/primer-importance/"}},
+ {"tr": {"t": "Sintine", "d": "Teknenin en dibindeki, su ve sızıntının toplandığı bölge; özel boyayla korunur.", "u": "/blog/sintine-boyasi/"},
+  "en": {"t": "Bilge", "d": "The lowest part of the boat where water collects; protected with special paint.", "u": "/en/blog/bilge-paint/"}},
+ {"tr": {"t": "Bimini / Tente", "d": "Kokpit üzerinde güneş ve yağmurdan koruyan kumaş örtü.", "u": "/blog/tente-branda-bimini/"},
+  "en": {"t": "Bimini / Canvas", "d": "A fabric cover over the cockpit protecting from sun and rain.", "u": "/en/blog/marine-canvas-covers/"}},
+ {"tr": {"t": "Cold-molding", "d": "İnce ahşap katmanların epoksiyle çapraz laminasyonu; güçlü, hafif ve su geçirmez gövde.", "u": "/blog/ahsap-epoksi-cold-molding/"},
+  "en": {"t": "Cold-molding", "d": "Cross-laminating thin wood veneers with epoxy for a strong, light, waterproof hull.", "u": "/en/blog/cold-molding-epoxy/"}},
+ {"tr": {"t": "Refit", "d": "Teknenin kapsamlı, çok kalemli yenilenmesi; genelde tek elden proje yönetimi ister.", "u": "/blog/refit-proje-yonetimi/"},
+  "en": {"t": "Refit", "d": "A comprehensive, multi-item renewal of a boat; usually needs single-hand project management.", "u": "/en/blog/refit-project-management/"}},
+ {"tr": {"t": "Detailing", "d": "İç-dış temizlik, pasta-polisaj ve jelkot koruma ile teknenin yüzeyini yenileme.", "u": "/hizmetler/tekne-detailing/"},
+  "en": {"t": "Detailing", "d": "Renewing the boat's surface with interior-exterior cleaning, compound-polish and gelcoat protection.", "u": "/en/services/boat-detailing/"}},
 ]

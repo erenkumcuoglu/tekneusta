@@ -365,6 +365,22 @@ footer { background: var(--ink); }
 .wa-float svg { width: 30px; height: 30px; fill: #fff; }
 .wa-float:hover { background: #1ebe5d; }
 
+/* GLOSSARY */
+.glossary { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2.5rem; margin: 0; }
+@media (max-width: 700px) { .glossary { grid-template-columns: 1fr; } }
+.gloss-item { border-bottom: 1px solid rgba(10,61,92,0.1); padding: 0.95rem 0; }
+.gloss-item dt { font-family: var(--serif); font-size: 1.15rem; color: var(--ocean-deep); font-weight: 600; margin-bottom: 0.25rem; }
+.gloss-item dd { margin: 0; color: var(--slate); font-size: 0.98rem; line-height: 1.6; }
+.gloss-item dd a { color: var(--gold); text-decoration: none; font-weight: 700; margin-left: 0.2rem; }
+.gloss-item dd a:hover { color: var(--ocean-mid); }
+
+/* COOKIE NOTICE */
+.cookie-note { position: fixed; bottom: 0; left: 0; right: 0; z-index: 160; background: var(--ocean-deep); color: rgba(255,255,255,0.9); display: flex; gap: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 0.75rem 1.2rem; font-size: 0.85rem; box-shadow: 0 -2px 20px rgba(0,0,0,0.2); }
+.cookie-note a { color: var(--gold-lt); }
+.cookie-note button { background: var(--gold); color: #fff; border: none; border-radius: 4px; padding: 0.45rem 1.2rem; font-family: var(--sans); font-weight: 700; font-size: 0.82rem; cursor: pointer; }
+.cookie-note button:hover { background: var(--gold-lt); }
+.cookie-note[hidden] { display: none; }
+
 /* REVEAL */
 /* Progressive enhancement: elements only hide when JS is active (html.js).
    Without JS, content stays fully visible. */

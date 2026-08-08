@@ -23,6 +23,7 @@
         <li><a href="https://wa.me/{{ site.wa }}" target="_blank" rel="noopener">{{ t.footer.wa }}</a></li>
         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         <li><a href="{{ page.blog_url }}">{{ t.nav.blog }}</a></li>
+        <li><a href="{{ page.glossary_url }}">{% if page.lang == 'tr' %}Sözlük{% else %}Glossary{% endif %}</a></li>
       </ul>
     </div>
   </div>
