@@ -124,16 +124,16 @@ def local_business_schema():
         "description": "İstanbul ve Ege'de profesyonel tekne tamiri, bakımı ve renovasyonu. Fiberglas onarımı, osmoz tedavisi, gelcoat, antifouling, ahşap tekne restorasyonu, teak güverte döşeme, iç mekan yenileme ve kışlatma.",
         "url": DOMAIN, "telephone": SITE["phone_e164"], "email": SITE["email"],
         "image": abs_url("/assets/images/hakkimizda.jpg"),
-        "address": {"@type": "PostalAddress", "addressLocality": "İstanbul", "addressRegion": "İstanbul", "addressCountry": "TR"},
-        "geo": {"@type": "GeoCoordinates", "latitude": "40.8330", "longitude": "29.3000"},
+        "address": {"@type": "PostalAddress", "streetAddress": "Kültür Mah.", "addressLocality": "Beşiktaş", "addressRegion": "İstanbul", "postalCode": "34340", "addressCountry": "TR"},
+        "geo": {"@type": "GeoCoordinates", "latitude": "41.0430", "longitude": "29.0075"},
         "areaServed": [{"@type": "City", "name": n} for n in ["İstanbul", "Bodrum", "Göcek", "Marmaris", "Fethiye"]],
         "openingHoursSpecification": [{"@type": "OpeningHoursSpecification",
             "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
             "opens": "08:00", "closes": "18:00"}],
         "priceRange": "$$",
         "foundingDate": SITE["founded"],
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": SITE["rating"], "reviewCount": SITE["review_count"]},
-        "sameAs": [SITE["instagram"], SITE["youtube"]],
+        # NOTE: aggregateRating gerçek/görünür yorumlar toplanınca eklenecek (Google politikası).
+        "sameAs": [SITE["instagram"]],
         "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Tekne Hizmetleri",
             "itemListElement": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": s["tr"]["name"], "description": s["tr"]["short"]}} for s in C.SERVICES]},
     }
@@ -305,6 +305,7 @@ def build():
 
     write_sitemap()
     write_robots()
+    write_llms()
     print(f"Built {len(urls)} pages.")
 
 def write_sitemap():
@@ -318,6 +319,30 @@ def write_sitemap():
 
 def write_robots():
     write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n")
+
+def write_llms():
+    """Machine-friendly summary for LLMs / AI assistants (emerging GEO convention)."""
+    S, R, P = services_for("tr"), regions_for("tr"), posts_for("tr")
+    cornerstone = ["osmoz-nedir-tedavisi", "antifouling-secimi", "tekne-boyama-maliyeti",
+                   "teak-guverte-bakimi", "tekne-kislatma-kontrol-listesi",
+                   "ikinci-el-tekne-alim-rehberi", "fiber-mi-ahsap-tekne",
+                   "satin-alma-oncesi-tekne-ekspertizi", "refit-proje-yonetimi"]
+    bymap = {p["slug"]: p for p in P}
+    L = [f"# {SITE['brand']}", "",
+         "> İstanbul ve Ege'de profesyonel tekne tamiri, bakımı ve renovasyonu. Fiberglas onarımı ve "
+         "osmoz tedavisi, antifouling boya, ahşap tekne restorasyonu, teak güverte döşeme, iç mekan "
+         "yenileme, kışlatma ve detailing. Ücretsiz keşif, 48 saatte yazılı teklif, işçilik garantisi. "
+         "Aracısız, doğrudan ustayla çalışılır.", "",
+         f"İletişim: {SITE['phone_display']} · WhatsApp: https://wa.me/{SITE['wa']} · {SITE['email']}", "",
+         "## Hizmetler"]
+    L += [f"- [{s['name']}]({abs_url(s['url'])}): {s['short']}" for s in S]
+    L += ["", "## Hizmet Bölgeleri"]
+    L += [f"- [{r['name']}]({abs_url(r['url'])})" for r in R]
+    L += ["", "## Rehber (öne çıkan içerikler)"]
+    L += [f"- [{bymap[sl]['title']}]({abs_url(bymap[sl]['url'])}): {bymap[sl]['excerpt']}"
+          for sl in cornerstone if sl in bymap]
+    L += [f"- [Tüm blog ({len(P)} makale)]({abs_url('/blog/')})", ""]
+    write("llms.txt", "\n".join(L) + "\n")
 
 if __name__ == "__main__":
     build()

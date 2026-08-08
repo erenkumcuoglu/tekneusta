@@ -82,6 +82,7 @@
       var msg = lead + '%0A%0A' +
         'Ad: ' + encodeURIComponent(v('ad')) + '%0A' +
         'Telefon: ' + encodeURIComponent(v('tel')) + '%0A' +
+        (v('email') ? 'E-posta: ' + encodeURIComponent(v('email')) + '%0A' : '') +
         'Tekne Tipi: ' + encodeURIComponent(v('tip')) + '%0A' +
         'Hizmet: ' + encodeURIComponent(v('hizmet')) +
         (v('not') ? '%0ANot: ' + encodeURIComponent(v('not')) : '');

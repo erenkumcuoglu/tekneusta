@@ -24,7 +24,7 @@
   <meta property="og:description" content="{{ page.meta_desc }}" />
   <meta property="og:site_name" content="{{ site.brand }}" />
   <meta property="og:locale" content="{{ 'tr_TR' if page.lang == 'tr' else 'en_US' }}" />
-  <meta property="og:image" content="{{ site.domain }}{{ page.og_image|default('/assets/images/parallax-1.jpg') }}" />
+  <meta property="og:image" content="{{ site.domain }}{{ page.og_image or '/assets/images/parallax-1.jpg' }}" />
   <meta name="twitter:card" content="summary_large_image" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
