@@ -938,6 +938,108 @@ SERVICES = [
    ],
  },
 },
+{
+ "slug": "tente-branda", "slug_en": "marine-canvas",
+ "image": "/assets/images/parallax-3.jpg",
+ "deep": {
+   "tr": """
+<h2>Ne üretiyoruz?</h2>
+<p>Marine dikişhane işleri, teknenin dış tekstillerini ve döşemesini kapsar. Aşağıdaki tablo başlıca ürünleri özetliyor.</p>
+<table>
+<thead><tr><th>Ürün</th><th>İşlev</th><th>Not</th></tr></thead>
+<tbody>
+<tr><td>Bimini</td><td>Kokpit üzeri güneşlik</td><td>Seyir konforunun temeli</td></tr>
+<tr><td>Sprayhood</td><td>Yağmur/serpinti koruması</td><td>Kokpit girişini korur</td></tr>
+<tr><td>Kaplama brandası</td><td>Kullanılmadığında koruma</td><td>UV ve kirden korur</td></tr>
+<tr><td>Kışlama brandası</td><td>Kışın nem/UV koruması</td><td>Havalandırmalı (bkz. <a href="/blog/tekne-ortusu-secimi/">örtü seçimi</a>)</td></tr>
+<tr><td>Minder & döşeme</td><td>Kokpit/iç mekan dikişi</td><td>Deniz sınıfı kumaş</td></tr>
+</tbody>
+</table>
+<h2>Kumaş ve dikiş kalitesi</h2>
+<p>Deniz koşullarına uygun, UV'ye dayanıklı ve su itici kumaş; <strong>UV dayanımlı iplik</strong> ve paslanmaz fikstürler şarttır. En iyi kumaş bile zayıf dikişle kısa ömürlü olur — dikiş kalitesi belirleyicidir. Detaylar için <a href="/blog/tente-branda-bimini/">tente/branda rehberimize</a> bakın.</p>
+""",
+   "en": """
+<h2>What we make</h2>
+<p>Marine canvas work covers a boat's exterior textiles and upholstery. The table below sums up the main products.</p>
+<table>
+<thead><tr><th>Product</th><th>Function</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td>Bimini</td><td>Cockpit sunshade</td><td>The basis of cruising comfort</td></tr>
+<tr><td>Sprayhood</td><td>Rain/spray protection</td><td>Shields the cockpit entry</td></tr>
+<tr><td>Storage cover</td><td>Protection when not in use</td><td>Guards against UV and dirt</td></tr>
+<tr><td>Winter cover</td><td>Damp/UV protection in winter</td><td>Ventilated (see <a href="/en/blog/boat-cover-selection/">cover selection</a>)</td></tr>
+<tr><td>Cushions & upholstery</td><td>Cockpit/interior sewing</td><td>Marine-grade fabric</td></tr>
+</tbody>
+</table>
+<h2>Fabric and stitch quality</h2>
+<p>Fabric suited to marine conditions — UV-resistant and water-repellent — plus <strong>UV-resistant thread</strong> and stainless fixtures are essential. Even the best fabric is short-lived with weak stitching. For detail, see our <a href="/en/blog/marine-canvas-covers/">canvas guide</a>.</p>
+""",
+ },
+ "tr": {
+   "name": "Tente & Branda",
+   "short": "Bimini, sprayhood, kaplama ve kışlama brandaları; marine dikişhane ve döşeme işleri.",
+   "bullets": ["Bimini & sprayhood", "Kaplama & kışlama brandası", "Minder & döşeme dikişi", "Onarım & yenileme"],
+   "hero_title": "Tente, Branda ve Marine Dikişhane",
+   "hero_sub": "Güneş, yağmur ve UV'ye karşı; teknenize özel ölçü bimini, sprayhood, kaplama ve kışlama brandaları ile döşeme dikişi.",
+   "meta_title": "Tekne Tente, Branda ve Bimini | Marine Dikişhane — Tekne Usta",
+   "meta_desc": "Tekne tente, branda ve bimini: özel ölçü bimini, sprayhood, kaplama ve kışlama brandası, minder-döşeme dikişi ve onarım. Deniz sınıfı kumaş, UV dayanımlı dikiş. İstanbul ve Ege.",
+   "body": """
+<h2>Teknenizin dış tekstili, hem koruma hem konfor</h2>
+<p>Tente ve brandalar; tekneyi güneş, yağmur ve UV'den korur, aynı zamanda seyir konforunu belirler. İyi seçilmiş ve <strong>teknenize özel ölçü</strong> dikilmiş bir sistem, hem sizi hem teknenizi yıllarca korur. Marine dikişhane işlerini deniz sınıfı malzeme ve titiz işçilikle yapıyoruz.</p>
+<h2>Neler yapıyoruz?</h2>
+<ul>
+<li><strong>Bimini & sprayhood</strong> — kokpit güneşliği ve yağmur koruması</li>
+<li><strong>Kaplama & kışlama brandaları</strong> — kullanım dışı ve kış koruması</li>
+<li><strong>Minder & döşeme dikişi</strong> — kokpit ve iç mekan (bkz. <a href="/hizmetler/ic-mekan-yenileme/">iç mekan yenileme</a>)</li>
+<li><strong>Onarım & yenileme</strong> — yıpranmış tente/branda tamiri, fermuar ve dikiş yenileme</li>
+</ul>
+<h2>Neden özel ölçü?</h2>
+<p>Hazır ölçü tente/branda nadiren tam oturur; yanlış gerginlik hem görünümü bozar hem üzerinde su biriktirir. Teknenin hattına özel kalıp, doğru gerginlik ve su akışı; sonucun hem estetiğini hem ömrünü belirler.</p>
+""",
+   "tiles": [
+     {"h": "Deniz sınıfı kumaş", "p": "UV, tuz ve suya dayanıklı, solmayan kumaş."},
+     {"h": "UV dayanımlı dikiş", "p": "İplik ve fikstürler dikişin ömrünü belirler."},
+     {"h": "Özel ölçü", "p": "Teknenizin hattına birebir kalıp ve gerginlik."},
+   ],
+   "faqs": [
+     {"q": "Mevcut tentemi onarır mısınız yoksa yeni mi gerekir?", "a": "Kumaş sağlamsa dikiş, fermuar ve bağlantı onarımı yapılabilir. Kumaş UV'den yıprandıysa yenileme daha mantıklıdır; keşifte birlikte karar veririz."},
+     {"q": "Kışlama brandası ile normal branda farkı ne?", "a": "Kışlama brandası nem hapsetmeyen, havalandırmalı olmalı; aksi halde küf yapar. Kullanım brandası daha çok UV/kir korumasına odaklanır."},
+     {"q": "Hangi kumaşı kullanıyorsunuz?", "a": "Deniz koşullarına uygun, UV ve su dirençli akrilik/deniz sınıfı kumaşlar ve UV dayanımlı iplik kullanıyoruz."},
+   ],
+ },
+ "en": {
+   "name": "Canvas & Covers",
+   "short": "Biminis, sprayhoods, storage and winter covers; marine canvas and upholstery work.",
+   "bullets": ["Bimini & sprayhood", "Storage & winter covers", "Cushion & upholstery sewing", "Repair & renewal"],
+   "hero_title": "Canvas, Covers and Marine Upholstery",
+   "hero_sub": "Against sun, rain and UV — made-to-measure biminis, sprayhoods, storage and winter covers plus upholstery sewing for your boat.",
+   "meta_title": "Boat Canvas, Covers and Bimini | Marine Upholstery — Tekne Usta",
+   "meta_desc": "Boat canvas, covers and bimini: made-to-measure bimini, sprayhood, storage and winter cover, cushion-upholstery sewing and repair. Marine-grade fabric, UV-resistant stitching.",
+   "body": """
+<h2>Your boat's exterior textiles — protection and comfort</h2>
+<p>Canvas and covers protect the boat from sun, rain and UV, and also shape cruising comfort. A well-chosen, <strong>made-to-measure</strong> system protects both you and your boat for years. We do marine canvas work in marine-grade materials with meticulous craftsmanship.</p>
+<h2>What we make</h2>
+<ul>
+<li><strong>Bimini & sprayhood</strong> — cockpit sunshade and rain protection</li>
+<li><strong>Storage & winter covers</strong> — off-season and winter protection</li>
+<li><strong>Cushion & upholstery sewing</strong> — cockpit and interior (see <a href="/en/services/interior-refit/">interior refit</a>)</li>
+<li><strong>Repair & renewal</strong> — worn canvas repair, zip and stitch renewal</li>
+</ul>
+<h2>Why made-to-measure?</h2>
+<p>Off-the-shelf canvas rarely fits exactly; wrong tension spoils the look and pools water. A pattern made to the boat's lines, correct tension and water run-off determine both the look and the life.</p>
+""",
+   "tiles": [
+     {"h": "Marine-grade fabric", "p": "UV-, salt- and water-resistant, non-fading fabric."},
+     {"h": "UV-resistant stitching", "p": "Thread and fixtures determine the seam's life."},
+     {"h": "Made to measure", "p": "An exact pattern and tension for your boat's lines."},
+   ],
+   "faqs": [
+     {"q": "Do you repair my existing cover or is a new one needed?", "a": "If the fabric is sound, stitching, zips and fittings can be repaired. If the fabric is UV-worn, renewal makes more sense; we decide together at the survey."},
+     {"q": "What's the difference between a winter cover and a normal cover?", "a": "A winter cover must be ventilated and not trap damp; otherwise it breeds mould. A use cover focuses more on UV/dirt protection."},
+     {"q": "Which fabric do you use?", "a": "Marine-grade acrylic/fabrics resistant to UV and water, plus UV-resistant thread, suited to marine conditions."},
+   ],
+ },
+},
 ]
 
 # ------------------------------------------------------------------ Regions
