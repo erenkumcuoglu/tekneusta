@@ -6069,6 +6069,284 @@ POSTS = [
 """,
  },
 },
+{
+ "slug": "yat-teak-doseme", "slug_en": "yacht-teak-deck",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2029-09-13",
+ "tr": {
+   "category": "Teak",
+   "title": "Yat Teak Döşeme: Güvertede Prestij ve Güvenlik",
+   "excerpt": "Yatlarda teak güverte döşeme, yenileme ve derz onarımı; doğal ve sentetik seçenekler.",
+   "meta_title": "Yat Teak Güverte Döşeme Rehberi | Tekne Usta",
+   "meta_desc": "Yat teak döşeme: yeni teak güverte, eski teak yenileme, derz onarımı ve doğal/sentetik seçenekler. İstanbul ve Ege'de yat teak güverte servisi.",
+   "body": """
+<p>Teak güverte, bir yatın en göz alıcı ve prestijli yüzeyidir; aynı zamanda ıslakken güvenli bir yürüyüş alanı sağlar. Yatlarda teak döşeme, yenileme ve derz onarımını titiz işçilikle yapıyoruz.</p>
+<h2>Yeni döşeme mi, yenileme mi?</h2>
+<p>Teak yeterince kalınsa <a href="/blog/teak-derz-yenileme/">derz yenileme</a> ekonomiktir; inceldiyse komple döşeme gerekir. Karar için <a href="/blog/teak-kalinligi-olcumu/">teak kalınlığı</a> yazımıza bakın.</p>
+<h2>Doğal mı, sentetik mi?</h2>
+<p>Klasik prestij için doğal teak, bakımsız pratiklik için <a href="/blog/sentetik-teak-alternatifleri/">sentetik teak</a>. Karşılaştırma: <a href="/blog/teak-vs-sentetik-teak/">teak vs sentetik</a>. Fiyat kalemleri için <a href="/blog/teak-guverte-fiyatlari/">teak fiyatları</a>.</p>
+<p>Yat teak döşemeyi <a href="/hizmetler/teak-guverte-doseme/">teak güverte döşeme</a> hizmetimiz ve <a href="/tekneler/yat-motoryat/">yat & motoryat</a> bakım kapsamında yapıyoruz. Keşifte teak kalınlığını ölçüp doğru yönlendiririz. <a href="#teklif-al">Teklif alın</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Teak",
+   "title": "Yacht Teak Decking: Prestige and Safety on Deck",
+   "excerpt": "Teak deck laying, renewal and seam repair on yachts; natural and synthetic options.",
+   "meta_title": "Yacht Teak Decking Guide | Tekne Usta",
+   "meta_desc": "Yacht teak decking: new teak deck, old teak renewal, seam repair and natural/synthetic options in Istanbul and the Aegean.",
+   "body": """
+<p>A teak deck is a yacht's most eye-catching, prestigious surface, and also a safe walking area when wet. We do teak laying, renewal and seam repair on yachts with meticulous craftsmanship.</p>
+<h2>New deck or renewal?</h2>
+<p>If the teak is thick enough, <a href="/en/blog/teak-seam-renewal/">seam renewal</a> is economical; if thinned, a full deck is needed. See our <a href="/en/blog/teak-thickness-check/">teak thickness</a> article to decide.</p>
+<h2>Natural or synthetic?</h2>
+<p>Natural teak for classic prestige, <a href="/en/blog/synthetic-teak-alternatives/">synthetic teak</a> for maintenance-free practicality. Compare: <a href="/en/blog/teak-vs-synthetic-teak/">teak vs synthetic</a>. For price items, <a href="/en/blog/teak-deck-cost/">teak cost</a>.</p>
+<p>We do yacht teak decking under our <a href="/en/services/teak-deck/">teak decking</a> service and <a href="/en/boats/yacht-motoryacht/">yacht & motoryacht</a> care. We measure teak thickness at the survey and advise correctly. <a href="#teklif-al">Get a quote</a>.</p>
+""",
+ },
+},
+{
+ "slug": "yat-detailing", "slug_en": "yacht-detailing",
+ "image": "/assets/images/parallax-1.jpg", "date": "2029-09-27",
+ "tr": {
+   "category": "Bakım",
+   "title": "Yat Detailing: Yüzeyi ve Değeri Korumak",
+   "excerpt": "Yatlarda iç-dış temizlik, pasta-polisaj ve jelkot koruma; düzenli detailing yatın değerini korur.",
+   "meta_title": "Yat Detailing ve Temizlik Rehberi | Tekne Usta",
+   "meta_desc": "Yat detailing: dış yüzey yıkama, pasta-polisaj, jelkot/boya koruma, iç mekan temizliği ve sezon paketleri. İstanbul ve Ege'de yat detailing hizmeti.",
+   "body": """
+<p>Yat detailing sadece estetik değildir; yüzeyi, değeri ve ömrü koruyan en ucuz bakımdır. Düzenli detailing, komple boya veya döşeme yenilemeyi yıllarca erteler.</p>
+<h2>Detailing neleri kapsar?</h2>
+<ul>
+<li>Dış yüzey: <a href="/blog/gelcoat-cizik-sararma-giderme/">pasta-polisaj</a> ve parlaklık</li>
+<li>Jelkot/boya koruma: <a href="/blog/uv-koruma-kaplama/">UV'ye karşı wax</a></li>
+<li>İç mekan: kabin, döşeme ve <a href="/blog/teknede-kuf-nem-onleme/">nem/küf</a> önlemi</li>
+<li>Paslanmaz, cam ve detay bakımı</li>
+</ul>
+<h2>Sezon paketleri</h2>
+<p>Sezon öncesi ve sonrası detailing, yatın hem görünümünü hem piyasa değerini korur. Düzenli bir <a href="/blog/yillik-bakim-anlasmasi/">yıllık bakım anlaşmasıyla</a> öngörülebilir hale getirilebilir.</p>
+<p>Yat detailing'i <a href="/hizmetler/tekne-detailing/">temizlik & detailing</a> hizmetimiz ve <a href="/tekneler/yat-motoryat/">yat & motoryat</a> bakım kapsamında yapıyoruz. <a href="#teklif-al">Teklif alın</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Yacht Detailing: Protecting Surface and Value",
+   "excerpt": "Interior-exterior cleaning, compound-polish and gelcoat protection on yachts; regular detailing protects value.",
+   "meta_title": "Yacht Detailing and Cleaning Guide | Tekne Usta",
+   "meta_desc": "Yacht detailing: exterior wash, compound-polish, gelcoat/paint protection, interior cleaning and season packages in Istanbul and the Aegean.",
+   "body": """
+<p>Yacht detailing isn't just cosmetic; it's the cheapest care that protects surface, value and life. Regular detailing postpones a full repaint or re-upholstery for years.</p>
+<h2>What does detailing cover?</h2>
+<ul>
+<li>Exterior: <a href="/en/blog/gelcoat-scratch-yellowing/">compound-polish</a> and gloss</li>
+<li>Gelcoat/paint protection: <a href="/en/blog/uv-protection-coating/">wax against UV</a></li>
+<li>Interior: cabin, upholstery and <a href="/en/blog/preventing-mould-damp/">damp/mould</a> measures</li>
+<li>Stainless, glass and detail care</li>
+</ul>
+<h2>Season packages</h2>
+<p>Pre- and post-season detailing protects both the look and the market value. It can be made predictable with a regular <a href="/en/blog/annual-maintenance-agreement/">annual maintenance agreement</a>.</p>
+<p>We do yacht detailing under our <a href="/en/services/boat-detailing/">cleaning & detailing</a> service and <a href="/en/boats/yacht-motoryacht/">yacht & motoryacht</a> care. <a href="#teklif-al">Get a quote</a>.</p>
+""",
+ },
+},
+{
+ "slug": "yat-ic-mekan-yenileme", "slug_en": "yacht-interior-refit",
+ "image": "/assets/images/services/bakim.jpg", "date": "2029-10-11",
+ "tr": {
+   "category": "İç Mekan",
+   "title": "Yat İç Mekan Yenileme: Konfor ve Estetik",
+   "excerpt": "Yatlarda döşeme, kabin, mutfak ve aydınlatma yenileme; konforu ve değeri artıran iç mekan.",
+   "meta_title": "Yat İç Mekan Yenileme Rehberi | Tekne Usta",
+   "meta_desc": "Yat iç mekan yenileme: döşeme ve kumaş, kabin ve mutfak, LED aydınlatma, perde ve nem/küf çözümü. İstanbul ve Ege'de yat iç mekan yenileme hizmeti.",
+   "body": """
+<p>Yatın iç mekânı, konforun ve değerin kalbidir. Yıpranmış döşeme, eskiyen kabin ve yetersiz aydınlatma yatı olduğundan eski gösterir. İç mekânı baştan ele alıp hem estetiği hem işlevi yeniliyoruz.</p>
+<h2>Yat iç mekan hizmetleri</h2>
+<ul>
+<li><a href="/blog/tekne-doseme-kumas-secimi/">Deniz sınıfı kumaş</a> ve <a href="/blog/minder-sunger-degisimi/">sünger</a> ile döşeme yenileme</li>
+<li>Kabin, mutfak (<a href="/blog/tekne-mutfagi-yenileme/">galley</a>) ve dolap yenileme</li>
+<li><a href="/blog/kabin-led-aydinlatma/">LED aydınlatma</a> ve <a href="/blog/tekne-perde-stor/">perde/stor</a></li>
+<li><a href="/blog/teknede-kuf-nem-onleme/">Nem/küf</a> önlemi</li>
+</ul>
+<h2>Deniz koşullarına uygun malzeme</h2>
+<p>Yatta kullanılan kumaş, sünger ve yüzeyler neme, tuza ve UV'ye dayanıklı olmalı. Doğru malzeme, yenilemenin uzun ömürlü olmasını sağlar.</p>
+<p>Yat iç mekan yenilemeyi <a href="/hizmetler/ic-mekan-yenileme/">iç mekan yenileme</a> hizmetimiz ve <a href="/tekneler/yat-motoryat/">yat & motoryat</a> bakım kapsamında yapıyoruz. <a href="#teklif-al">Teklif alın</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Interior",
+   "title": "Yacht Interior Refit: Comfort and Style",
+   "excerpt": "Upholstery, cabin, galley and lighting renewal on yachts; an interior that raises comfort and value.",
+   "meta_title": "Yacht Interior Refit Guide | Tekne Usta",
+   "meta_desc": "Yacht interior refit: upholstery and fabric, cabin and galley, LED lighting, curtains and damp/mould solutions in Istanbul and the Aegean.",
+   "body": """
+<p>A yacht's interior is the heart of comfort and value. Worn upholstery, a tired cabin and poor lighting make a yacht look older than it is. We take the interior in hand and renew both looks and function.</p>
+<h2>Yacht interior services</h2>
+<ul>
+<li>Upholstery renewal with <a href="/en/blog/marine-upholstery-fabric/">marine-grade fabric</a> and <a href="/en/blog/cushion-foam-replacement/">foam</a></li>
+<li>Cabin, galley (<a href="/en/blog/galley-refit/">galley</a>) and cabinetry renewal</li>
+<li><a href="/en/blog/cabin-led-lighting/">LED lighting</a> and <a href="/en/blog/boat-curtains-blinds/">curtains/blinds</a></li>
+<li><a href="/en/blog/preventing-mould-damp/">Damp/mould</a> measures</li>
+</ul>
+<h2>Materials for marine conditions</h2>
+<p>Fabric, foam and surfaces used on a yacht must resist damp, salt and UV. The right materials make the refit last.</p>
+<p>We do yacht interior refit under our <a href="/en/services/interior-refit/">interior refit</a> service and <a href="/en/boats/yacht-motoryacht/">yacht & motoryacht</a> care. <a href="#teklif-al">Get a quote</a>.</p>
+""",
+ },
+},
+{
+ "slug": "yelkenli-boyama", "slug_en": "sailboat-painting",
+ "image": "/assets/images/services/boya.jpg", "date": "2029-10-25",
+ "tr": {
+   "category": "Boya",
+   "title": "Yelkenli Boyama: Dış Cephe ve Antifouling",
+   "excerpt": "Yelkenlilerde dış cephe boyama, antifouling ve gelcoat; doğru sistemle uzun ömürlü bitiş.",
+   "meta_title": "Yelkenli Boyama Rehberi | Tekne Usta",
+   "meta_desc": "Yelkenli boyama: dış cephe boya, antifouling, gelcoat ve yüzey hazırlığı. İstanbul ve Ege'de yelkenli boya ve antifouling servisi.",
+   "body": """
+<p>Yelkenli boyama, hem estetik hem koruma açısından önemli bir iştir. Dış cephe, kılavuz şerit ve su altı antifouling'i doğru sistemle uzun ömürlü yapıyoruz.</p>
+<h2>Dış cephe ve antifouling</h2>
+<p>Dış cephede kalıcı parlaklık için <a href="/blog/2k-poliuretan-boya/">2K poliüretan</a>, su altında yelkenlinin kullanımına uygun <a href="/blog/antifouling-secimi/">antifouling</a> seçilir. Yüzey sağlamsa <a href="/blog/gelcoat-yenileme/">gelcoat yenileme</a> de bir seçenektir.</p>
+<h2>Yüzey hazırlığı</h2>
+<p>Kalıcı bir bitişin sırrı <a href="/blog/boya-oncesi-yuzey-hazirligi/">yüzey hazırlığındadır</a>: doğru zımpara, dolgu ve astar. Maliyet kalemleri için <a href="/blog/tekne-boyama-maliyeti/">boyama maliyeti</a> yazımıza bakın.</p>
+<p>Yelkenli boyama ve antifouling'i <a href="/hizmetler/tekne-boyama-antifouling/">boya</a> hizmetimiz ve <a href="/tekneler/yelkenli/">yelkenli</a> bakım kapsamında yapıyoruz. <a href="#teklif-al">Teklif alın</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "Sailboat Painting: Topside and Antifouling",
+   "excerpt": "Topside painting, antifouling and gelcoat on sailboats; a long-lasting finish with the right system.",
+   "meta_title": "Sailboat Painting Guide | Tekne Usta",
+   "meta_desc": "Sailboat painting: topside paint, antifouling, gelcoat and surface prep. Sailboat paint and antifouling service in Istanbul and the Aegean.",
+   "body": """
+<p>Sailboat painting matters for both looks and protection. We do topside, boot stripe and underwater antifouling with the right system for a long-lasting finish.</p>
+<h2>Topside and antifouling</h2>
+<p>For lasting topside gloss, <a href="/en/blog/2k-polyurethane-paint/">2K polyurethane</a>; below the waterline, an <a href="/en/blog/choosing-antifouling/">antifouling</a> suited to the sailboat's use. If the surface is sound, <a href="/en/blog/gelcoat-renewal/">gelcoat renewal</a> is also an option.</p>
+<h2>Surface prep</h2>
+<p>The secret to a lasting finish is in <a href="/en/blog/surface-prep-before-painting/">surface prep</a>: correct sanding, filling and primer. For cost items, see <a href="/en/blog/boat-painting-cost/">painting cost</a>.</p>
+<p>We do sailboat painting and antifouling under our <a href="/en/services/boat-painting-antifouling/">painting</a> service and <a href="/en/boats/sailboat/">sailboat</a> care. <a href="#teklif-al">Get a quote</a>.</p>
+""",
+ },
+},
+{
+ "slug": "gulet-ic-mekan", "slug_en": "gulet-interior-refit",
+ "image": "/assets/images/services/bakim.jpg", "date": "2029-11-08",
+ "tr": {
+   "category": "İç Mekan",
+   "title": "Gulet İç Mekan Yenileme: Kabin, Salon ve Döşeme",
+   "excerpt": "Guletlerde kabin, salon, mutfak ve döşeme yenileme; konaklamalı kullanıma uygun dayanıklı iç mekan.",
+   "meta_title": "Gulet İç Mekan Yenileme Rehberi | Tekne Usta",
+   "meta_desc": "Gulet iç mekan yenileme: kabin ve salon, döşeme ve kumaş, mutfak, aydınlatma ve nem/küf çözümü. Ege'de gulet iç mekan yenileme hizmeti.",
+   "body": """
+<p>Guletler konaklamalı ve çoğu zaman ticari kullanıldığından iç mekan hem konforlu hem dayanıklı olmalı. Kabin, salon, mutfak ve döşemeyi yoğun kullanıma uygun malzemelerle yeniliyoruz.</p>
+<h2>Gulet iç mekan hizmetleri</h2>
+<ul>
+<li>Kabin ve salon döşeme, <a href="/blog/tekne-doseme-kumas-secimi/">deniz sınıfı kumaş</a> ve <a href="/blog/minder-sunger-degisimi/">sünger</a></li>
+<li>Mutfak (<a href="/blog/tekne-mutfagi-yenileme/">galley</a>) ve dolap yenileme</li>
+<li><a href="/blog/kabin-led-aydinlatma/">Aydınlatma</a> ve <a href="/blog/tekne-perde-stor/">perde</a></li>
+<li><a href="/blog/teknede-kuf-nem-onleme/">Nem/küf</a> önlemi (çok kabinli guletlerde kritik)</li>
+</ul>
+<h2>Dayanıklılık önceliği</h2>
+<p>Misafir kullanan guletlerde döşeme çok yıpranır; lekeye ve aşınmaya dayanıklı, kolay temizlenen malzemeler tercih edilir.</p>
+<p>Gulet iç mekan yenilemeyi <a href="/hizmetler/ic-mekan-yenileme/">iç mekan yenileme</a> hizmetimiz ve <a href="/tekneler/gulet/">gulet</a> bakım kapsamında yapıyoruz. <a href="#teklif-al">Teklif alın</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Interior",
+   "title": "Gulet Interior Refit: Cabins, Saloon and Upholstery",
+   "excerpt": "Cabin, saloon, galley and upholstery renewal on gulets; a durable interior for overnight use.",
+   "meta_title": "Gulet Interior Refit Guide | Tekne Usta",
+   "meta_desc": "Gulet interior refit: cabins and saloon, upholstery and fabric, galley, lighting and damp/mould solutions. Gulet interior refit in the Aegean.",
+   "body": """
+<p>Because gulets are used for overnight stays and often commercially, the interior must be both comfortable and durable. We renew cabins, saloon, galley and upholstery with materials suited to heavy use.</p>
+<h2>Gulet interior services</h2>
+<ul>
+<li>Cabin and saloon upholstery, <a href="/en/blog/marine-upholstery-fabric/">marine-grade fabric</a> and <a href="/en/blog/cushion-foam-replacement/">foam</a></li>
+<li>Galley (<a href="/en/blog/galley-refit/">galley</a>) and cabinetry renewal</li>
+<li><a href="/en/blog/cabin-led-lighting/">Lighting</a> and <a href="/en/blog/boat-curtains-blinds/">curtains</a></li>
+<li><a href="/en/blog/preventing-mould-damp/">Damp/mould</a> measures (critical on multi-cabin gulets)</li>
+</ul>
+<h2>Durability first</h2>
+<p>On guest-carrying gulets the upholstery wears heavily; stain- and wear-resistant, easy-clean materials are preferred.</p>
+<p>We do gulet interior refit under our <a href="/en/services/interior-refit/">interior refit</a> service and <a href="/en/boats/gulet/">gulet</a> care. <a href="#teklif-al">Get a quote</a>.</p>
+""",
+ },
+},
+{
+ "slug": "fiber-tekne-kislatma", "slug_en": "fibreglass-boat-winterising",
+ "image": "/assets/images/services/bakim.jpg", "date": "2029-11-22",
+ "tr": {
+   "category": "Bakım",
+   "title": "Fiber Tekne Kışlatma: Osmoz Riskini Azaltmak",
+   "excerpt": "Fiber tekneyi kışlatmak: karaya çekme, karina kurutma, örtü ve osmozdan korunma.",
+   "meta_title": "Fiber Tekne Kışlatma Rehberi | Tekne Usta",
+   "meta_desc": "Fiber tekne kışlatma: karaya çekme, karina temizliği ve kurutma, havalandırmalı örtü ve osmozdan korunma. İstanbul ve Ege'de fiber tekne kışlatma hizmeti.",
+   "body": """
+<p>Fiber teknede kışlatmanın en önemli faydalarından biri karinanın kurumasına izin vererek <a href="/blog/osmozdan-korunma/">osmoz riskini</a> azaltmasıdır. İyi kışlatılmış bir fiber tekne sezona sorunsuz başlar.</p>
+<h2>Kışlatma kapsamı</h2>
+<ul>
+<li><a href="/blog/tekne-cekek-karaya-cekme/">Karaya çekme</a> ve basınçlı yıkama</li>
+<li>Karina, <a href="/blog/osmoz-belirtileri/">osmoz</a> ve <a href="/blog/anot-zinc-bakimi/">anot</a> kontrolü</li>
+<li>İç mekan havalandırması, <a href="/blog/teknede-kuf-nem-onleme/">nem/küf</a> önlemi</li>
+<li><a href="/blog/tekne-ortusu-secimi/">Havalandırmalı örtü</a> ve depolama</li>
+</ul>
+<h2>Neden karada?</h2>
+<p>Sürekli suda kalan fiber teknede laminat nemi artar. Karada kışlatmak nemi düşürür ve karina bakımını kolaylaştırır. <a href="/blog/kisin-tekne-nerede-saklanir/">Depolama seçenekleri</a> için ayrı yazımıza bakın.</p>
+<p>Fiber tekne kışlatmayı <a href="/hizmetler/tekne-kislatma/">kışlatma</a> hizmetimiz ve <a href="/tekneler/fiber-tekne/">fiber tekne</a> bakım kapsamında yapıyoruz. <a href="#teklif-al">Erken rezervasyon</a> için bize yazın.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Fibreglass Boat Winterising: Lowering Osmosis Risk",
+   "excerpt": "Winterising a fibreglass boat: haul-out, hull drying, cover and osmosis prevention.",
+   "meta_title": "Fibreglass Boat Winterising Guide | Tekne Usta",
+   "meta_desc": "Fibreglass boat winterising: haul-out, hull cleaning and drying, ventilated cover and osmosis prevention in Istanbul and the Aegean.",
+   "body": """
+<p>One of the key benefits of winterising a fibreglass boat is letting the hull dry, lowering <a href="/en/blog/osmosis-prevention/">osmosis risk</a>. A well-winterised fibreglass boat starts the season trouble-free.</p>
+<h2>Scope of winterising</h2>
+<ul>
+<li><a href="/en/blog/boat-haul-out-guide/">Haul-out</a> and pressure wash</li>
+<li>Hull, <a href="/en/blog/osmosis-symptoms/">osmosis</a> and <a href="/en/blog/anode-zinc-care/">anode</a> checks</li>
+<li>Interior ventilation, <a href="/en/blog/preventing-mould-damp/">damp/mould</a> measures</li>
+<li><a href="/en/blog/boat-cover-selection/">Ventilated cover</a> and storage</li>
+</ul>
+<h2>Why ashore?</h2>
+<p>On a fibreglass boat kept constantly afloat, laminate moisture rises. Winterising ashore lowers moisture and eases hull care. See our separate article on <a href="/en/blog/winter-boat-storage/">storage options</a>.</p>
+<p>We do fibreglass boat winterising under our <a href="/en/services/winterising-storage/">winterising</a> service and <a href="/en/boats/fibreglass-boat/">fibreglass boat</a> care. Message us to <a href="#teklif-al">book early</a>.</p>
+""",
+ },
+},
+{
+ "slug": "aluminyum-tekne-antifouling", "slug_en": "aluminium-boat-antifouling",
+ "image": "/assets/images/services/boya.jpg", "date": "2029-12-06",
+ "tr": {
+   "category": "Boya",
+   "title": "Alüminyum Tekne Antifouling: Bakırsız Sistem Şart",
+   "excerpt": "Alüminyum teknelerde neden bakırsız antifouling gerekir? Korozyon riski ve doğru sistem.",
+   "meta_title": "Alüminyum Tekne Antifouling Rehberi | Tekne Usta",
+   "meta_desc": "Alüminyum tekne antifouling: bakırsız (copper-free) boya, galvanik korozyon riski, doğru astar sistemi ve uygulama. İstanbul ve Ege'de alüminyum tekne servisi.",
+   "body": """
+<p>Alüminyum teknelerde antifouling seçimi, fiber ve ahşap teknelerden farklı ve kritik bir konudur. Yanlış boya galvanik korozyona yol açar; bu yüzden mutlaka <strong>bakırsız</strong> sistem kullanılır.</p>
+<h2>Neden bakırsız?</h2>
+<p>Bakır içeren antifouling, alüminyumla temas ettiğinde <a href="/blog/anot-zinc-bakimi/">galvanik korozyonu</a> tetikler ve gövdeye ciddi zarar verir. Alüminyumda yalnızca <strong>bakır içermeyen</strong> formüller güvenlidir.</p>
+<h2>Doğru astar sistemi</h2>
+<p>Alüminyumda boyanın tutunması ve metalin korunması için özel (genelde epoksi) <a href="/blog/astar-primer-nedir/">astar sistemi</a> gerekir. Yüzey hazırlığı da fiberden daha belirleyicidir (bkz. <a href="/blog/aluminyum-tekne-boyama/">alüminyum tekne boyama</a>).</p>
+<p>Alüminyum tekne antifouling'i <a href="/hizmetler/tekne-boyama-antifouling/">boya</a> hizmetimiz ve <a href="/tekneler/aluminyum-tekne/">alüminyum tekne</a> bakım kapsamında yapıyoruz. <em>Not: alüminyum kaynak/yapısal işler kapsamımız dışındadır.</em> <a href="#teklif-al">Teklif alın</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "Aluminium Boat Antifouling: Copper-Free Is Essential",
+   "excerpt": "Why do aluminium boats need copper-free antifouling? Corrosion risk and the right system.",
+   "meta_title": "Aluminium Boat Antifouling Guide | Tekne Usta",
+   "meta_desc": "Aluminium boat antifouling: copper-free paint, galvanic corrosion risk, the right primer system and application in Istanbul and the Aegean.",
+   "body": """
+<p>Antifouling choice on aluminium boats is a different and critical matter than on fibreglass and wood. The wrong paint causes galvanic corrosion; so a <strong>copper-free</strong> system is essential.</p>
+<h2>Why copper-free?</h2>
+<p>Copper-based antifouling in contact with aluminium triggers <a href="/en/blog/anode-zinc-care/">galvanic corrosion</a> and seriously damages the hull. On aluminium, only <strong>copper-free</strong> formulas are safe.</p>
+<h2>The right primer system</h2>
+<p>Aluminium needs a special (usually epoxy) <a href="/en/blog/primer-importance/">primer system</a> for adhesion and metal protection. Surface prep is even more decisive than on fibreglass (see <a href="/en/blog/aluminium-boat-painting/">aluminium boat painting</a>).</p>
+<p>We do aluminium boat antifouling under our <a href="/en/services/boat-painting-antifouling/">painting</a> service and <a href="/en/boats/aluminium-boat/">aluminium boat</a> care. <em>Note: aluminium welding/structural work is outside our scope.</em> <a href="#teklif-al">Get a quote</a>.</p>
+""",
+ },
+},
 ]
 
 # ==================================================================== COST ESTIMATOR
