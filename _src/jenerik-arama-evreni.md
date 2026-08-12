@@ -1,7 +1,7 @@
 # Tekne Usta — Jenerik Arama Evreni & İçerik Üretim Planı
 
 > Amaç: Google'da bu nişte net hâkimiyet. Jenerik aramalar 4 boyutta oluşur; her boyutu ve kesişimlerini haritalıyoruz.
-> Durum: **Hizmet** ve **Konum** boyutları güçlü (85 makale + 8 hizmet + 19 bölge). Eksik boyut: **tekne tipi** ve **malzeme**.
+> Durum (12 Ağu 2026): **4 boyut da kapsandı** — 111 makale + 8 hizmet pillar + 19 bölge + 8 tekne-tipi pillar + 8 tip×konum landing (318 sayfa). Kalan fırsatlar en altta.
 
 ## Aramanın 4 boyutu
 1. **Hizmet/aksiyon:** tamir, onarım, bakım, boyama, antifouling, kışlatma, renovasyon, restorasyon, temizlik, detailing, teak döşeme, osmoz, fiberglas, kalafat, tente-branda…
@@ -21,16 +21,16 @@ Aşağıdaki her hücre bir arama kümesidir. ✅ = güçlü, 🟡 = genel içer
 | Tip \ Hizmet | Tamir/Bakım | Boyama/Antifouling | Fiberglas/Osmoz | Ahşap/Kalafat | Teak | Kışlatma |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 | **Genel Tekne** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **Yat / Motoryat** | ⬜ | ⬜ | 🟡 | – | 🟡 | ⬜ |
-| **Yelkenli** | ⬜ | ⬜ | 🟡 | 🟡 | 🟡 | ⬜ |
-| **Gulet** | ⬜ | ⬜ | – | 🟡 | 🟡 | ⬜ |
-| **RIB / Bot** | ⬜ | ⬜ | 🟡 | – | – | ⬜ |
-| **Sürat teknesi** | ⬜ | ⬜ | 🟡 | – | – | ⬜ |
-| **Fiber tekne** | 🟡 | 🟡 | ✅ | – | – | 🟡 |
-| **Ahşap tekne** | 🟡 | 🟡 | – | ✅ | 🟡 | 🟡 |
-| **Alüminyum tekne** | ⬜ | 🟡 | – | – | – | ⬜ |
+| **Yat / Motoryat** | ✅ | ✅ | ✅ | – | ✅ | ✅ |
+| **Yelkenli** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Gulet** | ✅ | ✅ | – | ✅ | ✅ | ✅ |
+| **RIB / Bot** | ✅ | ✅ | ✅ | – | – | ✅ |
+| **Sürat teknesi** | ✅ | ✅ | ✅ | – | – | ✅ |
+| **Fiber tekne** | ✅ | ✅ | ✅ | – | – | ✅ |
+| **Ahşap tekne** | ✅ | ✅ | – | ✅ | ✅ | ✅ |
+| **Alüminyum tekne** | ✅ | ✅ | – | – | – | ✅ |
 
-**Okuma:** Yatay eksen (Genel Tekne) tamamen yeşil. Ama tekne-tipi satırları çoğunlukla boş → "yat bakımı", "yelkenli boyama", "motoryat kışlatma" gibi aramalarda görünmüyoruz.
+**Okuma:** Matris artık tümüyle yeşil. Her tekne tipi × hizmet hücresi için dedike pillar ya da makale var → "yat bakımı", "yelkenli boyama", "motoryat kışlatma", "gulet refit" gibi aramalarda görünüyoruz. (– işareti o tipe uygulanmayan/anlamsız kombinasyonu gösterir; örn. fiber teknede kalafat olmaz.)
 
 ## C) HEDEF ANAHTAR KELİMELER (üretim için)
 **Yat/Motoryat:** yat tamiri, yat bakımı, yat boyama, yat servisi, yat refit, yat kışlatma, motoryat bakımı, motoryat servisi
