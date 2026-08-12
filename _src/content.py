@@ -6347,6 +6347,424 @@ POSTS = [
 """,
  },
 },
+{
+ "slug": "yat-bakimi", "slug_en": "yacht-maintenance",
+ "image": "/assets/images/parallax-1.jpg", "date": "2030-01-10",
+ "tr": {
+   "category": "Bakım",
+   "title": "Yat Bakımı: Değerini ve Konforunu Koruyan Servis",
+   "excerpt": "Yat bakımı neleri kapsar? Karina, gelcoat, teak, iç mekan ve sezonluk kontroller — tek elden.",
+   "meta_title": "Yat Bakımı ve Servisi: Kapsam ve Sıklık | Tekne Usta",
+   "meta_desc": "Yat bakımı ve servisi: karina-antifouling, gelcoat, teak, iç mekan ve sezonluk kontroller. İstanbul ve Ege'de tek elden yat bakım hizmeti.",
+   "body": """
+<p>Yat bakımı, teknenin hem değerini hem de kullanım konforunu korumanın en ekonomik yoludur. Küçük sorunlar zamanında görülürse büyük onarımlara dönüşmez. Biz motor ve mekanik dışında; gövde, yüzey, ahşap ve iç mekan tarafında tek elden servis veriyoruz.</p>
+<h2>Yat bakımı neleri kapsar?</h2>
+<p>Kapsamlı bir yat bakımı; su altında <a href="/blog/antifouling-secimi/">antifouling</a> ve <a href="/blog/anot-zinc-bakimi/">anot</a> kontrolü, gövdede <a href="/blog/gelcoat-yenileme/">gelcoat</a> ve boya bakımı, <a href="/blog/teak-guverte-bakimi/">teak güverte</a> temizliği, iç mekanda nem/küf kontrolü ve genel <a href="/hizmetler/tekne-detailing/">detailing</a> içerir.</p>
+<h2>Ne sıklıkla?</h2>
+<p>Yatlarda yıllık bir bakım programı idealdir; sezon açılışı ve kapanışı iki doğal kontrol noktasıdır. Detaylı takvim için <a href="/blog/yillik-tekne-bakim-takvimi/">yıllık bakım takvimi</a> yazımıza bakın; düzenli müşteriler için <a href="/blog/yillik-bakim-anlasmasi/">yıllık bakım anlaşması</a> da sunuyoruz.</p>
+<h2>Neden tek elden?</h2>
+<p>Boya, teak, gelcoat ve iç mekan farklı ustalık ister; bunları tek bir sorumluyla yürütmek hem kaliteyi hem takibi kolaylaştırır. Çok kalemli işleri <a href="/blog/refit-proje-yonetimi/">proje yönetimiyle</a> koordine ederiz.</p>
+<p>Yatınızın bakımını <a href="/tekneler/yat-motoryat/">yat & motoryat</a> kapsamında yapıyoruz. <a href="/#bolgeler">İstanbul ve Ege</a>'de <a href="#teklif-al">ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Yacht Maintenance: Service That Protects Value and Comfort",
+   "excerpt": "What does yacht maintenance cover? Underbody, gelcoat, teak, interior and seasonal checks — from one hand.",
+   "meta_title": "Yacht Maintenance and Service: Scope and Frequency | Tekne Usta",
+   "meta_desc": "Yacht maintenance and service: underbody-antifouling, gelcoat, teak, interior and seasonal checks. Single-hand yacht care in Istanbul and the Aegean.",
+   "body": """
+<p>Yacht maintenance is the most economical way to protect both the value and the comfort of a boat. Small problems caught in time don't turn into big repairs. Apart from engine and mechanics, we provide single-hand service on hull, surface, wood and interior.</p>
+<h2>What does yacht maintenance cover?</h2>
+<p>Comprehensive yacht maintenance includes underwater <a href="/en/blog/choosing-antifouling/">antifouling</a> and <a href="/en/blog/anode-zinc-care/">anode</a> checks, <a href="/en/blog/gelcoat-renewal/">gelcoat</a> and paint care on the hull, <a href="/en/blog/teak-deck-maintenance/">teak deck</a> cleaning, damp/mould checks in the interior and general <a href="/en/services/boat-detailing/">detailing</a>.</p>
+<h2>How often?</h2>
+<p>An annual programme is ideal for yachts; season opening and closing are two natural checkpoints. For a detailed calendar, see our <a href="/en/blog/annual-boat-maintenance-calendar/">annual maintenance calendar</a>; for regular clients we also offer an <a href="/en/blog/annual-maintenance-agreement/">annual maintenance agreement</a>.</p>
+<h2>Why from one hand?</h2>
+<p>Paint, teak, gelcoat and interior each require different craft; running them under one lead makes both quality and tracking easier. We coordinate multi-item work with <a href="/en/blog/refit-project-management/">project management</a>.</p>
+<p>We maintain your yacht under <a href="/en/boats/yacht-motoryacht/">yacht & motoryacht</a> care. Get a <a href="#teklif-al">free survey</a> in <a href="/en/#bolgeler">Istanbul and the Aegean</a>.</p>
+""",
+ },
+},
+{
+ "slug": "yat-refit", "slug_en": "yacht-refit",
+ "image": "/assets/images/parallax-2.jpg", "date": "2030-01-13",
+ "tr": {
+   "category": "Renovasyon",
+   "title": "Yat Refit: Kapsamlı Yenileme Nasıl Planlanır?",
+   "excerpt": "Yat refit nedir, ne zaman gerekir? Boya, teak, iç mekan ve gövde yenilemesini tek projede toplamak.",
+   "meta_title": "Yat Refit Rehberi: Kapsam, Süreç, Planlama | Tekne Usta",
+   "meta_desc": "Yat refit: boya, teak, iç mekan ve gövde yenilemesini tek projede planlama. Kapsam, sıralama ve maliyet mantığı. İstanbul ve Ege'de yat refit.",
+   "body": """
+<p>Refit, bir yatın birden çok kaleminin (boya, teak, iç mekan, gövde) planlı bir projede birlikte yenilenmesidir. Tek tek yapılan işlere göre hem daha ekonomik hem de daha tutarlı bir sonuç verir; tekne bir kez çekilir, tüm işler koordine edilir.</p>
+<h2>Yat refit ne zaman gerekir?</h2>
+<p>Genelde 10+ yaşındaki yatlarda, ikinci el alım sonrası ya da uzun bir kullanım döneminden sonra düşünülür. <a href="/blog/satin-alma-oncesi-tekne-ekspertizi/">Ekspertiz</a> raporu, hangi kalemlerin öncelikli olduğunu netleştirir.</p>
+<h2>Refit kapsamına neler girer?</h2>
+<p>Sık kalemler: dış cephe <a href="/hizmetler/tekne-boyama-antifouling/">boya</a> ve renk değişimi, <a href="/hizmetler/teak-guverte-doseme/">teak güverte</a> yenileme, <a href="/hizmetler/ic-mekan-yenileme/">iç mekan</a> döşeme/mobilya, <a href="/blog/gelcoat-cizik-sararma-giderme/">gelcoat</a> restorasyonu. Motor ve mekanik işler kapsamımız dışındadır.</p>
+<h2>Sıralama ve planlama</h2>
+<p>Refit'te sıra önemlidir; yapısal ve boya işleri döşemeden önce gelir. Biz işi kalem kalem, <a href="/blog/refit-proje-yonetimi/">proje yönetimiyle</a> planlıyor, her adımın süresini ve maliyetini şeffaf veriyoruz.</p>
+<p>Yat refit'i <a href="/tekneler/yat-motoryat/">yat & motoryat</a> kapsamında yürütüyoruz. <a href="#teklif-al">Ücretsiz keşif</a> ile başlayalım.</p>
+""",
+ },
+ "en": {
+   "category": "Renovation",
+   "title": "Yacht Refit: How to Plan a Comprehensive Renewal",
+   "excerpt": "What is a yacht refit and when is it needed? Bringing paint, teak, interior and hull work into one project.",
+   "meta_title": "Yacht Refit Guide: Scope, Process, Planning | Tekne Usta",
+   "meta_desc": "Yacht refit: planning paint, teak, interior and hull renewal in one project. Scope, sequencing and cost logic. Yacht refit in Istanbul and the Aegean.",
+   "body": """
+<p>A refit is the planned, combined renewal of several items on a yacht (paint, teak, interior, hull). Compared with piecemeal work it is both more economical and more consistent; the boat is hauled once and all work is coordinated.</p>
+<h2>When is a yacht refit needed?</h2>
+<p>It's usually considered on yachts 10+ years old, after a used purchase, or after a long period of use. A <a href="/en/blog/pre-purchase-boat-survey/">survey</a> report clarifies which items are priority.</p>
+<h2>What's included in a refit?</h2>
+<p>Common items: topside <a href="/en/services/boat-painting-antifouling/">paint</a> and colour change, <a href="/en/services/teak-deck/">teak deck</a> renewal, <a href="/en/services/interior-refit/">interior</a> upholstery/joinery, <a href="/en/blog/gelcoat-scratch-yellowing/">gelcoat</a> restoration. Engine and mechanical work are outside our scope.</p>
+<h2>Sequencing and planning</h2>
+<p>Order matters in a refit; structural and paint work come before upholstery. We plan item by item with <a href="/en/blog/refit-project-management/">project management</a>, giving the duration and cost of each step transparently.</p>
+<p>We run yacht refits under <a href="/en/boats/yacht-motoryacht/">yacht & motoryacht</a> care. Let's start with a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "motoryat-bakimi", "slug_en": "motoryacht-maintenance",
+ "image": "/assets/images/parallax-3.jpg", "date": "2030-01-16",
+ "tr": {
+   "category": "Bakım",
+   "title": "Motoryat Bakımı: Geniş Yüzey, Yüksek Beklenti",
+   "excerpt": "Motoryat bakımında öncelikler: geniş gelcoat yüzeyi, karina, swim platform ve detailing.",
+   "meta_title": "Motoryat Bakımı ve Servisi Rehberi | Tekne Usta",
+   "meta_desc": "Motoryat bakımı: geniş gelcoat yüzeyi, karina-antifouling, swim platform teak'i ve detailing. İstanbul ve Ege'de motoryat servisi.",
+   "body": """
+<p>Motoryatlar genelde geniş fiberglas yüzeye ve yüksek görünürlüğe sahiptir; bu yüzden yüzey bakımı ve parlaklık, algılanan kaliteyi doğrudan belirler. Motor ve mekanik dışında; gövde, yüzey ve iç mekan tarafında servis veriyoruz.</p>
+<h2>Öncelikli kalemler</h2>
+<p>Geniş <a href="/blog/gelcoat-yenileme/">gelcoat</a> yüzeyi düzenli cila ve <a href="/blog/uv-koruma-kaplama/">UV koruma</a> ister; su altında <a href="/blog/antifouling-secimi/">antifouling</a> ve <a href="/blog/anot-zinc-bakimi/">anot</a> takibi gerekir. Swim platform ve güvertedeki <a href="/hizmetler/teak-guverte-doseme/">teak</a> ayrı bir bakım kalemidir.</p>
+<h2>Detailing farkı</h2>
+<p>Motoryatta bitiş kalitesi fark yaratır; profesyonel <a href="/hizmetler/tekne-detailing/">detailing</a>, <a href="/blog/kekamoz-temizligi/">kireç/kekamoz temizliği</a> ve cila ile gövde ilk günkü görünümüne yaklaşır.</p>
+<h2>Sezonluk kontrol</h2>
+<p>Sezon açılış-kapanışında bir kontrol, küçük sorunları büyümeden yakalar. <a href="/blog/yillik-tekne-bakim-takvimi/">Yıllık takvim</a> ile planlıyoruz.</p>
+<p>Motoryat bakımını <a href="/tekneler/yat-motoryat/">yat & motoryat</a> kapsamında yapıyoruz. <a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Motoryacht Maintenance: Large Surface, High Expectations",
+   "excerpt": "Priorities in motoryacht care: large gelcoat surface, underbody, swim platform and detailing.",
+   "meta_title": "Motoryacht Maintenance and Service Guide | Tekne Usta",
+   "meta_desc": "Motoryacht maintenance: large gelcoat surface, underbody-antifouling, swim platform teak and detailing. Motoryacht service in Istanbul and the Aegean.",
+   "body": """
+<p>Motoryachts usually have a large fibreglass surface and high visibility; so surface care and gloss directly set the perceived quality. Apart from engine and mechanics, we serve the hull, surface and interior.</p>
+<h2>Priority items</h2>
+<p>A large <a href="/en/blog/gelcoat-renewal/">gelcoat</a> surface needs regular polish and <a href="/en/blog/uv-protection-coating/">UV protection</a>; below the waterline, <a href="/en/blog/choosing-antifouling/">antifouling</a> and <a href="/en/blog/anode-zinc-care/">anode</a> monitoring are needed. Teak on the swim platform and deck is a separate care item (<a href="/en/services/teak-deck/">teak decking</a>).</p>
+<h2>The detailing difference</h2>
+<p>On a motoryacht, finish quality makes the difference; professional <a href="/en/services/boat-detailing/">detailing</a>, <a href="/en/blog/hull-limescale-cleaning/">limescale cleaning</a> and polish bring the hull close to day-one condition.</p>
+<h2>Seasonal check</h2>
+<p>A check at season open and close catches small problems before they grow. We plan it with an <a href="/en/blog/annual-boat-maintenance-calendar/">annual calendar</a>.</p>
+<p>We maintain motoryachts under <a href="/en/boats/yacht-motoryacht/">yacht & motoryacht</a> care. Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "yelkenli-bakimi", "slug_en": "sailboat-maintenance",
+ "image": "/assets/images/parallax-2.jpg", "date": "2030-01-19",
+ "tr": {
+   "category": "Bakım",
+   "title": "Yelkenli Bakımı: Karina, Osmoz ve İç Mekan",
+   "excerpt": "Yelkenli bakımında kapsamımız: karina, osmoz takibi, teak ve iç mekan. Direk/arma ve motor hariç.",
+   "meta_title": "Yelkenli Tekne Bakımı ve Tamiri Rehberi | Tekne Usta",
+   "meta_desc": "Yelkenli bakımı ve tamiri: karina-antifouling, osmoz takibi, gelcoat, teak ve iç mekan. Direk/arma ve motor hariç. İstanbul ve Ege'de yelkenli servisi.",
+   "body": """
+<p>Yelkenliler çoğunlukla uzun süre suda kalır; bu da karina, osmoz ve yüzey bakımını öne çıkarır. Kapsamımız gövde, yüzey, teak ve iç mekandır; direk/arma ve motor işleri bizim dışımızdadır.</p>
+<h2>Karina ve osmoz</h2>
+<p>Uzun süre suda kalan yelkenlilerde <a href="/blog/osmoz-belirtileri/">osmoz belirtilerini</a> düzenli izlemek önemlidir; erken tedavi maliyeti düşürür (bkz. <a href="/blog/osmoz-nedir-tedavisi/">osmoz tedavisi</a>). Karina <a href="/blog/antifouling-secimi/">antifouling</a> ve <a href="/blog/robotik-karina-temizligi/">temizliği</a> yıllık kalemdir.</p>
+<h2>Yüzey ve teak</h2>
+<p>Gövdede <a href="/blog/gelcoat-yenileme/">gelcoat</a> bakımı, güvertede <a href="/hizmetler/teak-guverte-doseme/">teak</a> temizliği yapılır. İç mekanda nem ve küf kontrolü, uzun demirlemelerde kritiktir.</p>
+<h2>Neyi yapmıyoruz?</h2>
+<p>Direk, arma, yelken ve motor işleri uzmanlık alanımız değildir; bu kalemleri dürüstçe yönlendiririz. Gövde, boya, teak ve iç mekan tarafında ise tam hizmet veririz.</p>
+<p>Yelkenli bakımını <a href="/tekneler/yelkenli/">yelkenli</a> kapsamında yapıyoruz. <a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Sailboat Maintenance: Underbody, Osmosis and Interior",
+   "excerpt": "Our scope in sailboat care: underbody, osmosis monitoring, teak and interior. Mast/rigging and engine excluded.",
+   "meta_title": "Sailboat Maintenance and Repair Guide | Tekne Usta",
+   "meta_desc": "Sailboat maintenance and repair: underbody-antifouling, osmosis monitoring, gelcoat, teak and interior. Mast/rigging and engine excluded. Sailboat service in Istanbul and the Aegean.",
+   "body": """
+<p>Sailboats often stay afloat for long periods, which brings underbody, osmosis and surface care to the fore. Our scope is hull, surface, teak and interior; mast/rigging and engine work are outside us.</p>
+<h2>Underbody and osmosis</h2>
+<p>On sailboats kept long afloat, regularly monitoring <a href="/en/blog/osmosis-symptoms/">osmosis symptoms</a> matters; early treatment lowers cost (see <a href="/en/blog/what-is-osmosis-treatment/">osmosis treatment</a>). Underbody <a href="/en/blog/choosing-antifouling/">antifouling</a> and <a href="/en/blog/robotic-hull-cleaning/">cleaning</a> are annual items.</p>
+<h2>Surface and teak</h2>
+<p><a href="/en/blog/gelcoat-renewal/">Gelcoat</a> care on the hull and <a href="/en/services/teak-deck/">teak</a> cleaning on deck are done. Damp and mould control in the interior is critical on long moorings.</p>
+<h2>What we don't do</h2>
+<p>Mast, rigging, sails and engine are not our expertise; we refer these items honestly. On hull, paint, teak and interior we provide full service.</p>
+<p>We maintain sailboats under <a href="/en/boats/sailboat/">sailboat</a> care. Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "gulet-bakimi", "slug_en": "gulet-maintenance",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2030-01-22",
+ "tr": {
+   "category": "Bakım",
+   "title": "Gulet Bakımı: Ticari Kullanıma Hazır Tutmak",
+   "excerpt": "Gulet bakımı neden farklıdır? Ahşap gövde, kalafat, teak ve sezon öncesi hazırlık.",
+   "meta_title": "Gulet Bakımı Rehberi: Kapsam ve Sezon Hazırlığı | Tekne Usta",
+   "meta_desc": "Gulet bakımı: ahşap gövde bakımı, kalafat kontrolü, teak güverte, vernik ve sezon öncesi hazırlık. Ege ve İstanbul'da gulet servisi.",
+   "body": """
+<p>Guletler çoğunlukla ticari kullanılır; sezon içinde aksama, doğrudan gelir kaybıdır. Bu yüzden gulet bakımının kalbi, sezon öncesi kapsamlı bir hazırlıktır. Ahşap ve karma gövde guletlerde bu işi geleneksel ustalıkla yapıyoruz.</p>
+<h2>Ahşap gövde ve kalafat</h2>
+<p>Ahşap guletlerde <a href="/blog/kalafat-nedir/">kalafat</a> derzlerinin ve <a href="/blog/ahsap-tekne-vernik-bakimi/">verniğin</a> düzenli kontrolü şarttır; küçük açılmalar su almaya dönüşmeden çözülmeli (bkz. <a href="/blog/ustupu-kalafat-teknikleri/">üstüpü/kalafat teknikleri</a>).</p>
+<h2>Teak ve güverte</h2>
+<p>Yoğun ayak trafiği gören <a href="/hizmetler/teak-guverte-doseme/">teak güverte</a>, düzenli temizlik ve derz bakımı ister. Su altında karina ve <a href="/blog/antifouling-secimi/">antifouling</a> yıllık kalemdir.</p>
+<h2>Sezon öncesi program</h2>
+<p>Çok kalemli hazırlığı <a href="/blog/refit-proje-yonetimi/">proje yönetimiyle</a> koordine ediyor, sezonu aksatmayacak bir takvimle planlıyoruz. Düzenli işletmeler için <a href="/blog/yillik-bakim-anlasmasi/">yıllık anlaşma</a> uygundur.</p>
+<p>Gulet bakımını <a href="/tekneler/gulet/">gulet</a> kapsamında yapıyoruz. <a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Gulet Maintenance: Keeping It Charter-Ready",
+   "excerpt": "Why is gulet care different? Wooden hull, caulking, teak and pre-season preparation.",
+   "meta_title": "Gulet Maintenance Guide: Scope and Season Prep | Tekne Usta",
+   "meta_desc": "Gulet maintenance: wooden hull care, caulking checks, teak deck, varnish and pre-season prep. Gulet service in the Aegean and Istanbul.",
+   "body": """
+<p>Gulets are mostly used commercially; downtime in season is direct lost revenue. So the heart of gulet care is a comprehensive pre-season preparation. We do this with traditional craft on wooden and composite-hull gulets.</p>
+<h2>Wooden hull and caulking</h2>
+<p>On wooden gulets, regular checks of <a href="/en/blog/caulking-explained/">caulking</a> seams and <a href="/en/blog/wooden-boat-varnish-care/">varnish</a> are essential; small openings must be solved before they take on water (see <a href="/en/blog/oakum-caulking-techniques/">oakum/caulking techniques</a>).</p>
+<h2>Teak and deck</h2>
+<p>The heavily-walked <a href="/en/services/teak-deck/">teak deck</a> needs regular cleaning and seam care. Below the waterline, underbody and <a href="/en/blog/choosing-antifouling/">antifouling</a> are annual items.</p>
+<h2>Pre-season programme</h2>
+<p>We coordinate the multi-item prep with <a href="/en/blog/refit-project-management/">project management</a>, planning a schedule that won't disrupt the season. For regular operators, an <a href="/en/blog/annual-maintenance-agreement/">annual agreement</a> is suitable.</p>
+<p>We maintain gulets under <a href="/en/boats/gulet/">gulet</a> care. Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "gulet-refit", "slug_en": "gulet-refit",
+ "image": "/assets/images/parallax-3.jpg", "date": "2030-01-25",
+ "tr": {
+   "category": "Renovasyon",
+   "title": "Gulet Refit ve Restorasyon: Geleneği Koruyarak Yenilemek",
+   "excerpt": "Gulet refit kapsamı: ahşap restorasyon, kalafat, teak, boya ve iç mekan — özgün dokuyu koruyarak.",
+   "meta_title": "Gulet Refit ve Restorasyon Rehberi | Tekne Usta",
+   "meta_desc": "Gulet refit ve restorasyon: ahşap gövde onarımı, kalafat, teak güverte, vernik-boya ve iç mekan yenileme. Ege ve İstanbul'da gulet refit hizmeti.",
+   "body": """
+<p>Gulet refit, ticari değeri ve özgün karakteri korurken teknenin birden çok kalemini birlikte yenilemektir. Ahşap gövdeli guletlerde bu iş, modern malzemeyle geleneksel ustalığı dengelemeyi gerektirir.</p>
+<h2>Ahşap restorasyon</h2>
+<p>Çürük ve yorulmuş bölgeler <a href="/blog/ahsap-curuk-onarimi/">onarılır</a>, gerektiğinde <a href="/blog/epoksi-ile-ahsap-guclendirme/">epoksi ile güçlendirilir</a>. Kalafat derzleri <a href="/blog/kalafat-nedir/">yenilenir</a>; hedef, özgün dokuyu bozmadan sağlamlaştırmaktır.</p>
+<h2>Teak, boya, iç mekan</h2>
+<p>Kapsama sık giren kalemler: <a href="/hizmetler/teak-guverte-doseme/">teak güverte</a> yenileme, gövde <a href="/hizmetler/tekne-boyama-antifouling/">boya ve vernik</a>, <a href="/hizmetler/ic-mekan-yenileme/">kabin/salon</a> döşeme. Su altında karina ve antifouling de dahil edilir.</p>
+<h2>Planlama</h2>
+<p>Refit'te yapısal ve boya işleri iç mekandan önce gelir. İşi kalem kalem, <a href="/blog/refit-proje-yonetimi/">proje yönetimiyle</a> planlıyor, sezon takvimini gözeterek yürütüyoruz. Motor/mekanik kapsamımız dışındadır.</p>
+<p>Gulet refit'i <a href="/tekneler/gulet/">gulet</a> ve <a href="/hizmetler/ahsap-tekne-renovasyonu/">ahşap renovasyon</a> kapsamında yapıyoruz. <a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Renovation",
+   "title": "Gulet Refit and Restoration: Renewing While Preserving Tradition",
+   "excerpt": "Gulet refit scope: wooden restoration, caulking, teak, paint and interior — preserving original character.",
+   "meta_title": "Gulet Refit and Restoration Guide | Tekne Usta",
+   "meta_desc": "Gulet refit and restoration: wooden hull repair, caulking, teak deck, varnish-paint and interior renewal. Gulet refit service in the Aegean and Istanbul.",
+   "body": """
+<p>A gulet refit renews several items of the boat together while preserving its commercial value and original character. On wooden-hulled gulets this requires balancing modern materials with traditional craft.</p>
+<h2>Wooden restoration</h2>
+<p>Rotten and fatigued areas are <a href="/en/blog/wood-rot-repair/">repaired</a> and, where needed, <a href="/en/blog/epoxy-wood-reinforcement/">reinforced with epoxy</a>. Caulking seams are <a href="/en/blog/caulking-explained/">renewed</a>; the goal is to strengthen without spoiling the original character.</p>
+<h2>Teak, paint, interior</h2>
+<p>Common items: <a href="/en/services/teak-deck/">teak deck</a> renewal, hull <a href="/en/services/boat-painting-antifouling/">paint and varnish</a>, <a href="/en/services/interior-refit/">cabin/saloon</a> upholstery. Underbody and antifouling are included below the waterline.</p>
+<h2>Planning</h2>
+<p>In a refit, structural and paint work come before the interior. We plan item by item with <a href="/en/blog/refit-project-management/">project management</a>, working around the season calendar. Engine/mechanics are outside our scope.</p>
+<p>We do gulet refits under <a href="/en/boats/gulet/">gulet</a> and <a href="/en/services/wooden-boat-refit/">wooden restoration</a> care. Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "sisme-bot-tamiri", "slug_en": "inflatable-boat-repair",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2030-01-28",
+ "tr": {
+   "category": "Onarım",
+   "title": "Şişme Bot ve RIB Tamiri: Hypalon mu PVC mi?",
+   "excerpt": "Şişme bot tamirinde malzeme farkı: Hypalon ve PVC. Delik, dikiş ve valf onarımı; RIB gövde işleri.",
+   "meta_title": "Şişme Bot ve RIB Tamiri Rehberi | Tekne Usta",
+   "meta_desc": "Şişme bot tamiri: Hypalon ve PVC farkı, delik-yama, dikiş ve valf onarımı; RIB'lerde fiberglas gövde işleri. İstanbul ve Ege'de servis.",
+   "body": """
+<p>Şişme botlarda ve RIB'lerde tamir, malzemeyle başlar: tüpler <strong>Hypalon (CSM)</strong> ya da <strong>PVC</strong> olabilir ve her biri farklı yapıştırıcı ve teknik ister. Yanlış malzemeyle yapılan yama kısa sürede açılır.</p>
+<h2>Hypalon ve PVC farkı</h2>
+<p>Hypalon UV ve kimyasala daha dayanıklı, uzun ömürlüdür; PVC daha ekonomiktir ama güneşte daha çabuk yorulur. Doğru teşhis, doğru yamanın ön koşuludur.</p>
+<h2>Tüp tarafı onarımlar</h2>
+<p>Sık işler: delik/yırtık yama, dikiş ve ek yeri açılması, valf değişimi, tüp ile gövde birleşiminin (kızak) yeniden yapıştırılması. Tüpün tamamen yorulduğu durumlarda yama yerine yenileme daha doğru olabilir.</p>
+<h2>RIB gövde işleri</h2>
+<p>RIB'lerde sert fiberglas gövde ayrı bir kalemdir; <a href="/blog/fiberglas-catlak-onarimi/">çatlak onarımı</a>, <a href="/blog/gelcoat-yenileme/">gelcoat</a> ve <a href="/blog/antifouling-secimi/">antifouling</a> tarafında hizmet veriyoruz.</p>
+<p>Şişme bot ve RIB işlerini <a href="/tekneler/rib-bot/">RIB / bot</a> kapsamında yürütüyoruz. <a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Repair",
+   "title": "Inflatable and RIB Repair: Hypalon or PVC?",
+   "excerpt": "The material difference in inflatable repair: Hypalon vs PVC. Punctures, seams and valves; RIB hull work.",
+   "meta_title": "Inflatable Boat and RIB Repair Guide | Tekne Usta",
+   "meta_desc": "Inflatable boat repair: Hypalon vs PVC, puncture patching, seam and valve repair; fibreglass hull work on RIBs. Service in Istanbul and the Aegean.",
+   "body": """
+<p>Repair on inflatables and RIBs starts with the material: tubes may be <strong>Hypalon (CSM)</strong> or <strong>PVC</strong>, and each needs different adhesive and technique. A patch made with the wrong material soon lifts.</p>
+<h2>Hypalon vs PVC</h2>
+<p>Hypalon is more resistant to UV and chemicals and lasts longer; PVC is cheaper but fatigues faster in the sun. Correct diagnosis is the precondition for a correct patch.</p>
+<h2>Tube-side repairs</h2>
+<p>Common jobs: puncture/tear patching, seam and joint separation, valve replacement, re-bonding the tube-to-hull joint. Where a tube is fully fatigued, replacement can be better than patching.</p>
+<h2>RIB hull work</h2>
+<p>On RIBs the rigid fibreglass hull is a separate item; we serve <a href="/en/blog/fibreglass-crack-repair/">crack repair</a>, <a href="/en/blog/gelcoat-renewal/">gelcoat</a> and <a href="/en/blog/choosing-antifouling/">antifouling</a>.</p>
+<p>We handle inflatable and RIB work under <a href="/en/boats/rib-tender/">RIB / tender</a> care. Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "bot-boyama", "slug_en": "tender-painting",
+ "image": "/assets/images/services/boya.jpg", "date": "2030-01-31",
+ "tr": {
+   "category": "Boya",
+   "title": "Bot Boyama ve RIB Bakımı: Küçük Tekne, Doğru Sistem",
+   "excerpt": "Bot boyama ve RIB bakımı: fiberglas gövde boyası, antifouling, gelcoat tazeleme ve rutin bakım.",
+   "meta_title": "Bot Boyama ve RIB Bakımı Rehberi | Tekne Usta",
+   "meta_desc": "Bot boyama: fiberglas gövde boyası, antifouling, gelcoat tazeleme; RIB bakımı ve karina temizliği. İstanbul ve Ege'de bot servisi.",
+   "body": """
+<p>Küçük olmaları botların ve RIB'lerin bakımını basitleştirmez; doğru boya sistemi ve düzenli bakım, hem görünümü hem değeri korur. Sert fiberglas gövdede tam hizmet veriyoruz (şişme tüp tarafı için <a href="/blog/sisme-bot-tamiri/">şişme bot tamiri</a>).</p>
+<h2>Gövde boyası ve gelcoat</h2>
+<p>Fiberglas gövdede seçenek, <a href="/blog/jelkot-vs-boya/">gelcoat tazeleme</a> ya da <a href="/blog/2k-poliuretan-boya/">2K boya</a>dır. Sararmış/çizik yüzeylerde çoğu zaman <a href="/blog/gelcoat-cizik-sararma-giderme/">gelcoat restorasyonu</a> yeterli olur.</p>
+<h2>Antifouling</h2>
+<p>Suda kalan bot ve RIB'lerde <a href="/blog/antifouling-secimi/">antifouling</a> düzenli yenilenir; karina temizliği performansı korur.</p>
+<h2>Rutin bakım</h2>
+<p>Küçük teknede de <a href="/blog/anot-zinc-bakimi/">anot</a> kontrolü ve yüzey bakımı ihmal edilmemeli. Sezon açılış-kapanışında kısa bir kontrol yeterlidir.</p>
+<p>Bot ve RIB boyama-bakımını <a href="/tekneler/rib-bot/">RIB / bot</a> ve <a href="/hizmetler/tekne-boyama-antifouling/">boya</a> kapsamında yapıyoruz. <a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "Tender Painting and RIB Care: Small Boat, Right System",
+   "excerpt": "Tender painting and RIB care: fibreglass hull paint, antifouling, gelcoat refresh and routine maintenance.",
+   "meta_title": "Tender Painting and RIB Care Guide | Tekne Usta",
+   "meta_desc": "Tender painting: fibreglass hull paint, antifouling, gelcoat refresh; RIB care and underbody cleaning. Tender service in Istanbul and the Aegean.",
+   "body": """
+<p>Being small doesn't simplify the care of tenders and RIBs; the right paint system and regular care protect both looks and value. We provide full service on the rigid fibreglass hull (for the inflatable tube side, see <a href="/en/blog/inflatable-boat-repair/">inflatable boat repair</a>).</p>
+<h2>Hull paint and gelcoat</h2>
+<p>On a fibreglass hull the choice is <a href="/en/blog/gelcoat-vs-paint/">gelcoat refresh</a> or <a href="/en/blog/2k-polyurethane-paint/">2K paint</a>. On yellowed/scratched surfaces, <a href="/en/blog/gelcoat-scratch-yellowing/">gelcoat restoration</a> is often enough.</p>
+<h2>Antifouling</h2>
+<p>On tenders and RIBs kept afloat, <a href="/en/blog/choosing-antifouling/">antifouling</a> is renewed regularly; underbody cleaning preserves performance.</p>
+<h2>Routine care</h2>
+<p>Even on a small boat, <a href="/en/blog/anode-zinc-care/">anode</a> checks and surface care shouldn't be neglected. A short check at season open and close is enough.</p>
+<p>We do tender and RIB painting-care under <a href="/en/boats/rib-tender/">RIB / tender</a> and <a href="/en/services/boat-painting-antifouling/">painting</a> care. Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "surat-teknesi-bakimi", "slug_en": "speedboat-maintenance",
+ "image": "/assets/images/parallax-1.jpg", "date": "2030-02-03",
+ "tr": {
+   "category": "Bakım",
+   "title": "Sürat Teknesi Bakımı: Hız İçin Pürüzsüz Karina",
+   "excerpt": "Sürat teknesi bakımı: pürüzsüz karina, gelcoat parlaklığı, antifouling ve detailing.",
+   "meta_title": "Sürat Teknesi Bakımı ve Servisi Rehberi | Tekne Usta",
+   "meta_desc": "Sürat teknesi bakımı: pürüzsüz karina, gelcoat parlaklığı, doğru antifouling ve detailing. İstanbul ve Ege'de sürat teknesi servisi.",
+   "body": """
+<p>Sürat teknelerinde performans, büyük ölçüde karinanın pürüzsüzlüğüne bağlıdır; kaba ya da kirlenmiş bir gövde hem hızı hem yakıt verimini düşürür. Motor dışında; gövde, yüzey ve karina tarafında servis veriyoruz.</p>
+<h2>Pürüzsüz karina</h2>
+<p>Düzgün bir <a href="/blog/su-hatti-boyama/">su hattı</a> ve pürüzsüz karina için doğru <a href="/blog/antifouling-secimi/">antifouling</a> ve düzenli <a href="/blog/robotik-karina-temizligi/">temizlik</a> önemlidir. Yüzeydeki kabalık doğrudan hız kaybıdır.</p>
+<h2>Gelcoat ve parlaklık</h2>
+<p>Sürat tekneleri genelde parlak gelcoat yüzeye sahiptir; <a href="/blog/gelcoat-yenileme/">gelcoat bakımı</a> ve <a href="/hizmetler/tekne-detailing/">detailing</a> ile ilk günkü görünüm korunur.</p>
+<h2>Sezonluk kontrol</h2>
+<p>Anot, karina ve yüzey kontrolü sezon başında yapılır. Küçük gövde <a href="/blog/fiberglas-catlak-onarimi/">çatlakları</a> büyümeden onarılmalı.</p>
+<p>Sürat teknesi bakımını <a href="/tekneler/surat-teknesi/">sürat teknesi</a> kapsamında yapıyoruz. <a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Speedboat Maintenance: A Smooth Hull for Speed",
+   "excerpt": "Speedboat care: smooth underbody, gelcoat gloss, antifouling and detailing.",
+   "meta_title": "Speedboat Maintenance and Service Guide | Tekne Usta",
+   "meta_desc": "Speedboat maintenance: smooth underbody, gelcoat gloss, the right antifouling and detailing. Speedboat service in Istanbul and the Aegean.",
+   "body": """
+<p>On speedboats, performance depends largely on how smooth the hull is; a rough or fouled hull cuts both speed and fuel efficiency. Apart from the engine, we serve the hull, surface and underbody.</p>
+<h2>A smooth underbody</h2>
+<p>For a clean <a href="/en/blog/waterline-boot-stripe/">waterline</a> and smooth hull, the right <a href="/en/blog/choosing-antifouling/">antifouling</a> and regular <a href="/en/blog/robotic-hull-cleaning/">cleaning</a> matter. Roughness on the surface is direct speed loss.</p>
+<h2>Gelcoat and gloss</h2>
+<p>Speedboats usually have a glossy gelcoat surface; <a href="/en/blog/gelcoat-renewal/">gelcoat care</a> and <a href="/en/services/boat-detailing/">detailing</a> preserve the day-one look.</p>
+<h2>Seasonal check</h2>
+<p>Anode, underbody and surface checks are done at season start. Small hull <a href="/en/blog/fibreglass-crack-repair/">cracks</a> should be repaired before they grow.</p>
+<p>We maintain speedboats under <a href="/en/boats/speedboat/">speedboat</a> care. Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "fiber-tekne-tamiri", "slug_en": "fibreglass-boat-repair",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2030-02-06",
+ "tr": {
+   "category": "Onarım",
+   "title": "Fiber Tekne Tamiri: Çatlaktan Yapısal Onarıma",
+   "excerpt": "Fiber (fiberglas) tekne tamiri: jelkot çatlağı, delik, delaminasyon ve su altı yapısal onarım.",
+   "meta_title": "Fiber Tekne Tamiri Rehberi: Çatlak ve Yapısal | Tekne Usta",
+   "meta_desc": "Fiber (fiberglas) tekne tamiri: jelkot çatlağı onarımı, delik-delaminasyon, laminasyon ve su altı yapısal onarım. İstanbul ve Ege'de fiber tekne servisi.",
+   "body": """
+<p>Fiberglas tekneler dayanıklıdır ama darbeler, yaşlanma ve nem zamanla çatlak, delik ve delaminasyona yol açar. Doğru reçine ve laminasyon tekniğiyle bu hasarların çoğu kalıcı biçimde onarılır.</p>
+<h2>Yüzey mi, yapısal mı?</h2>
+<p>Yüzeysel <a href="/blog/gelcoat-cizik-sararma-giderme/">jelkot çatlakları</a> kozmetiktir; hızlı çözülür. Ancak laminata inen çatlaklar, delaminasyon ve su altı hasarları <a href="/blog/su-alti-yapisal-onarim/">yapısal onarım</a> gerektirir; ihmal edilmemeli.</p>
+<h2>Reçine ve teknik</h2>
+<p>Onarımın ömrü, doğru <a href="/blog/polyester-vs-epoksi-recine/">reçine seçimi</a> ve laminasyon kalitesine bağlıdır. Gerektiğinde <a href="/blog/karbon-ile-guclendirme/">karbon takviyesi</a> ile bölge güçlendirilir.</p>
+<h2>Osmoz ayrı bir konu</h2>
+<p>Su altında kabarcık görülüyorsa bu çoğu zaman <a href="/blog/osmoz-nedir-tedavisi/">osmoz</a>dur ve farklı bir süreç ister (bkz. <a href="/blog/blister-vs-osmoz-farki/">blister vs osmoz</a>).</p>
+<p>Fiber tekne tamirini <a href="/tekneler/fiber-tekne/">fiber tekne</a> ve <a href="/hizmetler/fiberglas-onarim/">fiberglas onarım</a> kapsamında yapıyoruz. <a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Repair",
+   "title": "Fibreglass Boat Repair: From Cracks to Structural Work",
+   "excerpt": "Fibreglass boat repair: gelcoat cracks, holes, delamination and underwater structural repair.",
+   "meta_title": "Fibreglass Boat Repair Guide: Cracks and Structural | Tekne Usta",
+   "meta_desc": "Fibreglass boat repair: gelcoat crack repair, holes-delamination, lamination and underwater structural repair. Fibreglass boat service in Istanbul and the Aegean.",
+   "body": """
+<p>Fibreglass boats are durable, but impacts, ageing and moisture eventually cause cracks, holes and delamination. With the right resin and lamination technique, most of this damage is repaired permanently.</p>
+<h2>Surface or structural?</h2>
+<p>Superficial <a href="/en/blog/gelcoat-scratch-yellowing/">gelcoat cracks</a> are cosmetic and solved quickly. But cracks reaching the laminate, delamination and underwater damage need <a href="/en/blog/underwater-structural-repair/">structural repair</a> and shouldn't be neglected.</p>
+<h2>Resin and technique</h2>
+<p>The life of a repair depends on the right <a href="/en/blog/polyester-vs-epoxy-resin/">resin choice</a> and lamination quality. Where needed, the area is strengthened with <a href="/en/blog/carbon-reinforcement/">carbon reinforcement</a>.</p>
+<h2>Osmosis is a separate matter</h2>
+<p>If you see blisters below the waterline, it's often <a href="/en/blog/what-is-osmosis-treatment/">osmosis</a> and needs a different process (see <a href="/en/blog/blister-vs-osmosis/">blister vs osmosis</a>).</p>
+<p>We do fibreglass boat repair under <a href="/en/boats/fibreglass-boat/">fibreglass boat</a> and <a href="/en/services/fibreglass-repair/">fibreglass repair</a> care. Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "ahsap-tekne-bakimi", "slug_en": "wooden-boat-maintenance",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2030-02-09",
+ "tr": {
+   "category": "Bakım",
+   "title": "Ahşap Tekne Bakımı: Vernik, Kalafat ve Nem Yönetimi",
+   "excerpt": "Ahşap tekne bakımı: vernik döngüsü, kalafat kontrolü, çürük önleme ve kışlatma.",
+   "meta_title": "Ahşap Tekne Bakımı Rehberi: Vernik ve Kalafat | Tekne Usta",
+   "meta_desc": "Ahşap tekne bakımı: vernik bakım döngüsü, kalafat kontrolü, çürük önleme, nem yönetimi ve kışlatma. İstanbul ve Ege'de ahşap tekne servisi.",
+   "body": """
+<p>Ahşap tekne, düzenli bakımla onlarca yıl yaşar; ihmal edildiğinde ise sorunlar hızla büyür. Bakımın özü, suyu ahşaptan uzak tutmak: sağlam vernik/boya, sıkı kalafat ve iyi havalandırma.</p>
+<h2>Vernik ve boya döngüsü</h2>
+<p>Ahşapta koruyucu katman süreklidir; <a href="/blog/ahsap-tekne-vernik-bakimi/">vernik bakımı</a> döngüsü aksarsa güneş ve su ahşaba ulaşır. Düzenli ince katlar, tam soyup yeniden yapmaktan çok daha ekonomiktir.</p>
+<h2>Kalafat ve çürük önleme</h2>
+<p><a href="/blog/kalafat-nedir/">Kalafat</a> derzleri kontrol edilir; açılmalar su almaya dönüşmeden kapatılır. Nemli, havasız bölgeler <a href="/blog/ahsap-curuk-onarimi/">çürüğün</a> başlangıcıdır; erken tespit kritiktir.</p>
+<h2>Nem ve kışlatma</h2>
+<p>İç mekanda havalandırma, küf ve nemi önler. Kışın doğru <a href="/blog/ahsap-tekne-kislatma/">ahşap tekne kışlatması</a>, ahşabın aşırı kurumasını da engeller.</p>
+<p>Ahşap tekne bakımını <a href="/tekneler/ahsap-tekne/">ahşap tekne</a> ve <a href="/hizmetler/ahsap-tekne-renovasyonu/">ahşap renovasyon</a> kapsamında yapıyoruz. <a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Wooden Boat Maintenance: Varnish, Caulking and Moisture Management",
+   "excerpt": "Wooden boat care: the varnish cycle, caulking checks, rot prevention and winterising.",
+   "meta_title": "Wooden Boat Maintenance Guide: Varnish and Caulking | Tekne Usta",
+   "meta_desc": "Wooden boat maintenance: varnish care cycle, caulking checks, rot prevention, moisture management and winterising. Wooden boat service in Istanbul and the Aegean.",
+   "body": """
+<p>A wooden boat lasts for decades with regular care; neglected, its problems grow fast. The essence of care is keeping water away from the wood: sound varnish/paint, tight caulking and good ventilation.</p>
+<h2>The varnish and paint cycle</h2>
+<p>On wood the protective layer is continuous; if the <a href="/en/blog/wooden-boat-varnish-care/">varnish care</a> cycle slips, sun and water reach the wood. Regular thin coats are far cheaper than stripping and redoing entirely.</p>
+<h2>Caulking and rot prevention</h2>
+<p><a href="/en/blog/caulking-explained/">Caulking</a> seams are checked; openings are closed before they take on water. Damp, unventilated areas are where <a href="/en/blog/wood-rot-repair/">rot</a> starts; early detection is critical.</p>
+<h2>Moisture and winterising</h2>
+<p>Ventilation in the interior prevents mould and damp. Proper <a href="/en/blog/wooden-boat-winterising/">wooden boat winterising</a> also stops the wood from over-drying in winter.</p>
+<p>We maintain wooden boats under <a href="/en/boats/wooden-boat/">wooden boat</a> and <a href="/en/services/wooden-boat-refit/">wooden restoration</a> care. Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
 ]
 
 # ==================================================================== COST ESTIMATOR
@@ -6898,3 +7316,6 @@ BOATTYPES = [
  },
 },
 ]
+
+# TYPE x LOCATION landing pages — Dalga 3 (deferred until Dalga 2 blog content is complete)
+TYPE_LOCATION = []
