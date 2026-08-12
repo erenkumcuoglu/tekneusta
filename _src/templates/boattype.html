@@ -28,6 +28,20 @@
   </div>
 </section>
 
+{% if local_pages %}
+<section class="svc-section" style="background:var(--white)">
+  <div class="s-inner tight">
+    <div class="s-label reveal">{{ t.nav.regions }}</div>
+    <h2 class="s-title reveal" style="margin-bottom:2.5rem">{{ bt.name }} — {{ t.nav.regions }}</h2>
+    <div class="region-grid">
+      {% for lp in local_pages %}
+      <a class="region-card reveal reveal-d{{ (loop.index0 % 3) + 1 }}" href="{{ lp.url }}"><h3>{{ lp.region_name }}</h3><p>{{ lp.hero_title }}</p></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <section class="svc-section">
   <div class="s-inner tight">
     <div class="s-label reveal">{{ t.boattype.label }}</div>

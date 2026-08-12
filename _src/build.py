@@ -113,6 +113,22 @@ def boattypes_for(lang):
         out.append({**d, "slug": b["slug"], "slug_en": b["slug_en"], "image": b["image"], "url": url})
     return out
 
+def typeloc_for(lang, region_slug=None, type_slug=None):
+    """Curated type×location landing pages, optionally filtered by region or boat type."""
+    out = []
+    for tl0 in C.TYPE_LOCATION:
+        d = tl0[lang]
+        rslug = tl0["tr"]["region_url"].strip("/").split("/")[-1]
+        tslug = next((b["slug"] for b in C.BOATTYPES if tl0["slug"].endswith(b["slug"])), None)
+        if region_slug and rslug != region_slug:
+            continue
+        if type_slug and tslug != type_slug:
+            continue
+        url = f"/tekneler/{tl0['slug']}/" if lang == "tr" else f"/en/boats/{tl0['slug_en']}/"
+        out.append({"name": d["name"], "region_name": d["region_name"],
+                    "hero_title": d.get("hero_title", d["name"]), "url": url})
+    return out
+
 def posts_for(lang):
     out = []
     for p in C.POSTS:
@@ -266,7 +282,8 @@ def build():
                      (d["name"], region["url"])]
             schemas = [breadcrumb_schema(crumb), faq_schema(reg_faqs)]
             ctx = base_ctx(lang, url_tr, url_en, d["meta_title"], d["meta_desc"], schemas,
-                           og_image=r["image"], extra={"region": region, "faqs": reg_faqs})
+                           og_image=r["image"], extra={"region": region, "faqs": reg_faqs,
+                                                        "local_pages": typeloc_for(lang, region_slug=r["slug"])})
             out = (f"bolgeler/{r['slug']}/index.html" if lang == "tr" else f"en/regions/{r['slug']}/index.html")
             render("region.html", ctx, out, priority="0.8")
 
@@ -280,7 +297,8 @@ def build():
                      (d["name"], bt["url"])]
             schemas = [breadcrumb_schema(crumb), faq_schema(home_faqs[-2:])]
             ctx = base_ctx(lang, url_tr, url_en, d["meta_title"], d["meta_desc"], schemas,
-                           og_image=b["image"], extra={"bt": bt, "boattypes": boattypes_for(lang), "faqs": home_faqs[-2:]})
+                           og_image=b["image"], extra={"bt": bt, "boattypes": boattypes_for(lang), "faqs": home_faqs[-2:],
+                                                        "local_pages": typeloc_for(lang, type_slug=b["slug"])})
             out = (f"tekneler/{b['slug']}/index.html" if lang == "tr" else f"en/boats/{b['slug_en']}/index.html")
             render("boattype.html", ctx, out, priority="0.8")
 

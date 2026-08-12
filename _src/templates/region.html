@@ -23,6 +23,12 @@
           <h4>{{ t.nav.services }}</h4>
           <ul>{% for o in services %}<li><a href="{{ o.url }}">{{ o.name }}</a></li>{% endfor %}</ul>
         </div>
+        {% if local_pages %}
+        <div class="aside-list reveal reveal-d2">
+          <h4>{{ region.name }} — {{ t.boattype.label }}</h4>
+          <ul>{% for lp in local_pages %}<li><a href="{{ lp.url }}">{{ lp.name }}</a></li>{% endfor %}</ul>
+        </div>
+        {% endif %}
       </aside>
     </div>
   </div>

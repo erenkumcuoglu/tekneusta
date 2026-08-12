@@ -7317,5 +7317,350 @@ BOATTYPES = [
 },
 ]
 
-# TYPE x LOCATION landing pages — Dalga 3 (deferred until Dalga 2 blog content is complete)
-TYPE_LOCATION = []
+# ==================================================================== TYPE x LOCATION (curated) — Dalga 3
+TYPE_LOCATION = [
+{
+ "slug": "gocek-yat-motoryat", "slug_en": "gocek-yacht-motoryacht", "image": "/assets/images/parallax-3.jpg",
+ "tr": {
+   "name": "Yat & Motoryat Bakımı", "region_name": "Göcek", "region_url": "/bolgeler/gocek/",
+   "hero_title": "Göcek'te Yat ve Motoryat Bakım-Onarım",
+   "hero_sub": "D-Marin Göcek, Club Marina ve Marinturk çevresindeki yat ve motoryatlar için fiberglas, boya, teak ve kışlatma.",
+   "meta_title": "Göcek Yat & Motoryat Bakım-Onarım | Tekne Usta",
+   "meta_desc": "Göcek'te yat ve motoryat bakımı, fiberglas onarımı, boya-antifouling, teak döşeme ve kışlatma. D-Marin Göcek, Club Marina ve Marinturk çevresinde servis.",
+   "body": """
+<p>Göcek, Türkiye'nin en yoğun yat üslerinden biri; <strong>D-Marin Göcek, Club Marina ve Marinturk</strong> çevresinde çok sayıda yat ve motoryat kışlar ve bakım görür. Bu tekneler için tek elden bakım ve onarım sunuyoruz.</p>
+<h2>Göcek'te yatınıza sunduğumuz hizmetler</h2>
+<ul>
+<li><a href="/hizmetler/fiberglas-onarim/">Fiberglas onarım ve osmoz tedavisi</a></li>
+<li><a href="/hizmetler/tekne-boyama-antifouling/">Boya ve antifouling</a></li>
+<li><a href="/hizmetler/teak-guverte-doseme/">Teak güverte döşeme</a></li>
+<li><a href="/hizmetler/tekne-detailing/">Detailing</a> ve <a href="/hizmetler/ic-mekan-yenileme/">iç mekan yenileme</a></li>
+<li><a href="/hizmetler/tekne-kislatma/">Kışlatma ve bakım</a></li>
+</ul>
+<p>Göcek'in korunaklı koyları sezon boyunca yoğun kullanım demek; sezon öncesi ve sonrası bakım kritik. Yat bakımı hakkında genel bilgi için <a href="/tekneler/yat-motoryat/">yat & motoryat</a> sayfamıza, Göcek'teki diğer hizmetler için <a href="/bolgeler/gocek/">Göcek bölge sayfamıza</a> bakın.</p>
+<p>Ücretsiz yerinde keşif için <a href="#teklif-al">teklif formunu</a> doldurun.</p>
+""",
+ },
+ "en": {
+   "name": "Yacht & Motoryacht Care", "region_name": "Göcek", "region_url": "/en/regions/gocek/",
+   "hero_title": "Yacht and Motoryacht Care in Göcek",
+   "hero_sub": "Fibreglass, paint, teak and winterising for yachts and motoryachts around D-Marin Göcek, Club Marina and Marinturk.",
+   "meta_title": "Göcek Yacht & Motoryacht Care | Tekne Usta",
+   "meta_desc": "Yacht and motoryacht care, fibreglass repair, painting-antifouling, teak decking and winterising in Göcek. Service around D-Marin Göcek, Club Marina and Marinturk.",
+   "body": """
+<p>Göcek is one of Turkey's busiest yacht bases; many yachts and motoryachts winter and are maintained around <strong>D-Marin Göcek, Club Marina and Marinturk</strong>. We offer single-hand care and repair for these boats.</p>
+<h2>Services for your yacht in Göcek</h2>
+<ul>
+<li><a href="/en/services/fibreglass-repair/">Fibreglass repair & osmosis treatment</a></li>
+<li><a href="/en/services/boat-painting-antifouling/">Painting & antifouling</a></li>
+<li><a href="/en/services/teak-deck/">Teak decking</a></li>
+<li><a href="/en/services/boat-detailing/">Detailing</a> and <a href="/en/services/interior-refit/">interior refit</a></li>
+<li><a href="/en/services/winterising-storage/">Winterising & maintenance</a></li>
+</ul>
+<p>Göcek's sheltered bays mean heavy seasonal use; pre- and post-season care is critical. For general info on yacht care see our <a href="/en/boats/yacht-motoryacht/">yacht & motoryacht</a> page, and for other services in Göcek our <a href="/en/regions/gocek/">Göcek region page</a>.</p>
+<p>For a free on-site survey, fill in the <a href="#teklif-al">quote form</a>.</p>
+""",
+ },
+},
+{
+ "slug": "gocek-gulet", "slug_en": "gocek-gulet", "image": "/assets/images/parallax-2.jpg",
+ "tr": {
+   "name": "Gulet Bakım & Refit", "region_name": "Göcek", "region_url": "/bolgeler/gocek/",
+   "hero_title": "Göcek'te Gulet Bakım, Refit ve Restorasyon",
+   "hero_sub": "Mavi yolculuk guletleri için ahşap restorasyon, kalafat, teak, boya ve iç mekan yenileme.",
+   "meta_title": "Göcek Gulet Bakım, Refit ve Restorasyon | Tekne Usta",
+   "meta_desc": "Göcek'te gulet bakımı, refit, ahşap restorasyon, kalafat, teak ve iç mekan yenileme. Skopea koyları ve Göcek marinaları çevresinde gulet servisi.",
+   "body": """
+<p>Göcek ve çevresindeki Skopea koyları, mavi yolculuk guletlerinin kalbidir. Ahşap ve karma gövde guletlerde kapsamlı bakım, refit ve restorasyon yapıyoruz.</p>
+<h2>Göcek'te guletinize hizmetler</h2>
+<ul>
+<li><a href="/hizmetler/ahsap-tekne-renovasyonu/">Ahşap restorasyon ve kalafat</a></li>
+<li><a href="/hizmetler/teak-guverte-doseme/">Teak güverte döşeme</a></li>
+<li><a href="/hizmetler/tekne-boyama-antifouling/">Boya, vernik ve antifouling</a></li>
+<li><a href="/hizmetler/ic-mekan-yenileme/">Kabin ve salon yenileme</a></li>
+<li><a href="/hizmetler/tekne-kislatma/">Kışlatma ve bakım</a></li>
+</ul>
+<p>Ticari kullanılan guletlerde sezon öncesi bakım şart; küçük sorunlar sezonu aksatmadan çözülmeli. Çok kalemli işleri <a href="/blog/refit-proje-yonetimi/">tek elden proje yönetimiyle</a> yürütürüz. Genel bilgi için <a href="/tekneler/gulet/">gulet</a> ve <a href="/bolgeler/gocek/">Göcek</a> sayfalarımıza bakın.</p>
+<p>Sezon öncesi <a href="#teklif-al">ücretsiz keşif</a> için bize yazın.</p>
+""",
+ },
+ "en": {
+   "name": "Gulet Maintenance & Refit", "region_name": "Göcek", "region_url": "/en/regions/gocek/",
+   "hero_title": "Gulet Maintenance, Refit and Restoration in Göcek",
+   "hero_sub": "Wooden restoration, caulking, teak, paint and interior renewal for blue-cruise gulets.",
+   "meta_title": "Göcek Gulet Maintenance, Refit and Restoration | Tekne Usta",
+   "meta_desc": "Gulet maintenance, refit, wooden restoration, caulking, teak and interior renewal in Göcek. Gulet service around the Skopea bays and Göcek marinas.",
+   "body": """
+<p>Göcek and the surrounding Skopea bays are the heart of blue-cruise gulets. We do comprehensive care, refit and restoration on wooden and composite-hull gulets.</p>
+<h2>Services for your gulet in Göcek</h2>
+<ul>
+<li><a href="/en/services/wooden-boat-refit/">Wooden restoration & caulking</a></li>
+<li><a href="/en/services/teak-deck/">Teak decking</a></li>
+<li><a href="/en/services/boat-painting-antifouling/">Paint, varnish & antifouling</a></li>
+<li><a href="/en/services/interior-refit/">Cabin and saloon renewal</a></li>
+<li><a href="/en/services/winterising-storage/">Winterising & maintenance</a></li>
+</ul>
+<p>On commercial gulets, pre-season care is essential; small problems must be solved without disrupting the season. We run multi-item work with <a href="/en/blog/refit-project-management/">single-hand project management</a>. For general info, see our <a href="/en/boats/gulet/">gulet</a> and <a href="/en/regions/gocek/">Göcek</a> pages.</p>
+<p>For a pre-season <a href="#teklif-al">free survey</a>, message us.</p>
+""",
+ },
+},
+{
+ "slug": "bodrum-yat-motoryat", "slug_en": "bodrum-yacht-motoryacht", "image": "/assets/images/parallax-1.jpg",
+ "tr": {
+   "name": "Yat & Motoryat Bakımı", "region_name": "Bodrum", "region_url": "/bolgeler/bodrum/",
+   "hero_title": "Bodrum'da Yat ve Motoryat Bakım-Onarım",
+   "hero_sub": "Yalıkavak Marina ve Milta Bodrum Marina çevresindeki yat ve motoryatlar için fiberglas, boya, teak ve detailing.",
+   "meta_title": "Bodrum Yat & Motoryat Bakım-Onarım | Tekne Usta",
+   "meta_desc": "Bodrum'da yat ve motoryat bakımı, fiberglas onarımı, boya-antifouling, teak döşeme ve detailing. Yalıkavak ve Milta Bodrum Marina çevresinde servis.",
+   "body": """
+<p>Bodrum, Ege'nin en canlı yat merkezlerinden; <strong>Yalıkavak Marina ve Milta Bodrum Marina</strong> çevresinde çok sayıda yat ve motoryat bakım görür. Bu premium teknelere detay ve bitiş kalitesiyle hizmet veriyoruz.</p>
+<h2>Bodrum'da yatınıza hizmetler</h2>
+<ul>
+<li><a href="/hizmetler/fiberglas-onarim/">Fiberglas onarım ve gelcoat</a></li>
+<li><a href="/hizmetler/tekne-boyama-antifouling/">Boya ve antifouling</a></li>
+<li><a href="/hizmetler/teak-guverte-doseme/">Teak güverte döşeme</a></li>
+<li><a href="/hizmetler/tekne-detailing/">Detailing</a> ve <a href="/hizmetler/ic-mekan-yenileme/">iç mekan yenileme</a></li>
+<li><a href="/hizmetler/tekne-kislatma/">Kışlatma ve bakım</a></li>
+</ul>
+<p>Özellikle Yalıkavak gibi prestijli üslerde detay ve bitiş kalitesi fark yaratır. Genel bilgi için <a href="/tekneler/yat-motoryat/">yat & motoryat</a>, Bodrum için <a href="/bolgeler/bodrum/">Bodrum</a> ve <a href="/bolgeler/yalikavak/">Yalıkavak</a> sayfalarımıza bakın.</p>
+<p><a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "name": "Yacht & Motoryacht Care", "region_name": "Bodrum", "region_url": "/en/regions/bodrum/",
+   "hero_title": "Yacht and Motoryacht Care in Bodrum",
+   "hero_sub": "Fibreglass, paint, teak and detailing for yachts and motoryachts around Yalıkavak Marina and Milta Bodrum Marina.",
+   "meta_title": "Bodrum Yacht & Motoryacht Care | Tekne Usta",
+   "meta_desc": "Yacht and motoryacht care, fibreglass repair, painting-antifouling, teak decking and detailing in Bodrum. Service around Yalıkavak and Milta Bodrum Marina.",
+   "body": """
+<p>Bodrum is one of the Aegean's liveliest yachting hubs; many yachts and motoryachts are maintained around <strong>Yalıkavak Marina and Milta Bodrum Marina</strong>. We serve these premium boats with detail and finish quality.</p>
+<h2>Services for your yacht in Bodrum</h2>
+<ul>
+<li><a href="/en/services/fibreglass-repair/">Fibreglass repair & gelcoat</a></li>
+<li><a href="/en/services/boat-painting-antifouling/">Painting & antifouling</a></li>
+<li><a href="/en/services/teak-deck/">Teak decking</a></li>
+<li><a href="/en/services/boat-detailing/">Detailing</a> and <a href="/en/services/interior-refit/">interior refit</a></li>
+<li><a href="/en/services/winterising-storage/">Winterising & maintenance</a></li>
+</ul>
+<p>Especially at prestigious bases like Yalıkavak, detail and finish quality make the difference. For general info see <a href="/en/boats/yacht-motoryacht/">yacht & motoryacht</a>, and for Bodrum our <a href="/en/regions/bodrum/">Bodrum</a> and <a href="/en/regions/yalikavak/">Yalıkavak</a> pages.</p>
+<p>Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "bodrum-gulet", "slug_en": "bodrum-gulet", "image": "/assets/images/services/ahsap.jpg",
+ "tr": {
+   "name": "Gulet Bakım & Refit", "region_name": "Bodrum", "region_url": "/bolgeler/bodrum/",
+   "hero_title": "Bodrum'da Gulet Bakım, Refit ve Restorasyon",
+   "hero_sub": "Bodrum'un ahşap tekne geleneğindeki guletler için restorasyon, kalafat, teak ve boya.",
+   "meta_title": "Bodrum Gulet Bakım, Refit ve Restorasyon | Tekne Usta",
+   "meta_desc": "Bodrum'da gulet bakımı, refit, ahşap restorasyon, kalafat, teak ve boya. Bodrum'un gulet geleneğine uygun ustalıkla servis.",
+   "body": """
+<p>Bodrum, ahşap gulet inşa geleneğinin merkezidir; bölgede çok sayıda ahşap ve karma gövde gulet bakım ve refit görür. Bu geleneğe uygun ustalıkla çalışıyoruz.</p>
+<h2>Bodrum'da guletinize hizmetler</h2>
+<ul>
+<li><a href="/hizmetler/ahsap-tekne-renovasyonu/">Ahşap restorasyon ve kalafat</a></li>
+<li><a href="/hizmetler/teak-guverte-doseme/">Teak güverte döşeme</a></li>
+<li><a href="/hizmetler/tekne-boyama-antifouling/">Boya, vernik ve antifouling</a></li>
+<li><a href="/hizmetler/ic-mekan-yenileme/">Kabin ve salon yenileme</a></li>
+<li><a href="/hizmetler/tekne-kislatma/">Kışlatma ve bakım</a></li>
+</ul>
+<p>Ahşap bakımında <a href="/blog/ustupu-kalafat-teknikleri/">geleneksel kalafat</a> ile modern epoksiyi birlikte kullanıyor, özgün dokuyu koruyoruz. Genel bilgi için <a href="/tekneler/gulet/">gulet</a> ve <a href="/bolgeler/bodrum/">Bodrum</a> sayfalarımıza bakın.</p>
+<p>Sezon öncesi <a href="#teklif-al">ücretsiz keşif</a> için bize yazın.</p>
+""",
+ },
+ "en": {
+   "name": "Gulet Maintenance & Refit", "region_name": "Bodrum", "region_url": "/en/regions/bodrum/",
+   "hero_title": "Gulet Maintenance, Refit and Restoration in Bodrum",
+   "hero_sub": "Restoration, caulking, teak and paint for gulets in Bodrum's wooden boatbuilding tradition.",
+   "meta_title": "Bodrum Gulet Maintenance, Refit and Restoration | Tekne Usta",
+   "meta_desc": "Gulet maintenance, refit, wooden restoration, caulking, teak and paint in Bodrum. Craftsmanship suited to Bodrum's gulet tradition.",
+   "body": """
+<p>Bodrum is the heart of the wooden gulet building tradition; many wooden and composite-hull gulets are maintained and refitted in the area. We work with craftsmanship suited to this tradition.</p>
+<h2>Services for your gulet in Bodrum</h2>
+<ul>
+<li><a href="/en/services/wooden-boat-refit/">Wooden restoration & caulking</a></li>
+<li><a href="/en/services/teak-deck/">Teak decking</a></li>
+<li><a href="/en/services/boat-painting-antifouling/">Paint, varnish & antifouling</a></li>
+<li><a href="/en/services/interior-refit/">Cabin and saloon renewal</a></li>
+<li><a href="/en/services/winterising-storage/">Winterising & maintenance</a></li>
+</ul>
+<p>In wood care we combine <a href="/en/blog/oakum-caulking-techniques/">traditional caulking</a> with modern epoxy, preserving the original character. For general info, see our <a href="/en/boats/gulet/">gulet</a> and <a href="/en/regions/bodrum/">Bodrum</a> pages.</p>
+<p>For a pre-season <a href="#teklif-al">free survey</a>, message us.</p>
+""",
+ },
+},
+{
+ "slug": "bodrum-yelkenli", "slug_en": "bodrum-sailboat", "image": "/assets/images/parallax-2.jpg",
+ "tr": {
+   "name": "Yelkenli Bakımı", "region_name": "Bodrum", "region_url": "/bolgeler/bodrum/",
+   "hero_title": "Bodrum'da Yelkenli Tekne Tamiri ve Bakımı",
+   "hero_sub": "Bodrum ve Yalıkavak çevresindeki yelkenliler için osmoz, boya, teak ve kışlatma.",
+   "meta_title": "Bodrum Yelkenli Tamiri ve Bakımı | Tekne Usta",
+   "meta_desc": "Bodrum'da yelkenli tekne tamiri, osmoz tedavisi, antifouling boya, teak ve kışlatma. Yalıkavak ve Bodrum marinaları çevresinde yelkenli servisi.",
+   "body": """
+<p>Bodrum ve Yalıkavak çevresi, yelkenli sahiplerinin yoğun olduğu bir bölge. Fiberglas ve klasik ahşap yelkenlilerde osmoz, boya, teak ve iç mekan işlerini yapıyoruz.</p>
+<h2>Bodrum'da yelkenlinize hizmetler</h2>
+<ul>
+<li><a href="/hizmetler/fiberglas-onarim/">Fiberglas onarım ve osmoz tedavisi</a></li>
+<li><a href="/hizmetler/tekne-boyama-antifouling/">Boya ve antifouling</a></li>
+<li><a href="/hizmetler/teak-guverte-doseme/">Teak güverte döşeme</a></li>
+<li><a href="/hizmetler/ic-mekan-yenileme/">İç mekan yenileme</a></li>
+<li><a href="/hizmetler/tekne-kislatma/">Kışlatma ve bakım</a></li>
+</ul>
+<p>Direk, arma ve motor işleri kapsamımız dışında; gövde, karina, boya ve iç mekan tarafında tam hizmet veriyoruz. Genel bilgi için <a href="/tekneler/yelkenli/">yelkenli</a> ve <a href="/bolgeler/bodrum/">Bodrum</a> sayfalarımıza bakın.</p>
+<p><a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "name": "Sailboat Care", "region_name": "Bodrum", "region_url": "/en/regions/bodrum/",
+   "hero_title": "Sailboat Repair and Maintenance in Bodrum",
+   "hero_sub": "Osmosis, paint, teak and winterising for sailboats around Bodrum and Yalıkavak.",
+   "meta_title": "Bodrum Sailboat Repair and Maintenance | Tekne Usta",
+   "meta_desc": "Sailboat repair, osmosis treatment, antifouling, teak and winterising in Bodrum. Sailboat service around Yalıkavak and Bodrum marinas.",
+   "body": """
+<p>Bodrum and Yalıkavak are areas with many sailboat owners. We do osmosis, paint, teak and interior work on fibreglass and classic wooden sailboats.</p>
+<h2>Services for your sailboat in Bodrum</h2>
+<ul>
+<li><a href="/en/services/fibreglass-repair/">Fibreglass repair & osmosis treatment</a></li>
+<li><a href="/en/services/boat-painting-antifouling/">Painting & antifouling</a></li>
+<li><a href="/en/services/teak-deck/">Teak decking</a></li>
+<li><a href="/en/services/interior-refit/">Interior refit</a></li>
+<li><a href="/en/services/winterising-storage/">Winterising & maintenance</a></li>
+</ul>
+<p>Mast, rigging and engine work are outside our scope; we provide full service on hull, underbody, paint and interior. For general info, see our <a href="/en/boats/sailboat/">sailboat</a> and <a href="/en/regions/bodrum/">Bodrum</a> pages.</p>
+<p>Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "marmaris-yelkenli", "slug_en": "marmaris-sailboat", "image": "/assets/images/parallax-1.jpg",
+ "tr": {
+   "name": "Yelkenli Bakımı", "region_name": "Marmaris", "region_url": "/bolgeler/marmaris/",
+   "hero_title": "Marmaris'te Yelkenli Tekne Tamiri ve Bakımı",
+   "hero_sub": "Netsel Marmaris Marina ve Yat Marin çevresindeki yelkenliler için osmoz, boya, teak ve kışlatma.",
+   "meta_title": "Marmaris Yelkenli Tamiri ve Bakımı | Tekne Usta",
+   "meta_desc": "Marmaris'te yelkenli tekne tamiri, osmoz tedavisi, antifouling boya, teak ve kışlatma. Netsel Marmaris Marina ve Yat Marin çevresinde yelkenli servisi.",
+   "body": """
+<p>Marmaris, hem yerli hem yabancı yelkenli sahipleri için önemli bir üs; <strong>Netsel Marmaris Marina ve Yat Marin</strong> çevresinde çok sayıda yelkenli kışlar ve bakım görür. Bu tekneler için tam hizmet veriyoruz.</p>
+<h2>Marmaris'te yelkenlinize hizmetler</h2>
+<ul>
+<li><a href="/hizmetler/fiberglas-onarim/">Fiberglas onarım ve osmoz tedavisi</a></li>
+<li><a href="/hizmetler/tekne-boyama-antifouling/">Boya ve antifouling</a></li>
+<li><a href="/hizmetler/teak-guverte-doseme/">Teak güverte döşeme</a></li>
+<li><a href="/hizmetler/ic-mekan-yenileme/">İç mekan yenileme</a></li>
+<li><a href="/hizmetler/tekne-kislatma/">Kışlatma ve bakım</a></li>
+</ul>
+<p>Uzun süre suda kalan yelkenlilerde karina ve <a href="/blog/osmoz-belirtileri/">osmoz</a> takibi önemli. Direk/arma ve motor işleri kapsam dışı. Genel bilgi için <a href="/tekneler/yelkenli/">yelkenli</a> ve <a href="/bolgeler/marmaris/">Marmaris</a> sayfalarımıza bakın.</p>
+<p><a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "name": "Sailboat Care", "region_name": "Marmaris", "region_url": "/en/regions/marmaris/",
+   "hero_title": "Sailboat Repair and Maintenance in Marmaris",
+   "hero_sub": "Osmosis, paint, teak and winterising for sailboats around Netsel Marmaris Marina and Yat Marin.",
+   "meta_title": "Marmaris Sailboat Repair and Maintenance | Tekne Usta",
+   "meta_desc": "Sailboat repair, osmosis treatment, antifouling, teak and winterising in Marmaris. Sailboat service around Netsel Marmaris Marina and Yat Marin.",
+   "body": """
+<p>Marmaris is an important base for both local and foreign sailboat owners; many sailboats winter and are maintained around <strong>Netsel Marmaris Marina and Yat Marin</strong>. We provide full service for these boats.</p>
+<h2>Services for your sailboat in Marmaris</h2>
+<ul>
+<li><a href="/en/services/fibreglass-repair/">Fibreglass repair & osmosis treatment</a></li>
+<li><a href="/en/services/boat-painting-antifouling/">Painting & antifouling</a></li>
+<li><a href="/en/services/teak-deck/">Teak decking</a></li>
+<li><a href="/en/services/interior-refit/">Interior refit</a></li>
+<li><a href="/en/services/winterising-storage/">Winterising & maintenance</a></li>
+</ul>
+<p>On sailboats kept long afloat, hull and <a href="/en/blog/osmosis-symptoms/">osmosis</a> monitoring matter. Mast/rigging and engine work are out of scope. For general info, see our <a href="/en/boats/sailboat/">sailboat</a> and <a href="/en/regions/marmaris/">Marmaris</a> pages.</p>
+<p>Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "fethiye-gulet", "slug_en": "fethiye-gulet", "image": "/assets/images/parallax-3.jpg",
+ "tr": {
+   "name": "Gulet Bakım & Refit", "region_name": "Fethiye", "region_url": "/bolgeler/fethiye/",
+   "hero_title": "Fethiye'de Gulet Bakım, Refit ve Restorasyon",
+   "hero_sub": "Ece Saray Marina ve Fethiye körfezindeki guletler için ahşap restorasyon, kalafat, teak ve boya.",
+   "meta_title": "Fethiye Gulet Bakım, Refit ve Restorasyon | Tekne Usta",
+   "meta_desc": "Fethiye'de gulet bakımı, refit, ahşap restorasyon, kalafat, teak ve boya. Ece Marina ve Fethiye körfezi çevresinde gulet servisi.",
+   "body": """
+<p>Fethiye ve komşu Göcek, mavi yolculuk guletlerinin yoğun olduğu bir bölge. <strong>Ece Saray Marina</strong> ve körfez çevresindeki guletler için kapsamlı bakım, refit ve restorasyon yapıyoruz.</p>
+<h2>Fethiye'de guletinize hizmetler</h2>
+<ul>
+<li><a href="/hizmetler/ahsap-tekne-renovasyonu/">Ahşap restorasyon ve kalafat</a></li>
+<li><a href="/hizmetler/teak-guverte-doseme/">Teak güverte döşeme</a></li>
+<li><a href="/hizmetler/tekne-boyama-antifouling/">Boya, vernik ve antifouling</a></li>
+<li><a href="/hizmetler/ic-mekan-yenileme/">Kabin ve salon yenileme</a></li>
+<li><a href="/hizmetler/tekne-kislatma/">Kışlatma ve bakım</a></li>
+</ul>
+<p>Ticari guletlerde sezon öncesi bakım kritik; çok kalemli işleri <a href="/blog/refit-proje-yonetimi/">tek elden</a> yürütüyoruz. Genel bilgi için <a href="/tekneler/gulet/">gulet</a> ve <a href="/bolgeler/fethiye/">Fethiye</a> sayfalarımıza bakın.</p>
+<p>Sezon öncesi <a href="#teklif-al">ücretsiz keşif</a> için bize yazın.</p>
+""",
+ },
+ "en": {
+   "name": "Gulet Maintenance & Refit", "region_name": "Fethiye", "region_url": "/en/regions/fethiye/",
+   "hero_title": "Gulet Maintenance, Refit and Restoration in Fethiye",
+   "hero_sub": "Wooden restoration, caulking, teak and paint for gulets around Ece Saray Marina and Fethiye bay.",
+   "meta_title": "Fethiye Gulet Maintenance, Refit and Restoration | Tekne Usta",
+   "meta_desc": "Gulet maintenance, refit, wooden restoration, caulking, teak and paint in Fethiye. Gulet service around Ece Marina and Fethiye bay.",
+   "body": """
+<p>Fethiye and neighbouring Göcek form an area with many blue-cruise gulets. We do comprehensive care, refit and restoration for gulets around <strong>Ece Saray Marina</strong> and the bay.</p>
+<h2>Services for your gulet in Fethiye</h2>
+<ul>
+<li><a href="/en/services/wooden-boat-refit/">Wooden restoration & caulking</a></li>
+<li><a href="/en/services/teak-deck/">Teak decking</a></li>
+<li><a href="/en/services/boat-painting-antifouling/">Paint, varnish & antifouling</a></li>
+<li><a href="/en/services/interior-refit/">Cabin and saloon renewal</a></li>
+<li><a href="/en/services/winterising-storage/">Winterising & maintenance</a></li>
+</ul>
+<p>On commercial gulets, pre-season care is critical; we run multi-item work <a href="/en/blog/refit-project-management/">from one hand</a>. For general info, see our <a href="/en/boats/gulet/">gulet</a> and <a href="/en/regions/fethiye/">Fethiye</a> pages.</p>
+<p>For a pre-season <a href="#teklif-al">free survey</a>, message us.</p>
+""",
+ },
+},
+{
+ "slug": "istanbul-yat-motoryat", "slug_en": "istanbul-yacht-motoryacht", "image": "/assets/images/parallax-1.jpg",
+ "tr": {
+   "name": "Yat & Motoryat Bakımı", "region_name": "İstanbul", "region_url": "/bolgeler/istanbul/",
+   "hero_title": "İstanbul'da Yat ve Motoryat Bakım-Onarım",
+   "hero_sub": "Tuzla, Pendik, Ataköy ve Kalamış marinalarındaki yat ve motoryatlar için fiberglas, boya, teak ve kışlatma.",
+   "meta_title": "İstanbul Yat & Motoryat Bakım-Onarım | Tekne Usta",
+   "meta_desc": "İstanbul'da yat ve motoryat bakımı, fiberglas onarımı, boya-antifouling, teak döşeme ve kışlatma. Tuzla, Pendik, Ataköy ve Kalamış marinalarında servis.",
+   "body": """
+<p>İstanbul, iki yakasındaki marinalarıyla yoğun bir yat trafiğine sahip. <strong>Tuzla, Pendik, Viaport, Ataköy ve Kalamış</strong> çevresindeki yat ve motoryatlar için tek elden bakım ve onarım sunuyoruz; çekek gerektiren işlerde de esneğiz.</p>
+<h2>İstanbul'da yatınıza hizmetler</h2>
+<ul>
+<li><a href="/hizmetler/fiberglas-onarim/">Fiberglas onarım ve osmoz tedavisi</a></li>
+<li><a href="/hizmetler/tekne-boyama-antifouling/">Boya ve antifouling</a></li>
+<li><a href="/hizmetler/teak-guverte-doseme/">Teak güverte döşeme</a></li>
+<li><a href="/hizmetler/tekne-detailing/">Detailing</a> ve <a href="/hizmetler/ic-mekan-yenileme/">iç mekan yenileme</a></li>
+<li><a href="/hizmetler/tekne-kislatma/">Kışlatma ve bakım</a></li>
+</ul>
+<p>Tuzla'nın çekek imkânları kapsamlı işler için avantaj. Genel bilgi için <a href="/tekneler/yat-motoryat/">yat & motoryat</a>, İstanbul için <a href="/bolgeler/istanbul/">İstanbul</a> ve <a href="/bolgeler/tuzla/">Tuzla</a> sayfalarımıza bakın.</p>
+<p><a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "name": "Yacht & Motoryacht Care", "region_name": "Istanbul", "region_url": "/en/regions/istanbul/",
+   "hero_title": "Yacht and Motoryacht Care in Istanbul",
+   "hero_sub": "Fibreglass, paint, teak and winterising for yachts and motoryachts at Tuzla, Pendik, Ataköy and Kalamış marinas.",
+   "meta_title": "Istanbul Yacht & Motoryacht Care | Tekne Usta",
+   "meta_desc": "Yacht and motoryacht care, fibreglass repair, painting-antifouling, teak decking and winterising in Istanbul. Service at Tuzla, Pendik, Ataköy and Kalamış marinas.",
+   "body": """
+<p>Istanbul has heavy yacht traffic with marinas on both sides. We offer single-hand care and repair for yachts and motoryachts around <strong>Tuzla, Pendik, Viaport, Ataköy and Kalamış</strong>, and we're flexible for jobs needing haul-out.</p>
+<h2>Services for your yacht in Istanbul</h2>
+<ul>
+<li><a href="/en/services/fibreglass-repair/">Fibreglass repair & osmosis treatment</a></li>
+<li><a href="/en/services/boat-painting-antifouling/">Painting & antifouling</a></li>
+<li><a href="/en/services/teak-deck/">Teak decking</a></li>
+<li><a href="/en/services/boat-detailing/">Detailing</a> and <a href="/en/services/interior-refit/">interior refit</a></li>
+<li><a href="/en/services/winterising-storage/">Winterising & maintenance</a></li>
+</ul>
+<p>Tuzla's hardstanding is an advantage for extensive work. For general info see <a href="/en/boats/yacht-motoryacht/">yacht & motoryacht</a>, and for Istanbul our <a href="/en/regions/istanbul/">Istanbul</a> and <a href="/en/regions/tuzla/">Tuzla</a> pages.</p>
+<p>Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+]
