@@ -284,6 +284,20 @@ def build():
             out = (f"tekneler/{b['slug']}/index.html" if lang == "tr" else f"en/boats/{b['slug_en']}/index.html")
             render("boattype.html", ctx, out, priority="0.8")
 
+        # ---- TYPE x LOCATION (curated local landing pages)
+        for tl0 in C.TYPE_LOCATION:
+            d = tl0[lang]
+            url_tr, url_en = f"/tekneler/{tl0['slug']}/", f"/en/boats/{tl0['slug_en']}/"
+            tl = {**d, "image": tl0["image"], "url": url_tr if lang == "tr" else url_en}
+            crumb = [(C.I18N[lang]["nav"]["home"], "/" if lang == "tr" else "/en/"),
+                     (d["region_name"], d["region_url"]),
+                     (d["name"], tl["url"])]
+            schemas = [breadcrumb_schema(crumb), faq_schema(home_faqs[-2:])]
+            ctx = base_ctx(lang, url_tr, url_en, d["meta_title"], d["meta_desc"], schemas,
+                           og_image=tl0["image"], extra={"tl": tl, "faqs": home_faqs[-2:]})
+            out = (f"tekneler/{tl0['slug']}/index.html" if lang == "tr" else f"en/boats/{tl0['slug_en']}/index.html")
+            render("typeloc.html", ctx, out, priority="0.7")
+
         # ---- BLOG INDEX
         posts = posts_for(lang)
         for post in posts:
