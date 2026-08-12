@@ -28,6 +28,14 @@
   <url><loc>https://www.tekneusta.com/bolgeler/kas/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.tekneusta.com/bolgeler/kusadasi/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.tekneusta.com/bolgeler/mudanya/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/tekneler/yat-motoryat/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/tekneler/yelkenli/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/tekneler/gulet/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/tekneler/rib-bot/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/tekneler/surat-teknesi/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/tekneler/fiber-tekne/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/tekneler/ahsap-tekne/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/tekneler/aluminyum-tekne/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.tekneusta.com/blog/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.tekneusta.com/blog/osmoz-nedir-tedavisi/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.tekneusta.com/blog/antifouling-secimi/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -145,6 +153,14 @@
   <url><loc>https://www.tekneusta.com/en/regions/kas/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.tekneusta.com/en/regions/kusadasi/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.tekneusta.com/en/regions/mudanya/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/en/boats/yacht-motoryacht/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/en/boats/sailboat/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/en/boats/gulet/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/en/boats/rib-tender/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/en/boats/speedboat/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/en/boats/fibreglass-boat/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/en/boats/wooden-boat/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.tekneusta.com/en/boats/aluminium-boat/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.tekneusta.com/en/blog/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.tekneusta.com/en/blog/what-is-osmosis-treatment/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.tekneusta.com/en/blog/choosing-antifouling/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>

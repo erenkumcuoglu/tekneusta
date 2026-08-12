@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block body %}
+<header class="sub-hero" style="--sub-bg:url('{{ bt.image }}')">
+  <div class="crumb"><a href="{{ page.home }}">{{ t.nav.home }}</a> <span>/</span> <a href="{{ page.home }}#tipler">{{ t.boattype.label }}</a> <span>/</span> <span>{{ bt.name }}</span></div>
+  <div class="sub-hero-inner">
+    <h1>{{ bt.hero_title|safe }}</h1>
+    <p>{{ bt.hero_sub }}</p>
+    <a href="#teklif-al" class="btn-primary">{{ t.home.cta1 }}</a>
+  </div>
+</header>
+
+<section class="detail-section">
+  <div class="s-inner">
+    <div class="detail-grid">
+      <div class="detail-body reveal">{{ bt.body|safe }}</div>
+      <aside class="detail-aside">
+        <div class="aside-card reveal">
+          <h3>{{ t.aside.title }}</h3>
+          <p>{{ t.aside.text }}</p>
+          <a href="#teklif-al" class="btn-primary">{{ t.aside.cta }}</a>
+        </div>
+        <div class="aside-list reveal reveal-d1">
+          <h4>{{ t.nav.services }}</h4>
+          <ul>{% for o in services %}<li><a href="{{ o.url }}">{{ o.name }}</a></li>{% endfor %}</ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="svc-section">
+  <div class="s-inner tight">
+    <div class="s-label reveal">{{ t.boattype.label }}</div>
+    <h2 class="s-title reveal" style="margin-bottom:2.5rem">{{ t.boattype.other }}</h2>
+    <div class="region-grid">
+      {% for r in boattypes if r.slug != bt.slug %}
+      <a class="region-card reveal reveal-d{{ (loop.index0 % 3) + 1 }}" href="{{ r.url }}"><h3>{{ r.name }}</h3><p>{{ r.short }}</p></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include 'partials/faq.html' %}
+{% include 'partials/quote_form.html' %}
+{% endblock %}

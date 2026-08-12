@@ -105,6 +105,14 @@ def regions_for(lang):
         out.append({**d, "slug": r["slug"], "image": r["image"], "url": url})
     return out
 
+def boattypes_for(lang):
+    out = []
+    for b in C.BOATTYPES:
+        d = b[lang]
+        url = f"/tekneler/{b['slug']}/" if lang == "tr" else f"/en/boats/{b['slug_en']}/"
+        out.append({**d, "slug": b["slug"], "slug_en": b["slug_en"], "image": b["image"], "url": url})
+    return out
+
 def posts_for(lang):
     out = []
     for p in C.POSTS:
@@ -228,6 +236,7 @@ def build():
                        [local_business_schema(), website_schema(lang), faq_schema(home_faqs)],
                        nav_solid=False)
         ctx["faqs"] = home_faqs
+        ctx["boattypes"] = boattypes_for(lang)
         render("home.html", ctx, ("index.html" if lang == "tr" else "en/index.html"), priority="1.0")
 
         # ---- SERVICES
@@ -260,6 +269,20 @@ def build():
                            og_image=r["image"], extra={"region": region, "faqs": reg_faqs})
             out = (f"bolgeler/{r['slug']}/index.html" if lang == "tr" else f"en/regions/{r['slug']}/index.html")
             render("region.html", ctx, out, priority="0.8")
+
+        # ---- BOAT TYPES (tekne tipi pillar sayfaları)
+        for b in C.BOATTYPES:
+            d = b[lang]
+            url_tr, url_en = f"/tekneler/{b['slug']}/", f"/en/boats/{b['slug_en']}/"
+            bt = {**d, "slug": b["slug"], "image": b["image"], "url": url_tr if lang == "tr" else url_en}
+            crumb = [(C.I18N[lang]["nav"]["home"], "/" if lang == "tr" else "/en/"),
+                     (C.I18N[lang]["boattype"]["label"], ("/#tipler" if lang == "tr" else "/en/#tipler")),
+                     (d["name"], bt["url"])]
+            schemas = [breadcrumb_schema(crumb), faq_schema(home_faqs[-2:])]
+            ctx = base_ctx(lang, url_tr, url_en, d["meta_title"], d["meta_desc"], schemas,
+                           og_image=b["image"], extra={"bt": bt, "boattypes": boattypes_for(lang), "faqs": home_faqs[-2:]})
+            out = (f"tekneler/{b['slug']}/index.html" if lang == "tr" else f"en/boats/{b['slug_en']}/index.html")
+            render("boattype.html", ctx, out, priority="0.8")
 
         # ---- BLOG INDEX
         posts = posts_for(lang)

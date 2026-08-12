@@ -81,6 +81,20 @@
   </div>
 </section>
 
+<section id="tipler" style="background:var(--white)">
+  <div class="s-inner">
+    <div class="svc-header">
+      <div class="reveal"><div class="s-label">{{ t.home.type_label }}</div><h2 class="s-title">{{ t.home.type_title|safe }}</h2></div>
+      <p class="s-sub reveal reveal-d1">{{ t.home.type_sub }}</p>
+    </div>
+    <div class="region-grid">
+      {% for b in boattypes %}
+      <a class="region-card reveal reveal-d{{ (loop.index0 % 3) + 1 }}" href="{{ b.url }}"><h3>{{ b.name }}</h3><p>{{ b.short }}</p></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 {% include 'partials/process.html' %}
 
 <section id="referanslar">
