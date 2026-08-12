@@ -5747,6 +5747,328 @@ POSTS = [
 """,
  },
 },
+{
+ "slug": "yat-boyama", "slug_en": "yacht-painting",
+ "image": "/assets/images/parallax-1.jpg", "date": "2029-05-24",
+ "tr": {
+   "category": "Boya",
+   "title": "Yat Boyama: Süperyat Kalitesinde Bir Bitiş İçin",
+   "excerpt": "Yat boyama neden özel bir iştir? Büyük yüzey, 2K poliüretan, yüzey hazırlığı ve maliyeti belirleyen faktörler.",
+   "meta_title": "Yat Boyama Rehberi: Fiyat ve Süreç | Tekne Usta",
+   "meta_desc": "Yat boyama: 2K poliüretan sistemler, dış cephe ve antifouling, yüzey hazırlığı ve maliyeti belirleyen faktörler. İstanbul ve Ege'de yat boyama hizmeti.",
+   "body": """
+<p>Yat boyama, küçük tekne boyamaktan çok daha kapsamlı bir iştir; büyük yüzey, yüksek beklenti ve kalıcı bir parlaklık gerektirir. Doğru sistem ve titiz işçilik olmadan, pahalı görünen bir iş kısa sürede hayal kırıklığı yaratır.</p>
+<h2>Yatlarda hangi boya?</h2>
+<p>Süperyat parlaklığı için genelde <a href="/blog/2k-poliuretan-boya/">2K poliüretan</a> sistemler tercih edilir: derin parlaklık, yüksek UV direnci, uzun ömür. Su altında ise doğru <a href="/blog/antifouling-secimi/">antifouling</a> seçilir.</p>
+<h2>Maliyeti ne belirler?</h2>
+<p>Yat boyama fiyatı; boy/yüzey alanı, kat sayısı, renk değişimi ve en önemlisi <a href="/blog/boya-oncesi-yuzey-hazirligi/">yüzey hazırlığının</a> kapsamıyla belirlenir. Detay için <a href="/blog/tekne-boyama-maliyeti/">boyama maliyeti</a> yazımıza bakın.</p>
+<h2>Neden yüzey hazırlığı kritik?</h2>
+<p>Büyük yüzeyde en küçük kusur bile belli olur. Doğru zımpara, dolgu (fairing) ve astar; pürüzsüz, aynalı bir bitişin ön koşuludur. Biz teklifi kalem kalem veririz; hangi adıma ne emek gittiği nettir.</p>
+<p>Yatınızın boya ve antifouling işini <a href="/hizmetler/tekne-boyama-antifouling/">tekne boyama</a> hizmetimiz ve <a href="/tekneler/yat-motoryat/">yat & motoryat</a> bakım kapsamında yapıyoruz. <a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "Yacht Painting: For a Superyacht-Grade Finish",
+   "excerpt": "Why is yacht painting a special job? Large surface, 2K polyurethane, surface prep and the factors that set the cost.",
+   "meta_title": "Yacht Painting Guide: Cost and Process | Tekne Usta",
+   "meta_desc": "Yacht painting: 2K polyurethane systems, topside and antifouling, surface prep and cost factors. Yacht painting service in Istanbul and the Aegean.",
+   "body": """
+<p>Yacht painting is far more involved than painting a small boat; it needs a large surface, high expectations and lasting gloss. Without the right system and meticulous work, a cheap-looking job soon disappoints.</p>
+<h2>Which paint on yachts?</h2>
+<p>For superyacht gloss, <a href="/en/blog/2k-polyurethane-paint/">2K polyurethane</a> systems are usually preferred: deep gloss, high UV resistance, long life. Below the waterline, the right <a href="/en/blog/choosing-antifouling/">antifouling</a> is chosen.</p>
+<h2>What sets the cost?</h2>
+<p>Yacht painting cost is set by length/area, coat count, colour change and above all the extent of <a href="/en/blog/surface-prep-before-painting/">surface prep</a>. For detail, see our <a href="/en/blog/boat-painting-cost/">painting cost</a> article.</p>
+<h2>Why is surface prep critical?</h2>
+<p>On a large surface, the smallest flaw shows. Correct sanding, fairing and primer are the precondition for a smooth, mirror finish. We quote itemised; how much effort each step takes is clear.</p>
+<p>We do your yacht's paint and antifouling under our <a href="/en/services/boat-painting-antifouling/">boat painting</a> service and <a href="/en/boats/yacht-motoryacht/">yacht & motoryacht</a> care. Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "yat-kislatma", "slug_en": "yacht-winterising",
+ "image": "/assets/images/services/bakim.jpg", "date": "2029-06-07",
+ "tr": {
+   "category": "Bakım",
+   "title": "Yat Kışlatma: Sezonu Doğru Kapatmak",
+   "excerpt": "Yatınızı kışa hazırlarken karaya çekme, karina, örtü ve gözetimli depolama. Bahara sorunsuz çıkmanın yolu.",
+   "meta_title": "Yat Kışlatma Rehberi | Tekne Usta",
+   "meta_desc": "Yat kışlatma: karaya çekme, karina temizliği ve kontrolü, havalandırmalı örtü ve gözetimli depolama. İstanbul ve Ege'de yat kışlatma hizmeti.",
+   "body": """
+<p>Yat kışlatma, sezon sonu yapılan ve bahar bakımını büyük ölçüde kolaylaştıran kritik bir iştir. İyi kışlatılmış bir yat, sezona sorunsuz ve erken başlar.</p>
+<h2>Kışlatma kapsamı</h2>
+<ul>
+<li><a href="/blog/tekne-cekek-karaya-cekme/">Karaya çekme</a> ve basınçlı yıkama</li>
+<li>Karina, <a href="/blog/anot-zinc-bakimi/">anot</a> ve boya durumu kontrolü</li>
+<li>İç mekan havalandırması ve <a href="/blog/teknede-kuf-nem-onleme/">nem/küf</a> önlemi</li>
+<li><a href="/blog/tekne-ortusu-secimi/">Havalandırmalı örtü</a> ve gözetimli depolama</li>
+</ul>
+<h2>Neden karada?</h2>
+<p>Yatı karada kışlatmak karinanın kurumasını sağlar, <a href="/blog/osmozdan-korunma/">osmoz riskini</a> azaltır ve bakım işlerini kolaylaştırır. <a href="/blog/kisin-tekne-nerede-saklanir/">Depolama seçenekleri</a> için ayrı yazımıza bakın.</p>
+<h2>Bahar planı</h2>
+<p>Kış boyunca yatınızı takip eder, sezon açılışında karina ve boyayı birlikte değerlendiririz. Not: motor-mekanik kışlatma kapsamımız dışında; güvendiğimiz servislere yönlendiriyoruz.</p>
+<p>Yat kışlatmayı <a href="/hizmetler/tekne-kislatma/">kışlatma</a> hizmetimiz ve <a href="/tekneler/yat-motoryat/">yat & motoryat</a> bakım kapsamında yapıyoruz. Erken rezervasyon için <a href="#teklif-al">bize yazın</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Yacht Winterising: Closing the Season Right",
+   "excerpt": "Haul-out, hull, cover and supervised storage when preparing your yacht for winter. The way to a trouble-free spring.",
+   "meta_title": "Yacht Winterising Guide | Tekne Usta",
+   "meta_desc": "Yacht winterising: haul-out, hull cleaning and checks, ventilated cover and supervised storage. Yacht winterising service in Istanbul and the Aegean.",
+   "body": """
+<p>Yacht winterising is a critical end-of-season job that greatly eases spring maintenance. A well-winterised yacht starts the season early and trouble-free.</p>
+<h2>Scope of winterising</h2>
+<ul>
+<li><a href="/en/blog/boat-haul-out-guide/">Haul-out</a> and pressure wash</li>
+<li>Hull, <a href="/en/blog/anode-zinc-care/">anode</a> and paint condition checks</li>
+<li>Interior ventilation and <a href="/en/blog/preventing-mould-damp/">damp/mould</a> measures</li>
+<li><a href="/en/blog/boat-cover-selection/">Ventilated cover</a> and supervised storage</li>
+</ul>
+<h2>Why ashore?</h2>
+<p>Winterising the yacht ashore lets the hull dry, lowers <a href="/en/blog/osmosis-prevention/">osmosis risk</a> and eases maintenance. See our separate article on <a href="/en/blog/winter-boat-storage/">storage options</a>.</p>
+<h2>Spring plan</h2>
+<p>We monitor your yacht through winter and assess hull and paint together at launch. Note: engine/mechanical winterising is outside our scope; we refer you to trusted services.</p>
+<p>We do yacht winterising under our <a href="/en/services/winterising-storage/">winterising</a> service and <a href="/en/boats/yacht-motoryacht/">yacht & motoryacht</a> care. To book early, <a href="#teklif-al">message us</a>.</p>
+""",
+ },
+},
+{
+ "slug": "yelkenli-kislatma", "slug_en": "sailboat-winterising",
+ "image": "/assets/images/parallax-2.jpg", "date": "2029-06-21",
+ "tr": {
+   "category": "Bakım",
+   "title": "Yelkenli Kışlatma: Gövde, Karina ve Nem Dengesi",
+   "excerpt": "Yelkenlinizi kışa hazırlarken karina, antifouling, iç mekan nemi ve ahşap detaylar. Sezona hazır çıkmak.",
+   "meta_title": "Yelkenli Kışlatma Rehberi | Tekne Usta",
+   "meta_desc": "Yelkenli kışlatma: karaya çekme, karina ve antifouling kontrolü, iç mekan nem/küf önlemi, ahşap detay bakımı ve havalandırmalı örtü. İstanbul ve Ege'de yelkenli servisi.",
+   "body": """
+<p>Yelkenli kışlatma, gövde ve karina bakımının yanı sıra iç mekan nemini de doğru yönetmeyi gerektirir. İyi kışlatılmış bir yelkenli sezona sorunsuz başlar.</p>
+<h2>Kışlatma kapsamı</h2>
+<ul>
+<li><a href="/blog/tekne-cekek-karaya-cekme/">Karaya çekme</a>, yıkama ve karina kontrolü</li>
+<li><a href="/blog/antifouling-secimi/">Antifouling</a> ve <a href="/blog/osmoz-belirtileri/">osmoz</a> durumu</li>
+<li>İç mekan havalandırması, <a href="/blog/teknede-kuf-nem-onleme/">nem/küf</a> önlemi</li>
+<li>Klasik ahşap yelkenlilerde <a href="/blog/ahsap-tekne-kislatma/">ahşap kışlatma</a> inceliği</li>
+</ul>
+<h2>Ahşap yelkenlilere dikkat</h2>
+<p>Klasik ahşap yelkenlilerde aşırı kuruma da su almak kadar zararlıdır; havalandırma ve nem dengesi önemlidir. <a href="/blog/ahsap-tekne-kislatma/">Ahşap kışlatma</a> yazımızda detaylandırdık.</p>
+<h2>Kapsamımız</h2>
+<p>Gövde, karina, iç mekan ve ahşap tarafında tam hizmet; direk/arma ve motor işleri kapsam dışı. Yelkenli kışlatmayı <a href="/hizmetler/tekne-kislatma/">kışlatma</a> hizmetimiz ve <a href="/tekneler/yelkenli/">yelkenli</a> bakım kapsamında yapıyoruz.</p>
+<p>Erken rezervasyon için <a href="#teklif-al">bize yazın</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Maintenance",
+   "title": "Sailboat Winterising: Hull, Underbody and Damp Balance",
+   "excerpt": "Hull, antifouling, interior damp and wood details when preparing your sailboat for winter. Starting the season ready.",
+   "meta_title": "Sailboat Winterising Guide | Tekne Usta",
+   "meta_desc": "Sailboat winterising: haul-out, hull and antifouling checks, interior damp/mould control, wood detail care and ventilated cover in Istanbul and the Aegean.",
+   "body": """
+<p>Sailboat winterising requires managing interior damp as well as hull and underbody care. A well-winterised sailboat starts the season trouble-free.</p>
+<h2>Scope of winterising</h2>
+<ul>
+<li><a href="/en/blog/boat-haul-out-guide/">Haul-out</a>, wash and hull check</li>
+<li><a href="/en/blog/choosing-antifouling/">Antifouling</a> and <a href="/en/blog/osmosis-symptoms/">osmosis</a> condition</li>
+<li>Interior ventilation, <a href="/en/blog/preventing-mould-damp/">damp/mould</a> measures</li>
+<li>On classic wooden sailboats, <a href="/en/blog/wooden-boat-winterising/">wooden winterising</a> nuance</li>
+</ul>
+<h2>Care on wooden sailboats</h2>
+<p>On classic wooden sailboats, over-drying is as harmful as taking on water; ventilation and moisture balance matter. We detail this in our <a href="/en/blog/wooden-boat-winterising/">wooden winterising</a> article.</p>
+<h2>Our scope</h2>
+<p>Full service on hull, underbody, interior and wood; mast/rigging and engine work are out of scope. We do sailboat winterising under our <a href="/en/services/winterising-storage/">winterising</a> service and <a href="/en/boats/sailboat/">sailboat</a> care.</p>
+<p>To book early, <a href="#teklif-al">message us</a>.</p>
+""",
+ },
+},
+{
+ "slug": "yelkenli-osmoz", "slug_en": "sailboat-osmosis",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2029-07-05",
+ "tr": {
+   "category": "Fiberglas",
+   "title": "Yelkenli Osmoz: Fiberglas Yelkenlilerde Karina Sorunu",
+   "excerpt": "Fiberglas yelkenlilerde osmoz neden sık görülür, nasıl anlaşılır ve tedavi edilir?",
+   "meta_title": "Yelkenli Osmoz Tedavisi Rehberi | Tekne Usta",
+   "meta_desc": "Yelkenli osmoz: fiberglas yelkenlilerde osmoz belirtileri, nem ölçümü, jelkot sıyırma-kurutma-bariyer tedavisi ve korunma. İstanbul ve Ege'de yelkenli osmoz servisi.",
+   "body": """
+<p>Fiberglas yelkenliler uzun süre suda kaldığından, karinada osmoz sık karşılaşılan bir sorundur. Erken yakalandığında yönetilebilir; ihmal edilince karina baştan elden geçer.</p>
+<h2>Yelkenlilerde neden sık?</h2>
+<p>Sezon boyunca sürekli suda kalan, kışın da her zaman karaya çekilmeyen yelkenlilerde laminat nemi artar. Bu da <a href="/blog/osmoz-nedir-tedavisi/">osmoz</a> için zemin hazırlar.</p>
+<h2>Belirti ve tanı</h2>
+<p>Su altında kabarcık, ekşi koku ve yüksek nem ölçer değeri osmozu işaret eder (bkz. <a href="/blog/osmoz-belirtileri/">osmoz belirtileri</a>). <a href="/blog/blister-vs-osmoz-farki/">Blister mi osmoz mu</a> ayrımı önemlidir.</p>
+<h2>Tedavi</h2>
+<p>Jelkot sıyırma, <strong>tam kurutma</strong>, epoksi bariyer ve antifouling adımlarıyla tedavi edilir. Kurutma atlanırsa sorun geri döner. Korunma için <a href="/blog/osmozdan-korunma/">önleyici bakıma</a> bakın.</p>
+<p>Yelkenlinizin karina/osmoz işini <a href="/hizmetler/fiberglas-onarim/">fiberglas onarım</a> hizmetimiz ve <a href="/tekneler/yelkenli/">yelkenli</a> bakım kapsamında yapıyoruz. Nem ölçümlü <a href="#teklif-al">ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Fibreglass",
+   "title": "Sailboat Osmosis: The Hull Problem on Fibreglass Sailboats",
+   "excerpt": "Why is osmosis common on fibreglass sailboats, how do you spot it and treat it?",
+   "meta_title": "Sailboat Osmosis Treatment Guide | Tekne Usta",
+   "meta_desc": "Sailboat osmosis: symptoms on fibreglass sailboats, moisture reading, gelcoat-peel-dry-barrier treatment and prevention in Istanbul and the Aegean.",
+   "body": """
+<p>Because fibreglass sailboats stay afloat for long periods, osmosis is a common hull problem. Caught early it's manageable; neglected, the whole hull needs work.</p>
+<h2>Why common on sailboats?</h2>
+<p>On sailboats kept constantly afloat and not always hauled out in winter, laminate moisture rises. This sets the stage for <a href="/en/blog/what-is-osmosis-treatment/">osmosis</a>.</p>
+<h2>Symptoms and diagnosis</h2>
+<p>Underwater blisters, a sour smell and a high moisture reading point to osmosis (see <a href="/en/blog/osmosis-symptoms/">osmosis symptoms</a>). The <a href="/en/blog/blister-vs-osmosis/">blister vs osmosis</a> distinction matters.</p>
+<h2>Treatment</h2>
+<p>Treated with gelcoat peeling, <strong>full drying</strong>, epoxy barrier and antifouling. Skip drying and the problem returns. For prevention, see <a href="/en/blog/osmosis-prevention/">preventive care</a>.</p>
+<p>We do your sailboat's hull/osmosis work under our <a href="/en/services/fibreglass-repair/">fibreglass repair</a> service and <a href="/en/boats/sailboat/">sailboat</a> care. Get a <a href="#teklif-al">free survey</a> with a moisture reading.</p>
+""",
+ },
+},
+{
+ "slug": "gulet-boyama", "slug_en": "gulet-painting",
+ "image": "/assets/images/parallax-3.jpg", "date": "2029-07-19",
+ "tr": {
+   "category": "Boya",
+   "title": "Gulet Boyama: Büyük Ahşap Gövdede Kalıcı Bitiş",
+   "excerpt": "Guletlerde dış cephe boyama, vernik ve antifouling; büyük ahşap yüzeyde doğru sistem ve bakım.",
+   "meta_title": "Gulet Boyama ve Vernik Rehberi | Tekne Usta",
+   "meta_desc": "Gulet boyama: büyük ahşap gövdede dış cephe boyama, vernik, antifouling ve yüzey hazırlığı. Ege ve İstanbul'da gulet boya-vernik servisi.",
+   "body": """
+<p>Guletlerin büyük ahşap gövdesi, hem estetik hem koruma açısından düzenli boya ve vernik bakımı ister. Doğru sistem ve işçilik, hem görünümü hem ahşabı yıllarca korur.</p>
+<h2>Boya mı, vernik mi?</h2>
+<p>Guletlerde gövdenin bir kısmı boyalı, açık ahşap detaylar vernikli olur. Vernik doğal dokuyu gösterir ama daha çok bakım ister; boya daha korunaklıdır. Karar ahşabın durumuna göre verilir (bkz. <a href="/blog/ahsap-tekne-boyama/">ahşap tekne boyama</a>).</p>
+<h2>Yüzey hazırlığı</h2>
+<p>Büyük yüzeyde <a href="/blog/boya-oncesi-yuzey-hazirligi/">yüzey hazırlığı</a> belirleyicidir; eski katmanların doğru sökülmesi ve sağlam zemin şarttır. Su altında ise <a href="/blog/antifouling-secimi/">antifouling</a> yenilenir.</p>
+<h2>Sezon planı</h2>
+<p>Ticari guletlerde boya-vernik bakımı sezon öncesi planlanmalı. Çok kalemli işleri <a href="/blog/refit-proje-yonetimi/">tek elden</a> yürütüyoruz.</p>
+<p>Gulet boyama ve verniğini <a href="/hizmetler/tekne-boyama-antifouling/">boya</a> ve <a href="/hizmetler/ahsap-tekne-renovasyonu/">ahşap renovasyon</a> hizmetlerimiz, <a href="/tekneler/gulet/">gulet</a> bakım kapsamında yapıyoruz. <a href="#teklif-al">Teklif alın</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "Gulet Painting: A Lasting Finish on a Large Wooden Hull",
+   "excerpt": "Topside painting, varnish and antifouling on gulets; the right system and care on a large wooden surface.",
+   "meta_title": "Gulet Painting and Varnish Guide | Tekne Usta",
+   "meta_desc": "Gulet painting: topside painting, varnish, antifouling and surface prep on a large wooden hull. Gulet paint-varnish service in the Aegean and Istanbul.",
+   "body": """
+<p>A gulet's large wooden hull needs regular paint and varnish care for both looks and protection. The right system and workmanship protect both the appearance and the wood for years.</p>
+<h2>Paint or varnish?</h2>
+<p>On gulets, part of the hull is painted and exposed wood details are varnished. Varnish shows the natural grain but needs more care; paint is more protective. The decision follows the wood's condition (see <a href="/en/blog/wooden-boat-painting/">wooden boat painting</a>).</p>
+<h2>Surface prep</h2>
+<p>On a large surface, <a href="/en/blog/surface-prep-before-painting/">surface prep</a> is decisive; correctly stripping old layers and a sound base are essential. Below the waterline, <a href="/en/blog/choosing-antifouling/">antifouling</a> is renewed.</p>
+<h2>Season plan</h2>
+<p>On commercial gulets, paint-varnish care should be planned pre-season. We run multi-item work <a href="/en/blog/refit-project-management/">from one hand</a>.</p>
+<p>We do gulet painting and varnish under our <a href="/en/services/boat-painting-antifouling/">painting</a> and <a href="/en/services/wooden-boat-refit/">wooden refit</a> services and <a href="/en/boats/gulet/">gulet</a> care. <a href="#teklif-al">Get a quote</a>.</p>
+""",
+ },
+},
+{
+ "slug": "fiber-tekne-boyama", "slug_en": "fibreglass-boat-painting",
+ "image": "/assets/images/services/boya.jpg", "date": "2029-08-02",
+ "tr": {
+   "category": "Boya",
+   "title": "Fiber Tekne Boyama: Gelcoat mı, Boya mı?",
+   "excerpt": "Fiber teknede dış cephe yenileme: jelkot parlatma/yenileme mi, komple boya mı? Karar ve süreç.",
+   "meta_title": "Fiber Tekne Boyama Rehberi | Tekne Usta",
+   "meta_desc": "Fiber tekne boyama: gelcoat yenileme ile boya arasında karar, 2K poliüretan, antifouling ve yüzey hazırlığı. İstanbul ve Ege'de fiber tekne boya servisi.",
+   "body": """
+<p>Fiber (fiberglas) teknede dış yüzey yıprandığında iki yol vardır: mevcut jelkotu yenilemek ya da profesyonel boya sistemi uygulamak. Doğru karar teknenin durumuna bağlı.</p>
+<h2>Jelkot mu, boya mı?</h2>
+<p>Jelkot sağlamsa <a href="/blog/gelcoat-yenileme/">parlatma/yenileme</a> ekonomiktir. Renk değişimi veya süperyat parlaklığı için <a href="/blog/2k-poliuretan-boya/">2K poliüretan</a> boya tercih edilir. Karar için <a href="/blog/jelkot-vs-boya/">jelkot mu boya mı</a> yazımıza bakın.</p>
+<h2>Yüzey hazırlığı ve antifouling</h2>
+<p>Her iki yolda da <a href="/blog/boya-oncesi-yuzey-hazirligi/">yüzey hazırlığı</a> belirleyicidir. Su altında doğru <a href="/blog/antifouling-secimi/">antifouling</a> uygulanır. Maliyet kalemleri için <a href="/blog/tekne-boyama-maliyeti/">boyama maliyeti</a> yazımıza bakın.</p>
+<p>Fiber tekne boyama ve antifouling'i <a href="/hizmetler/tekne-boyama-antifouling/">boya</a> hizmetimiz ve <a href="/tekneler/fiber-tekne/">fiber tekne</a> bakım kapsamında yapıyoruz. <a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "Fibreglass Boat Painting: Gelcoat or Paint?",
+   "excerpt": "Renewing a fibreglass exterior: gelcoat polish/renewal or a full repaint? The decision and process.",
+   "meta_title": "Fibreglass Boat Painting Guide | Tekne Usta",
+   "meta_desc": "Fibreglass boat painting: deciding between gelcoat renewal and paint, 2K polyurethane, antifouling and surface prep in Istanbul and the Aegean.",
+   "body": """
+<p>When a fibreglass exterior wears out, there are two routes: renew the existing gelcoat or apply a professional paint system. The right decision depends on the boat's condition.</p>
+<h2>Gelcoat or paint?</h2>
+<p>If the gelcoat is sound, <a href="/en/blog/gelcoat-renewal/">polish/renewal</a> is economical. For a colour change or superyacht gloss, <a href="/en/blog/2k-polyurethane-paint/">2K polyurethane</a> paint is preferred. See <a href="/en/blog/gelcoat-vs-paint/">gelcoat or paint</a>.</p>
+<h2>Surface prep and antifouling</h2>
+<p>In both routes, <a href="/en/blog/surface-prep-before-painting/">surface prep</a> is decisive. Below the waterline the right <a href="/en/blog/choosing-antifouling/">antifouling</a> is applied. For cost items, see <a href="/en/blog/boat-painting-cost/">painting cost</a>.</p>
+<p>We do fibreglass boat painting and antifouling under our <a href="/en/services/boat-painting-antifouling/">painting</a> service and <a href="/en/boats/fibreglass-boat/">fibreglass boat</a> care. Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "rib-bot-tamiri", "slug_en": "rib-tender-repair",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2029-08-16",
+ "tr": {
+   "category": "Fiberglas",
+   "title": "RIB ve Bot Tamiri: Fiberglas Gövde Onarımı",
+   "excerpt": "RIB ve botlarda çarpma, çatlak ve gelcoat onarımı; hızlı ve temiz fiberglas tamir.",
+   "meta_title": "RIB ve Bot Tamiri Rehberi | Tekne Usta",
+   "meta_desc": "RIB ve bot tamiri: fiberglas gövde çatlak/kırık onarımı, gelcoat yenileme, kaydırmaz güverte ve antifouling. İstanbul ve Ege'de RIB/bot tamir servisi.",
+   "body": """
+<p>RIB ve botlar günübirlik yoğun kullanıldığından çarpma, çizik ve çatlak sık görülür. Fiberglas gövde onarımını hızlı, temiz ve dayanıklı yapıyoruz.</p>
+<h2>Sık yapılan onarımlar</h2>
+<ul>
+<li><a href="/blog/fiberglas-catlak-onarimi/">Çatlak ve kırık onarımı</a></li>
+<li><a href="/blog/gelcoat-cizik-sararma-giderme/">Gelcoat çizik/sararma giderme</a> ve parlatma</li>
+<li><a href="/blog/kaydirmaz-guverte-kaplama/">Kaydırmaz güverte</a> yenileme</li>
+<li>Su altı <a href="/blog/antifouling-secimi/">antifouling</a></li>
+</ul>
+<h2>Kapsam</h2>
+<p>Fiberglas gövde tarafında tam hizmet veriyoruz; şişme yan tüp (pontoon) onarımı ve motor işleri kapsamımız dışında. Yapısal hasarda <a href="/blog/polyester-vs-epoksi-recine/">doğru reçine</a> ile kalıcı onarım yapılır.</p>
+<p>RIB/bot tamirini <a href="/hizmetler/fiberglas-onarim/">fiberglas onarım</a> hizmetimiz ve <a href="/tekneler/rib-bot/">RIB / bot</a> bakım kapsamında yapıyoruz. <a href="#teklif-al">Teklif alın</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Fibreglass",
+   "title": "RIB and Tender Repair: Fibreglass Hull Repair",
+   "excerpt": "Impact, crack and gelcoat repair on RIBs and tenders; fast, clean fibreglass repair.",
+   "meta_title": "RIB and Tender Repair Guide | Tekne Usta",
+   "meta_desc": "RIB and tender repair: fibreglass hull crack/break repair, gelcoat renewal, non-slip deck and antifouling in Istanbul and the Aegean.",
+   "body": """
+<p>Because RIBs and tenders are heavily used day boats, impact, scratches and cracks are common. We do fibreglass hull repair fast, clean and durable.</p>
+<h2>Common repairs</h2>
+<ul>
+<li><a href="/en/blog/fibreglass-crack-repair/">Crack and break repair</a></li>
+<li><a href="/en/blog/gelcoat-scratch-yellowing/">Gelcoat scratch/yellowing removal</a> and polish</li>
+<li><a href="/en/blog/non-slip-deck-coating/">Non-slip deck</a> renewal</li>
+<li>Underwater <a href="/en/blog/choosing-antifouling/">antifouling</a></li>
+</ul>
+<h2>Scope</h2>
+<p>We provide full service on the fibreglass hull; inflatable tube (pontoon) repair and engine work are outside our scope. For structural damage, a lasting repair is made with the <a href="/en/blog/polyester-vs-epoxy-resin/">right resin</a>.</p>
+<p>We do RIB/tender repair under our <a href="/en/services/fibreglass-repair/">fibreglass repair</a> service and <a href="/en/boats/rib-tender/">RIB / tender</a> care. <a href="#teklif-al">Get a quote</a>.</p>
+""",
+ },
+},
+{
+ "slug": "surat-teknesi-boyama", "slug_en": "speedboat-painting",
+ "image": "/assets/images/services/boya.jpg", "date": "2029-08-30",
+ "tr": {
+   "category": "Boya",
+   "title": "Sürat Teknesi Boyama: Hız İçin Pürüzsüz Karina",
+   "excerpt": "Sürat teknelerinde boya, sert antifouling ve gelcoat; performans için doğru sistem.",
+   "meta_title": "Sürat Teknesi Boyama Rehberi | Tekne Usta",
+   "meta_desc": "Sürat teknesi boyama: dış cephe boya, sert (hard) antifouling, gelcoat ve pasta-polisaj. İstanbul ve Ege'de sürat teknesi boya servisi.",
+   "body": """
+<p>Sürat teknelerinde karinanın pürüzsüzlüğü doğrudan hız ve yakıt demektir. Doğru boya ve antifouling sistemiyle teknenizi hızlı ve parlak tutuyoruz.</p>
+<h2>Hangi antifouling?</h2>
+<p>Yüksek hızlı ve sık çekilen teknelerde aşınmayan <strong>sert matris antifouling</strong> daha uygundur; pürüzsüz yüzey performans sağlar. Detay için <a href="/blog/antifouling-secimi/">antifouling seçim rehberine</a> bakın.</p>
+<h2>Gelcoat ve parlaklık</h2>
+<p>Parlak bir gövde için düzenli <a href="/blog/gelcoat-yenileme/">gelcoat</a> bakımı ve pasta-polisaj öneriyoruz. Renk değişimi veya süperyat parlaklığı için <a href="/blog/2k-poliuretan-boya/">2K poliüretan</a> uygulanır.</p>
+<p>Sürat teknesi boyama ve antifouling'i <a href="/hizmetler/tekne-boyama-antifouling/">boya</a> hizmetimiz ve <a href="/tekneler/surat-teknesi/">sürat teknesi</a> bakım kapsamında yapıyoruz. <a href="#teklif-al">Teklif alın</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Painting",
+   "title": "Speedboat Painting: A Smooth Hull for Speed",
+   "excerpt": "Paint, hard antifouling and gelcoat on speedboats; the right system for performance.",
+   "meta_title": "Speedboat Painting Guide | Tekne Usta",
+   "meta_desc": "Speedboat painting: topside paint, hard antifouling, gelcoat and compound-polish in Istanbul and the Aegean.",
+   "body": """
+<p>On speedboats, a smooth hull directly means speed and fuel. With the right paint and antifouling system, we keep your boat fast and glossy.</p>
+<h2>Which antifouling?</h2>
+<p>On fast, frequently hauled boats, non-eroding <strong>hard matrix antifouling</strong> suits better; a smooth surface delivers performance. For detail, see the <a href="/en/blog/choosing-antifouling/">antifouling guide</a>.</p>
+<h2>Gelcoat and gloss</h2>
+<p>For a glossy hull we recommend regular <a href="/en/blog/gelcoat-renewal/">gelcoat</a> care and compound-polish. For a colour change or superyacht gloss, <a href="/en/blog/2k-polyurethane-paint/">2K polyurethane</a> is applied.</p>
+<p>We do speedboat painting and antifouling under our <a href="/en/services/boat-painting-antifouling/">painting</a> service and <a href="/en/boats/speedboat/">speedboat</a> care. <a href="#teklif-al">Get a quote</a>.</p>
+""",
+ },
+},
 ]
 
 # ==================================================================== COST ESTIMATOR

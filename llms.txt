@@ -45,5 +45,5 @@
 - [Fiber mi Ahşap Tekne mi? Bakım Açısından Karşılaştırma](https://www.tekneusta.com/blog/fiber-mi-ahsap-tekne/): Fiber ve ahşap teknelerin bakım yükü, maliyeti ve dayanıklılığı nasıl farklılaşır? Tekne alırken veya sahipken bilmeniz gerekenler.
 - [İkinci El Tekne Alırken: Satın Alma Öncesi Nelere Bakılmalı?](https://www.tekneusta.com/blog/satin-alma-oncesi-tekne-ekspertizi/): İkinci el tekne alırken gözden kaçan pahalı sorunlar. Fiberglas, ahşap, karina ve güvertede kontrol edilecekler.
 - [Refit Proje Yönetimi: Kapsamlı Yenilemeyi Tek Elden Yürütmek](https://www.tekneusta.com/blog/refit-proje-yonetimi/): Çok kalemli bir refit (kapsamlı yenileme) neden proje yönetimi ister? Bütçe, takvim ve koordinasyonu tek elden yönetmenin faydası.
-- [Tüm blog (85 makale)](https://www.tekneusta.com/blog/)
+- [Tüm blog (93 makale)](https://www.tekneusta.com/blog/)
 
