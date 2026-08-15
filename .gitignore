@@ -1,0 +1,5 @@
+.gsc/
+_src/
+__pycache__/
+*.pyc
+*.bundle

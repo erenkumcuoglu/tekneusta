@@ -6765,6 +6765,158 @@ POSTS = [
 """,
  },
 },
+{
+ "slug": "sezon-ortasi-bakim", "slug_en": "mid-season-maintenance",
+ "image": "/assets/images/parallax-1.jpg", "date": "2030-06-15",
+ "tr": {
+   "category": "Sezonluk",
+   "title": "Sezon Ortası Tekne Bakımı: Yaz Boyunca Formda Tutmak",
+   "excerpt": "Yaz ortasında teknenizi neden ve nasıl kontrol etmeli? Karina, yüzey ve küçük onarımlar sezonu kurtarır.",
+   "meta_title": "Sezon Ortası Tekne Bakımı Rehberi | Tekne Usta",
+   "meta_desc": "Yaz ortasında tekne bakımı: karina/antifouling kontrolü, yüzey ve teak temizliği, küçük onarımlar. Sezonu aksatmadan formda kalın. İstanbul ve Ege.",
+   "body": """
+<p>Bakım denince akla sezon açılışı ve kışlatma gelir; oysa yaz ortasında yapılan kısa bir kontrol, sezonun kalanını kurtarır. Yoğun kullanım döneminde küçük sorunlar hızla büyür.</p>
+<h2>Karina ve performans</h2>
+<p>Yaz ortasında karinaya yosun/kabuk birikmesi hız ve yakıt verimini düşürür. Kısa bir <a href="/blog/robotik-karina-temizligi/">karina temizliği</a> ve <a href="/blog/antifouling-secimi/">antifouling</a> durumunun gözden geçirilmesi çoğu zaman yeterlidir. <a href="/blog/anot-zinc-bakimi/">Anot</a> durumu da kontrol edilmeli.</p>
+<h2>Yüzey ve teak</h2>
+<p>Tuz ve güneş, gövdeyi ve güverteyi yorar. Ara bir <a href="/hizmetler/tekne-detailing/">detailing</a>, <a href="/blog/kekamoz-temizligi/">kireç lekesi temizliği</a> ve <a href="/blog/teak-guverte-bakimi/">teak bakımı</a> hem görünümü hem malzeme ömrünü korur.</p>
+<h2>Küçük onarımları erteleme</h2>
+<p>Sezon içinde fark ettiğin küçük bir <a href="/blog/fiberglas-catlak-onarimi/">çatlak</a> ya da jelkot çiziği, kışa kadar beklerse büyür. Yaz ortası, bunları hızlı çözmenin tam zamanı. Genel plan için <a href="/blog/yillik-tekne-bakim-takvimi/">yıllık bakım takvimine</a> bakın.</p>
+<p>Yerinde kısa bir kontrol için <a href="#teklif-al">ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Seasonal",
+   "title": "Mid-Season Boat Maintenance: Staying in Shape All Summer",
+   "excerpt": "Why and how to check your boat mid-summer? Underbody, surface and small repairs save the season.",
+   "meta_title": "Mid-Season Boat Maintenance Guide | Tekne Usta",
+   "meta_desc": "Mid-summer boat maintenance: underbody/antifouling check, surface and teak cleaning, small repairs. Stay in shape without disrupting the season. Istanbul and the Aegean.",
+   "body": """
+<p>Maintenance usually brings to mind season opening and winterising; yet a short mid-summer check saves the rest of the season. In peak use, small problems grow fast.</p>
+<h2>Underbody and performance</h2>
+<p>Mid-summer weed/shell build-up on the hull cuts speed and fuel efficiency. A short <a href="/en/blog/robotic-hull-cleaning/">hull cleaning</a> and a review of the <a href="/en/blog/choosing-antifouling/">antifouling</a> condition is often enough. <a href="/en/blog/anode-zinc-care/">Anode</a> status should be checked too.</p>
+<h2>Surface and teak</h2>
+<p>Salt and sun tire the hull and deck. An interim <a href="/en/services/boat-detailing/">detailing</a>, <a href="/en/blog/hull-limescale-cleaning/">limescale cleaning</a> and <a href="/en/blog/teak-deck-maintenance/">teak care</a> protect both looks and material life.</p>
+<h2>Don't defer small repairs</h2>
+<p>A small <a href="/en/blog/fibreglass-crack-repair/">crack</a> or gelcoat scratch you notice in season grows if it waits until winter. Mid-summer is the right time to solve them fast. For the overall plan, see the <a href="/en/blog/annual-boat-maintenance-calendar/">annual maintenance calendar</a>.</p>
+<p>For a short on-site check, get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "yaz-tekne-koruma", "slug_en": "summer-boat-protection",
+ "image": "/assets/images/services/boya.jpg", "date": "2030-06-28",
+ "tr": {
+   "category": "Sezonluk",
+   "title": "Yaz Güneşinde Tekne Koruması: Jelkot, Teak ve Vernik",
+   "excerpt": "Yaz güneşi ve tuz teknenize ne yapar? UV koruma, jelkot cilası ve teak/vernik bakımıyla önlem.",
+   "meta_title": "Yaz Güneşinde Tekne Koruma Rehberi | Tekne Usta",
+   "meta_desc": "Yazın tekne koruması: UV hasarına karşı jelkot cilası, teak ve vernik bakımı, doğru örtü. Güneş ve tuzdan malzemeyi koruyun. İstanbul ve Ege.",
+   "body": """
+<p>Yaz, teknenin en çok kullanıldığı ama malzemenin en çok yorulduğu dönemdir. UV ışınları ve tuz; jelkotu matlaştırır, teak'i grileştirir, verniği çatlatır. Doğru önlemle bu yıpranma büyük ölçüde yavaşlar.</p>
+<h2>Jelkot ve UV</h2>
+<p>Parlak jelkot, güneşte oksitlenir ve matlaşır. Sezonluk cila ve <a href="/blog/uv-koruma-kaplama/">UV koruyucu kaplama</a>, rengi ve parlaklığı korur; ileride gereken <a href="/blog/gelcoat-yenileme/">gelcoat yenileme</a> ihtiyacını erteler.</p>
+<h2>Teak ve vernik</h2>
+<p>Teak güneşte doğal olarak grileşir; düzenli <a href="/blog/teak-guverte-bakimi/">teak bakımı</a> bunu yönetir. Ahşap yüzeylerde <a href="/blog/ahsap-tekne-vernik-bakimi/">vernik</a> katmanı güneşe karşı ilk savunmadır; ince ara katlar çatlamayı önler.</p>
+<h2>Örtü ve gölge</h2>
+<p>Kullanılmadığı günlerde tekneyi güneşten korumak en ucuz bakımdır. Doğru <a href="/hizmetler/tente-branda/">tente/branda</a> hem iç mekanı hem güverteyi korur.</p>
+<p>Yaz koruma paketini <a href="/hizmetler/tekne-detailing/">detailing</a> kapsamında yapıyoruz. <a href="#teklif-al">Ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Seasonal",
+   "title": "Summer Sun Protection: Gelcoat, Teak and Varnish",
+   "excerpt": "What do summer sun and salt do to your boat? UV protection, gelcoat polish and teak/varnish care as prevention.",
+   "meta_title": "Summer Boat Sun Protection Guide | Tekne Usta",
+   "meta_desc": "Summer boat protection: gelcoat polish against UV, teak and varnish care, the right cover. Protect materials from sun and salt. Istanbul and the Aegean.",
+   "body": """
+<p>Summer is when a boat is used most but its materials tire most. UV rays and salt dull the gelcoat, grey the teak and crack the varnish. With the right prevention, this wear slows considerably.</p>
+<h2>Gelcoat and UV</h2>
+<p>Glossy gelcoat oxidises and dulls in the sun. A seasonal polish and <a href="/en/blog/uv-protection-coating/">UV protective coating</a> preserve colour and gloss and defer the eventual need for <a href="/en/blog/gelcoat-renewal/">gelcoat renewal</a>.</p>
+<h2>Teak and varnish</h2>
+<p>Teak naturally greys in the sun; regular <a href="/en/blog/teak-deck-maintenance/">teak care</a> manages this. On wood surfaces the <a href="/en/blog/wooden-boat-varnish-care/">varnish</a> layer is the first defence against the sun; thin interim coats prevent cracking.</p>
+<h2>Cover and shade</h2>
+<p>Protecting the boat from the sun on unused days is the cheapest maintenance. The right <a href="/en/services/marine-canvas/">canvas/cover</a> protects both interior and deck.</p>
+<p>We do the summer protection package under <a href="/en/services/boat-detailing/">detailing</a>. Get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "sonbahar-kislatma-hazirlik", "slug_en": "autumn-winterising-prep",
+ "image": "/assets/images/parallax-2.jpg", "date": "2030-10-05",
+ "tr": {
+   "category": "Sezonluk",
+   "title": "Sonbahar: Kışlatmaya Hazırlık Rehberi",
+   "excerpt": "Sezon kapanırken ne yapılmalı? Kışlatma öncesi kontrol, temizlik ve onarım planı.",
+   "meta_title": "Sonbahar Kışlatmaya Hazırlık Rehberi | Tekne Usta",
+   "meta_desc": "Sonbaharda kışlatmaya hazırlık: sezon sonu kontrol, karina temizliği, nem yönetimi ve kış onarımlarını planlama. İstanbul ve Ege'de kışlatma servisi.",
+   "body": """
+<p>Sonbahar, teknenin kışa doğru hazırlandığı kritik geçiş dönemidir. İyi bir kışlatma hazırlığı, kışı hasarsız geçirmenin ve gelecek sezona hazır girmenin anahtarıdır.</p>
+<h2>Sezon sonu kontrolü</h2>
+<p>Karaya çekmeden önce gövde, karina ve güverte kontrol edilir; yaz boyu biriken hasarlar not edilir. Ayrıntılı liste için <a href="/blog/tekne-kislatma-kontrol-listesi/">kışlatma kontrol listemize</a> bakın.</p>
+<h2>Temizlik ve nem</h2>
+<p>Karina temizlenir, iç mekan kurutulur ve havalandırma sağlanır; <a href="/blog/teknede-kuf-nem-onleme/">küf ve nem</a> kışın en büyük düşmandır. Kapalı tekne aylarca nemle baş başa kalmamalı.</p>
+<h2>Kış, onarım için doğru zaman</h2>
+<p>Kışlatma, yalnızca "bekletme" değil; boya, teak, fiberglas ve iç mekan işleri için de en uygun dönemdir — tekne zaten karada ve kullanım dışıdır. Yaz boyu biriken işleri kışa planlamak akıllıcadır. Kışlatmayı <a href="/hizmetler/tekne-kislatma/">kışlatma & bakım</a> kapsamında yapıyoruz.</p>
+<p>Sezon sonu keşfi için <a href="#teklif-al">ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Seasonal",
+   "title": "Autumn: A Guide to Preparing for Winterising",
+   "excerpt": "What to do as the season closes? Pre-winterising checks, cleaning and a repair plan.",
+   "meta_title": "Autumn Winterising Preparation Guide | Tekne Usta",
+   "meta_desc": "Autumn winterising prep: end-of-season checks, underbody cleaning, moisture management and planning winter repairs. Winterising service in Istanbul and the Aegean.",
+   "body": """
+<p>Autumn is the critical transition when a boat is prepared for winter. Good winterising prep is the key to getting through winter undamaged and starting the next season ready.</p>
+<h2>End-of-season check</h2>
+<p>Before haul-out, hull, underbody and deck are checked; damage accumulated over summer is noted. For a detailed list, see our <a href="/en/blog/boat-winterising-checklist/">winterising checklist</a>.</p>
+<h2>Cleaning and moisture</h2>
+<p>The underbody is cleaned, the interior dried and ventilated; <a href="/en/blog/preventing-mould-damp/">mould and damp</a> are the biggest enemies in winter. A closed-up boat shouldn't sit alone with moisture for months.</p>
+<h2>Winter is the right time to repair</h2>
+<p>Winterising isn't just "storage"; it's also the best window for paint, teak, fibreglass and interior work — the boat is already ashore and out of use. Planning the summer's accumulated jobs for winter is smart. We do winterising under <a href="/en/services/winterising-storage/">winterising & maintenance</a>.</p>
+<p>For an end-of-season survey, get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "kis-hasari-onarimi", "slug_en": "winter-damage-repair",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2030-11-02",
+ "tr": {
+   "category": "Sezonluk",
+   "title": "Kış Hasarı Onarımı: Bahar Açılışında Neler Çıkar?",
+   "excerpt": "Kış boyunca teknede hangi hasarlar oluşur? Nem, çatlak, osmoz ve donma etkileri.",
+   "meta_title": "Kış Hasarı Onarımı Rehberi | Tekne Usta",
+   "meta_desc": "Kış hasarı: nem/küf, jelkot çatlağı, osmoz ve donma etkileri. Bahar açılışında nelere bakılır, nasıl onarılır. İstanbul ve Ege'de onarım servisi.",
+   "body": """
+<p>İyi kışlatılsa bile tekne, kış boyunca nem, sıcaklık değişimi ve hareketsizlikten etkilenir. Bahar açılışında bu izleri erken görmek, sezonu sorunsuz açmanın anahtarıdır. Bu yazı, mevcut <a href="/blog/bahar-tekne-bakimi/">bahar bakımı</a> rehberini tamamlar.</p>
+<h2>Nem ve küf</h2>
+<p>Kapalı kalan iç mekanda <a href="/blog/teknede-kuf-nem-onleme/">küf ve nem</a> en sık görülen kış hasarıdır. Döşeme, minder ve ahşap yüzeyler kontrol edilir; erken müdahale kalıcı lekeyi önler.</p>
+<h2>Çatlak ve donma</h2>
+<p>Sıcaklık değişimleri jelkotta ince <a href="/blog/fiberglas-catlak-onarimi/">çatlaklar</a> oluşturabilir; suyun donması dar boşluklarda hasarı büyütür. Su altında ise <a href="/blog/osmoz-belirtileri/">osmoz belirtileri</a> kışın fark edilmeden ilerleyebilir.</p>
+<h2>Bahar açılış kontrolü</h2>
+<p>Denize indirmeden önce gövde, karina, anot ve iç mekan tek tek gözden geçirilir. Küçük hasarları burada yakalamak, sezon içinde sürprizi önler. Onarımları <a href="/hizmetler/fiberglas-onarim/">fiberglas onarım</a> ve ilgili hizmetler kapsamında yapıyoruz.</p>
+<p>Bahar açılış kontrolü için <a href="#teklif-al">ücretsiz keşif</a> alın.</p>
+""",
+ },
+ "en": {
+   "category": "Seasonal",
+   "title": "Winter Damage Repair: What Shows Up at Spring Launch?",
+   "excerpt": "What damage forms on a boat over winter? Moisture, cracks, osmosis and freeze effects.",
+   "meta_title": "Winter Damage Repair Guide | Tekne Usta",
+   "meta_desc": "Winter damage: damp/mould, gelcoat cracks, osmosis and freeze effects. What to check at spring launch and how to repair. Repair service in Istanbul and the Aegean.",
+   "body": """
+<p>Even well winterised, a boat is affected by moisture, temperature swings and inactivity over winter. Spotting these signs early at spring launch is the key to a smooth season start. This article complements our <a href="/en/blog/spring-boat-maintenance/">spring maintenance</a> guide.</p>
+<h2>Moisture and mould</h2>
+<p>In a closed-up interior, <a href="/en/blog/preventing-mould-damp/">mould and damp</a> are the most common winter damage. Upholstery, cushions and wood surfaces are checked; early action prevents permanent staining.</p>
+<h2>Cracks and freeze</h2>
+<p>Temperature swings can create fine <a href="/en/blog/fibreglass-crack-repair/">cracks</a> in the gelcoat; freezing water enlarges damage in tight gaps. Below the waterline, <a href="/en/blog/osmosis-symptoms/">osmosis symptoms</a> can progress unnoticed over winter.</p>
+<h2>Spring launch check</h2>
+<p>Before splashing, hull, underbody, anodes and interior are reviewed one by one. Catching small damage here prevents surprises in season. We do repairs under <a href="/en/services/fibreglass-repair/">fibreglass repair</a> and related services.</p>
+<p>For a spring launch check, get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
 ]
 
 # ==================================================================== COST ESTIMATOR
