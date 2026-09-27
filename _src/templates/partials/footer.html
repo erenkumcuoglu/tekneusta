@@ -22,6 +22,7 @@
         <li><a href="tel:{{ site.phone_e164 }}">{{ site.phone_display }}</a></li>
         <li><a href="https://wa.me/{{ site.wa }}" target="_blank" rel="noopener">{{ t.footer.wa }}</a></li>
         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        {% if site.gbp %}<li><a href="{{ site.gbp }}" target="_blank" rel="noopener">{% if page.lang == 'tr' %}Google'da Bul{% else %}Find us on Google{% endif %}</a></li>{% endif %}
         <li><a href="{{ page.blog_url }}">{{ t.nav.blog }}</a></li>
         <li><a href="{{ page.glossary_url }}">{% if page.lang == 'tr' %}Sözlük{% else %}Glossary{% endif %}</a></li>
       </ul>

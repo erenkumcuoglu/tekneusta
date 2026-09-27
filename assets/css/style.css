@@ -389,3 +389,17 @@ footer { background: var(--ink); }
 .reveal.in { opacity: 1; transform: translateY(0); }
 .reveal-d1 { transition-delay: 0.1s; } .reveal-d2 { transition-delay: 0.2s; } .reveal-d3 { transition-delay: 0.3s; } .reveal-d4 { transition-delay: 0.4s; } .reveal-d5 { transition-delay: 0.5s; }
 @media (prefers-reduced-motion: reduce) { .reveal, .js .reveal { opacity: 1 !important; transform: none !important; transition: none; } .scroll-line { animation: none; } }
+
+/* ---- blog → hizmet dönüşüm bileşenleri ---- */
+.svc-card { background: var(--foam); border-left: 3px solid var(--gold); padding: 1.4rem 1.6rem; margin: 2.2rem 0; border-radius: 3px; }
+.svc-card-k { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.4rem; }
+.svc-card-t { font-family: var(--serif); font-size: 1.35rem; color: var(--ocean); text-decoration: none; display: block; margin-bottom: 0.5rem; }
+.svc-card-t:hover { text-decoration: underline; }
+.svc-card p { margin: 0 0 0.8rem; color: var(--slate); font-size: 0.98rem; line-height: 1.6; }
+.svc-card-l { font-size: 0.85rem; font-weight: 600; color: var(--ocean-mid); text-decoration: none; }
+.svc-card-l:hover { text-decoration: underline; }
+.post-cta-row { display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; }
+.post-cta-form { color: rgba(255,255,255,0.75); font-size: 0.9rem; text-decoration: underline; }
+.post-cta-form:hover { color: var(--white); }
+.post-cta-svc { margin: 1.2rem 0 0 !important; font-size: 0.9rem !important; }
+.post-cta-svc a { color: var(--gold-lt); }

@@ -11,13 +11,18 @@
   <div class="s-inner">
     <article class="article detail-body reveal">
       {{ post.body|safe }}
-      <div class="aside-card" style="margin-top:3rem">
+      <div class="aside-card post-cta" style="margin-top:3rem">
         <h3>{{ t.aside.title }}</h3>
         <p>{{ t.aside.text }}</p>
-        <a href="#teklif-al" class="btn-primary">{{ t.aside.cta }}</a>
+        <div class="post-cta-row">
+          <a href="{{ post.wa_url }}" class="btn-primary" target="_blank" rel="noopener">{{ t.aside.cta }}</a>
+          <a href="#teklif-al" class="post-cta-form">{{ t.post_cta.form }}</a>
+        </div>
+        {% if svc %}<p class="post-cta-svc">{{ t.svc_card.kicker }}: <a href="{{ svc.url }}">{{ svc.name }}</a></p>{% endif %}
       </div>
     </article>
   </div>
 </section>
+{% if faqs %}{% include 'partials/faq.html' %}{% endif %}
 {% include 'partials/quote_form.html' %}
 {% endblock %}

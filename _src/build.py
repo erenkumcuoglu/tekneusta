@@ -97,6 +97,45 @@ def services_for(lang):
                     "deep": s.get("deep", {}).get(lang, "")})
     return out
 
+# ---- blog → hizmet dönüşüm yardımcıları ------------------------------------
+import re as _re
+from urllib.parse import quote as _q
+
+def wa_link(lang, topic):
+    """Konu adı önceden yazılmış WhatsApp linki (lead formuna alternatif, tek tık)."""
+    msg = (f"Merhaba, \"{topic}\" yazınızı okudum. Teknem için teklif almak istiyorum."
+           if lang == "tr" else f"Hello, I read your article \"{topic}\" and would like a quote for my boat.")
+    return f"https://wa.me/{SITE['wa']}?text={_q(msg)}"
+
+def related_service(p, lang):
+    """Yazının birincil hizmeti: content'te 'service' alanı varsa o, yoksa TR gövdedeki ilk /hizmetler/ linki."""
+    slug = p.get("service")
+    if not slug:
+        m = _re.search(r'href="/hizmetler/([a-z0-9-]+)/"', p["tr"]["body"])
+        slug = m.group(1) if m else None
+    if not slug:
+        return None
+    s = next((x for x in C.SERVICES if x["slug"] == slug), None)
+    if not s:
+        return None
+    d = s[lang]
+    return {"slug": slug, "name": d["name"], "short": d["short"], "image": s["image"],
+            "url": f"/hizmetler/{slug}/" if lang == "tr" else f"/en/services/{s['slug_en']}/"}
+
+def inject_service_card(body, svc, lang):
+    """İlk bölümün sonuna (2. <h2> öncesine) ilgili hizmet kartını koyar; okuyucu daha aşağı inmeden dönüşüm yolu görür."""
+    t = C.I18N[lang]["svc_card"]
+    card = (f'\n<aside class="svc-card">'
+            f'<span class="svc-card-k">{t["kicker"]}</span>'
+            f'<a class="svc-card-t" href="{svc["url"]}">{SU.escape(svc["name"])}</a>'
+            f'<p>{SU.escape(svc["short"])}</p>'
+            f'<a class="svc-card-l" href="{svc["url"]}">{t["link"]} →</a>'
+            f'</aside>\n')
+    parts = body.split("<h2>")
+    if len(parts) > 2:
+        return "<h2>".join(parts[:2]) + card + "<h2>" + "<h2>".join(parts[2:])
+    return body + card
+
 def regions_for(lang):
     out = []
     for r in C.REGIONS:
@@ -166,7 +205,7 @@ def local_business_schema():
         "priceRange": "$$",
         "foundingDate": SITE["founded"],
         # NOTE: aggregateRating gerçek/görünür yorumlar toplanınca eklenecek (Google politikası).
-        "sameAs": [SITE["instagram"]],
+        "sameAs": [u for u in [SITE["instagram"], SITE.get("gbp","")] if u],
         "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Tekne Hizmetleri",
             "itemListElement": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": s["tr"]["name"], "description": s["tr"]["short"]}} for s in C.SERVICES]},
     }
@@ -245,9 +284,9 @@ def build():
         ]
         # ---- HOME
         mt = ("Tekne Tamiri, Bakımı ve Renovasyonu | İstanbul & Ege — Tekne Usta" if lang == "tr"
-              else "Boat Repair, Maintenance & Refit | Istanbul & Aegean — Tekne Usta")
+              else "Yacht Refit & Boat Repair in Turkey | Istanbul & Aegean Coast — Tekne Usta")
         md = ("İstanbul ve Ege'de tekne tamiri, fiberglas onarımı, osmoz tedavisi, antifouling boya, ahşap renovasyon, teak döşeme ve kışlatma. Ücretsiz keşif, 48 saat yazılı teklif, işçilik garantisi." if lang == "tr"
-              else "Boat repair, fibreglass repair, osmosis treatment, antifouling, wooden refit, teak decking and winterising in Istanbul and the Aegean. Free survey, 48-hour written quote, workmanship warranty.")
+              else "Yacht refit and boat repair in Turkey for local and foreign-flagged owners: painting, fibreglass and osmosis, teak, interior and winter storage at Istanbul and Aegean yards. Free survey, 48-hour written quote, no broker.")
         ctx = base_ctx(lang, "/", "/en/", mt, md,
                        [local_business_schema(), website_schema(lang), faq_schema(home_faqs)],
                        nav_solid=False)
@@ -334,12 +373,17 @@ def build():
             d = p[lang]
             url_tr, url_en = f"/blog/{p['slug']}/", f"/en/blog/{p['slug_en']}/"
             post = {**d, "image": p["image"], "date": p["date"], "url": url_tr if lang == "tr" else url_en}
+            svc = related_service(p, lang)
+            post["body"] = inject_service_card(post["body"], svc, lang) if svc else post["body"]
+            post["wa_url"] = wa_link(lang, d["title"])
             crumb = [(C.I18N[lang]["nav"]["home"], "/" if lang == "tr" else "/en/"),
                      (C.I18N[lang]["nav"]["blog"], "/blog/" if lang == "tr" else "/en/blog/"),
                      (d["title"], post["url"])]
             schemas = [article_schema(post, lang), breadcrumb_schema(crumb)]
+            if d.get("faqs"):
+                schemas.append(faq_schema(d["faqs"]))
             ctx = base_ctx(lang, url_tr, url_en, d["meta_title"], d["meta_desc"], schemas,
-                           og_image=p["image"], og_type="article", extra={"post": post})
+                           og_image=p["image"], og_type="article", extra={"post": post, "faqs": d.get("faqs"), "svc": svc})
             out = (f"blog/{p['slug']}/index.html" if lang == "tr" else f"en/blog/{p['slug_en']}/index.html")
             render("article.html", ctx, out, priority="0.6")
 

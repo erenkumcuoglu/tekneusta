@@ -10,6 +10,7 @@ SITE = {
     "email": "info@tekneusta.com",
     "instagram": "https://www.instagram.com/tekneusta",
     "youtube": "https://www.youtube.com/@tekneusta",
+    "gbp": "https://share.google/3bd2e7DCqtpBEuFv8",  # Google Business Profile / Maps linki — schema sameAs'e otomatik girer
     "rating": "4.9",
     "review_count": "87",
     "founded": "2009",
@@ -30,6 +31,8 @@ I18N = {
             "text": "Teknenizi yerinde inceleyelim, 48 saat içinde kalem kalem yazılı teklif sunalım. Hiçbir yükümlülük yok.",
             "cta": "WhatsApp'tan Teklif Al", "other": "Diğer Hizmetler",
         },
+        "svc_card": {"kicker": "Bu konuda hizmetimiz", "link": "Hizmet detayı ve süreç"},
+        "post_cta": {"form": "veya formu doldurun", "wa_note": "Hafta içi 1 saat içinde dönüş"},
         "process": {
             "label": "Nasıl Çalışıyoruz?", "title": "Tekliften Teslime",
             "sub": "Şeffaf süreç, net fiyatlar, sürpriz yok. Keşiften teslime kadar her aşamada yanınızdayız.",
@@ -75,6 +78,8 @@ I18N = {
             "text": "We inspect your boat on site and send an itemised written quote within 48 hours. No obligation.",
             "cta": "Get a Quote on WhatsApp", "other": "Other Services",
         },
+        "svc_card": {"kicker": "Our service for this", "link": "Service details and process"},
+        "post_cta": {"form": "or fill in the form", "wa_note": "Weekday replies within an hour"},
         "process": {
             "label": "How We Work", "title": "From Quote to Delivery",
             "sub": "A transparent process, clear pricing, no surprises. We are with you at every stage, from survey to delivery.",
@@ -146,9 +151,9 @@ HOME = {
         "test_label": "Müşteri Görüşleri", "test_title": "Tekne Sahipleri Ne Diyor?",
     },
     "en": {
-        "badge": "Boat Repair · Refit · Maintenance",
+        "badge": "Yacht Refit · Boat Repair · Turkey",
         "h1": "Your Boat, in <em>Master Hands</em>",
-        "sub": "From fibreglass repair to wooden refit, professional painting to winterising — we make your boat seaworthy again.",
+        "sub": "Yacht refit, repair and winter work in Turkey — Istanbul and the Aegean coast. Skilled craftsmen, written quotes in 48 hours, no broker in between.",
         "cta1": "Get a Free Quote", "cta2": "Explore Services", "scroll": "Scroll", "detail": "Details →",
         "stats": [
             {"num": "15+", "label": "Years Experience"}, {"num": "300+", "label": "Projects Completed"},
@@ -172,8 +177,8 @@ HOME = {
             {"label": "Warranty", "text": "We stand behind our workmanship. If something's wrong, we put it right at no cost."},
             {"label": "Communication", "text": "We keep you informed at every step throughout the project."},
         ],
-        "reg_label": "Service Regions", "reg_title": "At Your Side in Istanbul & the Aegean",
-        "reg_sub": "On-site survey and service across Istanbul's marinas and the Aegean coast. Choose your region and we'll bring the nearest solution.",
+        "reg_label": "Service Regions", "reg_title": "Across Turkey's Yachting Coast",
+        "reg_sub": "Istanbul, Bodrum, Marmaris, Göcek, Fethiye and the Aegean marinas where foreign-flagged yachts winter. Choose your base and we'll come to you.",
         "type_label": "Boat Types", "type_title": "Expertise Tailored to Every Boat Type",
         "type_sub": "Yacht, sailboat, motoryacht, gulet, RIB or classic wooden — the right care and repair approach for your boat's type.",
         "test_label": "Client Reviews", "test_title": "What Boat Owners Say",
@@ -276,8 +281,8 @@ SERVICES = [
    "bullets": ["Crack & hole repair", "Osmosis blister treatment", "Gelcoat renewal & polishing", "Below-waterline structural repair"],
    "hero_title": "Fibreglass Boat Repair & Osmosis Treatment",
    "hero_sub": "From cracks, breaks and impact damage to osmosis and gelcoat problems — we return your fibreglass boat to the water structurally sound with a flawless finish.",
-   "meta_title": "Fibreglass Boat Repair & Osmosis Treatment | Tekne Usta",
-   "meta_desc": "Fibreglass boat repair, crack and hole repair, osmosis treatment and gelcoat renewal in Istanbul and the Aegean. Free survey, written quote in 48 hours, workmanship warranty.",
+   "meta_title": "Fibreglass Boat Repair & Osmosis Treatment in Turkey | Tekne Usta",
+   "meta_desc": "Fibreglass boat repair, crack and hole repair, osmosis treatment and gelcoat renewal in Turkey — Istanbul (Tuzla) and the Aegean coast. Free survey, written quote in 48 hours, insurance-grade documentation for foreign-flagged yachts.",
    "body": """
 <h2>Whatever your fibreglass boat needs</h2>
 <p>Fibreglass boats are tough, but impact, ageing gelcoat and seawater eventually cause cracks, blistering and osmosis. At <strong>Tekne Usta</strong> we never settle for a cosmetic fix; we get to the root of the damage, restore structural integrity and then finish the surface so it's indistinguishable from original.</p>
@@ -385,8 +390,8 @@ SERVICES = [
    "bullets": ["Caulking & planking renewal", "Epoxy reinforcement", "Varnish & paint", "Structural repair"],
    "hero_title": "Wooden Boat Restoration & Refit",
    "hero_sub": "Preserving the soul of classic wooden boats — with caulking, planking, varnish and structural repair we bring your boat back to life.",
-   "meta_title": "Wooden Boat Restoration & Refit | Tekne Usta",
-   "meta_desc": "Wooden boat repair, restoration and refit: caulking, planking renewal, epoxy reinforcement, varnish and paint in Istanbul and the Aegean. Craftsmanship that respects original character.",
+   "meta_title": "Wooden Boat Restoration & Refit in Turkey | Tekne Usta",
+   "meta_desc": "Classic wooden boat and gulet restoration in Turkey: caulking, planking, varnish and structural repair by craftsmen from the Bodrum and Istanbul boatbuilding tradition. Free survey, written quote in 48 hours.",
    "body": """
 <h2>Craftsmanship that does wood justice</h2>
 <p>Wooden boats demand patience and skill. We combine traditional caulking and joinery with modern epoxy and lamination to strengthen your boat <strong>without spoiling its original character</strong>. A classic sailboat, a tirhandil or a gulet — every wooden boat is treated on its own terms.</p>
@@ -493,8 +498,8 @@ SERVICES = [
    "bullets": ["Antifouling", "Full topside painting", "Boot stripe & graphics", "Epoxy primer systems"],
    "hero_title": "Boat Painting & Antifouling",
    "hero_sub": "From below-waterline antifouling to superyacht-grade topside paint — with the right primer system, clean masking and a flawless finish.",
-   "meta_title": "Boat Painting & Antifouling | Tekne Usta",
-   "meta_desc": "Boat painting, antifouling application, topside painting, gelcoat and epoxy primer systems in Istanbul and the Aegean. Clean workmanship and the right paint choice.",
+   "meta_title": "Yacht & Boat Painting in Turkey | Antifouling & Topsides | Tekne Usta",
+   "meta_desc": "Yacht painting and antifouling in Turkey: 2K polyurethane topsides, fairing, primer systems and below-waterline antifouling at Istanbul and Aegean yards. Superyacht-grade finish at Turkish labour rates.",
    "body": """
 <h2>Paint is both the boat's shield and its identity</h2>
 <p>A good paint job doesn't just look good; it protects the boat from UV, salt and marine growth. At <strong>Tekne Usta</strong> we treat surface preparation as seriously as the paint itself — because a lasting finish starts with correct sanding, priming and masking.</p>
@@ -601,8 +606,8 @@ SERVICES = [
    "bullets": ["New teak decking", "Old teak renewal", "Seam (caulking) renewal", "Teak care & sanding"],
    "hero_title": "Teak Deck Laying & Renewal",
    "hero_sub": "From classic teak looks to modern synthetic teak alternatives — we turn your deck into a walking surface that's both elegant and safe.",
-   "meta_title": "Teak Deck Laying & Renewal | Tekne Usta",
-   "meta_desc": "Teak decking, old teak renewal, seam (caulking) renewal and teak maintenance in Istanbul and the Aegean. Natural or synthetic teak laid with meticulous craftsmanship.",
+   "meta_title": "Teak Deck Laying & Renewal in Turkey | Tekne Usta",
+   "meta_desc": "New teak decks, teak renewal, seam repair and synthetic teak in Turkey — Bodrum, Marmaris, Göcek and Istanbul. Strong local teak tradition, competitive pricing, written quote in 48 hours.",
    "body": """
 <h2>The deck is a boat's first impression</h2>
 <p>A teak deck is the most eye-catching surface on a boat, for both looks and safety. Over the years teak thins, seams open and water starts to seep below. At <strong>Tekne Usta</strong> we lay new teak, renew old decks and repair seams with meticulous craftsmanship.</p>
@@ -709,8 +714,8 @@ SERVICES = [
    "bullets": ["Upholstery & foam renewal", "Cabinetry & galley renewal", "Cabin lighting", "Interior woodwork"],
    "hero_title": "Boat Interior Refit & Upholstery",
    "hero_sub": "From upholstery and foam to cabinetry and lighting — we turn your cabin into a more comfortable, brighter space that feels like yours.",
-   "meta_title": "Boat Interior Refit & Upholstery | Tekne Usta",
-   "meta_desc": "Boat interior refit, upholstery and foam renewal, cabinetry and galley renewal, cabin lighting and interior woodwork in Istanbul and the Aegean.",
+   "meta_title": "Yacht Interior Refit & Marine Upholstery in Turkey | Tekne Usta",
+   "meta_desc": "Yacht interior refit in Turkey: marine upholstery, cabin and galley joinery, LED lighting and soft furnishings. Skilled trades in Istanbul and the Aegean at a fraction of Western Med cost.",
    "body": """
 <h2>Comfort is the key to time aboard</h2>
 <p>When the interior wears out, time aboard loses its charm. Faded fabrics, collapsed foam, tired cabinetry… At <strong>Tekne Usta</strong> we take the cabin in hand and renew both looks and function.</p>
@@ -816,8 +821,8 @@ SERVICES = [
    "bullets": ["Haul-out & wash-down", "Hull cleaning", "Winter cover", "Secure storage"],
    "hero_title": "Boat Winterising & Winter Storage",
    "hero_sub": "From haul-out and hull cleaning to covering and secure storage — we prepare your boat for winter and bring it through ready for the next season.",
-   "meta_title": "Boat Winterising & Winter Storage | Tekne Usta",
-   "meta_desc": "Boat winterising, haul-out, hull cleaning, winter covers and secure storage in Istanbul and the Aegean. End-of-season boat care and winterising packages.",
+   "meta_title": "Boat Winterising & Winter Storage in Turkey | Tekne Usta",
+   "meta_desc": "Winterising and winter storage in Turkey: haul-out, wash, shrink-wrap or cover, hardstand or afloat at Marmaris, Göcek, Fethiye, Bodrum and Istanbul. Combine storage with winter refit work. Early-booking quotes.",
    "body": """
 <h2>Good winterising opens the season early</h2>
 <p>Preparing a boat for winter saves both time and money in spring. Boats left afloat and poorly covered start the season with damp, mould and hull problems. At <strong>Tekne Usta</strong> we winterise with the discipline of a checklist.</p>
@@ -917,8 +922,8 @@ SERVICES = [
    "bullets": ["Exterior wash & compound-polish", "Gelcoat protection / wax", "Interior & upholstery cleaning", "Stainless, glass & detail care"],
    "hero_title": "Boat Cleaning and Detailing",
    "hero_sub": "Before salt and UV take their toll — professional interior-exterior cleaning, compound-polish and protective care keep your boat's look and value.",
-   "meta_title": "Boat Cleaning and Detailing Service | Tekne Usta",
-   "meta_desc": "Boat cleaning and detailing: exterior wash, compound-polish, gelcoat protection, interior and upholstery cleaning. Pre/post-season detailing packages in Istanbul and the Aegean.",
+   "meta_title": "Yacht Cleaning & Detailing in Turkey | Tekne Usta",
+   "meta_desc": "Yacht detailing in Turkey: interior and exterior cleaning, compounding, polishing and gelcoat protection for boats based in Istanbul and Aegean marinas. Season-opening and pre-sale packages.",
    "body": """
 <h2>Cleaning is the first step in protection</h2>
 <p>Detailing isn't just cosmetic; it's the cheapest care that protects a boat's surface, value and life. At <strong>Tekne Usta</strong> we treat cleaning as part of holistic care — we don't just polish the surface, we protect it.</p>
@@ -1019,8 +1024,8 @@ SERVICES = [
    "bullets": ["Bimini & sprayhood", "Storage & winter covers", "Cushion & upholstery sewing", "Repair & renewal"],
    "hero_title": "Canvas, Covers and Marine Upholstery",
    "hero_sub": "Against sun, rain and UV — made-to-measure biminis, sprayhoods, storage and winter covers plus upholstery sewing for your boat.",
-   "meta_title": "Boat Canvas, Covers and Bimini | Marine Upholstery — Tekne Usta",
-   "meta_desc": "Boat canvas, covers and bimini: made-to-measure bimini, sprayhood, storage and winter cover, cushion-upholstery sewing and repair. Marine-grade fabric, UV-resistant stitching.",
+   "meta_title": "Boat Canvas, Covers & Bimini in Turkey | Marine Upholstery — Tekne Usta",
+   "meta_desc": "Bimini, sprayhood, covers and winter tarpaulins made in Turkey. Marine sewing workshop and upholstery for yachts in Istanbul and the Aegean. Quick turnaround, competitive pricing.",
    "body": """
 <h2>Your boat's exterior textiles — protection and comfort</h2>
 <p>Canvas and covers protect the boat from sun, rain and UV, and also shape cruising comfort. A well-chosen, <strong>made-to-measure</strong> system protects both you and your boat for years. We do marine canvas work in marine-grade materials with meticulous craftsmanship.</p>
@@ -1079,8 +1084,8 @@ REGIONS = [
    "short": "On-site survey and service at Tuzla, Pendik, Ataköy and Kalamış marinas.",
    "hero_title": "Boat Repair, Maintenance & Refit in Istanbul",
    "hero_sub": "From Tuzla to Ataköy, Kalamış to Pendik — fibreglass repair, painting, wooden refit and winterising across all of Istanbul's marinas.",
-   "meta_title": "Istanbul Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, boat painting (antifouling), wooden refit and winterising in Istanbul. Free survey at Tuzla, Pendik, Ataköy and Kalamış marinas.",
+   "meta_title": "Boat Repair & Yacht Refit in Istanbul, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, boat painting (antifouling), wooden refit and winterising in Istanbul. Free survey at Tuzla, Pendik, Ataköy and Kalamış marinas. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>At your side in every Istanbul marina</h2>
 <p>Istanbul has Turkey's busiest boating traffic. <strong>Tekne Usta</strong> offers on-site survey and service at marinas on both sides of the city, including <strong>Tuzla, Pendik Marina, Viaport Marina, Ataköy Marina, Kalamış and West Istanbul Marina</strong>. We inspect your boat where it lies and, if needed, work on the hardstanding.</p>
@@ -1124,8 +1129,8 @@ REGIONS = [
    "short": "Boat service around Yalıkavak, Turgutreis and Milta Bodrum Marina.",
    "hero_title": "Boat Repair, Maintenance & Refit in Bodrum",
    "hero_sub": "From Yalıkavak Marina to Turgutreis — fibreglass repair, painting, wooden refit and teak decking across the Bodrum peninsula.",
-   "meta_title": "Bodrum Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, painting and wooden refit in Bodrum. Service around Yalıkavak, Turgutreis and Milta Bodrum Marina.",
+   "meta_title": "Boat Repair & Yacht Refit in Bodrum, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, painting and wooden refit in Bodrum. Service around Yalıkavak, Turgutreis and Milta Bodrum Marina. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>A craftsman's hand on the Bodrum peninsula</h2>
 <p>Bodrum is one of the Aegean's liveliest yachting hubs. We serve boats around <strong>Yalıkavak Marina, Milta Bodrum Marina and Turgutreis</strong> with fibreglass repair, painting, wooden refit and teak work. We plan your pre-season maintenance in good time.</p>
@@ -1166,8 +1171,8 @@ REGIONS = [
    "short": "Yacht maintenance and refit around D-Marin, Club Marina and Marinturk.",
    "hero_title": "Boat Repair, Maintenance & Refit in Göcek",
    "hero_sub": "For yachts in Göcek's sheltered bays — fibreglass repair, painting, wooden refit and teak decking.",
-   "meta_title": "Göcek Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, painting and wooden refit in Göcek. Service around D-Marin Göcek, Club Marina and Marinturk.",
+   "meta_title": "Boat Repair & Yacht Refit in Göcek, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, painting and wooden refit in Göcek. Service around D-Marin Göcek, Club Marina and Marinturk. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>Trusted service in Göcek's yachting haven</h2>
 <p>Göcek is one of Turkey's busiest yachting bases; many yachts winter and are maintained around <strong>D-Marin Göcek, Club Marina and Marinturk</strong>. We support these boats with fibreglass repair, painting, wooden refit and teak work.</p>
@@ -1207,8 +1212,8 @@ REGIONS = [
    "short": "Boat repair and maintenance around Netsel Marina and Yat Marin.",
    "hero_title": "Boat Repair, Maintenance & Refit in Marmaris",
    "hero_sub": "For boats around Netsel Marina and Yat Marin — fibreglass repair, painting, wooden refit and winterising.",
-   "meta_title": "Marmaris Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, painting and wooden refit in Marmaris. Free survey and transparent quote around Netsel Marina and Yat Marin.",
+   "meta_title": "Boat Repair & Yacht Refit in Marmaris, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, painting and wooden refit in Marmaris. Free survey and transparent quote around Netsel Marina and Yat Marin. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>Craftsmanship in Marmaris</h2>
 <p>Marmaris is an important base for both local and foreign boat owners. We serve boats around <strong>Netsel Marmaris Marina and Yat Marin</strong> with fibreglass repair, painting, wooden refit and winterising.</p>
@@ -1248,8 +1253,8 @@ REGIONS = [
    "short": "Boat service and refit around Ece Marina and Fethiye bay.",
    "hero_title": "Boat Repair, Maintenance & Refit in Fethiye",
    "hero_sub": "For boats around Ece Saray Marina and Fethiye bay — fibreglass repair, painting, wooden refit and teak decking.",
-   "meta_title": "Fethiye Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, painting and wooden refit in Fethiye. Free survey around Ece Marina and Fethiye bay.",
+   "meta_title": "Boat Repair & Yacht Refit in Fethiye, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, painting and wooden refit in Fethiye. Free survey around Ece Marina and Fethiye bay. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>A trusted craftsman in Fethiye bay</h2>
 <p>Fethiye, neighbouring Göcek with its sheltered bay, is an important boating area. We serve boats around <strong>Ece Saray Marina</strong> with fibreglass repair, painting, wooden refit and teak work.</p>
@@ -1290,8 +1295,8 @@ REGIONS = [
    "short": "Haul-out, painting and repair around the Tuzla shipyard zone and marina.",
    "hero_title": "Boat Repair, Painting & Haul-out in Tuzla",
    "hero_sub": "In Turkey's busiest shipyard district — a craftsman's hand for fibreglass repair, antifouling, painting and woodwork.",
-   "meta_title": "Tuzla Boat Repair, Painting & Haul-out | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and painting in Tuzla. Service with haul-out around the Tuzla shipyard zone and Viaport Marina.",
+   "meta_title": "Boat Repair & Yacht Refit in Tuzla (Istanbul), Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and painting in Tuzla. Service with haul-out around the Tuzla shipyard zone and Viaport Marina. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>Tuzla: working at the heart of the industry</h2>
 <p>Tuzla is Istanbul's — and Turkey's — busiest boat and shipyard district. Hardstanding, slings and cranes make work here easier; it's an ideal location for extensive hull, paint and fibreglass jobs. <strong>Tekne Usta</strong> supports boats around Tuzla and <strong>Viaport Marina</strong>, including work that requires hauling out.</p>
@@ -1332,8 +1337,8 @@ REGIONS = [
    "short": "Boat maintenance and repair around Çeşme Marina and Alaçatı.",
    "hero_title": "Boat Repair, Maintenance & Refit in Çeşme",
    "hero_sub": "For boats around Çeşme Marina, Ilıca and Alaçatı — fibreglass repair, painting, wooden refit and teak.",
-   "meta_title": "Çeşme Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Çeşme. Free survey and transparent quote around Çeşme Marina and Alaçatı.",
+   "meta_title": "Boat Repair & Yacht Refit in Çeşme, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Çeşme. Free survey and transparent quote around Çeşme Marina and Alaçatı. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>For boats worn by the Çeşme wind</h2>
 <p>Çeşme and Alaçatı, with their strong wind and busy summer season, put boats under quick strain; paint, hull and rigging wear faster. For boats around <strong>Çeşme Marina</strong> we help you open the season strong with fibreglass repair, painting/antifouling, wooden refit and teak work.</p>
@@ -1373,8 +1378,8 @@ REGIONS = [
    "short": "Yacht maintenance, refit and teak work around Yalıkavak Marina.",
    "hero_title": "Yacht Maintenance, Refit & Teak in Yalıkavak",
    "hero_sub": "At Bodrum's premium yacht base — detail-focused craftsmanship in fibreglass, paint, teak and interior work.",
-   "meta_title": "Yalıkavak Yacht Maintenance, Refit & Teak | Tekne Usta",
-   "meta_desc": "Yacht maintenance, fibreglass repair, painting, teak decking and interior refit in Yalıkavak. Meticulous, premium workmanship around Yalıkavak Marina.",
+   "meta_title": "Boat Repair & Yacht Refit in Yalıkavak, Turkey | Tekne Usta",
+   "meta_desc": "Yacht maintenance, fibreglass repair, painting, teak decking and interior refit in Yalıkavak. Meticulous, premium workmanship around Yalıkavak Marina. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>Workmanship to match Yalıkavak's standard</h2>
 <p>Yalıkavak is one of Bodrum's most prestigious yacht bases; boats maintained around <strong>Yalıkavak Marina</strong> usually belong to owners with high expectations. Here, detail and finish quality stand out — teak transitions, paint gloss and interior work make the difference. We work to that standard.</p>
@@ -1414,8 +1419,8 @@ REGIONS = [
    "short": "Boat repair, painting and maintenance around Pendik Marina.",
    "hero_title": "Boat Repair, Maintenance & Refit in Pendik",
    "hero_sub": "For boats around Pendik Marina — fibreglass repair, antifouling, wooden refit and winterising.",
-   "meta_title": "Pendik Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Pendik. Free survey and transparent quote around Pendik Marina.",
+   "meta_title": "Boat Repair & Yacht Refit in Pendik (Istanbul), Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Pendik. Free survey and transparent quote around Pendik Marina. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>A craftsman's hand in and around Pendik</h2>
 <p>On Istanbul's Anatolian side, we serve boats around <strong>Pendik Marina</strong> with fibreglass repair, painting, wooden refit and winterising. Close to Tuzla, we're flexible for jobs that need hauling out.</p>
@@ -1455,8 +1460,8 @@ REGIONS = [
    "short": "Boat maintenance, painting and repair around Ataköy Marina.",
    "hero_title": "Boat Repair, Maintenance & Refit in Ataköy",
    "hero_sub": "On Istanbul's European side, for boats around Ataköy Marina — fibreglass, painting, wood and winterising.",
-   "meta_title": "Ataköy Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Ataköy. Free survey around Ataköy Marina.",
+   "meta_title": "Boat Repair & Yacht Refit in Ataköy (Istanbul), Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Ataköy. Free survey around Ataköy Marina. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>Trusted service on the European side</h2>
 <p><strong>Ataköy Marina</strong> is one of the largest marinas on Istanbul's European side. We support boats here with fibreglass repair, painting, wooden refit and winterising.</p>
@@ -1496,8 +1501,8 @@ REGIONS = [
    "short": "Boat service around Kalamış and Fenerbahçe Marina.",
    "hero_title": "Boat Repair, Maintenance & Refit in Kalamış",
    "hero_sub": "For boats around Kalamış and Fenerbahçe Marina — fibreglass, painting, wood and teak services.",
-   "meta_title": "Kalamış Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Kalamış. Free survey around Kalamış and Fenerbahçe Marina.",
+   "meta_title": "Boat Repair & Yacht Refit in Kalamış (Istanbul), Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Kalamış. Free survey around Kalamış and Fenerbahçe Marina. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>For Kalamış's deep sailing culture</h2>
 <p>Kalamış and Fenerbahçe form one of Istanbul's most established sailing and boating centres. We serve boats around <strong>Kalamış Marina and Fenerbahçe Marina</strong> with fibreglass repair, painting, wooden refit and teak work.</p>
@@ -1537,8 +1542,8 @@ REGIONS = [
    "short": "Boat maintenance and repair around Urla, Sığacık and the Gulf of İzmir.",
    "hero_title": "Boat Repair, Maintenance & Refit in Urla & İzmir",
    "hero_sub": "For boats around Urla, Sığacık and the Gulf of İzmir — fibreglass, painting, wooden refit and teak.",
-   "meta_title": "Urla / İzmir Boat Repair & Maintenance | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Urla and İzmir. Free survey around Urla, Sığacık and the Gulf of İzmir.",
+   "meta_title": "Boat Repair & Yacht Refit in Urla / İzmir, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Urla and İzmir. Free survey around Urla, Sığacık and the Gulf of İzmir. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>For the lively boating of the Gulf of İzmir</h2>
 <p>Urla and Sığacık are among İzmir's most popular boating areas. We serve boats around <strong>Levent Marina Urla and Teos Marina Sığacık</strong> with fibreglass repair, painting, wooden refit and teak work.</p>
@@ -1578,8 +1583,8 @@ REGIONS = [
    "short": "Boat maintenance, painting and repair around D-Marin Didim.",
    "hero_title": "Boat Repair, Maintenance & Refit in Didim",
    "hero_sub": "For boats around D-Marin Didim — fibreglass, painting, wooden refit and winterising.",
-   "meta_title": "Didim Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Didim. Free survey and transparent quote around D-Marin Didim.",
+   "meta_title": "Boat Repair & Yacht Refit in Didim, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Didim. Free survey and transparent quote around D-Marin Didim. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>For Didim's busy marina traffic</h2>
 <p>Around <strong>D-Marin Didim</strong>, one of the Aegean's large yacht bases, many boats winter and are maintained. We support these boats with fibreglass repair, painting, wooden refit and winterising.</p>
@@ -1619,8 +1624,8 @@ REGIONS = [
    "short": "Boat service around Ayvalık and Setur Ayvalık Marina.",
    "hero_title": "Boat Repair, Maintenance & Refit in Ayvalık",
    "hero_sub": "For boats around Ayvalık and Setur Ayvalık Marina — fibreglass, painting, wood and winterising.",
-   "meta_title": "Ayvalık Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Ayvalık. Free survey around Setur Ayvalık Marina.",
+   "meta_title": "Boat Repair & Yacht Refit in Ayvalık, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Ayvalık. Free survey around Setur Ayvalık Marina. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>For the calm bays of the northern Aegean</h2>
 <p>Ayvalık, with its islands and sheltered bays, is a favourite boating area of the northern Aegean. We offer fibreglass repair, painting, wooden refit and winterising for boats around <strong>Setur Ayvalık Marina</strong>.</p>
@@ -1660,8 +1665,8 @@ REGIONS = [
    "short": "Boat maintenance and repair in Datça and its surrounding bays.",
    "hero_title": "Boat Repair, Maintenance & Refit in Datça",
    "hero_sub": "For boats around Datça — fibreglass, painting, wooden refit and teak services.",
-   "meta_title": "Datça Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Datça. Free survey and transparent quote around Datça.",
+   "meta_title": "Boat Repair & Yacht Refit in Datça, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Datça. Free survey and transparent quote around Datça. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>For Datça's unspoilt bays</h2>
 <p>The Datça peninsula, with its clean sea and quiet bays, is a favourite of boat owners. We offer fibreglass repair, painting, wooden refit and teak work for boats in the area; close to Marmaris and Bodrum, we're logistically flexible.</p>
@@ -1701,8 +1706,8 @@ REGIONS = [
    "short": "Boat maintenance, painting and repair around Antalya's marinas.",
    "hero_title": "Boat Repair, Maintenance & Refit in Antalya",
    "hero_sub": "For boats around Setur Antalya and Çelebi Marina — fibreglass, painting, wood and teak services.",
-   "meta_title": "Antalya Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Antalya. Free survey around Setur Antalya and Çelebi Marina.",
+   "meta_title": "Boat Repair & Yacht Refit in Antalya, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Antalya. Free survey around Setur Antalya and Çelebi Marina. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>For the Mediterranean's yachting hub</h2>
 <p>Antalya, with its long season and large marina capacity, is an important Mediterranean yachting hub. We serve boats around <strong>Setur Antalya Marina, Çelebi Marina and the Kaleiçi Marina</strong> with fibreglass repair, painting, wooden refit and teak work.</p>
@@ -1742,8 +1747,8 @@ REGIONS = [
    "short": "Boat maintenance and repair in Kaş and its surrounding bays.",
    "hero_title": "Boat Repair, Maintenance & Refit in Kaş",
    "hero_sub": "For boats around Kaş Marina — fibreglass, painting, wooden refit and teak services.",
-   "meta_title": "Kaş Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Kaş. Free survey and transparent quote around Kaş Marina.",
+   "meta_title": "Boat Repair & Yacht Refit in Kaş, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Kaş. Free survey and transparent quote around Kaş Marina. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>For boats in Kaş's clear waters</h2>
 <p>Kaş, with its clean sea and diving tourism, is a special corner of the Mediterranean. We serve boats around <strong>Kaş Marina</strong> with fibreglass repair, painting, wooden refit and teak work.</p>
@@ -1783,8 +1788,8 @@ REGIONS = [
    "short": "Boat maintenance and repair around Kuşadası Setur Marina.",
    "hero_title": "Boat Repair, Maintenance & Refit in Kuşadası",
    "hero_sub": "For boats around Kuşadası Setur Marina — fibreglass, painting, wooden refit and winterising.",
-   "meta_title": "Kuşadası Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Kuşadası. Free survey around Kuşadası Setur Marina.",
+   "meta_title": "Boat Repair & Yacht Refit in Kuşadası, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Kuşadası. Free survey around Kuşadası Setur Marina. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>For Kuşadası's busy marina traffic</h2>
 <p>Kuşadası hosts one of the Aegean's busiest marinas. We serve boats around <strong>Kuşadası Setur Marina</strong> with fibreglass repair, painting, wooden refit and winterising.</p>
@@ -1824,8 +1829,8 @@ REGIONS = [
    "short": "Boat maintenance and repair in Mudanya and the Marmara coast.",
    "hero_title": "Boat Repair, Maintenance & Refit in Mudanya",
    "hero_sub": "For boats on the Mudanya and Bursa coast — fibreglass, painting, wooden refit and winterising.",
-   "meta_title": "Mudanya Boat Repair, Maintenance & Refit | Tekne Usta",
-   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Mudanya. Free survey on the Mudanya and Marmara coast.",
+   "meta_title": "Boat Repair & Yacht Refit in Mudanya, Turkey | Tekne Usta",
+   "meta_desc": "Boat repair, fibreglass repair, osmosis treatment, antifouling and wooden refit in Mudanya. Free survey on the Mudanya and Marmara coast. Serving local and foreign-flagged yachts in Turkey.",
    "body": """
 <h2>For boat owners on the Marmara coast</h2>
 <p>Mudanya, Bursa's gateway to the sea, is a favourite Marmara boating area. We serve boats around <strong>Mudanya</strong> with fibreglass repair, painting, wooden refit and winterising; close to Istanbul, we're logistically flexible.</p>
@@ -1845,7 +1850,7 @@ REGIONS = [
 POSTS = [
 {
  "slug": "osmoz-nedir-tedavisi", "slug_en": "what-is-osmosis-treatment",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2026-02-10",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-01-10",
  "tr": {
    "category": "Fiberglas",
    "title": "Osmoz Nedir, Fiber Teknelerde Nasıl Tedavi Edilir?",
@@ -1917,7 +1922,7 @@ POSTS = [
 },
 {
  "slug": "antifouling-secimi", "slug_en": "choosing-antifouling",
- "image": "/assets/images/services/boya.jpg", "date": "2026-03-05",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-01-15",
  "tr": {
    "category": "Boya",
    "title": "Antifouling (Zehirli Boya) Seçimi: Teknenize Doğru Boya Nasıl Seçilir?",
@@ -1979,13 +1984,13 @@ POSTS = [
 },
 {
  "slug": "gelcoat-yenileme", "slug_en": "gelcoat-renewal",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2026-03-20",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-01-20",
  "tr": {
    "category": "Fiberglas",
    "title": "Gelcoat Yenileme: Solmuş Jelkot Nasıl Parlatılır ve Onarılır?",
    "excerpt": "Jelkot neden solar, çatlar ve matlaşır? Gelcoat parlatma ile yenileme arasındaki fark ve ne zaman hangisinin gerektiği.",
-   "meta_title": "Gelcoat Yenileme ve Jelkot Onarımı Rehberi | Tekne Usta",
-   "meta_desc": "Gelcoat yenileme, jelkot parlatma ve onarımı: solmuş, çatlamış veya matlaşmış jelkot nasıl geri kazandırılır? Parlatma ile komple yenileme arasındaki fark.",
+   "meta_title": "Gelcoat Yenileme mi Parlatma mı? Fark ve Hangisi Ne Zaman",
+   "meta_desc": "Solmuş, matlaşmış jelkot geri gelir mi? Pasta-polisajın yettiği ve komple gelcoat yenilemenin şart olduğu durumlar; ikisinin farkı ve teknenize hangisi gerekir.",
    "body": """
 <p>Jelkot (gelcoat), fiberglas teknenin dış yüzeyindeki renkli ve parlak koruyucu katmandır. Zamanla güneş, tuz ve oksidasyon bu katmanı soldurur, matlaştırır ve çatlatır. İyi haber: çoğu durumda tekneyi baştan boyamaya gerek kalmadan jelkot geri kazandırılabilir.</p>
 <h2>Jelkot neden bozulur?</h2>
@@ -2029,7 +2034,7 @@ POSTS = [
 },
 {
  "slug": "teak-guverte-bakimi", "slug_en": "teak-deck-maintenance",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2026-04-08",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2025-01-26",
  "tr": {
    "category": "Teak",
    "title": "Teak Güverte Bakımı: Griye Dönmeden Sıcak Tonu Korumak",
@@ -2079,7 +2084,7 @@ POSTS = [
 },
 {
  "slug": "tekne-kislatma-kontrol-listesi", "slug_en": "boat-winterising-checklist",
- "image": "/assets/images/services/bakim.jpg", "date": "2026-04-22",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-01-31",
  "tr": {
    "category": "Bakım",
    "title": "Tekne Kışlatma Kontrol Listesi: Sezonu Doğru Kapatmak",
@@ -2145,13 +2150,13 @@ POSTS = [
 },
 {
  "slug": "tekne-boyama-maliyeti", "slug_en": "boat-painting-cost",
- "image": "/assets/images/services/boya.jpg", "date": "2026-05-06",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-02-05",
  "tr": {
    "category": "Boya",
    "title": "Tekne Boyama Maliyetini Ne Belirler? Şeffaf Bir Rehber",
    "excerpt": "Tekne boyama fiyatı neye göre değişir? Yüzey hazırlığı, kat sayısı, boya sistemi ve tekne boyunun maliyete etkisi.",
-   "meta_title": "Tekne Boyama Fiyatını Ne Belirler? Maliyet Rehberi | Tekne Usta",
-   "meta_desc": "Tekne boyama maliyetini belirleyen faktörler: yüzey hazırlığı, kat sayısı, boya sistemi, tekne boyu ve antifouling. Şeffaf fiyatlandırma nasıl olmalı?",
+   "meta_title": "Tekne Boyama Fiyatı Neye Göre Belirlenir? 6 Maliyet Kalemi",
+   "meta_desc": "Tekne boyama fiyatını belirleyen kalemler: yüzey hazırlığı, kat sayısı, boya sistemi, tekne boyu. Antifouling, dış cephe ve komple boyama farkı; ucuz teklifte nereye bakmalı?",
    "body": """
 <p>"Tekne boyama ne kadar?" sorusunun tek bir cevabı yoktur — ama fiyatı neyin belirlediğini anlarsanız, aldığınız teklifi doğru değerlendirir ve ucuz görünüp sonradan kabaran işlerden kaçınırsınız.</p>
 <h2>Maliyeti belirleyen ana faktörler</h2>
@@ -2171,11 +2176,12 @@ POSTS = [
  },
  "en": {
    "category": "Painting",
-   "title": "What Determines Boat Painting Cost? A Transparent Guide",
+   "title": "Boat Painting Cost in Turkey: What Drives the Price",
    "excerpt": "What makes boat painting cost vary? How surface prep, coat count, paint system and boat length affect the price.",
-   "meta_title": "What Determines Boat Painting Cost? A Guide | Tekne Usta",
-   "meta_desc": "Factors that determine boat painting cost: surface prep, number of coats, paint system, boat length and antifouling. What transparent pricing should look like.",
+   "meta_title": "Boat Painting Cost in Turkey (2026): What Drives the Price | Tekne Usta",
+   "meta_desc": "What boat painting costs in Turkey and why: surface prep, coats, paint system, boat length and antifouling. How to read a Turkish yard's quote and compare it with the Western Med.",
    "body": """
+<p><strong>Owners often come to Turkey specifically for a repaint</strong>, because painting is mostly labour and Turkish labour rates are far lower. But the price still varies a lot between quotes. Here is what actually drives it.</p>
 <p>"How much is boat painting?" has no single answer — but if you understand what drives the price, you can judge a quote properly and avoid cheap-looking jobs that blister later.</p>
 <h2>The main cost factors</h2>
 <ul>
@@ -2195,7 +2201,7 @@ POSTS = [
 },
 {
  "slug": "osmoz-belirtileri", "slug_en": "osmosis-symptoms",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2026-05-20",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-02-10",
  "tr": {
    "category": "Fiberglas",
    "title": "Teknemde Osmoz Var mı? 5 Belirti ve Basit Kontrol",
@@ -2243,13 +2249,13 @@ POSTS = [
 },
 {
  "slug": "fiber-mi-ahsap-tekne", "slug_en": "fibreglass-vs-wooden-boat",
- "image": "/assets/images/parallax-2.jpg", "date": "2026-06-03",
+ "image": "/assets/images/parallax-2.jpg", "date": "2025-02-16",
  "tr": {
    "category": "Rehber",
    "title": "Fiber mi Ahşap Tekne mi? Bakım Açısından Karşılaştırma",
    "excerpt": "Fiber ve ahşap teknelerin bakım yükü, maliyeti ve dayanıklılığı nasıl farklılaşır? Tekne alırken veya sahipken bilmeniz gerekenler.",
-   "meta_title": "Fiber mi Ahşap Tekne mi? Bakım Karşılaştırması | Tekne Usta",
-   "meta_desc": "Fiber ve ahşap tekne karşılaştırması: bakım yükü, maliyet, dayanıklılık ve karakter. Tekne alırken veya sahipken hangi malzemenin size uygun olduğu.",
+   "meta_title": "Fiber mi Ahşap Tekne mi? Yıllık Bakım Maliyeti Karşılaştırması",
+   "meta_desc": "Fiber ve ahşap teknenin yıllık bakım yükü, masrafı ve dayanıklılığı yan yana. Alırken hangisi cebinize ve kullanımınıza uyar? Tersane gözünden dürüst karşılaştırma.",
    "body": """
 <p>"Fiber mi alsam, ahşap mı?" — tekne dünyasının klasik sorusu. Her ikisinin de yeri var; doğru seçim beklentinize ve bakıma ayırabileceğiniz zamana bağlı. İşte bakım gözünden dürüst bir karşılaştırma.</p>
 <h2>Fiberglas tekneler</h2>
@@ -2283,7 +2289,7 @@ POSTS = [
 },
 {
  "slug": "ahsap-tekne-vernik-bakimi", "slug_en": "wooden-boat-varnish-care",
- "image": "/assets/images/services/ahsap.jpg", "date": "2026-06-17",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2025-02-21",
  "tr": {
    "category": "Ahşap",
    "title": "Ahşap Tekne Vernik Bakımı: Parlaklığı Yıllarca Korumak",
@@ -2325,7 +2331,7 @@ POSTS = [
 },
 {
  "slug": "antifouling-uygulama-hatalari", "slug_en": "antifouling-mistakes",
- "image": "/assets/images/services/boya.jpg", "date": "2026-07-01",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-02-26",
  "tr": {
    "category": "Boya",
    "title": "Antifouling Uygulamasında En Sık Yapılan 6 Hata",
@@ -2375,7 +2381,7 @@ POSTS = [
 },
 {
  "slug": "yillik-tekne-bakim-takvimi", "slug_en": "annual-boat-maintenance-calendar",
- "image": "/assets/images/services/bakim.jpg", "date": "2026-07-15",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-03-03",
  "tr": {
    "category": "Bakım",
    "title": "Yıllık Tekne Bakım Takvimi: Mevsim Mevsim Ne Yapılmalı?",
@@ -2447,7 +2453,7 @@ POSTS = [
 },
 {
  "slug": "satin-alma-oncesi-tekne-ekspertizi", "slug_en": "pre-purchase-boat-survey",
- "image": "/assets/images/hakkimizda.jpg", "date": "2026-07-22",
+ "image": "/assets/images/hakkimizda.jpg", "date": "2025-03-09",
  "tr": {
    "category": "Rehber",
    "title": "İkinci El Tekne Alırken: Satın Alma Öncesi Nelere Bakılmalı?",
@@ -2491,7 +2497,7 @@ POSTS = [
 },
 {
  "slug": "osmoz-tedavisi-fiyatlari", "slug_en": "osmosis-treatment-cost",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2026-08-05",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-03-14",
  "tr": {
    "category": "Fiberglas",
    "title": "Osmoz Tedavisi Fiyatını Ne Belirler? Maliyet Rehberi",
@@ -2539,7 +2545,7 @@ POSTS = [
 },
 {
  "slug": "tekne-cekek-karaya-cekme", "slug_en": "boat-haul-out-guide",
- "image": "/assets/images/services/bakim.jpg", "date": "2026-08-19",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-03-19",
  "tr": {
    "category": "Bakım",
    "title": "Tekne Çekek ve Karaya Çekme Rehberi: Ne Zaman, Neden, Nasıl?",
@@ -2589,7 +2595,7 @@ POSTS = [
 },
 {
  "slug": "jelkot-vs-boya", "slug_en": "gelcoat-vs-paint",
- "image": "/assets/images/services/boya.jpg", "date": "2026-09-02",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-03-24",
  "tr": {
    "category": "Boya",
    "title": "Jelkot mu Boya mı? Fiber Teknenin Dış Yüzeyini Yenilemek",
@@ -2627,7 +2633,7 @@ POSTS = [
 },
 {
  "slug": "teak-vs-sentetik-teak", "slug_en": "teak-vs-synthetic-teak",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2026-09-16",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2025-03-30",
  "tr": {
    "category": "Teak",
    "title": "Doğal Teak mı Sentetik Teak mi? Güverte İçin Karşılaştırma",
@@ -2667,7 +2673,7 @@ POSTS = [
 },
 {
  "slug": "fiberglas-catlak-onarimi", "slug_en": "fibreglass-crack-repair",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2026-09-30",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-04-04",
  "tr": {
    "category": "Fiberglas",
    "title": "Fiberglas Çatlak ve Kırık Onarımı Nasıl Yapılır?",
@@ -2725,7 +2731,7 @@ POSTS = [
 },
 {
  "slug": "bahar-tekne-bakimi", "slug_en": "spring-boat-maintenance",
- "image": "/assets/images/parallax-1.jpg", "date": "2026-10-14",
+ "image": "/assets/images/parallax-1.jpg", "date": "2025-04-09",
  "tr": {
    "category": "Bakım",
    "title": "Bahar Tekne Bakımı: Sezona Sağlam Başlamak İçin Kontrol Listesi",
@@ -2789,13 +2795,13 @@ POSTS = [
 },
 {
  "slug": "tekne-ismi-grafik-uygulamasi", "slug_en": "boat-name-graphics",
- "image": "/assets/images/services/boya.jpg", "date": "2026-10-28",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-04-14",
  "tr": {
    "category": "Boya",
    "title": "Tekne İsmi ve Grafik Uygulaması: Temiz Bir Sonuç İçin",
    "excerpt": "Tekne ismi, kılavuz şerit ve grafikler nasıl uygulanır? Folyo mu boya mı, dayanıklılık ve temiz çizgi için ipuçları.",
-   "meta_title": "Tekne İsmi ve Grafik Uygulaması Rehberi | Tekne Usta",
-   "meta_desc": "Tekne ismi, kılavuz şerit (boot stripe) ve grafik uygulaması: folyo mu boya mı, malzeme seçimi, dayanıklılık ve temiz maskeleme için ipuçları.",
+   "meta_title": "Tekne İsmi Yazdırma: Folyo mu Boya mı? Ömür ve Uygulama",
+   "meta_desc": "Tekne ismi ve grafik uygulaması: folyo ile boyanın ömrü ve farkı, malzeme seçimi, temiz maskeleme ve kılavuz şerit ipuçları. Hangisi teknenize uyar?",
    "body": """
 <p>Teknenizin ismi ve şeritleri, karakterini tamamlayan detaylardır. İyi uygulanmış bir grafik yıllarca keskin durur; kötü uygulananı ise kısa sürede kalkar ve kenarlarından su alır.</p>
 <h2>Folyo mu, boya mı?</h2>
@@ -2827,45 +2833,83 @@ POSTS = [
 },
 {
  "slug": "kalafat-nedir", "slug_en": "caulking-explained",
- "image": "/assets/images/services/ahsap.jpg", "date": "2026-11-11",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2025-04-20",
  "tr": {
    "category": "Ahşap",
-   "title": "Kalafat Nedir? Ahşap Teknede Su Sızdırmazlığın Temeli",
-   "excerpt": "Kalafat neden gerekli, ne zaman yenilenmeli ve modern yöntemler nelerdir? Ahşap tekne sahipleri için temel bilgiler.",
-   "meta_title": "Kalafat Nedir? Ahşap Tekne Kalafat Rehberi | Tekne Usta",
-   "meta_desc": "Kalafat nedir, ahşap teknede neden gereklidir ve ne zaman yenilenmeli? Geleneksel ve modern kalafat yöntemleri, su sızdırmazlık ve bakım.",
+   "title": "Kalafat Nedir? Fiyat, Süre, Yöntemler ve Ne Zaman Yenilenir",
+   "excerpt": "Kalafat neden gerekli, üstüpü mü esnek dolgu mu, ne kadar sürer ve fiyatı neye göre belirlenir? Ahşap tekne sahipleri için tam rehber.",
+   "meta_title": "Kalafat Nedir? Süresi, Fiyatı Neye Bağlı ve Su Alan Tekneye Çözüm",
+   "meta_desc": "Kalafat nedir, kaç yılda bir yenilenir, kaç gün sürer, fiyatı hangi 4 kaleme bağlı? Üstüpü vs. esnek dolgu, sık yapılan hatalar ve su alan ahşap tekne için çözüm.",
+   "faqs": [
+     {"q": "Kalafat ne kadar sürer?", "a": "Küçük bir ahşap teknede (8–10 m) bölgesel kalafat 2–4 gün; tüm karinanın sökülüp yeniden kalafatlanması ahşabın kuruma süresiyle birlikte 2–4 hafta alır. Süreyi asıl belirleyen, derzlerin ne kadar açılması gerektiği ve ahşabın nem durumudur."},
+     {"q": "Kalafat fiyatı neye göre belirlenir?", "a": "Toplam derz uzunluğu (tekne boyu ve kaplama tahtası sayısı), eski kalafatın sökülme zorluğu, seçilen malzeme (üstüpü + macun ya da poliüretan/polisülfit dolgu) ve derz altında çürük çıkma ihtimali fiyatı belirler. Ahşap renovasyon işlerinde metre başı fiyatlandırma yapıyoruz; keşif sonrası kalem kalem teklif veriyoruz."},
+     {"q": "Kalafat yerine epoksi dolgu yapılır mı?", "a": "Geleneksel karvel kaplamada hayır: ahşap hareket ettiği için sert epoksi çatlar ve derzi yırtar. Epoksi ancak soğuk kalıplı ya da kontrplak teknelerde, hareket etmeyen yapıda kullanılır. Hareket eden derzde esnek dolgu veya üstüpü şarttır."},
+     {"q": "Teknem su alıyor; kesin kalafat mı gerekir?", "a": "Her zaman değil. Kışı karada geçiren tekne suya indiğinde ilk 1–2 hafta ahşap şişene kadar hafif su alabilir. Bu süre geçtiği hâlde sızıntı sürüyorsa, derzlerde kabarma ya da dökülen macun görüyorsanız kalafat zamanı gelmiştir."},
+   ],
    "body": """
 <p>Kalafat, ahşap teknelerde kaplama tahtaları arasındaki derzlerin su geçirmez hâle getirilmesidir. Yüzyıllardır teknenin su üstünde kalmasını sağlayan bu işçilik, doğru yapıldığında ahşap teknenin en kritik güvencesidir.</p>
 <h2>Kalafat neden gerekli?</h2>
 <p>Ahşap, nemle şişer ve kururken büzülür. Bu hareket derzlerin açılıp kapanmasına yol açar. Kalafat malzemesi bu hareketi karşılayacak esneklikte olmalı; hem su tutmalı hem çatlamamalıdır.</p>
 <h2>Geleneksel ve modern yöntemler</h2>
 <p>Geleneksel yöntemde derzlere üstüpü (pamuk/keten) çakılır ve üzeri macunla kapatılır. Modern uygulamalarda esnek poliüretan/polisülfit dolgular kullanılır. Doğru yöntem, teknenin yapısına ve yaşına göre seçilir.</p>
+<h2>Üstüpü mü, esnek dolgu mu?</h2>
+<table>
+<thead><tr><th></th><th>Üstüpü + macun (geleneksel)</th><th>Poliüretan / polisülfit dolgu (modern)</th></tr></thead>
+<tbody>
+<tr><td>Uygun tekne</td><td>Klasik karvel kaplama, eski tekneler</td><td>Dar ve düzgün derzler, yeni/iyi durumdaki kaplama</td></tr>
+<tr><td>Ömür</td><td>5–10 yıl, bölgesel yenileme kolay</td><td>10+ yıl, yenileme için tam söküm gerekir</td></tr>
+<tr><td>Ahşap hareketine tolerans</td><td>Yüksek (sıkışarak tutar)</td><td>İyi, ancak derz kenarı temiz ve astarlı olmalı</td></tr>
+<tr><td>İşçilik</td><td>Ustalık ister; derz genişliğine göre sıkılık ayarı kritik</td><td>Yüzey hazırlığı ve astar kritik; kuru ahşap şart</td></tr>
+</tbody>
+</table>
+<p>Pratikte çoğu klasik teknede ikisi birlikte kullanılır: derz dibine üstüpü çakılır, üstü esnek dolguyla kapatılır.</p>
+<h2>Kalafat ne kadar sürer?</h2>
+<p>Bölgesel bir yenileme (birkaç derz, su hattı çevresi) 2–4 gün alır. Tüm karina için eski kalafatın sökülmesi, derzlerin temizlenmesi, ahşabın kuruması, yeni kalafat ve macun/dolgu derken 2–4 hafta planlamak gerçekçidir. En çok zamanı ahşabın kuruması alır; ıslak derze yapılan kalafat kısa ömürlü olur.</p>
+<h2>Kalafat fiyatı neye göre belirlenir?</h2>
+<p>Dört kalem fiyatı belirler: <strong>toplam derz uzunluğu</strong> (tekne boyu × kaplama tahtası sayısı), <strong>eski kalafatın durumu</strong> (kolay dökülüyor mu, sertleşmiş mi), <strong>malzeme seçimi</strong> ve <strong>derz altında çıkabilecek çürük</strong>. Bu yüzden kalafat tek başına değil, ahşap renovasyon kapsamında metre başı fiyatlandırılır; keşif sonrası kalem kalem yazılı teklif veriyoruz. Kaba bir başlangıç aralığı için <a href="/arac/maliyet-tahmini/">maliyet tahmin aracını</a> kullanabilirsiniz.</p>
 <h2>Ne zaman yenilenmeli?</h2>
-<p>Su alan, derzleri kabaran veya kuruyup çatlayan bir teknede kalafat zamanı gelmiştir. Küçük sızıntıları ertelemek, altındaki ahşabın çürümesine yol açabilir.</p>
+<p>Su alan, derzleri kabaran veya kuruyup çatlayan bir teknede kalafat zamanı gelmiştir. Küçük sızıntıları ertelemek, altındaki ahşabın <a href="/blog/ahsap-curuk-onarimi/">çürümesine</a> yol açabilir. Suya yeni inen teknede ilk 1–2 haftalık hafif su alma ise normaldir; ahşap şişince kesilir.</p>
+<h2>Sık yapılan hatalar</h2>
+<ul>
+<li><strong>Islak derze kalafat:</strong> Ahşap kurumadan yapılan uygulama ilk sezon dökülür.</li>
+<li><strong>Üstüpüyü fazla sıkmak:</strong> Ahşap şişince kaplama tahtaları çatlar ya da perçinler zorlanır.</li>
+<li><strong>Sert epoksiyle derz kapatmak:</strong> Hareket eden derzde epoksi çatlar ve sökülmesi çok zordur.</li>
+<li><strong>Astarsız dolgu:</strong> Modern dolgular astar olmadan ahşaba yapışmaz, derzden ayrılır.</li>
+</ul>
 <p>Kalafat ve kaplama işlerini <a href="/hizmetler/ahsap-tekne-renovasyonu/">ahşap tekne renovasyonu</a> hizmetimiz kapsamında yapıyoruz. Ahşap bakımı hakkında daha fazlası için <a href="/blog/ahsap-tekne-vernik-bakimi/">vernik bakımı</a> yazımıza da bakın.</p>
 """,
  },
  "en": {
    "category": "Wood",
-   "title": "What Is Caulking? The Basis of Watertightness in Wooden Boats",
+   "title": "Boat Caulking Explained: How Long It Lasts, Methods and When to Renew",
    "excerpt": "Why is caulking needed, when should it be renewed, and what are the modern methods? Essentials for wooden boat owners.",
-   "meta_title": "What Is Caulking? Wooden Boat Caulking Guide | Tekne Usta",
-   "meta_desc": "What is caulking, why is it needed on a wooden boat and when should it be renewed? Traditional and modern caulking methods, watertightness and care.",
+   "meta_title": "Boat Caulking Explained: Lifespan, Methods and When to Renew",
+   "meta_desc": "What caulking is, how long it lasts and the signs a wooden hull needs re-caulking. Traditional oakum vs modern seam compounds, and what affects the price.",
+   "faqs": [
+     {"q": "How long does boat caulking last?", "a": "Well-done caulking on a carvel hull typically lasts 5–10 years before seams need local attention; a full reef-out and re-caulk is usually a 15–20-year job. Boats that dry out for long periods on the hard, or sit in strong sun, need it sooner."},
+     {"q": "How long does re-caulking take?", "a": "On a small wooden boat (8–10 m), local re-caulking takes 2–4 days. Reefing out and re-caulking the whole hull takes 2–4 weeks including drying time. The number of seams to open and the moisture content of the wood set the pace."},
+     {"q": "Can I use epoxy instead of caulking?", "a": "Not on traditional carvel planking: the wood moves, so rigid epoxy cracks and tears the seam. Epoxy only suits cold-moulded or plywood hulls that don't move. A moving seam needs oakum or a flexible seam compound."},
+     {"q": "My boat leaks — does it definitely need caulking?", "a": "Not always. A boat that wintered ashore can take on some water for the first 1–2 weeks until the planking swells. If the leak continues after that, or you see lifting or crumbling stopping in the seams, caulking is due."},
+   ],
    "body": """
-<p>Caulking is making the seams between planking on a wooden boat watertight. This craft, which has kept boats afloat for centuries, is the wooden boat's most critical safeguard when done right.</p>
+<p><strong>Boat caulking</strong> makes the seams between a wooden hull's planks watertight — traditionally with oakum and stopping, today often with a flexible polyurethane or polysulphide compound. Done well it lasts roughly 5–10 years; a leak that continues after the planks have swelled, or cracked and lifting stopping, means it is time to renew.</p>
+<h2>How long does caulking last?</h2>
+<p>On a well-maintained carvel hull, seams usually need local attention every 5–10 years, and a full reef-out and re-caulk is a 15–20-year job. What shortens it: long spells drying out on the hard, strong sun on the topsides, and hard or unsuitable seam compound that cannot follow the wood's movement.</p>
 <h2>Why is caulking needed?</h2>
 <p>Wood swells with moisture and shrinks as it dries. This movement opens and closes the seams. The caulking material must be flexible enough to accommodate it — holding water out without cracking.</p>
 <h2>Traditional and modern methods</h2>
 <p>The traditional method drives oakum (cotton/flax) into the seams and covers it with a stopping compound. Modern applications use flexible polyurethane/polysulphide sealants. The right method is chosen for the boat's construction and age.</p>
 <h2>When should it be renewed?</h2>
 <p>A boat that leaks, has lifting seams or dried, cracked stopping is due for caulking. Postponing small leaks can rot the wood beneath.</p>
+<h2>What affects the price?</h2>
+<p>Four things set the cost: total seam length (boat length and number of planks), how hard the old caulking is to reef out, the material chosen (oakum + stopping or flexible compound), and whether rot turns up under the seams once they are opened. We price wooden-boat work per metre and give an itemised quote after inspection.</p>
 <p>We do caulking and planking under our <a href="/en/services/wooden-boat-refit/">wooden boat refit</a> service. For more on wood care, see our <a href="/en/blog/wooden-boat-varnish-care/">varnish care</a> article.</p>
 """,
  },
 },
 {
  "slug": "kisin-tekne-nerede-saklanir", "slug_en": "winter-boat-storage",
- "image": "/assets/images/services/bakim.jpg", "date": "2026-11-25",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-04-25",
  "tr": {
    "category": "Bakım",
    "title": "Kışın Tekne Nerede Saklanır? Karada, Suda ve Kapalı Depolama",
@@ -2886,11 +2930,12 @@ POSTS = [
  },
  "en": {
    "category": "Maintenance",
-   "title": "Where to Store a Boat in Winter? Ashore, Afloat and Indoors",
-   "excerpt": "Should you store a boat ashore, afloat or indoors in winter? The pros, risks and cost of each option.",
-   "meta_title": "Where to Store a Boat in Winter? Storage Guide | Tekne Usta",
-   "meta_desc": "Winter boat storage options: ashore (hardstand), afloat (marina) and indoor storage. The advantages, risks, cost of each and which suits you.",
+   "title": "Wintering a Boat in Turkey: Ashore, Afloat or Indoors?",
+   "excerpt": "Winter boat storage in Turkey: hardstand, afloat in a marina or indoors. Which suits your boat, what it costs on the Turkish coast and how winter work fits in.",
+   "meta_title": "Winter Boat Storage in Turkey: Ashore vs Afloat vs Indoor | Tekne Usta",
+   "meta_desc": "Where to winter a boat in Turkey: hardstand at Marmaris, Göcek, Bodrum or Tuzla, afloat in a marina, or indoors. Cost logic, pros and cons, and how to combine storage with winter refit work.",
    "body": """
+<p><strong>Turkey is one of the cheapest and safest places in the Mediterranean to leave a boat for winter</strong> — mild weather, secure marinas and boatyards in Marmaris, Göcek, Fethiye, Bodrum and Istanbul, and skilled labour on site for winter work. Here is how to choose between ashore, afloat and indoor storage.</p>
 <p>When winter comes, boat owners' first question is: "Where do I store the boat?" There are three main options; the right one depends on your boat, budget and region.</p>
 <h2>Ashore (hardstand)</h2>
 <p>The most common option. The boat is hauled out, propped and covered. <strong>Pros:</strong> the hull dries, underwater work is easy, osmosis risk drops. <strong>Watch for:</strong> correct propping and a ventilated cover are essential.</p>
@@ -2905,7 +2950,7 @@ POSTS = [
 },
 {
  "slug": "tekne-doseme-kumas-secimi", "slug_en": "marine-upholstery-fabric",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2026-12-09",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2025-04-30",
  "tr": {
    "category": "İç Mekan",
    "title": "Tekne Döşeme Kumaşı Seçimi: Denize Dayanıklı ve Şık",
@@ -2943,7 +2988,7 @@ POSTS = [
 },
 {
  "slug": "ikinci-el-tekne-alim-rehberi", "slug_en": "used-boat-buying-guide",
- "image": "/assets/images/hakkimizda.jpg", "date": "2026-12-23",
+ "image": "/assets/images/hakkimizda.jpg", "date": "2025-05-05",
  "tr": {
    "category": "Rehber",
    "title": "İkinci El Tekne Alım Rehberi: Doğru Tekneyi Seçmek",
@@ -2983,7 +3028,7 @@ POSTS = [
 },
 {
  "slug": "ahsap-tekne-restorasyon-vaka", "slug_en": "wooden-restoration-case-study",
- "image": "/assets/images/services/ahsap.jpg", "date": "2027-01-06",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2025-05-10",
  "tr": {
    "category": "Vaka Çalışması",
    "title": "Vaka Çalışması: 1970 Model Klasik Ahşap Yelkenlinin Restorasyonu",
@@ -3027,7 +3072,7 @@ POSTS = [
 },
 {
  "slug": "fiberglas-tekne-bakimi", "slug_en": "fibreglass-boat-care",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2027-01-20",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-05-16",
  "tr": {
    "category": "Fiberglas",
    "title": "Fiberglas Tekne Bakımı: Yıllarca Sağlam Kalması İçin",
@@ -3065,7 +3110,7 @@ POSTS = [
 },
 {
  "slug": "polyester-vs-epoksi-recine", "slug_en": "polyester-vs-epoxy-resin",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2027-02-03",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-05-21",
  "tr": {
    "category": "Fiberglas",
    "title": "Polyester mi Epoksi Reçine mi? Onarımda Doğru Seçim",
@@ -3103,7 +3148,7 @@ POSTS = [
 },
 {
  "slug": "su-alti-yapisal-onarim", "slug_en": "underwater-structural-repair",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2027-02-17",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-05-26",
  "tr": {
    "category": "Fiberglas",
    "title": "Su Altı Yapısal Onarım: Karina, Omurga ve Bodoslama",
@@ -3123,11 +3168,12 @@ POSTS = [
  },
  "en": {
    "category": "Fibreglass",
-   "title": "Underwater Structural Repair: Hull, Keel and Stem",
+   "title": "Underwater Structural Repair in Turkey: Hull, Keel and Stem Damage",
    "excerpt": "How is underwater repair done after grounding, impact or structural damage? A matter critical to safety.",
-   "meta_title": "Underwater Structural Repair Guide | Tekne Usta",
-   "meta_desc": "Underwater structural repair: how hull, keel and stem damage is repaired. Structural reinforcement and safety after grounding and impact.",
+   "meta_title": "Underwater Hull & Keel Repair in Turkey | Tekne Usta",
+   "meta_desc": "Grounding or keel damage while cruising Turkey? Underwater structural repair — hull, keel, stem — at yards in Marmaris, Göcek, Fethiye, Bodrum and Istanbul. Survey, lamination, insurance-grade documentation.",
    "body": """
+<p><strong>Grounded on the Turkish coast?</strong> Structural hull, keel and stem repairs are done properly at yards along the Aegean and Med — with moisture readings, lamination schedules and the photo documentation your insurer will ask for. This guide explains the process and how we handle insurance claims for foreign-flagged yachts.</p>
 <p>A boat's underwater section carries all the load. Grounding, striking a rock or years of fatigue can leave structural damage in the hull, keel and stem. This is not cosmetic work but safety work.</p>
 <h2>Why is structural damage serious?</h2>
 <p>A crack or delamination in the underwater structure leads to water ingress and, over time, a weakened structure. A small visible mark can hide serious layer separation beneath.</p>
@@ -3141,7 +3187,7 @@ POSTS = [
 },
 {
  "slug": "ahsap-curuk-onarimi", "slug_en": "wood-rot-repair",
- "image": "/assets/images/services/ahsap.jpg", "date": "2027-03-03",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2025-05-31",
  "tr": {
    "category": "Ahşap",
    "title": "Ahşap Tekne Çürük Onarımı: Nasıl Yapılır, Önlenir mi?",
@@ -3179,7 +3225,7 @@ POSTS = [
 },
 {
  "slug": "epoksi-ile-ahsap-guclendirme", "slug_en": "epoxy-wood-reinforcement",
- "image": "/assets/images/services/ahsap.jpg", "date": "2027-03-17",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2025-06-06",
  "tr": {
    "category": "Ahşap",
    "title": "Epoksi ile Ahşap Güçlendirme: Gelenek ve Modern Bir Arada",
@@ -3217,7 +3263,7 @@ POSTS = [
 },
 {
  "slug": "ahsap-tekne-boyama", "slug_en": "wooden-boat-painting",
- "image": "/assets/images/services/ahsap.jpg", "date": "2027-03-31",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2025-06-11",
  "tr": {
    "category": "Ahşap",
    "title": "Ahşap Tekne Boyama: Vernik mi, Boya mı, Ne Zaman?",
@@ -3255,13 +3301,13 @@ POSTS = [
 },
 {
  "slug": "klasik-tekne-turleri", "slug_en": "classic-boat-types",
- "image": "/assets/images/services/ahsap.jpg", "date": "2027-04-14",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2025-06-16",
  "tr": {
    "category": "Ahşap",
    "title": "Klasik Ahşap Tekne Türleri: Tirhandil, Gulet, Aynakıç",
    "excerpt": "Türk denizciliğinin klasik ahşap tekne tipleri ve her birinin karakteri, kullanımı ve bakım özellikleri.",
-   "meta_title": "Klasik Ahşap Tekne Türleri Rehberi | Tekne Usta",
-   "meta_desc": "Klasik ahşap tekne türleri: tirhandil, gulet, aynakıç ve tknelerin karakteri, kullanımı ve bakım özellikleri. Türk denizciliğinin ahşap mirası.",
+   "meta_title": "Klasik Ahşap Tekne Türleri: Tirhandil, Gulet, Aynakıç Farkları",
+   "meta_desc": "Tirhandil, gulet, aynakıç ve diğer klasik ahşap tekneler nasıl ayrılır? Her tipin karakteri, kullanımı ve bakımda dikkat edilecek zayıf noktaları.",
    "body": """
 <p>Türk denizciliğinin ahşap mirası zengindir. Her tekne tipi, yörenin denizine ve kullanımına göre şekillenmiştir. İşte en bilinen klasik ahşap tekne türleri ve karakterleri.</p>
 <h2>Tirhandil</h2>
@@ -3278,8 +3324,8 @@ POSTS = [
    "category": "Wood",
    "title": "Classic Wooden Boat Types: Tirhandil, Gulet, Transom",
    "excerpt": "The classic wooden boat types of Turkish seafaring and each one's character, use and maintenance traits.",
-   "meta_title": "Classic Wooden Boat Types Guide | Tekne Usta",
-   "meta_desc": "Classic wooden boat types: tirhandil, gulet, transom-stern boats and their character, use and maintenance traits. Turkish seafaring's wooden heritage.",
+   "meta_title": "Turkish Classic Wooden Boats: Gulet, Tirhandil and Aynakıç Explained",
+   "meta_desc": "How to tell a gulet, tirhandil and transom-stern aynakıç apart: character, sailing use and the maintenance weak spots each type is known for.",
    "body": """
 <p>Turkish seafaring's wooden heritage is rich. Each boat type is shaped by its region's sea and use. Here are the best-known classic wooden boat types and their characters.</p>
 <h2>Tirhandil</h2>
@@ -3295,21 +3341,30 @@ POSTS = [
 },
 {
  "slug": "2k-poliuretan-boya", "slug_en": "2k-polyurethane-paint",
- "image": "/assets/images/services/boya.jpg", "date": "2027-04-28",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-06-21",
  "tr": {
    "category": "Boya",
    "title": "2K Poliüretan Boya Nedir? Neden Süperyat Kalitesi?",
    "excerpt": "İki bileşenli (2K) poliüretan boya nedir, tek bileşenliye göre farkı ne ve neden dayanıklı bir bitiş sağlar?",
-   "meta_title": "2K Poliüretan Boya Nedir? Rehber | Tekne Usta",
-   "meta_desc": "2K poliüretan boya nedir, tek bileşenli boyaya göre farkı ne? İki bileşenli boyanın dayanıklılığı, parlaklığı, uygulama koşulları ve avantajları.",
+   "meta_title": "2K Poliüretan Tekne Boyası: Fiyat, Dayanım, Uygulama | Tekne Usta",
+   "meta_desc": "2K poliüretan tekne boyası 1K'dan ne kadar dayanıklı, neden daha pahalı, kaç yıl gider? Karışım oranı, sıcaklık-nem şartları ve uygulama hataları tek yazıda.",
    "body": """
 <p>Süperyatların derin, cam gibi parlaklığının sırrı çoğu zaman iki bileşenli (2K) poliüretan boyadır. Peki bu boya nedir ve neden bu kadar iyi bir sonuç verir?</p>
 <h2>2K ne demek?</h2>
 <p>2K, boyanın bir ana bileşen ve bir sertleştiriciden oluşması demektir. Karıştırıldığında kimyasal olarak kürlenir ve çok sert, dayanıklı bir film oluşturur. Tek bileşenli (1K) boyalar ise havayla kurur ve daha yumuşak kalır.</p>
 <h2>Avantajları</h2>
 <p>Yüksek ve kalıcı parlaklık, mükemmel UV ve kimyasal direnç, uzun ömür. Doğru uygulandığında yıllarca ilk günkü gibi durur.</p>
+<h2>Kaç yıl gider? 1K ile fark</h2>
+<p>İyi uygulanmış 2K poliüretan, parlaklığını 7–10 yıl korur; 1K boyalar genelde 2–4 yılda matlaşır ve tebeşirlenir. Yüzey sertliği 1K'nın yaklaşık iki katıdır: ip sürtmesi, usturmaça izi ve yakıt/temizlik kimyasallarına karşı çok daha dirençlidir. Buna karşılık 2K daha az esnektir; ahşap teknede hareket eden yüzeylerde çatlak riski için astar sistemi doğru seçilmelidir.</p>
 <h2>Uygulama koşulları</h2>
 <p>2K sistemler ustalık ister: doğru karışım oranı, sıcaklık/nem koşulları, tozsuz ortam ve uygun ekipman. Bu yüzden kaliteli bir 2K uygulaması yüzey hazırlığı ve işçilikle bir bütündür — <a href="/blog/tekne-boyama-maliyeti/">maliyeti</a> de bu yüzden 1K'ya göre yüksektir.</p>
+<h2>Sık yapılan uygulama hataları</h2>
+<ul>
+<li><strong>Yanlış karışım oranı:</strong> Göz kararı karışım kürlenmeyi bozar; boya ya yumuşak kalır ya kırılganlaşır.</li>
+<li><strong>Nemli/soğuk ortam:</strong> %65 üzeri nem ve 15 °C altı sıcaklıkta yüzeyde matlaşma ve portakal kabuğu görülür.</li>
+<li><strong>Pot life'ı aşmak:</strong> Karışım genelde 4–8 saat içinde kullanılmalı; jelleşmiş boya asla incelticiyle "açılmaz".</li>
+<li><strong>Astar uyumsuzluğu:</strong> 2K son kat, 1K astar üzerine atılırsa altını kaldırır. Sistem baştan sona aynı üreticiden seçilmelidir.</li>
+</ul>
 <p>Teknenize 2K poliüretan uygulamasını <a href="/hizmetler/tekne-boyama-antifouling/">tekne boyama</a> hizmetimiz kapsamında yapıyoruz.</p>
 """,
  },
@@ -3333,7 +3388,7 @@ POSTS = [
 },
 {
  "slug": "tekne-renk-degisimi", "slug_en": "boat-colour-change",
- "image": "/assets/images/services/boya.jpg", "date": "2027-05-12",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-06-27",
  "tr": {
    "category": "Boya",
    "title": "Tekne Renk Değişimi: Yeni Bir Kimlik İçin Bilmeniz Gerekenler",
@@ -3371,7 +3426,7 @@ POSTS = [
 },
 {
  "slug": "su-hatti-boyama", "slug_en": "waterline-boot-stripe",
- "image": "/assets/images/services/boya.jpg", "date": "2027-05-26",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-07-02",
  "tr": {
    "category": "Boya",
    "title": "Su Hattı ve Kılavuz Şerit (Boot Stripe) Boyama",
@@ -3393,8 +3448,8 @@ POSTS = [
    "category": "Painting",
    "title": "Waterline and Boot Stripe Painting",
    "excerpt": "Why does waterline paint matter, how is a boot stripe applied cleanly, and why does it need extra care?",
-   "meta_title": "Waterline and Boot Stripe Painting Guide | Tekne Usta",
-   "meta_desc": "Waterline and boot stripe painting: the right line, clean masking, durable paint and why the waterline needs extra care.",
+   "meta_title": "Boot Stripe and Waterline Painting: Getting a Clean Line That Lasts",
+   "meta_desc": "How to paint a boot stripe and waterline that stays sharp: finding the true line, masking, paint choice and why this band fails first. Yard tips from Turkey.",
    "body": """
 <p>The boot stripe is the thin coloured band emphasising a boat's waterline. Small as it looks, it matters both for looks and for protecting the waterline — the most worn zone.</p>
 <h2>Why extra care?</h2>
@@ -3409,7 +3464,7 @@ POSTS = [
 },
 {
  "slug": "teak-derz-yenileme", "slug_en": "teak-seam-renewal",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2027-06-09",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2025-07-07",
  "tr": {
    "category": "Teak",
    "title": "Teak Derz Yenileme: Su Sızdırmazlığı Geri Kazanmak",
@@ -3447,7 +3502,7 @@ POSTS = [
 },
 {
  "slug": "teak-guverte-fiyatlari", "slug_en": "teak-deck-cost",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2027-06-23",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2025-07-12",
  "tr": {
    "category": "Teak",
    "title": "Teak Güverte Döşeme Fiyatını Ne Belirler?",
@@ -3495,7 +3550,7 @@ POSTS = [
 },
 {
  "slug": "sentetik-teak-markalari", "slug_en": "synthetic-teak-brands",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2027-07-07",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2025-07-18",
  "tr": {
    "category": "Teak",
    "title": "Sentetik Teak Seçerken Nelere Bakmalı?",
@@ -3541,7 +3596,7 @@ POSTS = [
 },
 {
  "slug": "ic-mekan-yenileme-fikirleri", "slug_en": "interior-refit-ideas",
- "image": "/assets/images/services/bakim.jpg", "date": "2027-07-21",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-07-23",
  "tr": {
    "category": "İç Mekan",
    "title": "Tekne İç Mekan Yenileme Fikirleri: Küçük Alanı Büyütmek",
@@ -3581,7 +3636,7 @@ POSTS = [
 },
 {
  "slug": "teknede-kuf-nem-onleme", "slug_en": "preventing-mould-damp",
- "image": "/assets/images/services/bakim.jpg", "date": "2027-08-04",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-07-28",
  "tr": {
    "category": "İç Mekan",
    "title": "Teknede Küf ve Nem Önleme: Sağlıklı Bir İç Mekan",
@@ -3627,7 +3682,7 @@ POSTS = [
 },
 {
  "slug": "kabin-led-aydinlatma", "slug_en": "cabin-led-lighting",
- "image": "/assets/images/services/bakim.jpg", "date": "2027-08-18",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-08-02",
  "tr": {
    "category": "İç Mekan",
    "title": "Tekne Kabin LED Aydınlatma: Verimli ve Şık",
@@ -3665,7 +3720,7 @@ POSTS = [
 },
 {
  "slug": "tekne-mutfagi-yenileme", "slug_en": "galley-refit",
- "image": "/assets/images/services/bakim.jpg", "date": "2027-09-01",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-08-07",
  "tr": {
    "category": "İç Mekan",
    "title": "Tekne Mutfağı (Galley) Yenileme: Küçük Alanda Konfor",
@@ -3703,7 +3758,7 @@ POSTS = [
 },
 {
  "slug": "tekne-ortusu-secimi", "slug_en": "boat-cover-selection",
- "image": "/assets/images/services/bakim.jpg", "date": "2027-09-15",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-08-13",
  "tr": {
    "category": "Bakım",
    "title": "Tekne Örtüsü Seçimi: Kışlatmada Doğru Koruma",
@@ -3741,7 +3796,7 @@ POSTS = [
 },
 {
  "slug": "anot-zinc-bakimi", "slug_en": "anode-zinc-care",
- "image": "/assets/images/services/bakim.jpg", "date": "2027-09-29",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-08-18",
  "tr": {
    "category": "Bakım",
    "title": "Anot (Zinc) Bakımı: Galvanik Korozyondan Korunma",
@@ -3779,7 +3834,7 @@ POSTS = [
 },
 {
  "slug": "marina-vs-cekek", "slug_en": "marina-vs-hardstand",
- "image": "/assets/images/services/bakim.jpg", "date": "2027-10-13",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-08-23",
  "tr": {
    "category": "Bakım",
    "title": "Marina mı Çekek mi? Bakım İçin Doğru Yer",
@@ -3801,8 +3856,8 @@ POSTS = [
    "category": "Maintenance",
    "title": "Marina or Hardstand? The Right Place for Maintenance",
    "excerpt": "For maintenance and storage, the difference between a marina (afloat) and hardstand (ashore), cost and which when?",
-   "meta_title": "Marina or Hardstand? A Maintenance Guide | Tekne Usta",
-   "meta_desc": "Marina vs hardstand comparison: maintenance and storage afloat or ashore? Cost, access, hull maintenance and which suits which job.",
+   "meta_title": "Marina vs Hardstand in Turkey: Costs and Which Jobs Need a Haul-Out",
+   "meta_desc": "Afloat or hauled out for refit work in Turkey? Daily costs, access and which jobs can only be done ashore — Marmaris, Göcek, Bodrum, Fethiye and Istanbul yards.",
    "body": """
 <p>A decision boat owners often face: for maintenance and storage, stay in the marina (afloat) or haul out to the hardstand (ashore)? Both have their place.</p>
 <h2>Marina (afloat)</h2>
@@ -3817,7 +3872,7 @@ POSTS = [
 },
 {
  "slug": "tekne-sahipligi-maliyeti", "slug_en": "cost-of-boat-ownership",
- "image": "/assets/images/hakkimizda.jpg", "date": "2027-10-27",
+ "image": "/assets/images/hakkimizda.jpg", "date": "2025-08-28",
  "tr": {
    "category": "Rehber",
    "title": "Tekne Sahibi Olmanın Yıllık Maliyeti: Gerçekçi Bir Bakış",
@@ -3867,7 +3922,7 @@ POSTS = [
 },
 {
  "slug": "tekne-tipleri-rehberi", "slug_en": "boat-types-guide",
- "image": "/assets/images/parallax-2.jpg", "date": "2027-11-10",
+ "image": "/assets/images/parallax-2.jpg", "date": "2025-09-03",
  "tr": {
    "category": "Rehber",
    "title": "Tekne Tipleri Rehberi: Motoryat, Yelkenli, RIB ve Klasik",
@@ -3909,7 +3964,7 @@ POSTS = [
 },
 {
  "slug": "blister-vs-osmoz-farki", "slug_en": "blister-vs-osmosis",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2027-11-24",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-09-08",
  "tr": {
    "category": "Fiberglas",
    "title": "Blister mı Osmoz mu? Karina Kabarcıklarını Doğru Okumak",
@@ -3959,7 +4014,7 @@ POSTS = [
 },
 {
  "slug": "metalik-efekt-boya", "slug_en": "metallic-effect-paint",
- "image": "/assets/images/services/boya.jpg", "date": "2027-12-08",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-09-13",
  "tr": {
    "category": "Boya",
    "title": "Tekne Metalik ve Özel Efekt Boya: Dikkat Çeken Bir Bitiş",
@@ -3997,7 +4052,7 @@ POSTS = [
 },
 {
  "slug": "sentetik-teak-alternatifleri", "slug_en": "synthetic-teak-alternatives",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2027-12-22",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2025-09-18",
  "tr": {
    "category": "Teak",
    "title": "Sentetik Teak Alternatifleri: Kortek, Flexiteek ve PVC Teak",
@@ -4039,7 +4094,7 @@ POSTS = [
 },
 {
  "slug": "tekne-perde-stor", "slug_en": "boat-curtains-blinds",
- "image": "/assets/images/services/bakim.jpg", "date": "2028-01-05",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-09-24",
  "tr": {
    "category": "İç Mekan",
    "title": "Tekne Perde ve Stor: Mahremiyet, Güneş ve Konfor",
@@ -4085,7 +4140,7 @@ POSTS = [
 },
 {
  "slug": "tekne-kiralama-vs-sahiplik", "slug_en": "boat-charter-vs-ownership",
- "image": "/assets/images/hakkimizda.jpg", "date": "2028-01-19",
+ "image": "/assets/images/hakkimizda.jpg", "date": "2025-09-29",
  "tr": {
    "category": "Rehber",
    "title": "Tekne Kiralama mı Sahiplik mi? Hangisi Size Uygun?",
@@ -4125,23 +4180,32 @@ POSTS = [
 },
 {
  "slug": "kekamoz-temizligi", "slug_en": "hull-limescale-cleaning",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2028-02-02",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-10-04",
  "tr": {
    "category": "Bakım",
-   "title": "Kekamoz Temizliği: Karinadaki İnatçı Kabuğu Sökmek",
+   "title": "Kekamoz Nasıl Temizlenir? Karinadaki Kabuğu Jelkota Zarar Vermeden Sökmek",
    "excerpt": "Kekamoz nedir, neden oluşur ve karinadan nasıl temizlenir? Su hattı ve gövdedeki inatçı kireç/kabuk sorununa çözüm.",
-   "meta_title": "Kekamoz Temizliği Nedir, Nasıl Yapılır? | Tekne Usta",
-   "meta_desc": "Kekamoz temizliği: karina ve su hattındaki inatçı kireç/kabuk tabakası nedir, neden oluşur ve nasıl güvenle temizlenir? Jelkota zarar vermeden temizlik.",
+   "meta_title": "Kekamoz Nasıl Temizlenir? Jelkota Zararsız 3 Yöntem",
+   "meta_desc": "Karinadaki kekamoz (kireç kabuğu) evde mi, ustada mı çıkar? 3 yöntem, hangi kimyasal jelkotu yakar, işlem kaç saat sürer ve ne zaman profesyonele bırakmalı.",
+   "faqs": [
+     {"q": "Kekamoz temizliği kaç saat sürer?", "a": "Taze kabukta basınçlı yıkama 8–10 m bir teknede 1–2 saatte biter. Sertleşmiş kabukta temizleyici uygulama, bekletme ve kontrollü raspayla birlikte genellikle yarım ile bir gün sürer."},
+     {"q": "Kekamoz temizleyici jelkota zarar verir mi?", "a": "Doğru ürün, üreticinin bekleme süresi aşılmadan kullanılırsa jelkota zarar vermez. Asıl risk metal raspa, kaba zımpara ve güçlü asitlerin uzun süre bekletilmesidir; bunlar jelkotu incelterek osmoz riskini artırır."},
+     {"q": "Kekamozu tekne suda iken temizleyebilir miyim?", "a": "Su hattındaki ince tabaka dalgıç ya da yüzeyden hafifçe alınabilir; ancak kalın ve sertleşmiş kekamoz için tekne karaya çekilmeli. Karada hem temizlik daha güvenli olur hem de ardından antifouling yenilenebilir."},
+   ],
    "body": """
+<p><strong>Kekamoz nasıl temizlenir?</strong> Tekne karaya çıkar çıkmaz taze kabuk basınçlı suyla, sertleşmiş kabuk asit bazlı kekamoz temizleyiciyle, kalan kalın noktalar plastik raspayla alınır; metal raspa ve kaba zımpara jelkotu incelttiği için kullanılmaz.</p>
 <p>"Kekamoz" olarak bilinen sert kabuk, teknenin su altı yüzeyinde ve su hattında zamanla biriken kireç, deniz canlısı kalıntısı ve mineral tabakasıdır. Görünüşü bozar, sürtünmeyi artırır ve ihmal edilirse jelkota yapışıp temizliği zorlaştırır.</p>
 <h2>Kekamoz neden oluşur?</h2>
 <p>Tekne suda kaldıkça karinaya yosun, midye ve kireç birikir. Antifouling zayıfladığında ya da tekne uzun süre hareketsiz kaldığında bu tabaka sertleşir ve normal yıkamayla çıkmaz hâle gelir.</p>
-<h2>Nasıl temizlenir?</h2>
+<h2>Nasıl temizlenir? 3 yöntem</h2>
 <ul>
-<li><strong>Zamanında müdahale:</strong> Tekne karaya çekilir çekilmez basınçlı yıkama — kuruyup sertleşmeden çıkarmak çok daha kolaydır.</li>
-<li><strong>Kontrollü kimyasal/mekanik:</strong> Sertleşmiş kabuk, jelkota zarar vermeyecek uygun yöntemle sökülür. Aşırı sert raspa jelkotu incelttiği için dikkat gerekir.</li>
-<li><strong>Sonrası:</strong> Temiz yüzeye <a href="/hizmetler/tekne-boyama-antifouling/">antifouling</a> yenilenir; böylece bir sonraki sezon kabuk baştan azalır.</li>
+<li><strong>1. Basınçlı yıkama (taze kabuk):</strong> Tekne karaya çekilir çekilmez uygulanır; kuruyup sertleşmeden çıkarmak çok daha kolaydır. Yumuşak kabuğun büyük kısmı bu aşamada gider.</li>
+<li><strong>2. Asit bazlı kekamoz temizleyici (sertleşmiş kabuk):</strong> Kireç tabakasını çözen jel/sıvı temizleyici sürülür, bekletilir, yıkanır. Jelkota en az zarar veren yöntemdir; ancak paslanmaz donanım, alüminyum ve anotlara temas etmemeli, ürün süresi aşılmamalı.</li>
+<li><strong>3. Kontrollü raspa (kalın, eski tabaka):</strong> Plastik raspa veya ince zımpara ile, temizleyici sonrası kalan noktalarda. Metal raspa ve kaba zımpara jelkotu inceltir; osmoz riskini artırır.</li>
 </ul>
+<p>Temiz yüzeye <a href="/hizmetler/tekne-boyama-antifouling/">antifouling</a> yenilenir; böylece bir sonraki sezon kabuk baştan azalır.</p>
+<h2>Kendin yap mı, profesyonel mi?</h2>
+<p>Su hattındaki ince bir çizgi ve taze kabuk için basınçlı yıkama + hazır temizleyici yeterlidir; kendiniz yapabilirsiniz. Tüm karinayı kaplayan sertleşmiş tabaka, jelkotta çizik/incelme belirtileri ya da altında blister şüphesi varsa işi profesyonele bırakın: yanlış kimyasal veya sert raspa, temizlikten çok daha pahalı bir <a href="/hizmetler/fiberglas-onarim/">jelkot onarımına</a> dönüşür.</p>
 <h2>Önleme</h2>
 <p>Düzenli karina bakımı ve zamanında antifouling yenileme, kekamozu büyük ölçüde önler. <a href="/blog/tekne-cekek-karaya-cekme/">Karaya çekme</a> ve <a href="/blog/yillik-tekne-bakim-takvimi/">yıllık bakım</a> planı bu birikimi kontrol altında tutar.</p>
 <p>Karinadaki inatçı kabuğu jelkota zarar vermeden <a href="/hizmetler/tekne-kislatma/">bakım</a> hizmetimiz kapsamında temizliyoruz.</p>
@@ -4171,7 +4235,7 @@ POSTS = [
 },
 {
  "slug": "karbon-ile-guclendirme", "slug_en": "carbon-reinforcement",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2028-02-16",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-10-09",
  "tr": {
    "category": "Fiberglas",
    "title": "Karbon Fiber ile Tekne Güçlendirme: Ne Zaman Gerekir?",
@@ -4217,7 +4281,7 @@ POSTS = [
 },
 {
  "slug": "ikinci-el-tekne-10-kritik-nokta", "slug_en": "used-boat-10-checks",
- "image": "/assets/images/hakkimizda.jpg", "date": "2028-03-01",
+ "image": "/assets/images/hakkimizda.jpg", "date": "2025-10-15",
  "tr": {
    "category": "Rehber",
    "title": "İkinci El Tekne Alırken 10 Kritik Nokta",
@@ -4283,7 +4347,7 @@ POSTS = [
 },
 {
  "slug": "raspa-kumlama", "slug_en": "blasting-soda-blasting",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2028-03-15",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-10-20",
  "tr": {
    "category": "Boya",
    "title": "Raspa ve Kumlama: Eski Boyayı Doğru Sökmek",
@@ -4331,7 +4395,7 @@ POSTS = [
 },
 {
  "slug": "gelcoat-cizik-sararma-giderme", "slug_en": "gelcoat-scratch-yellowing",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2028-03-29",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-10-25",
  "tr": {
    "category": "Fiberglas",
    "title": "Gelcoat Çizik ve Sararma Giderme: Parlaklığı Geri Kazanmak",
@@ -4379,7 +4443,7 @@ POSTS = [
 },
 {
  "slug": "sintine-boyasi", "slug_en": "bilge-paint",
- "image": "/assets/images/services/boya.jpg", "date": "2028-04-12",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-10-30",
  "tr": {
    "category": "Boya",
    "title": "Sintine Boyası: Teknenin Görünmeyen Ama Önemli Yüzeyi",
@@ -4417,7 +4481,7 @@ POSTS = [
 },
 {
  "slug": "boya-oncesi-yuzey-hazirligi", "slug_en": "surface-prep-before-painting",
- "image": "/assets/images/services/boya.jpg", "date": "2028-04-26",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-11-04",
  "tr": {
    "category": "Boya",
    "title": "Boya Öncesi Yüzey Hazırlığı: Kalıcı Bitişin Görünmeyen Sırrı",
@@ -4465,7 +4529,7 @@ POSTS = [
 },
 {
  "slug": "aluminyum-tekne-boyama", "slug_en": "aluminium-boat-painting",
- "image": "/assets/images/services/boya.jpg", "date": "2028-05-10",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-11-10",
  "tr": {
    "category": "Boya",
    "title": "Alüminyum Tekne Boyama: Neden Farklı, Neye Dikkat?",
@@ -4507,7 +4571,7 @@ POSTS = [
 },
 {
  "slug": "birmanya-teak-nedir", "slug_en": "burmese-teak",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2028-05-24",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2025-11-15",
  "tr": {
    "category": "Teak",
    "title": "Birmanya Teak Nedir? Neden Denizciliğin Altın Standardı",
@@ -4555,7 +4619,7 @@ POSTS = [
 },
 {
  "slug": "teak-yagi-surulmeli-mi", "slug_en": "should-you-oil-teak",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2028-06-07",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2025-11-20",
  "tr": {
    "category": "Teak",
    "title": "Teak Yağı Sürülmeli mi? Tartışmalı Konuya Net Bakış",
@@ -4605,7 +4669,7 @@ POSTS = [
 },
 {
  "slug": "ustupu-kalafat-teknikleri", "slug_en": "oakum-caulking-techniques",
- "image": "/assets/images/services/ahsap.jpg", "date": "2028-06-21",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2025-11-25",
  "tr": {
    "category": "Ahşap",
    "title": "Üstüpü ve Geleneksel Kalafat Teknikleri",
@@ -4653,7 +4717,7 @@ POSTS = [
 },
 {
  "slug": "tekne-folyo-kaplama", "slug_en": "boat-vinyl-wrap",
- "image": "/assets/images/services/boya.jpg", "date": "2028-07-05",
+ "image": "/assets/images/services/boya.jpg", "date": "2025-12-01",
  "tr": {
    "category": "Boya",
    "title": "Tekne Folyo Kaplama: Boyaya Alternatif mi, Tamamlayıcı mı?",
@@ -4711,7 +4775,7 @@ POSTS = [
 },
 {
  "slug": "robotik-karina-temizligi", "slug_en": "robotic-hull-cleaning",
- "image": "/assets/images/services/bakim.jpg", "date": "2028-07-19",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-12-06",
  "tr": {
    "category": "Bakım",
    "title": "Robotik Karina Temizliği: Yeni Teknoloji Neyi Değiştiriyor?",
@@ -4767,7 +4831,7 @@ POSTS = [
 },
 {
  "slug": "tekne-temizligi-detailing", "slug_en": "boat-cleaning-detailing",
- "image": "/assets/images/services/bakim.jpg", "date": "2028-08-02",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-12-11",
  "tr": {
    "category": "Bakım",
    "title": "Tekne Temizliği ve Detailing: Yüzeyi Korumanın İlk Adımı",
@@ -4815,7 +4879,7 @@ POSTS = [
 },
 {
  "slug": "refit-proje-yonetimi", "slug_en": "refit-project-management",
- "image": "/assets/images/hakkimizda.jpg", "date": "2028-08-16",
+ "image": "/assets/images/hakkimizda.jpg", "date": "2025-12-16",
  "tr": {
    "category": "Rehber",
    "title": "Refit Proje Yönetimi: Kapsamlı Yenilemeyi Tek Elden Yürütmek",
@@ -4863,7 +4927,7 @@ POSTS = [
 },
 {
  "slug": "yillik-bakim-anlasmasi", "slug_en": "annual-maintenance-agreement",
- "image": "/assets/images/services/bakim.jpg", "date": "2028-08-30",
+ "image": "/assets/images/services/bakim.jpg", "date": "2025-12-22",
  "tr": {
    "category": "Bakım",
    "title": "Yıllık Tekne Bakım Anlaşması: Düzenli Bakımın Avantajı",
@@ -4911,7 +4975,7 @@ POSTS = [
 },
 {
  "slug": "epoksi-macun-nedir", "slug_en": "epoxy-filler-putty",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2028-09-13",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2025-12-27",
  "tr": {
    "category": "Fiberglas",
    "title": "Epoksi Macun Nedir ve Nasıl Uygulanır?",
@@ -4957,7 +5021,7 @@ POSTS = [
 },
 {
  "slug": "epoksi-uygulama-hatalari", "slug_en": "epoxy-application-mistakes",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2028-09-27",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2026-01-01",
  "tr": {
    "category": "Fiberglas",
    "title": "Epoksi Uygulamasında En Sık Yapılan 6 Hata",
@@ -5007,7 +5071,7 @@ POSTS = [
 },
 {
  "slug": "uv-koruma-kaplama", "slug_en": "uv-protection-coating",
- "image": "/assets/images/services/boya.jpg", "date": "2028-10-11",
+ "image": "/assets/images/services/boya.jpg", "date": "2026-01-06",
  "tr": {
    "category": "Boya",
    "title": "UV Işınları ve Tekne Yüzeyi Koruması",
@@ -5059,7 +5123,7 @@ POSTS = [
 },
 {
  "slug": "astar-primer-nedir", "slug_en": "primer-importance",
- "image": "/assets/images/services/boya.jpg", "date": "2028-10-25",
+ "image": "/assets/images/services/boya.jpg", "date": "2026-01-12",
  "tr": {
    "category": "Boya",
    "title": "Astar (Primer) Nedir ve Neden Önemli?",
@@ -5107,7 +5171,7 @@ POSTS = [
 },
 {
  "slug": "tente-branda-bimini", "slug_en": "marine-canvas-covers",
- "image": "/assets/images/services/bakim.jpg", "date": "2028-11-08",
+ "image": "/assets/images/services/bakim.jpg", "date": "2026-01-17",
  "tr": {
    "category": "İç Mekan",
    "title": "Tekne Tente, Branda ve Bimini: Güneş, Yağmur ve Konfor",
@@ -5153,7 +5217,7 @@ POSTS = [
 },
 {
  "slug": "kaydirmaz-guverte-kaplama", "slug_en": "non-slip-deck-coating",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2028-11-22",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2026-01-22",
  "tr": {
    "category": "Teak",
    "title": "Kaydırmaz Güverte Kaplaması: Güvenlik ve Konfor",
@@ -5198,8 +5262,8 @@ POSTS = [
  },
 },
 {
- "slug": "marina-secimi-rehberi", "slug_en": "choosing-a-marina",
- "image": "/assets/images/hakkimizda.jpg", "date": "2028-12-07",
+ "slug": "marina-secimi-rehberi", "service": "tekne-kislatma", "slug_en": "choosing-a-marina",
+ "image": "/assets/images/hakkimizda.jpg", "date": "2026-01-27",
  "tr": {
    "category": "Rehber",
    "title": "Marina Seçimi Rehberi: Tekneniz İçin Doğru Liman",
@@ -5244,8 +5308,8 @@ POSTS = [
  },
 },
 {
- "slug": "yeni-tekne-sahibi-rehberi", "slug_en": "new-boat-owner-guide",
- "image": "/assets/images/parallax-2.jpg", "date": "2028-12-21",
+ "slug": "yeni-tekne-sahibi-rehberi", "service": "tekne-detailing", "slug_en": "new-boat-owner-guide",
+ "image": "/assets/images/parallax-2.jpg", "date": "2026-02-02",
  "tr": {
    "category": "Rehber",
    "title": "Yeni Tekne Sahibi Rehberi: İlk Sezonda Bilmeniz Gerekenler",
@@ -5289,7 +5353,7 @@ POSTS = [
 },
 {
  "slug": "tekne-sigortasi-rehberi", "slug_en": "boat-insurance-guide",
- "image": "/assets/images/hakkimizda.jpg", "date": "2029-01-04",
+ "image": "/assets/images/hakkimizda.jpg", "date": "2026-02-07",
  "tr": {
    "category": "Rehber",
    "title": "Tekne Sigortası ve Bakımın Rolü: Bilmeniz Gerekenler",
@@ -5337,7 +5401,7 @@ POSTS = [
 },
 {
  "slug": "tekne-zemini-vinil", "slug_en": "boat-flooring-vinyl",
- "image": "/assets/images/services/bakim.jpg", "date": "2029-01-18",
+ "image": "/assets/images/services/bakim.jpg", "date": "2026-02-12",
  "tr": {
    "category": "İç Mekan",
    "title": "Tekne Zemini: Vinil, Halı ve Kaymaz Seçenekler",
@@ -5379,7 +5443,7 @@ POSTS = [
 },
 {
  "slug": "minder-sunger-degisimi", "slug_en": "cushion-foam-replacement",
- "image": "/assets/images/services/bakim.jpg", "date": "2029-02-01",
+ "image": "/assets/images/services/bakim.jpg", "date": "2026-02-17",
  "tr": {
    "category": "İç Mekan",
    "title": "Tekne Minder ve Sünger Değişimi: Konforun Yenilenmesi",
@@ -5421,7 +5485,7 @@ POSTS = [
 },
 {
  "slug": "kokpit-eva-doseme", "slug_en": "cockpit-eva-decking",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2029-02-15",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2026-02-22",
  "tr": {
    "category": "Teak",
    "title": "Kokpit EVA Döşeme: Yumuşak, Kaymaz ve Bakımsız",
@@ -5469,7 +5533,7 @@ POSTS = [
 },
 {
  "slug": "teak-temizligi-diy", "slug_en": "teak-cleaning-diy",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2029-03-01",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2026-02-28",
  "tr": {
    "category": "Teak",
    "title": "Teak Güverte Temizliği: Kendin Yap Rehberi (Doğru Yöntem)",
@@ -5523,7 +5587,7 @@ POSTS = [
 },
 {
  "slug": "ahsap-epoksi-cold-molding", "slug_en": "cold-molding-epoxy",
- "image": "/assets/images/services/ahsap.jpg", "date": "2029-03-15",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2026-03-05",
  "tr": {
    "category": "Ahşap",
    "title": "Cold-Molding: Epoksi ile Modern Ahşap Tekne Yapımı",
@@ -5571,7 +5635,7 @@ POSTS = [
 },
 {
  "slug": "ahsap-tekne-kislatma", "slug_en": "wooden-boat-winterising",
- "image": "/assets/images/services/ahsap.jpg", "date": "2029-03-29",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2026-03-10",
  "tr": {
    "category": "Ahşap",
    "title": "Ahşap Tekne Kışlatma: Nem ve Kuruma Dengesinin İnceliği",
@@ -5615,7 +5679,7 @@ POSTS = [
 },
 {
  "slug": "klasik-tekne-degeri", "slug_en": "classic-boat-value",
- "image": "/assets/images/services/ahsap.jpg", "date": "2029-04-12",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2026-03-15",
  "tr": {
    "category": "Rehber",
    "title": "Klasik Ahşap Teknenin Değeri: Restorasyon Yatırım mı?",
@@ -5661,7 +5725,7 @@ POSTS = [
 },
 {
  "slug": "teak-kalinligi-olcumu", "slug_en": "teak-thickness-check",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2029-04-26",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2026-03-21",
  "tr": {
    "category": "Teak",
    "title": "Teak Kalınlığı: Ne Zaman Yenileme, Ne Zaman Bakım Yeter?",
@@ -5707,7 +5771,7 @@ POSTS = [
 },
 {
  "slug": "osmozdan-korunma", "slug_en": "osmosis-prevention",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2029-05-10",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2026-03-26",
  "tr": {
    "category": "Fiberglas",
    "title": "Osmozdan Korunma: Önleyici Bakımla Sorunu Baştan Engellemek",
@@ -5749,13 +5813,13 @@ POSTS = [
 },
 {
  "slug": "yat-boyama", "slug_en": "yacht-painting",
- "image": "/assets/images/parallax-1.jpg", "date": "2029-05-24",
+ "image": "/assets/images/parallax-1.jpg", "date": "2026-03-31",
  "tr": {
    "category": "Boya",
    "title": "Yat Boyama: Süperyat Kalitesinde Bir Bitiş İçin",
    "excerpt": "Yat boyama neden özel bir iştir? Büyük yüzey, 2K poliüretan, yüzey hazırlığı ve maliyeti belirleyen faktörler.",
-   "meta_title": "Yat Boyama Rehberi: Fiyat ve Süreç | Tekne Usta",
-   "meta_desc": "Yat boyama: 2K poliüretan sistemler, dış cephe ve antifouling, yüzey hazırlığı ve maliyeti belirleyen faktörler. İstanbul ve Ege'de yat boyama hizmeti.",
+   "meta_title": "Yat Boyama Fiyatı Neye Göre Değişir? Süreç ve Maliyet Kalemleri",
+   "meta_desc": "Yat boyama kaç gün sürer, fiyatı neye göre değişir? 2K poliüretan dış cephe, antifouling ve yüzey hazırlığı; maliyeti belirleyen kalemler. İstanbul ve Ege'de yazılı teklif.",
    "body": """
 <p>Yat boyama, küçük tekne boyamaktan çok daha kapsamlı bir iştir; büyük yüzey, yüksek beklenti ve kalıcı bir parlaklık gerektirir. Doğru sistem ve titiz işçilik olmadan, pahalı görünen bir iş kısa sürede hayal kırıklığı yaratır.</p>
 <h2>Yatlarda hangi boya?</h2>
@@ -5769,11 +5833,12 @@ POSTS = [
  },
  "en": {
    "category": "Painting",
-   "title": "Yacht Painting: For a Superyacht-Grade Finish",
+   "title": "Yacht Painting in Turkey: Superyacht-Grade Finish at Turkish Rates",
    "excerpt": "Why is yacht painting a special job? Large surface, 2K polyurethane, surface prep and the factors that set the cost.",
-   "meta_title": "Yacht Painting Guide: Cost and Process | Tekne Usta",
-   "meta_desc": "Yacht painting: 2K polyurethane systems, topside and antifouling, surface prep and cost factors. Yacht painting service in Istanbul and the Aegean.",
+   "meta_title": "Yacht Painting in Turkey: Cost, Process, Yards | Tekne Usta",
+   "meta_desc": "Yacht painting in Turkey: 2K polyurethane topsides, antifouling, fairing and surface prep at Istanbul (Tuzla) and Aegean yards. Why owners come to Turkey for a repaint and what it realistically costs.",
    "body": """
+<p><strong>A full topside repaint is the job most owners travel to Turkey for.</strong> It is labour-intensive, and Tuzla (Istanbul), Bodrum and Marmaris have painters who work on superyachts and gulets all year. Below: how a proper repaint is done and how to compare a Turkish quote with one from the Western Med.</p>
 <p>Yacht painting is far more involved than painting a small boat; it needs a large surface, high expectations and lasting gloss. Without the right system and meticulous work, a cheap-looking job soon disappoints.</p>
 <h2>Which paint on yachts?</h2>
 <p>For superyacht gloss, <a href="/en/blog/2k-polyurethane-paint/">2K polyurethane</a> systems are usually preferred: deep gloss, high UV resistance, long life. Below the waterline, the right <a href="/en/blog/choosing-antifouling/">antifouling</a> is chosen.</p>
@@ -5787,7 +5852,7 @@ POSTS = [
 },
 {
  "slug": "yat-kislatma", "slug_en": "yacht-winterising",
- "image": "/assets/images/services/bakim.jpg", "date": "2029-06-07",
+ "image": "/assets/images/services/bakim.jpg", "date": "2026-04-05",
  "tr": {
    "category": "Bakım",
    "title": "Yat Kışlatma: Sezonu Doğru Kapatmak",
@@ -5835,7 +5900,7 @@ POSTS = [
 },
 {
  "slug": "yelkenli-kislatma", "slug_en": "sailboat-winterising",
- "image": "/assets/images/parallax-2.jpg", "date": "2029-06-21",
+ "image": "/assets/images/parallax-2.jpg", "date": "2026-04-11",
  "tr": {
    "category": "Bakım",
    "title": "Yelkenli Kışlatma: Gövde, Karina ve Nem Dengesi",
@@ -5883,7 +5948,7 @@ POSTS = [
 },
 {
  "slug": "yelkenli-osmoz", "slug_en": "sailboat-osmosis",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2029-07-05",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2026-04-16",
  "tr": {
    "category": "Fiberglas",
    "title": "Yelkenli Osmoz: Fiberglas Yelkenlilerde Karina Sorunu",
@@ -5905,8 +5970,8 @@ POSTS = [
    "category": "Fibreglass",
    "title": "Sailboat Osmosis: The Hull Problem on Fibreglass Sailboats",
    "excerpt": "Why is osmosis common on fibreglass sailboats, how do you spot it and treat it?",
-   "meta_title": "Sailboat Osmosis Treatment Guide | Tekne Usta",
-   "meta_desc": "Sailboat osmosis: symptoms on fibreglass sailboats, moisture reading, gelcoat-peel-dry-barrier treatment and prevention in Istanbul and the Aegean.",
+   "meta_title": "Sailboat Osmosis Treatment in Turkey | Tekne Usta",
+   "meta_desc": "Osmosis treatment for fibreglass sailboats in Turkey: moisture survey, gelcoat peel, drying, epoxy barrier coat. Done over winter at Aegean and Istanbul yards for a fraction of Western Med cost.",
    "body": """
 <p>Because fibreglass sailboats stay afloat for long periods, osmosis is a common hull problem. Caught early it's manageable; neglected, the whole hull needs work.</p>
 <h2>Why common on sailboats?</h2>
@@ -5921,7 +5986,7 @@ POSTS = [
 },
 {
  "slug": "gulet-boyama", "slug_en": "gulet-painting",
- "image": "/assets/images/parallax-3.jpg", "date": "2029-07-19",
+ "image": "/assets/images/parallax-3.jpg", "date": "2026-04-21",
  "tr": {
    "category": "Boya",
    "title": "Gulet Boyama: Büyük Ahşap Gövdede Kalıcı Bitiş",
@@ -5959,7 +6024,7 @@ POSTS = [
 },
 {
  "slug": "fiber-tekne-boyama", "slug_en": "fibreglass-boat-painting",
- "image": "/assets/images/services/boya.jpg", "date": "2029-08-02",
+ "image": "/assets/images/services/boya.jpg", "date": "2026-04-26",
  "tr": {
    "category": "Boya",
    "title": "Fiber Tekne Boyama: Gelcoat mı, Boya mı?",
@@ -5993,7 +6058,7 @@ POSTS = [
 },
 {
  "slug": "rib-bot-tamiri", "slug_en": "rib-tender-repair",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2029-08-16",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2026-05-02",
  "tr": {
    "category": "Fiberglas",
    "title": "RIB ve Bot Tamiri: Fiberglas Gövde Onarımı",
@@ -6037,7 +6102,7 @@ POSTS = [
 },
 {
  "slug": "surat-teknesi-boyama", "slug_en": "speedboat-painting",
- "image": "/assets/images/services/boya.jpg", "date": "2029-08-30",
+ "image": "/assets/images/services/boya.jpg", "date": "2026-05-07",
  "tr": {
    "category": "Boya",
    "title": "Sürat Teknesi Boyama: Hız İçin Pürüzsüz Karina",
@@ -6071,7 +6136,7 @@ POSTS = [
 },
 {
  "slug": "yat-teak-doseme", "slug_en": "yacht-teak-deck",
- "image": "/assets/images/services/ic-mekan.jpg", "date": "2029-09-13",
+ "image": "/assets/images/services/ic-mekan.jpg", "date": "2026-05-12",
  "tr": {
    "category": "Teak",
    "title": "Yat Teak Döşeme: Güvertede Prestij ve Güvenlik",
@@ -6089,11 +6154,12 @@ POSTS = [
  },
  "en": {
    "category": "Teak",
-   "title": "Yacht Teak Decking: Prestige and Safety on Deck",
+   "title": "Yacht Teak Decking in Turkey: New Decks, Renewal and Seam Repair",
    "excerpt": "Teak deck laying, renewal and seam repair on yachts; natural and synthetic options.",
-   "meta_title": "Yacht Teak Decking Guide | Tekne Usta",
-   "meta_desc": "Yacht teak decking: new teak deck, old teak renewal, seam repair and natural/synthetic options in Istanbul and the Aegean.",
+   "meta_title": "Yacht Teak Deck in Turkey: Laying, Renewal, Cost | Tekne Usta",
+   "meta_desc": "Teak deck laying and renewal in Turkey for yachts based in Bodrum, Marmaris, Göcek and Istanbul. Natural and synthetic teak, seam repair, sanding. Strong craft tradition, competitive pricing.",
    "body": """
+<p><strong>Turkey has one of the Mediterranean's strongest teak traditions</strong> — the Bodrum gulet yards have been laying and renewing teak for generations. For a yacht owner wintering here, a teak deck renewal is one of the best-value jobs to have done locally.</p>
 <p>A teak deck is a yacht's most eye-catching, prestigious surface, and also a safe walking area when wet. We do teak laying, renewal and seam repair on yachts with meticulous craftsmanship.</p>
 <h2>New deck or renewal?</h2>
 <p>If the teak is thick enough, <a href="/en/blog/teak-seam-renewal/">seam renewal</a> is economical; if thinned, a full deck is needed. See our <a href="/en/blog/teak-thickness-check/">teak thickness</a> article to decide.</p>
@@ -6105,7 +6171,7 @@ POSTS = [
 },
 {
  "slug": "yat-detailing", "slug_en": "yacht-detailing",
- "image": "/assets/images/parallax-1.jpg", "date": "2029-09-27",
+ "image": "/assets/images/parallax-1.jpg", "date": "2026-05-17",
  "tr": {
    "category": "Bakım",
    "title": "Yat Detailing: Yüzeyi ve Değeri Korumak",
@@ -6149,7 +6215,7 @@ POSTS = [
 },
 {
  "slug": "yat-ic-mekan-yenileme", "slug_en": "yacht-interior-refit",
- "image": "/assets/images/services/bakim.jpg", "date": "2029-10-11",
+ "image": "/assets/images/services/bakim.jpg", "date": "2026-05-23",
  "tr": {
    "category": "İç Mekan",
    "title": "Yat İç Mekan Yenileme: Konfor ve Estetik",
@@ -6172,11 +6238,12 @@ POSTS = [
  },
  "en": {
    "category": "Interior",
-   "title": "Yacht Interior Refit: Comfort and Style",
-   "excerpt": "Upholstery, cabin, galley and lighting renewal on yachts; an interior that raises comfort and value.",
-   "meta_title": "Yacht Interior Refit Guide | Tekne Usta",
-   "meta_desc": "Yacht interior refit: upholstery and fabric, cabin and galley, LED lighting, curtains and damp/mould solutions in Istanbul and the Aegean.",
+   "title": "Yacht Interior Refit in Turkey: Upholstery, Joinery and Lighting",
+   "excerpt": "Interior refit for yachts based in Turkey: upholstery, cabin joinery, galley, LED lighting and soft furnishings — done in Turkey at Turkish labour rates.",
+   "meta_title": "Yacht Interior Refit in Turkey: Cost & Scope | Tekne Usta",
+   "meta_desc": "Yacht interior refit in Turkey: upholstery, fabrics, cabin and galley joinery, LED lighting and curtains. Skilled marine upholsterers in Istanbul and the Aegean at a fraction of Western Med cost.",
    "body": """
+<p><strong>Interior work is where Turkey's advantage is largest.</strong> Marine upholstery, joinery and soft furnishings are labour-heavy, and Turkey has a deep textile and furniture trade. A cabin refit that would be a major budget item in Antibes or Palma is often a sensible winter project here.</p>
 <p>A yacht's interior is the heart of comfort and value. Worn upholstery, a tired cabin and poor lighting make a yacht look older than it is. We take the interior in hand and renew both looks and function.</p>
 <h2>Yacht interior services</h2>
 <ul>
@@ -6193,7 +6260,7 @@ POSTS = [
 },
 {
  "slug": "yelkenli-boyama", "slug_en": "sailboat-painting",
- "image": "/assets/images/services/boya.jpg", "date": "2029-10-25",
+ "image": "/assets/images/services/boya.jpg", "date": "2026-05-28",
  "tr": {
    "category": "Boya",
    "title": "Yelkenli Boyama: Dış Cephe ve Antifouling",
@@ -6227,7 +6294,7 @@ POSTS = [
 },
 {
  "slug": "gulet-ic-mekan", "slug_en": "gulet-interior-refit",
- "image": "/assets/images/services/bakim.jpg", "date": "2029-11-08",
+ "image": "/assets/images/services/bakim.jpg", "date": "2026-06-02",
  "tr": {
    "category": "İç Mekan",
    "title": "Gulet İç Mekan Yenileme: Kabin, Salon ve Döşeme",
@@ -6271,7 +6338,7 @@ POSTS = [
 },
 {
  "slug": "fiber-tekne-kislatma", "slug_en": "fibreglass-boat-winterising",
- "image": "/assets/images/services/bakim.jpg", "date": "2029-11-22",
+ "image": "/assets/images/services/bakim.jpg", "date": "2026-06-07",
  "tr": {
    "category": "Bakım",
    "title": "Fiber Tekne Kışlatma: Osmoz Riskini Azaltmak",
@@ -6315,7 +6382,7 @@ POSTS = [
 },
 {
  "slug": "aluminyum-tekne-antifouling", "slug_en": "aluminium-boat-antifouling",
- "image": "/assets/images/services/boya.jpg", "date": "2029-12-06",
+ "image": "/assets/images/services/boya.jpg", "date": "2026-06-12",
  "tr": {
    "category": "Boya",
    "title": "Alüminyum Tekne Antifouling: Bakırsız Sistem Şart",
@@ -6349,7 +6416,7 @@ POSTS = [
 },
 {
  "slug": "yat-bakimi", "slug_en": "yacht-maintenance",
- "image": "/assets/images/parallax-1.jpg", "date": "2030-01-10",
+ "image": "/assets/images/parallax-1.jpg", "date": "2026-06-18",
  "tr": {
    "category": "Bakım",
    "title": "Yat Bakımı: Değerini ve Konforunu Koruyan Servis",
@@ -6369,11 +6436,12 @@ POSTS = [
  },
  "en": {
    "category": "Maintenance",
-   "title": "Yacht Maintenance: Service That Protects Value and Comfort",
-   "excerpt": "What does yacht maintenance cover? Underbody, gelcoat, teak, interior and seasonal checks — from one hand.",
-   "meta_title": "Yacht Maintenance and Service: Scope and Frequency | Tekne Usta",
-   "meta_desc": "Yacht maintenance and service: underbody-antifouling, gelcoat, teak, interior and seasonal checks. Single-hand yacht care in Istanbul and the Aegean.",
+   "title": "Yacht Maintenance in Turkey: Scope, Frequency and What It Costs",
+   "excerpt": "Yacht maintenance for owners keeping a boat in Turkey: underbody, gelcoat, teak, interior and seasonal checks along the Turkish Aegean and Med coast.",
+   "meta_title": "Yacht Maintenance in Turkey: Service Scope & Costs | Tekne Usta",
+   "meta_desc": "Yacht maintenance and service in Turkey: antifouling, gelcoat, teak, interior and seasonal checks for yachts based in Istanbul, Bodrum, Marmaris, Göcek and Fethiye. Transparent pricing for foreign owners.",
    "body": """
+<p><strong>If your yacht lives in Turkey</strong> — in a Marmaris, Göcek, Bodrum or Istanbul marina — annual maintenance here costs well below Western Mediterranean rates, and the season runs long enough for work to be done between cruises. Here is what a proper maintenance programme covers and how we organise it for owners who are often abroad.</p>
 <p>Yacht maintenance is the most economical way to protect both the value and the comfort of a boat. Small problems caught in time don't turn into big repairs. Apart from engine and mechanics, we provide single-hand service on hull, surface, wood and interior.</p>
 <h2>What does yacht maintenance cover?</h2>
 <p>Comprehensive yacht maintenance includes underwater <a href="/en/blog/choosing-antifouling/">antifouling</a> and <a href="/en/blog/anode-zinc-care/">anode</a> checks, <a href="/en/blog/gelcoat-renewal/">gelcoat</a> and paint care on the hull, <a href="/en/blog/teak-deck-maintenance/">teak deck</a> cleaning, damp/mould checks in the interior and general <a href="/en/services/boat-detailing/">detailing</a>.</p>
@@ -6387,7 +6455,7 @@ POSTS = [
 },
 {
  "slug": "yat-refit", "slug_en": "yacht-refit",
- "image": "/assets/images/parallax-2.jpg", "date": "2030-01-13",
+ "image": "/assets/images/parallax-2.jpg", "date": "2026-06-23",
  "tr": {
    "category": "Renovasyon",
    "title": "Yat Refit: Kapsamlı Yenileme Nasıl Planlanır?",
@@ -6407,11 +6475,12 @@ POSTS = [
  },
  "en": {
    "category": "Renovation",
-   "title": "Yacht Refit: How to Plan a Comprehensive Renewal",
-   "excerpt": "What is a yacht refit and when is it needed? Bringing paint, teak, interior and hull work into one project.",
-   "meta_title": "Yacht Refit Guide: Scope, Process, Planning | Tekne Usta",
-   "meta_desc": "Yacht refit: planning paint, teak, interior and hull renewal in one project. Scope, sequencing and cost logic. Yacht refit in Istanbul and the Aegean.",
+   "title": "Planning a Yacht Refit: Scope, Sequencing and Timing at a Turkish Yard",
+   "excerpt": "Why foreign owners refit in Turkey, what a refit covers, how sequencing works and what to expect on cost and timing at an Istanbul or Aegean yard.",
+   "meta_title": "Planning a Yacht Refit: Scope, Sequencing & Timing | Tekne Usta",
+   "meta_desc": "How a yacht refit is planned and sequenced at a Turkish yard: what's included, which jobs come first, realistic timing and how the boat is hauled once for all work.",
    "body": """
+<p><strong>Turkey has quietly become one of the Mediterranean's main refit destinations.</strong> Labour rates are a fraction of France, Italy or Spain, yards in Istanbul (Tuzla), Bodrum, Marmaris, Göcek and Fethiye work year-round, and an EU-flagged yacht can stay for winter work without complex paperwork. This guide explains how to plan a refit here and what to expect from a Turkish yard.</p>
 <p>A refit is the planned, combined renewal of several items on a yacht (paint, teak, interior, hull). Compared with piecemeal work it is both more economical and more consistent; the boat is hauled once and all work is coordinated.</p>
 <h2>When is a yacht refit needed?</h2>
 <p>It's usually considered on yachts 10+ years old, after a used purchase, or after a long period of use. A <a href="/en/blog/pre-purchase-boat-survey/">survey</a> report clarifies which items are priority.</p>
@@ -6425,7 +6494,7 @@ POSTS = [
 },
 {
  "slug": "motoryat-bakimi", "slug_en": "motoryacht-maintenance",
- "image": "/assets/images/parallax-3.jpg", "date": "2030-01-16",
+ "image": "/assets/images/parallax-3.jpg", "date": "2026-06-28",
  "tr": {
    "category": "Bakım",
    "title": "Motoryat Bakımı: Geniş Yüzey, Yüksek Beklenti",
@@ -6447,8 +6516,8 @@ POSTS = [
    "category": "Maintenance",
    "title": "Motoryacht Maintenance: Large Surface, High Expectations",
    "excerpt": "Priorities in motoryacht care: large gelcoat surface, underbody, swim platform and detailing.",
-   "meta_title": "Motoryacht Maintenance and Service Guide | Tekne Usta",
-   "meta_desc": "Motoryacht maintenance: large gelcoat surface, underbody-antifouling, swim platform teak and detailing. Motoryacht service in Istanbul and the Aegean.",
+   "meta_title": "Motoryacht Maintenance & Service in Turkey | Tekne Usta",
+   "meta_desc": "Motoryacht maintenance in Turkey: gelcoat, antifouling, swim platform teak and detailing for motoryachts in Istanbul, Bodrum, Göcek and Marmaris. Hull, surface and interior — engine excluded.",
    "body": """
 <p>Motoryachts usually have a large fibreglass surface and high visibility; so surface care and gloss directly set the perceived quality. Apart from engine and mechanics, we serve the hull, surface and interior.</p>
 <h2>Priority items</h2>
@@ -6463,7 +6532,7 @@ POSTS = [
 },
 {
  "slug": "yelkenli-bakimi", "slug_en": "sailboat-maintenance",
- "image": "/assets/images/parallax-2.jpg", "date": "2030-01-19",
+ "image": "/assets/images/parallax-2.jpg", "date": "2026-07-03",
  "tr": {
    "category": "Bakım",
    "title": "Yelkenli Bakımı: Karina, Osmoz ve İç Mekan",
@@ -6485,8 +6554,8 @@ POSTS = [
    "category": "Maintenance",
    "title": "Sailboat Maintenance: Underbody, Osmosis and Interior",
    "excerpt": "Our scope in sailboat care: underbody, osmosis monitoring, teak and interior. Mast/rigging and engine excluded.",
-   "meta_title": "Sailboat Maintenance and Repair Guide | Tekne Usta",
-   "meta_desc": "Sailboat maintenance and repair: underbody-antifouling, osmosis monitoring, gelcoat, teak and interior. Mast/rigging and engine excluded. Sailboat service in Istanbul and the Aegean.",
+   "meta_title": "Sailboat Maintenance & Repair in Turkey | Tekne Usta",
+   "meta_desc": "Sailboat maintenance in Turkey: antifouling, osmosis monitoring, gelcoat, teak and interior for yachts based in Marmaris, Göcek, Bodrum, Fethiye and Istanbul. Rig and engine excluded.",
    "body": """
 <p>Sailboats often stay afloat for long periods, which brings underbody, osmosis and surface care to the fore. Our scope is hull, surface, teak and interior; mast/rigging and engine work are outside us.</p>
 <h2>Underbody and osmosis</h2>
@@ -6501,7 +6570,7 @@ POSTS = [
 },
 {
  "slug": "gulet-bakimi", "slug_en": "gulet-maintenance",
- "image": "/assets/images/services/ahsap.jpg", "date": "2030-01-22",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2026-07-09",
  "tr": {
    "category": "Bakım",
    "title": "Gulet Bakımı: Ticari Kullanıma Hazır Tutmak",
@@ -6539,7 +6608,7 @@ POSTS = [
 },
 {
  "slug": "gulet-refit", "slug_en": "gulet-refit",
- "image": "/assets/images/parallax-3.jpg", "date": "2030-01-25",
+ "image": "/assets/images/parallax-3.jpg", "date": "2026-07-14",
  "tr": {
    "category": "Renovasyon",
    "title": "Gulet Refit ve Restorasyon: Geleneği Koruyarak Yenilemek",
@@ -6576,8 +6645,8 @@ POSTS = [
  },
 },
 {
- "slug": "sisme-bot-tamiri", "slug_en": "inflatable-boat-repair",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2030-01-28",
+ "slug": "sisme-bot-tamiri", "service": "fiberglas-onarim", "slug_en": "inflatable-boat-repair",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2026-07-19",
  "tr": {
    "category": "Onarım",
    "title": "Şişme Bot ve RIB Tamiri: Hypalon mu PVC mi?",
@@ -6599,8 +6668,8 @@ POSTS = [
    "category": "Repair",
    "title": "Inflatable and RIB Repair: Hypalon or PVC?",
    "excerpt": "The material difference in inflatable repair: Hypalon vs PVC. Punctures, seams and valves; RIB hull work.",
-   "meta_title": "Inflatable Boat and RIB Repair Guide | Tekne Usta",
-   "meta_desc": "Inflatable boat repair: Hypalon vs PVC, puncture patching, seam and valve repair; fibreglass hull work on RIBs. Service in Istanbul and the Aegean.",
+   "meta_title": "Inflatable & RIB Repair in Turkey: Hypalon, PVC, Tubes | Tekne Usta",
+   "meta_desc": "Inflatable boat and RIB repair in Turkey: Hypalon vs PVC, punctures, seams, valves, retubing and fibreglass hull work. Tender repairs for yachts in Istanbul and the Aegean.",
    "body": """
 <p>Repair on inflatables and RIBs starts with the material: tubes may be <strong>Hypalon (CSM)</strong> or <strong>PVC</strong>, and each needs different adhesive and technique. A patch made with the wrong material soon lifts.</p>
 <h2>Hypalon vs PVC</h2>
@@ -6615,7 +6684,7 @@ POSTS = [
 },
 {
  "slug": "bot-boyama", "slug_en": "tender-painting",
- "image": "/assets/images/services/boya.jpg", "date": "2030-01-31",
+ "image": "/assets/images/services/boya.jpg", "date": "2026-07-24",
  "tr": {
    "category": "Boya",
    "title": "Bot Boyama ve RIB Bakımı: Küçük Tekne, Doğru Sistem",
@@ -6653,7 +6722,7 @@ POSTS = [
 },
 {
  "slug": "surat-teknesi-bakimi", "slug_en": "speedboat-maintenance",
- "image": "/assets/images/parallax-1.jpg", "date": "2030-02-03",
+ "image": "/assets/images/parallax-1.jpg", "date": "2026-07-30",
  "tr": {
    "category": "Bakım",
    "title": "Sürat Teknesi Bakımı: Hız İçin Pürüzsüz Karina",
@@ -6691,13 +6760,13 @@ POSTS = [
 },
 {
  "slug": "fiber-tekne-tamiri", "slug_en": "fibreglass-boat-repair",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2030-02-06",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2026-08-04",
  "tr": {
    "category": "Onarım",
    "title": "Fiber Tekne Tamiri: Çatlaktan Yapısal Onarıma",
    "excerpt": "Fiber (fiberglas) tekne tamiri: jelkot çatlağı, delik, delaminasyon ve su altı yapısal onarım.",
-   "meta_title": "Fiber Tekne Tamiri Rehberi: Çatlak ve Yapısal | Tekne Usta",
-   "meta_desc": "Fiber (fiberglas) tekne tamiri: jelkot çatlağı onarımı, delik-delaminasyon, laminasyon ve su altı yapısal onarım. İstanbul ve Ege'de fiber tekne servisi.",
+   "meta_title": "Fiber Tekne Tamiri: Çatlak, Delik, Osmoz — Süre ve Maliyet",
+   "meta_desc": "Fiber tekne tamiri adım adım: jelkot çatlağı, delik-delaminasyon ve su altı yapısal onarım kaç gün sürer, fiyatı neye göre değişir? İstanbul ve Ege'de ücretsiz keşif.",
    "body": """
 <p>Fiberglas tekneler dayanıklıdır ama darbeler, yaşlanma ve nem zamanla çatlak, delik ve delaminasyona yol açar. Doğru reçine ve laminasyon tekniğiyle bu hasarların çoğu kalıcı biçimde onarılır.</p>
 <h2>Yüzey mi, yapısal mı?</h2>
@@ -6711,11 +6780,12 @@ POSTS = [
  },
  "en": {
    "category": "Repair",
-   "title": "Fibreglass Boat Repair: From Cracks to Structural Work",
+   "title": "Fibreglass Boat Repair in Turkey: From Cracks to Structural Work",
    "excerpt": "Fibreglass boat repair: gelcoat cracks, holes, delamination and underwater structural repair.",
-   "meta_title": "Fibreglass Boat Repair Guide: Cracks and Structural | Tekne Usta",
-   "meta_desc": "Fibreglass boat repair: gelcoat crack repair, holes-delamination, lamination and underwater structural repair. Fibreglass boat service in Istanbul and the Aegean.",
+   "meta_title": "Fibreglass Boat Repair in Turkey | Cracks, Osmosis, Structural | Tekne Usta",
+   "meta_desc": "Fibreglass boat repair in Turkey: gelcoat cracks, holes, delamination, osmosis and underwater structural work at Istanbul and Aegean yards. Insurance-grade documentation for foreign-flagged boats.",
    "body": """
+<p><strong>Damaged your fibreglass boat while cruising Turkey?</strong> Fibreglass and gelcoat work is done to a high standard here, and for foreign-flagged yachts we prepare the reports and photos insurers require. This guide covers what can be repaired and how.</p>
 <p>Fibreglass boats are durable, but impacts, ageing and moisture eventually cause cracks, holes and delamination. With the right resin and lamination technique, most of this damage is repaired permanently.</p>
 <h2>Surface or structural?</h2>
 <p>Superficial <a href="/en/blog/gelcoat-scratch-yellowing/">gelcoat cracks</a> are cosmetic and solved quickly. But cracks reaching the laminate, delamination and underwater damage need <a href="/en/blog/underwater-structural-repair/">structural repair</a> and shouldn't be neglected.</p>
@@ -6729,13 +6799,13 @@ POSTS = [
 },
 {
  "slug": "ahsap-tekne-bakimi", "slug_en": "wooden-boat-maintenance",
- "image": "/assets/images/services/ahsap.jpg", "date": "2030-02-09",
+ "image": "/assets/images/services/ahsap.jpg", "date": "2026-08-09",
  "tr": {
    "category": "Bakım",
    "title": "Ahşap Tekne Bakımı: Vernik, Kalafat ve Nem Yönetimi",
    "excerpt": "Ahşap tekne bakımı: vernik döngüsü, kalafat kontrolü, çürük önleme ve kışlatma.",
-   "meta_title": "Ahşap Tekne Bakımı Rehberi: Vernik ve Kalafat | Tekne Usta",
-   "meta_desc": "Ahşap tekne bakımı: vernik bakım döngüsü, kalafat kontrolü, çürük önleme, nem yönetimi ve kışlatma. İstanbul ve Ege'de ahşap tekne servisi.",
+   "meta_title": "Ahşap Tekne Bakımı: Yıllık Takvim, Vernik ve Kalafat Kontrolü",
+   "meta_desc": "Ahşap teknede yıllık bakım takvimi: vernik döngüsü, kalafat kontrolü, çürük belirtileri ve kışlatma. Hangisini kendiniz yaparsınız, hangisi ustaya kalır?",
    "body": """
 <p>Ahşap tekne, düzenli bakımla onlarca yıl yaşar; ihmal edildiğinde ise sorunlar hızla büyür. Bakımın özü, suyu ahşaptan uzak tutmak: sağlam vernik/boya, sıkı kalafat ve iyi havalandırma.</p>
 <h2>Vernik ve boya döngüsü</h2>
@@ -6767,7 +6837,7 @@ POSTS = [
 },
 {
  "slug": "sezon-ortasi-bakim", "slug_en": "mid-season-maintenance",
- "image": "/assets/images/parallax-1.jpg", "date": "2030-06-15",
+ "image": "/assets/images/parallax-1.jpg", "date": "2026-08-14",
  "tr": {
    "category": "Sezonluk",
    "title": "Sezon Ortası Tekne Bakımı: Yaz Boyunca Formda Tutmak",
@@ -6805,7 +6875,7 @@ POSTS = [
 },
 {
  "slug": "yaz-tekne-koruma", "slug_en": "summer-boat-protection",
- "image": "/assets/images/services/boya.jpg", "date": "2030-06-28",
+ "image": "/assets/images/services/boya.jpg", "date": "2026-08-20",
  "tr": {
    "category": "Sezonluk",
    "title": "Yaz Güneşinde Tekne Koruması: Jelkot, Teak ve Vernik",
@@ -6843,7 +6913,7 @@ POSTS = [
 },
 {
  "slug": "sonbahar-kislatma-hazirlik", "slug_en": "autumn-winterising-prep",
- "image": "/assets/images/parallax-2.jpg", "date": "2030-10-05",
+ "image": "/assets/images/parallax-2.jpg", "date": "2026-08-25",
  "tr": {
    "category": "Sezonluk",
    "title": "Sonbahar: Kışlatmaya Hazırlık Rehberi",
@@ -6881,7 +6951,7 @@ POSTS = [
 },
 {
  "slug": "kis-hasari-onarimi", "slug_en": "winter-damage-repair",
- "image": "/assets/images/services/fiberglas.jpg", "date": "2030-11-02",
+ "image": "/assets/images/services/fiberglas.jpg", "date": "2026-08-30",
  "tr": {
    "category": "Sezonluk",
    "title": "Kış Hasarı Onarımı: Bahar Açılışında Neler Çıkar?",
@@ -6914,6 +6984,194 @@ POSTS = [
 <h2>Spring launch check</h2>
 <p>Before splashing, hull, underbody, anodes and interior are reviewed one by one. Catching small damage here prevents surprises in season. We do repairs under <a href="/en/services/fibreglass-repair/">fibreglass repair</a> and related services.</p>
 <p>For a spring launch check, get a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "turkiyede-yat-refit-yabanci-tekne-sahipleri", "service": "fiberglas-onarim", "slug_en": "yacht-refit-in-turkey",
+ "image": "/assets/images/parallax-2.jpg", "date": "2026-09-04",
+ "tr": {
+   "category": "Renovasyon",
+   "title": "Yabancı Bayraklı Tekneler İçin Türkiye'de Refit: Süreç ve Avantajlar",
+   "excerpt": "Avrupa'dan gelen tekne sahipleri neden refit için Türkiye'yi seçiyor? Maliyet farkı, tersane bölgeleri, kışlama ile birleştirme ve gümrük/kalış süresi pratikleri.",
+   "meta_title": "Türkiye'de Yat Refit: Yabancı Tekne Sahipleri Rehberi | Tekne Usta",
+   "meta_desc": "Yabancı bayraklı yatlar için Türkiye'de refit: neden tercih ediliyor, hangi bölgeler öne çıkıyor, kışlama ile nasıl birleştirilir ve teklif süreci nasıl işler.",
+   "body": """
+<p>Her kış Marmaris, Göcek, Fethiye ve Bodrum marinalarında yüzlerce yabancı bayraklı yat kışlıyor. Bunların önemli bir kısmı kışı boya, teak, iç mekan ve gövde işleriyle değerlendiriyor. Türkiye'nin refit destinasyonu olmasının üç nedeni var: işçilik maliyeti, yıl boyu çalışan tersaneler ve güçlü zanaat geleneği.</p>
+<h2>Maliyet farkı nereden geliyor?</h2>
+<p>Refit işleri ağırlıklı olarak işçilik ister. Boya, teak ve döşeme kalemlerinde malzeme payı düşük, saat payı yüksektir. Fransa, İtalya ve İspanya'ya göre Türkiye'de aynı iş için toplam bedel çoğu zaman yüzde 30-50 daha düşüktür. Malzeme (boya sistemleri, teak, kumaş) uluslararası markalardan geldiği için kalite farkı işçilikte belirlenir.</p>
+<h2>Hangi bölge hangi iş için?</h2>
+<p><a href="/bolgeler/tuzla/">Tuzla</a> büyük çekek kapasitesi ve süperyat boya deneyimiyle öne çıkar. <a href="/bolgeler/bodrum/">Bodrum</a> ve <a href="/bolgeler/marmaris/">Marmaris</a> ahşap ve teak ustalığında güçlüdür. <a href="/bolgeler/gocek/">Göcek</a> ve <a href="/bolgeler/fethiye/">Fethiye</a> kışlayan yabancı yatlar için kışlama ile refit'i birleştirmenin en pratik yeridir.</p>
+<h2>Kışlama ile birleştirme</h2>
+<p>Tekne zaten karaya çekiliyorsa refit için ikinci bir çekek maliyeti oluşmaz. Kasım-Mart arasında boya ve gövde işleri yapılır, sahibi Nisan'da hazır tekneyi teslim alır. Detay için <a href="/blog/tekne-kislatma-kontrol-listesi/">kışlatma kontrol listesi</a>.</p>
+<h2>Teklif ve süreç</h2>
+<p>Yabancı tekne sahipleri genelde teknenin başında değildir. Bu yüzden fotoğraflı keşif raporu, kalem kalem yazılı teklif ve iş sürecinde düzenli fotoğraf/video güncellemesi standart olmalıdır. <a href="/blog/refit-proje-yonetimi/">Refit proje yönetimi</a> yazımızda bu süreci anlatıyoruz.</p>
+<p><a href="#teklif-al">Ücretsiz keşif</a> için bize yazın; İngilizce iletişim kuruyoruz.</p>
+""",
+ },
+ "en": {
+   "category": "Renovation",
+   "title": "Yacht Refit in Turkey: Costs, Yards and What to Expect (2026)",
+   "excerpt": "Why owners bring yachts to Turkey for refit: the cost gap versus the Western Med, which coast suits which job, how to combine it with wintering and how a Turkish yard quotes.",
+   "meta_title": "Yacht Refit in Turkey (2026): Costs, Yards & Process | Tekne Usta",
+   "meta_desc": "Thinking of a yacht refit in Turkey? How costs compare with France, Italy and Spain, which regions suit paint, teak or interior work, how to combine refit with winter storage and how to get a proper quote.",
+   "body": """
+<p>Every winter hundreds of foreign-flagged yachts sit in Marmaris, Göcek, Fethiye and Bodrum, and many use the off-season for paint, teak, interior and hull work. Turkey has become a refit destination for three reasons: labour cost, yards that work all year, and a deep boatbuilding tradition. This guide covers what that means in practice.</p>
+<h2>Where the cost gap comes from</h2>
+<p>Refit work is mostly labour. Painting, teak and upholstery have a small materials share and a large hours share. For the same job, a Turkish quote typically lands 30-50% below Western Mediterranean yards. Materials — paint systems, teak, marine fabrics — come from the same international brands, so the quality difference sits in workmanship and supervision, not in the products.</p>
+<h2>Which coast for which job</h2>
+<p><a href="/en/regions/tuzla/">Tuzla (Istanbul)</a> has the largest haul-out capacity and painters used to superyacht topsides. <a href="/en/regions/bodrum/">Bodrum</a> and <a href="/en/regions/marmaris/">Marmaris</a> are the heart of the wooden-boat and teak trade. <a href="/en/regions/gocek/">Göcek</a> and <a href="/en/regions/fethiye/">Fethiye</a> are where most cruising yachts winter, so they are the most practical places to combine storage with a refit.</p>
+<h2>Combining refit with wintering</h2>
+<p>If the boat is already hauled out for winter, the refit needs no second lift. Paint and hull work run November to March; the owner collects a finished boat in April. See our <a href="/en/blog/wintering-your-yacht-in-turkey/">wintering guide</a> for marina and hardstand options.</p>
+<h2>What a refit covers</h2>
+<p>Typical items: topside <a href="/en/services/boat-painting-antifouling/">repaint</a>, <a href="/en/services/teak-deck/">teak deck</a> renewal, <a href="/en/services/interior-refit/">interior</a> upholstery and joinery, <a href="/en/services/fibreglass-repair/">gelcoat and osmosis</a> work. Engines and rigging are handled by specialist contractors; a good yard coordinates them.</p>
+<h2>Paperwork and stay</h2>
+<p>EU and UK flagged yachts commonly stay in Turkey over winter under a transit log arrangement; marinas and agents handle the routine. Ask the yard early if the boat will be ashore beyond the usual period, so documents are aligned.</p>
+<h2>How the quoting process should work</h2>
+<p>Most foreign owners are not at the boat. A serious yard gives a photographed survey report, an itemised written quote, and regular photo/video updates during the work. Read <a href="/en/blog/refit-quote-from-a-turkish-yard/">how to get and compare a refit quote from a Turkish yard</a> and our <a href="/en/blog/turkey-vs-greece-vs-croatia-yacht-refit/">Turkey vs Greece vs Croatia comparison</a>.</p>
+<p>We work in English and quote in writing within 48 hours of a survey. Start with a <a href="#teklif-al">free survey</a>.</p>
+""",
+ },
+},
+{
+ "slug": "turkiyede-tekne-kislatma-marmaris-gocek-bodrum", "slug_en": "wintering-your-yacht-in-turkey",
+ "image": "/assets/images/parallax-3.jpg", "date": "2026-09-04",
+ "tr": {
+   "category": "Kışlatma",
+   "title": "Türkiye'de Tekne Kışlatma: Marmaris, Göcek, Bodrum ve Fethiye Karşılaştırması",
+   "excerpt": "Ege ve Akdeniz'de kışlama noktaları: marina mı çekek mi, hangi bölge hangi tekneye uygun, kış işleriyle nasıl birleşir.",
+   "meta_title": "Türkiye'de Tekne Kışlatma Rehberi: Bölge Karşılaştırması | Tekne Usta",
+   "meta_desc": "Marmaris, Göcek, Bodrum, Fethiye ve İstanbul'da tekne kışlatma: marina ve çekek seçenekleri, iklim, güvenlik ve kış bakımıyla birleştirme.",
+   "body": """
+<p>Türkiye kıyıları Akdeniz'in en güvenli ve ekonomik kışlama bölgelerinden biridir. Ilıman kış, korunaklı körfezler ve yıl boyu çalışan çekek alanları hem yerli hem yabancı tekne sahiplerini çeker. Bölgeler arasında belirgin farklar vardır.</p>
+<h2>Marmaris</h2>
+<p>En büyük çekek kapasitesi ve en geniş servis ekosistemi. Uzun süre karada kalacak ve kapsamlı iş yapılacak tekneler için ideal. <a href="/bolgeler/marmaris/">Marmaris bölge sayfası</a>.</p>
+<h2>Göcek ve Fethiye</h2>
+<p>Korunaklı körfez, sakin ortam ve yüksek yabancı yat yoğunluğu. Marina içinde suda kışlama yaygındır; kısa süreli çekek ve boya için yakın tersaneler vardır. <a href="/bolgeler/gocek/">Göcek</a> · <a href="/bolgeler/fethiye/">Fethiye</a>.</p>
+<h2>Bodrum ve Yalıkavak</h2>
+<p>Ahşap tekne ve teak işlerinin merkezi. Gulet ve klasik tekneler için doğal seçim. <a href="/bolgeler/bodrum/">Bodrum</a> · <a href="/bolgeler/yalikavak/">Yalıkavak</a>.</p>
+<h2>İstanbul (Tuzla)</h2>
+<p>Büyük tekneler ve kapsamlı boya işleri için en yüksek kapasite. Marmara kışı Ege'den serttir; kapalı depolama ve iyi örtü önemlidir. <a href="/bolgeler/tuzla/">Tuzla</a>.</p>
+<h2>Kışlama işleriyle birleştirme</h2>
+<p>Karaya çekilen tekne için antifouling, gelcoat, osmoz kontrolü ve teak bakımı en verimli kışın yapılır. <a href="/hizmetler/tekne-kislatma/">Kışlatma hizmetimiz</a> ve <a href="/blog/tekne-kislatma-kontrol-listesi/">kontrol listesi</a>.</p>
+<p>Erken rezervasyon için <a href="#teklif-al">bize yazın</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Winterising",
+   "title": "Wintering Your Yacht in Turkey: Marmaris, Göcek, Bodrum or Fethiye?",
+   "excerpt": "Where to leave a yacht for winter on the Turkish coast: how the main bases compare on haul-out capacity, shelter, cost and the work you can get done while the boat is ashore.",
+   "meta_title": "Wintering a Yacht in Turkey: Marmaris vs Göcek vs Bodrum vs Fethiye | Tekne Usta",
+   "meta_desc": "Winter storage for yachts in Turkey: how Marmaris, Göcek, Fethiye, Bodrum and Istanbul compare on haul-out, shelter, cost and winter refit work. Practical guide for foreign-flagged owners.",
+   "body": """
+<p>Turkey's coast is one of the safest and most economical places in the Mediterranean to leave a yacht for winter. Mild weather, sheltered bays and boatyards that work all year draw both local and foreign-flagged owners. But the main bases differ, and the right choice depends on what you want done while the boat is ashore.</p>
+<h2>Marmaris</h2>
+<p>The largest haul-out capacity on the coast and the widest service ecosystem. Best for yachts staying ashore for months with substantial work planned — paint, osmosis, structural repairs. <a href="/en/regions/marmaris/">Marmaris service page</a>.</p>
+<h2>Göcek and Fethiye</h2>
+<p>Sheltered bay, quiet off-season and the highest density of foreign cruising yachts. Wintering afloat in the marina is common; nearby yards handle short haul-outs and painting. <a href="/en/regions/gocek/">Göcek</a> · <a href="/en/regions/fethiye/">Fethiye</a>.</p>
+<h2>Bodrum and Yalıkavak</h2>
+<p>The centre of Turkey's wooden-boat and teak trade. The natural choice for gulets, classic yachts and any boat with a teak deck due for renewal. <a href="/en/regions/bodrum/">Bodrum</a> · <a href="/en/regions/yalikavak/">Yalıkavak</a>.</p>
+<h2>Istanbul (Tuzla)</h2>
+<p>The highest capacity for large yachts and full repaints. The Marmara winter is harsher than the Aegean; indoor storage or a proper cover matters more here. <a href="/en/regions/tuzla/">Tuzla</a>.</p>
+<h2>Ashore, afloat or indoors?</h2>
+<p>Ashore suits boats with underwater or paint work planned. Afloat suits owners who visit in winter and have only light jobs. Indoor storage is rare and expensive but ideal for classic or high-value boats. Full comparison in <a href="/en/blog/winter-boat-storage/">winter storage options</a>.</p>
+<h2>Work worth doing over winter</h2>
+<p>Antifouling, gelcoat, osmosis checks and teak care are all best done while the boat is hauled. This is also when a <a href="/en/blog/yacht-refit-in-turkey/">refit in Turkey</a> makes most financial sense — no second lift, and the boat is ready for April. See our <a href="/en/services/winterising-storage/">winterising service</a>.</p>
+<p>Yards fill up by October. <a href="#teklif-al">Contact us</a> early for a winter slot and a written quote.</p>
+""",
+ },
+},
+{
+ "slug": "turkiye-yunanistan-hirvatistan-refit-kislama", "service": "tekne-kislatma", "slug_en": "turkey-vs-greece-vs-croatia-yacht-refit",
+ "image": "/assets/images/parallax-1.jpg", "date": "2026-09-04",
+ "tr": {
+   "category": "Renovasyon",
+   "title": "Refit ve Kışlama İçin Türkiye, Yunanistan ve Hırvatistan Karşılaştırması",
+   "excerpt": "Doğu Akdeniz'in üç kışlama ülkesi: işçilik, tersane kapasitesi, iklim ve bürokrasi açısından farklar.",
+   "meta_title": "Türkiye mi Yunanistan mı Hırvatistan mı? Refit Karşılaştırması | Tekne Usta",
+   "meta_desc": "Yat refit ve kışlama için Türkiye, Yunanistan ve Hırvatistan karşılaştırması: işçilik maliyeti, tersane kapasitesi, zanaat, iklim ve pratik farklar.",
+   "body": """
+<p>Doğu Akdeniz'de kışlayan yatlar için üç ana seçenek vardır. Her birinin güçlü yanı farklıdır.</p>
+<h2>İşçilik ve kapasite</h2>
+<p>Türkiye işçilik maliyetinde açık ara en uygun ülkedir ve Tuzla-Marmaris hattında en büyük çekek kapasitesine sahiptir. Yunanistan adalarda servis dağınıktır ve fiyatlar Euro bölgesi seviyesindedir. Hırvatistan marina altyapısında güçlüdür ama refit ekosistemi daha dardır.</p>
+<h2>Zanaat</h2>
+<p>Ahşap, teak ve döşeme işlerinde Türkiye'nin gulet geleneği belirleyicidir. Boya tarafında Tuzla süperyat deneyimi taşır.</p>
+<h2>İklim</h2>
+<p>Güney Ege ve Akdeniz kıyısı kışın da açık havada çalışmaya uygundur. Hırvatistan'da kış boya işlerini zorlaştırır.</p>
+<h2>Pratik</h2>
+<p>Yunanistan ve Hırvatistan AB içindedir; AB bayraklı tekneler için evrak daha basittir. Türkiye'de transit log düzeni oturmuştur ve marinalar süreci yönetir. Çoğu sahip, maliyet farkı evrak farkını fazlasıyla karşıladığı için Türkiye'yi seçer.</p>
+<p><a href="/blog/turkiyede-yat-refit-yabanci-tekne-sahipleri/">Türkiye'de refit</a> rehberimize bakın veya <a href="#teklif-al">teklif isteyin</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Renovation",
+   "title": "Turkey vs Greece vs Croatia: Where to Refit and Winter Your Yacht",
+   "excerpt": "An honest comparison of the Eastern Med's three wintering countries on labour cost, yard capacity, craftsmanship, climate and paperwork.",
+   "meta_title": "Turkey vs Greece vs Croatia for Yacht Refit & Wintering | Tekne Usta",
+   "meta_desc": "Comparing Turkey, Greece and Croatia for yacht refit and winter storage: labour rates, haul-out capacity, craft tradition, winter climate and paperwork. Which suits which owner.",
+   "body": """
+<p>Yachts cruising the Eastern Mediterranean have three realistic wintering countries. Each has a genuine strength, so the right answer depends on what you need done.</p>
+<h2>Labour cost and yard capacity</h2>
+<p>Turkey is clearly the lowest-cost option for skilled marine labour and has the largest haul-out capacity along the Tuzla-Bodrum-Marmaris line. Greece has good marinas but yard services are scattered across islands and priced at Eurozone levels. Croatia's marina infrastructure is excellent, but its refit ecosystem is smaller and more seasonal.</p>
+<h2>Craftsmanship</h2>
+<p>For wood, teak and upholstery, Turkey's gulet-building tradition is the deciding factor — Bodrum and Marmaris have generations of teak and joinery experience. For topside paint, Tuzla yards routinely handle superyacht work. Greece and Croatia have capable yards but less depth in these trades.</p>
+<h2>Winter climate</h2>
+<p>Turkey's southern Aegean and Med coast allows outdoor paint and gelcoat work through most of the winter. Croatia's winters are cold and wet enough to slow painting; Greece sits in between.</p>
+<h2>Paperwork</h2>
+<p>Greece and Croatia are inside the EU, which simplifies matters for EU-flagged yachts. Turkey runs a well-established transit log system and marinas manage it routinely; UK-flagged yachts post-Brexit find Turkey no harder than EU countries. Most owners conclude the cost gap outweighs the paperwork difference.</p>
+<h2>Who should choose where</h2>
+<p>Substantial refit — paint, teak, interior, osmosis — favours Turkey. Light maintenance with frequent owner visits from Central Europe may favour Croatia. Greece suits owners cruising the Ionian who need convenience over cost.</p>
+<p>Planning work in Turkey? Read <a href="/en/blog/yacht-refit-in-turkey/">Yacht Refit in Turkey</a> and <a href="/en/blog/wintering-your-yacht-in-turkey/">Wintering Your Yacht in Turkey</a>, or <a href="#teklif-al">ask us for a written quote</a>.</p>
+""",
+ },
+},
+{
+ "slug": "tersaneden-refit-teklifi-nasil-alinir", "service": "fiberglas-onarim", "slug_en": "refit-quote-from-a-turkish-yard",
+ "image": "/assets/images/parallax-2.jpg", "date": "2026-09-04",
+ "tr": {
+   "category": "Renovasyon",
+   "title": "Tersaneden Refit Teklifi Nasıl Alınır ve Nasıl Karşılaştırılır?",
+   "excerpt": "Uzaktan teklif almanın doğru yolu: fotoğraflı keşif, kalem kalem yazılı teklif, kapsam dışı maddeler ve teklifleri eşit tabanda karşılaştırma.",
+   "meta_title": "Refit Teklifi Alma ve Karşılaştırma Rehberi | Tekne Usta",
+   "meta_desc": "Tekne refit teklifi nasıl alınır: keşif, kapsam, kalem kalem fiyat, malzeme markası, süre ve garanti. İki teklifi doğru karşılaştırmanın yolu.",
+   "body": """
+<p>Refit tekliflerinin karşılaştırılamaması en sık yaşanan sorundur. Biri toplam fiyat verir, diğeri kalem kalem yazar; biri malzemeyi dahil eder, diğeri etmez. Doğru süreç şöyle işler.</p>
+<h2>1. Fotoğraflı keşif</h2>
+<p>Teklif teknenin görülmesiyle başlar. Uzaktaysanız keşif raporu fotoğraflı ve ölçülü olmalıdır.</p>
+<h2>2. Kapsam listesi</h2>
+<p>Her iş kalemi ayrı yazılır: yüzey hazırlığı, kat sayısı, malzeme markası ve serisi, çekek ve karada kalış süresi.</p>
+<h2>3. Kapsam dışı maddeler</h2>
+<p>Motor, arma, elektrik gibi kalemlerin dahil olup olmadığı açık yazılmalıdır.</p>
+<h2>4. Süre ve ödeme planı</h2>
+<p>Başlangıç, ara kontrol ve teslim tarihleri; aşamalı ödeme.</p>
+<h2>5. Garanti</h2>
+<p>İşçilik garantisinin süresi ve kapsamı yazılı olmalıdır.</p>
+<p>Detaylı okuma: <a href="/blog/tekne-boyama-maliyeti/">tekne boyama maliyeti</a>, <a href="/blog/refit-proje-yonetimi/">refit proje yönetimi</a>. <a href="#teklif-al">Teklif isteyin</a>.</p>
+""",
+ },
+ "en": {
+   "category": "Renovation",
+   "title": "How to Get a Refit Quote from a Turkish Yard (and Compare It Properly)",
+   "excerpt": "The right way to get a yacht refit quote remotely: photographed survey, itemised scope, named materials, exclusions, schedule and warranty — and how to compare two quotes fairly.",
+   "meta_title": "Getting a Yacht Refit Quote in Turkey: What to Ask For | Tekne Usta",
+   "meta_desc": "How to get and compare a yacht refit quote from a Turkish yard: survey report, itemised scope, paint and teak brands, haul-out days, exclusions, payment stages and warranty. Avoid the common traps.",
+   "body": """
+<p>The most common frustration for owners refitting abroad is that quotes cannot be compared. One yard gives a lump sum, another itemises; one includes materials, another does not. Here is the process a serious yard should follow, and what you should insist on.</p>
+<h2>1. A photographed survey</h2>
+<p>A real quote starts with someone looking at the boat. If you are not in Turkey, ask for a survey report with photos and measurements — hull length, deck area, condition notes. A price given without a survey is a guess.</p>
+<h2>2. Itemised scope</h2>
+<p>Each job on its own line: surface preparation method, number of coats, paint brand and product line (e.g. Awlgrip, Alexseal, Jotun), teak thickness and species, fabric brand for upholstery. "Repaint hull" is not a scope.</p>
+<h2>3. Haul-out and hardstand days</h2>
+<p>Lift, launch and daily hardstand fees are often quoted separately by the marina. Make sure you know who invoices them and how many days the schedule assumes.</p>
+<h2>4. Exclusions</h2>
+<p>Engine, rigging, electronics and electrical work are usually outside a paint-and-hull yard's scope. Good yards say so and can coordinate specialists; ask how that coordination is charged.</p>
+<h2>5. Schedule and payment stages</h2>
+<p>Start date, interim inspection points with photo updates, delivery date. Payment should follow milestones — never a large sum up front.</p>
+<h2>6. Warranty in writing</h2>
+<p>Workmanship warranty duration and what it covers. Paint systems also carry manufacturer warranties when applied to specification; ask whether the yard registers them.</p>
+<h2>Comparing two quotes</h2>
+<p>Put both into the same table: prep method, coats, brand, hardstand days, exclusions, schedule, warranty. Only then compare totals. A cheaper quote with fewer coats or an unnamed paint is not cheaper.</p>
+<p>Related: <a href="/en/blog/boat-painting-cost/">what drives boat painting cost</a> · <a href="/en/blog/yacht-refit-in-turkey/">yacht refit in Turkey</a> · <a href="/en/tools/cost-estimate/">refit cost estimator</a>. We quote exactly this way — <a href="#teklif-al">request a survey</a>.</p>
 """,
  },
 },
