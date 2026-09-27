@@ -61,6 +61,21 @@
     });
   });
 
+  // Lead ölçümü (GA4): hangi giriş sayfası lead'e dönüyor? generate_lead = key event
+  function trackLead(method) {
+    try {
+      if (typeof gtag === 'function') gtag('event', 'generate_lead', { lead_method: method, page_path: location.pathname });
+    } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var h = a.getAttribute('href') || '';
+    if (/wa\.me|api\.whatsapp\.com/.test(h)) trackLead('whatsapp');
+    else if (h.indexOf('tel:') === 0) trackLead('phone');
+    else if (h.indexOf('mailto:') === 0) trackLead('email');
+  }, true);
+
   // Quote form — Netlify submit + WhatsApp handoff
   var form = document.getElementById('f-fields');
   if (form) {
@@ -76,6 +91,7 @@
 
       var data = new FormData(form);
       fetch('/', { method: 'POST', body: data }).catch(function () {});
+      trackLead('form');
 
       var v = function (id) { var el = document.getElementById(id); return el ? el.value.trim() : ''; };
       var lead = form.getAttribute('data-lead') || 'Merhaba, tekneusta.com üzerinden teklif talebi:';
