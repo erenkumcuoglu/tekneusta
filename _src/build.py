@@ -10,6 +10,7 @@ ROOT = os.path.dirname(HERE)            # site root (published dir)
 TPL = os.path.join(HERE, "templates")
 SITE = C.SITE
 DOMAIN = SITE["domain"]
+INDEXNOW_KEY = "08e8b09e20c77e4eb149a94686492354"  # public; _src/indexnow.py ile aynı olmalı
 YEAR = datetime.date.today().year
 
 env = Environment(loader=FileSystemLoader(TPL), autoescape=select_autoescape(["html"]))
@@ -430,6 +431,7 @@ def build():
     write_sitemap()
     write_robots()
     write_llms()
+    write("%s.txt" % INDEXNOW_KEY, INDEXNOW_KEY)  # IndexNow (Bing/Yandex) doğrulama dosyası
     print(f"Built {len(urls)} pages.")
 
 def write_sitemap():

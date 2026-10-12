@@ -1063,8 +1063,9 @@ REGIONS = [
    "hero_title": "İstanbul'da Tekne Tamiri, Bakımı ve Renovasyonu",
    "hero_sub": "Tuzla'dan Ataköy'e, Kalamış'tan Pendik'e — İstanbul'un tüm marinalarında fiberglas onarımı, boya, ahşap renovasyon ve kışlatma hizmeti.",
    "meta_title": "İstanbul Tekne Tamiri, Bakımı ve Renovasyonu | Tekne Usta",
-   "meta_desc": "İstanbul'da tekne tamiri, fiberglas onarımı, osmoz tedavisi, tekne boyama (antifouling), ahşap renovasyon ve kışlatma. Tuzla, Pendik, Ataköy, Kalamış marinalarında ücretsiz keşif.",
+   "meta_desc": "İstanbul tekne hizmetleri: fiberglas ve osmoz onarımı, boya/antifouling, ahşap renovasyon, teak ve kışlatma. Tuzla, Pendik, Ataköy, Kalamış'ta ücretsiz keşif.",
    "body": """
+<p><strong>İstanbul'da tekne hizmetleri</strong> arıyorsanız: fiberglas ve osmoz onarımı, boya ve antifouling, ahşap renovasyon, teak güverte ve kışlatma işlerini şehrin iki yakasındaki marinalarda yerinde keşifle planlıyoruz. Keşif ücretsizdir; WhatsApp veya telefonla teknenizin yerini ve sorununu yazmanız yeterli.</p>
 <h2>İstanbul'un her marinasında yanınızdayız</h2>
 <p>İstanbul, Türkiye'nin en yoğun tekne trafiğine sahip şehri. <strong>Tekne Usta</strong> olarak <strong>Tuzla, Pendik Marina, Viaport Marina, Ataköy Marina, Kalamış ve West Istanbul Marina</strong> başta olmak üzere şehrin iki yakasındaki marinalarda yerinde keşif ve servis sunuyoruz. Teknenizi bulunduğu yerde inceler, gerekirse çekek alanına alarak çalışırız.</p>
 <h2>İstanbul'da verdiğimiz hizmetler</h2>
@@ -3192,12 +3193,21 @@ POSTS = [
    "category": "Ahşap",
    "title": "Ahşap Tekne Çürük Onarımı: Nasıl Yapılır, Önlenir mi?",
    "excerpt": "Ahşap teknede çürük neden oluşur, nasıl fark edilir ve onarılır? Çürüğü büyümeden durdurmanın yolları.",
-   "meta_title": "Ahşap Tekne Çürük Onarımı Rehberi | Tekne Usta",
-   "meta_desc": "Ahşap tekne çürük onarımı: çürük nedenleri, belirtileri, temizlik ve epoksi/ahşap ekleme ile onarım. Çürüğü önleme ve durdurma yolları.",
+   "meta_title": "Ahşap Tekne Çürük Onarımı ve Çürüme Tespiti | Tekne Usta",
+   "meta_desc": "Ahşap teknede çürüme tespiti nasıl yapılır? Bız testi, çekiçle tıklatma ve nem ölçümü; ardından temizlik ve epoksi/ahşap ekleme ile onarım, önleme yolları.",
    "body": """
 <p>Çürük, ahşap teknenin en sinsi düşmanıdır. Nemin sıkıştığı, havalanmayan bölgelerde başlar ve fark edilmezse yapısal elemanlara yayılır. İyi haber: erken müdahaleyle durdurulabilir ve onarılabilir.</p>
 <h2>Çürük neden oluşur?</h2>
 <p>Sürekli nem + havasızlık = mantar faaliyeti. Genelde güverte-gövde birleşimleri, sintine, direk dibi ve su biriken köşelerde başlar. Kararma, yumuşama ve kolay dağılan lif çürüğün işaretidir.</p>
+<h2>Ahşap teknede çürüme tespiti nasıl yapılır?</h2>
+<p>Ahşap tekne çürüme tespiti, şüpheli bölgeyi sivri bir bızla yoklamak, çekiçle tıklatıp sesi dinlemek ve nem ölçerle kontrol etmekle yapılır. Sağlam ahşapta bız zorlukla girer ve lifler uzun parçalar hâlinde kalkar; çürük ahşapta bız kolayca batar, lif kısa parçalara ayrılır.</p>
+<ul>
+<li><strong>Bız (tornavida) testi:</strong> Derz kenarları, sintine, direk dibi ve güverte-gövde birleşimlerinde ahşabı yoklayın; yumuşama ve kolay batma çürüğe işaret eder.</li>
+<li><strong>Çekiçle tıklatma:</strong> Sağlam ahşap net ve dolgun ses verir; çürük veya boşalmış bölgede ses boğuk ve tok çıkar.</li>
+<li><strong>Nem ölçümü:</strong> Çevresine göre belirgin yüksek nem okunan bölge, çürüğün başladığı ya da başlayacağı yerdir.</li>
+<li><strong>Görsel işaretler:</strong> Kararma, boya/vernik kabarması, cıvata çevresinde pas izi ve küf kokusu.</li>
+</ul>
+<p>Yüzeyde küçük görünen bir nokta içeride geniş bir alana yayılmış olabilir; kesin kapsam ancak bölge açılınca anlaşılır.</p>
 <h2>Onarım adımları</h2>
 <p>Çürük bölge <strong>sağlam ahşaba kadar</strong> temizlenir (yarım bırakmak çürüğü geri getirir). Ardından mümkünse özgün ahşap türüyle ekleme, gereken yerde <a href="/blog/epoksi-ile-ahsap-guclendirme/">epoksi ile güçlendirme</a> yapılır. Kaplamaysa <a href="/blog/kalafat-nedir/">kalafat</a> ile su sızdırmazlık tamamlanır.</p>
 <h2>Önleme</h2>
@@ -4186,14 +4196,15 @@ POSTS = [
    "title": "Kekamoz Nasıl Temizlenir? Karinadaki Kabuğu Jelkota Zarar Vermeden Sökmek",
    "excerpt": "Kekamoz nedir, neden oluşur ve karinadan nasıl temizlenir? Su hattı ve gövdedeki inatçı kireç/kabuk sorununa çözüm.",
    "meta_title": "Kekamoz Nasıl Temizlenir? Jelkota Zararsız 3 Yöntem",
-   "meta_desc": "Karinadaki kekamoz (kireç kabuğu) evde mi, ustada mı çıkar? 3 yöntem, hangi kimyasal jelkotu yakar, işlem kaç saat sürer ve ne zaman profesyonele bırakmalı.",
+   "meta_desc": "Kekamoz, karinada biriken sert kireç ve kabuk tabakasıdır. Taze kabuk basınçlı suyla, sertleşmişi temizleyiciyle çıkar; jelkotu yakan hatalar ve süreler.",
    "faqs": [
+     {"q": "Kekamoz nedir?", "a": "Kekamoz, teknenin su altı yüzeyinde ve su hattında zamanla biriken kireç, deniz canlısı kalıntısı ve mineral tabakasından oluşan sert kabuktur. Sürtünmeyi artırır, hızı ve yakıt verimini düşürür; ihmal edilirse jelkota yapışır."},
      {"q": "Kekamoz temizliği kaç saat sürer?", "a": "Taze kabukta basınçlı yıkama 8–10 m bir teknede 1–2 saatte biter. Sertleşmiş kabukta temizleyici uygulama, bekletme ve kontrollü raspayla birlikte genellikle yarım ile bir gün sürer."},
      {"q": "Kekamoz temizleyici jelkota zarar verir mi?", "a": "Doğru ürün, üreticinin bekleme süresi aşılmadan kullanılırsa jelkota zarar vermez. Asıl risk metal raspa, kaba zımpara ve güçlü asitlerin uzun süre bekletilmesidir; bunlar jelkotu incelterek osmoz riskini artırır."},
      {"q": "Kekamozu tekne suda iken temizleyebilir miyim?", "a": "Su hattındaki ince tabaka dalgıç ya da yüzeyden hafifçe alınabilir; ancak kalın ve sertleşmiş kekamoz için tekne karaya çekilmeli. Karada hem temizlik daha güvenli olur hem de ardından antifouling yenilenebilir."},
    ],
    "body": """
-<p><strong>Kekamoz nasıl temizlenir?</strong> Tekne karaya çıkar çıkmaz taze kabuk basınçlı suyla, sertleşmiş kabuk asit bazlı kekamoz temizleyiciyle, kalan kalın noktalar plastik raspayla alınır; metal raspa ve kaba zımpara jelkotu incelttiği için kullanılmaz.</p>
+<p><strong>Kekamoz nedir?</strong> Karinada ve su hattında biriken sert kireç/kabuk tabakasıdır. <strong>Nasıl temizlenir?</strong> Tekne karaya çıkar çıkmaz taze kabuk basınçlı suyla, sertleşmiş kabuk asit bazlı kekamoz temizleyiciyle, kalan kalın noktalar plastik raspayla alınır; metal raspa ve kaba zımpara jelkotu incelttiği için kullanılmaz.</p>
 <p>"Kekamoz" olarak bilinen sert kabuk, teknenin su altı yüzeyinde ve su hattında zamanla biriken kireç, deniz canlısı kalıntısı ve mineral tabakasıdır. Görünüşü bozar, sürtünmeyi artırır ve ihmal edilirse jelkota yapışıp temizliği zorlaştırır.</p>
 <h2>Kekamoz neden oluşur?</h2>
 <p>Tekne suda kaldıkça karinaya yosun, midye ve kireç birikir. Antifouling zayıfladığında ya da tekne uzun süre hareketsiz kaldığında bu tabaka sertleşir ve normal yıkamayla çıkmaz hâle gelir.</p>
