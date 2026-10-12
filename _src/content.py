@@ -1854,10 +1854,10 @@ POSTS = [
  "image": "/assets/images/services/fiberglas.jpg", "date": "2025-01-10",
  "tr": {
    "category": "Fiberglas",
-   "title": "Osmoz Nedir, Fiber Teknelerde Nasıl Tedavi Edilir?",
+   "title": "Teknede Osmoz Nedir? Belirtileri, Tedavisi ve Maliyeti",
    "excerpt": "Fiber teknelerde osmoz kabarcıkları neden oluşur, nasıl anlaşılır ve doğru tedavi nasıl yapılır? Tekne sahipleri için sade bir rehber.",
-   "meta_title": "Osmoz Nedir? Fiber Teknede Osmoz Tedavisi Rehberi | Tekne Usta",
-   "meta_desc": "Fiber teknelerde osmoz nedir, kabarcıklar neden oluşur ve osmoz tedavisi nasıl yapılır? Belirtiler, kurutma süreci ve maliyeti etkileyen faktörler.",
+   "meta_title": "Teknede Osmoz Nedir? Belirtileri, Tedavisi ve Maliyeti | Tekne Usta",
+   "meta_desc": "Fiber teknede osmoz nedir, kabarcıklar nasıl anlaşılır ve tedavi nasıl yapılır? Nem ölçümü, jelkot soyma, kurutma, epoksi bariyer ve osmoz tedavisi maliyetini belirleyen faktörler.",
    "body": """
 <p>Osmoz, fiberglas tekne sahiplerinin en çok korktuğu kelimelerden biridir — ama doğru anlaşıldığında yönetilebilir bir sorundur. Bu yazıda osmozun ne olduğunu, nasıl fark edileceğini ve profesyonel bir tedavinin nasıl işlediğini sade biçimde anlatıyoruz.</p>
 <h2>Osmoz nedir?</h2>
@@ -3882,28 +3882,71 @@ POSTS = [
 },
 {
  "slug": "tekne-sahipligi-maliyeti", "slug_en": "cost-of-boat-ownership",
- "image": "/assets/images/hakkimizda.jpg", "date": "2025-08-28",
+ "image": "/assets/images/hakkimizda.jpg", "date": "2026-10-12",
  "tr": {
    "category": "Rehber",
-   "title": "Tekne Sahibi Olmanın Yıllık Maliyeti: Gerçekçi Bir Bakış",
-   "excerpt": "Teknenin fiyatı buzdağının görünen kısmı. Bağlama, bakım, kışlatma, sigorta ve onarım — yıllık gerçek maliyet.",
-   "meta_title": "Tekne Sahibi Olmanın Yıllık Maliyeti | Tekne Usta",
-   "meta_desc": "Tekne sahibi olmanın yıllık maliyeti: bağlama, bakım, kışlatma, sigorta, yakıt ve onarım kalemleri. Tekne almadan önce gerçekçi bütçe planlaması.",
+   "title": "Tekne Yıllık Bakım Masrafı 2026: Kalem Kalem Tablo",
+   "excerpt": "Bir teknenin yıllık masrafı ne kadar? Marina, kışlatma, antifouling, sigorta ve dönemsel büyük kalemler; tekne boyuna göre 2026 bakım aralıkları.",
+   "meta_title": "Tekne Yıllık Bakım Masrafı 2026: Kalem Kalem Tablo | Tekne Usta",
+   "meta_desc": "Tekne ve yat yıllık bakım masrafları 2026: marina, kışlatma, antifouling, sigorta ve dönemsel kalemler. 8-15 metre tekneler için tahmini fiyat tablosu ve masrafı düşürmenin yolları.",
    "body": """
-<p>Tekne almadan önce en çok göz ardı edilen konu, teknenin fiyatının işin sadece başlangıcı olduğudur. Gerçek maliyet, yıllık işletme giderlerinde saklıdır. İşte gerçekçi bir tablo.</p>
-<h2>Ana maliyet kalemleri</h2>
+<p>"Bir teknenin yıllık masrafı ne kadar?" sorusunun tek cevabı yok. Ama masrafın hangi kalemlerden oluştuğunu ve hangisinin teknenizin boyuyla nasıl büyüdüğünü bilirseniz bütçeyi gerçekçi kurarsınız. Bu rehber yıllık tekne masraflarını kalem kalem ve tekne boyuna göre gösteriyor.</p>
+<h2>Kısa cevap: yıllık bakım bütçesi nasıl hesaplanır?</h2>
+<p>Sektörde yaygın kullanılan kaba kural şudur: yıllık bakım ve işletme gideri teknenin piyasa değerinin <strong>yüzde 5 ile 10'u</strong> arasındadır. Yeni ve iyi bakılmış teknelerde alt sınıra yakın kalır. Yaşlı veya bakımsız teknelerde üst sınırı aşabilir. Bu oran marina, sigorta, bakım ve onarımın toplamıdır. Yakıt kullanıma göre ayrıca eklenir.</p>
+<h2>Tekne masrafları: yıllık kalemler</h2>
+<table>
+<thead><tr><th>Kalem</th><th>Sıklık</th><th>Fiyatı belirleyen</th></tr></thead>
+<tbody>
+<tr><td>Bağlama (marina / çekek)</td><td>Yıllık veya sezonluk</td><td>Bölge, tekne boyu, marina sınıfı</td></tr>
+<tr><td><a href="/hizmetler/tekne-kislatma/">Kışlatma</a> ve karaya çekme</td><td>Her yıl</td><td>Çekme, yıkama, örtü tipi, karada kalış süresi</td></tr>
+<tr><td><a href="/blog/antifouling-secimi/">Antifouling</a> (zehirli boya)</td><td>Her yıl veya 2 yılda bir</td><td>Karina alanı, boya tipi, eski katın durumu</td></tr>
+<tr><td>Anot (çinko) değişimi</td><td>Her yıl</td><td>Anot sayısı ve tipi</td></tr>
+<tr><td>Jelkot cila ve polisaj</td><td>Her yıl</td><td>Yüzey alanı, sararma ve oksidasyon</td></tr>
+<tr><td><a href="/blog/teak-guverte-bakimi/">Teak bakımı</a></td><td>Her yıl</td><td>Teak alanı, derz durumu</td></tr>
+<tr><td>Motor servisi</td><td>Her yıl</td><td>Motor sayısı ve saati (kapsamımız dışında)</td></tr>
+<tr><td><a href="/blog/tekne-sigortasi-rehberi/">Sigorta</a></td><td>Her yıl</td><td>Tekne değeri, seyir bölgesi, kullanım</td></tr>
+<tr><td>Yakıt ve sarf malzemesi</td><td>Kullanıma göre</td><td>Motor tipi, seyir saati</td></tr>
+</tbody>
+</table>
+<h2>Dönemsel ama büyük kalemler</h2>
+<p>Her yıl gelmez ama bütçede yeri olmalıdır. Bunları yıllara bölerek ayırmak sürprizi önler.</p>
+<table>
+<thead><tr><th>Kalem</th><th>Ortalama aralık</th></tr></thead>
+<tbody>
+<tr><td>Dış cephe boyası (tam boya)</td><td>5-8 yılda bir</td></tr>
+<tr><td><a href="/blog/osmoz-nedir-tedavisi/">Osmoz</a> kontrolü (nem ölçümü)</td><td>2-3 yılda bir</td></tr>
+<tr><td>Osmoz tedavisi</td><td>Tespit edilirse; genelde teknenin ömründe bir kez</td></tr>
+<tr><td><a href="/hizmetler/teak-guverte-doseme/">Teak güverte</a> yenileme</td><td>15-25 yılda bir</td></tr>
+<tr><td><a href="/hizmetler/ic-mekan-yenileme/">İç mekan döşeme</a> yenileme</td><td>8-12 yılda bir</td></tr>
+<tr><td>Tente, branda ve bimini</td><td>5-8 yılda bir</td></tr>
+</tbody>
+</table>
+<h2>Tekne boyuna göre tahmini bakım aralıkları (2026)</h2>
+<p>Aşağıdaki aralıklar bizim <a href="/arac/maliyet-tahmini/">maliyet tahmin aracımızın</a> kullandığı metre başı değerlerden hesaplandı. Orta durumdaki bir tekne içindir. Marina, sigorta, motor ve yakıt dahil değildir.</p>
+<table>
+<thead><tr><th>Tekne boyu</th><th>Kışlatma (her yıl)</th><th>Boya &amp; antifouling (tam uygulama)</th></tr></thead>
+<tbody>
+<tr><td>8 m</td><td>9.500 – 28.000 ₺</td><td>24.000 – 64.000 ₺</td></tr>
+<tr><td>10 m</td><td>12.000 – 35.000 ₺</td><td>30.000 – 80.000 ₺</td></tr>
+<tr><td>12 m</td><td>14.500 – 42.000 ₺</td><td>36.000 – 96.000 ₺</td></tr>
+<tr><td>15 m</td><td>18.000 – 52.500 ₺</td><td>45.000 – 120.000 ₺</td></tr>
+</tbody>
+</table>
+<p>Sadece antifouling yenilemesi tam boya aralığının belirgin şekilde altında kalır. Bakımsız teknelerde yüzey hazırlığı uzadığı için rakamlar yaklaşık yüzde 30 artar. Kesin fiyat her zaman yerinde keşif sonrası verilir. Boya kalemlerinin detayı için <a href="/blog/tekne-boyama-maliyeti/">tekne boyama maliyeti</a> rehberine bakın.</p>
+<h2>Yat bakım masrafları neden daha hızlı büyür?</h2>
+<p>Bir yatın yıllık masrafı boyla doğrusal değil, daha hızlı artar. Karina ve güverte alanı boyun karesiyle büyür. Marina ücretleri büyük teknelerde metre başına daha pahalıdır. Teak, iç mekan ve sistem sayısı da artar. Bu yüzden 12 metreden 15 metreye geçmek bakım bütçesini çoğu zaman yüzde 40-60 artırır.</p>
+<h2>Beklenmedik onarımlar için tampon</h2>
+<p>Özellikle ikinci el teknelerde ilk yıl beklenmedik işler çıkar. Yıllık bütçeye <strong>yüzde 10-15 tampon</strong> eklemek akıllıcadır. <a href="/blog/satin-alma-oncesi-tekne-ekspertizi/">Satın alma öncesi ekspertiz</a> bu sürprizleri ciddi oranda azaltır.</p>
+<h2>Tekne masraflarını düşürmenin 5 yolu</h2>
 <ul>
-<li><strong>Bağlama:</strong> Marina veya çekek ücreti; bölgeye ve tekne boyuna göre büyük fark eder.</li>
-<li><strong>Kışlatma ve çekek:</strong> Sezon sonu <a href="/blog/tekne-kislatma-kontrol-listesi/">kışlatma</a>, karaya çekme ve depolama.</li>
-<li><strong>Bakım:</strong> <a href="/blog/yillik-tekne-bakim-takvimi/">Yıllık bakım</a>, antifouling, küçük onarımlar.</li>
-<li><strong>Sigorta:</strong> Tekne değeri ve kullanıma göre.</li>
-<li><strong>Yakıt ve sarf:</strong> Kullanım yoğunluğuna bağlı.</li>
+<li><strong>Kışlatmayı atlamayın.</strong> Kış hasarı onarımı kışlatmadan her zaman pahalıdır. <a href="/blog/tekne-kislatma-kontrol-listesi/">Kışlatma kontrol listesi</a>.</li>
+<li><strong>İşleri tek çekekte birleştirin.</strong> Antifouling, anot, jelkot ve osmoz kontrolünü aynı karaya çekmede yaptırın.</li>
+<li><strong>Doğru antifouling seçin.</strong> Teknenizin hızına ve suyuna uygun boya iki yıl dayanabilir.</li>
+<li><strong>Erken rezervasyon yapın.</strong> Sonbaharda verilen kışlatma ve boya işleri bahar yoğunluğundan daha uygun fiyatlanır.</li>
+<li><strong>Yıllık takvimle çalışın.</strong> <a href="/blog/yillik-tekne-bakim-takvimi/">Yıllık bakım takvimi</a> küçük sorunları büyümeden yakalar.</li>
 </ul>
-<h2>Beklenmedik onarımlar</h2>
-<p>Özellikle ikinci el teknelerde, ilk yıl beklenmedik onarımlar çıkabilir. Bu yüzden bütçeye bir <strong>tampon pay</strong> eklemek akıllıcadır. <a href="/blog/satin-alma-oncesi-tekne-ekspertizi/">Satın alma öncesi kontrol</a> bu sürprizleri azaltır.</p>
-<h2>Maliyeti düşürmenin yolu</h2>
-<p>Düzenli, önleyici bakım; büyük ve pahalı onarımların önündeki en iyi settir. İhmal, uzun vadede en pahalı seçenektir.</p>
-<p>Teknenizin bakım maliyetini öngörülebilir kılmak için <a href="/hizmetler/tekne-kislatma/">bakım</a> hizmetimiz kapsamında planlı bir yaklaşım sunuyoruz.</p>
+<h2>Teknenize özel yıllık bütçe</h2>
+<p>Teknenizin boyunu ve durumunu söyleyin; yıllık bakım kalemlerini kalem kalem yazılı olarak çıkaralım. <a href="#teklif-al">Ücretsiz keşif</a> isteyin veya önce <a href="/arac/maliyet-tahmini/">maliyet aracı</a> ile kabaca bakın.</p>
 """,
  },
  "en": {
@@ -5137,10 +5180,10 @@ POSTS = [
  "image": "/assets/images/services/boya.jpg", "date": "2026-01-12",
  "tr": {
    "category": "Boya",
-   "title": "Astar (Primer) Nedir ve Neden Önemli?",
+   "title": "Tekne Astarı (Primer) Nedir? Hangi Astar Hangi Yüzeye",
    "excerpt": "Astar boyanın altında görünmez ama sonucu belirler. Astar ne işe yarar, hangi tür ne zaman kullanılır?",
-   "meta_title": "Astar (Primer) Nedir, Neden Önemli? | Tekne Usta",
-   "meta_desc": "Astar (primer) nedir, neden önemli? Boya öncesi astarın yapışma, örtücülük ve korozyon koruması sağlaması; antifouling ve dış cephe için doğru astar seçimi.",
+   "meta_title": "Tekne Astarı (Primer) Nedir? Hangi Astar Hangi Yüzeye | Tekne Usta",
+   "meta_desc": "Astar (primer) nedir ve ne işe yarar? Fiber, ahşap, alüminyum ve çelik tekne için doğru astar seçimi. Epoksi astar, antifouling altı astar ve boya öncesi uygulama sırası.",
    "body": """
 <p>Astar (primer), boyanın altına uygulanan ve gözle görünmeyen ama sonucu belirleyen kattır. İyi bir boya işinin sırrı çoğu zaman doğru astardadır.</p>
 <h2>Astar ne işe yarar?</h2>
